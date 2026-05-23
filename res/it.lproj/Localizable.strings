@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} registrazione";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} didascalie in diretta";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} registrazione dello schermo";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} chiamate in entrata";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Aiuto";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "Per la funzione “Launch Shield” è necessario un widget.";
 
 /* Translated with LLM */
-"accept" = "accetta";
+"accept" = "Accetta";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Accetta automaticamente tutte le chiamate in arrivo.";
+"Accept" = "Accetta";
 
 /* Translated with LLM */
 "accept call" = "accetta chiamata";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Accetta chiamate in arrivo";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Accetta o rifiuta tutte le chiamate in arrivo. Restituisce true se la richiesta è stata inviata al demone con successo; altrimenti false.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Accesso dal browser web";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Accedi alle tue registrazioni da un browser WebDAV su un altro dispositivo nella rete. Il server è attivo solo quando l’applicazione è in primo piano.";
+
+/* Translated with LLM */
+"actions" = "azioni";
 
 /* Translated with LLM */
 "activate" = "attiva";
@@ -110,7 +137,13 @@
 "activate hoverball" = "attiva hoverball";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Attiva l’hoverball del registratore.";
+"activate live captions" = "attiva i sottotitoli in diretta";
+
+/* Translated with LLM */
+"Active Call Count" = "Conteggio chiamate attive";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Identificatori di chiamata attivi";
 
 /* Translated with LLM */
 "Add" = "Aggiungi";
@@ -251,7 +284,13 @@
 "Any" = "Qualsiasi";
 
 /* Translated with LLM */
+"Any Recording" = "Qualsiasi registrazione";
+
+/* Translated with LLM */
 "App Icon" = "Icona dell’app";
+
+/* Translated with LLM */
+"App Intent" = "Intento dell’app";
 
 /* Translated with LLM */
 "App Language" = "Lingua dell’app";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "archivio";
+"archive" = "Archivio";
 
 /* Translated with LLM */
 "Archive" = "Archivio";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "Acquista TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "Conteggio byte";
+
+/* Translated with LLM */
 "Calculating…" = "Calcolo in corso…";
 
 /* Translated with LLM */
 "Call" = "Chiamata";
 
 /* Translated with LLM */
-"call" = "chiamata";
+"call" = "Chiamata";
+
+/* Translated with LLM */
+"call audio" = "audio chiamata";
 
 /* Translated with LLM */
 "call audio on" = "audio chiamata attivo";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Il monitoraggio della pipeline audio delle chiamate non è riuscito. Tocca questa notifica per riavviare il servizio di registrazione.";
 
 /* Translated with LLM */
-"call connected" = "chiamata connessa";
+"Call Automation" = "Automazione chiamate";
 
 /* Translated with LLM */
-"Call Direction" = "Direzione chiamata";
+"Call Automation (Legacy)" = "Automazione chiamate (Legacy)";
+
+/* Translated with LLM */
+"call connected" = "chiamata connessa";
 
 /* Translated with LLM */
 "call duration" = "durata chiamata";
 
 /* Translated with LLM */
+"Call History Identifier" = "Identificatore cronologia chiamate";
+
+/* Translated with LLM */
 "Call Identifier" = "Identificatore chiamata";
+
+/* Translated with LLM */
+"Call Info" = "Informazioni chiamata";
+
+/* Translated with LLM */
+"call info" = "Informazioni chiamata";
 
 /* Translated with LLM */
 "call information" = "informazioni sulla chiamata";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Registrazione chiamate: Altro lato";
 
 /* Translated with LLM */
-"Call State" = "Stato chiamata";
+"Call Sniffer" = "Sniffer Chiamate";
 
 /* Translated with LLM */
 "call status" = "stato chiamata";
@@ -548,10 +605,16 @@
 "Caution" = "Attenzione";
 
 /* Translated with LLM */
+"Channel" = "Canale";
+
+/* Translated with LLM */
 "check" = "controlla";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Verifica se il demone è in esecuzione. In caso contrario, avvialo.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Verifica se il demone è in esecuzione. In caso contrario, avvialo. Restituisce le informazioni sul servizio se il demone è in esecuzione dopo il controllo; altrimenti non restituisce nulla.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Verifica se il demone è in esecuzione. In caso contrario, avvialo. Restituisce true se il demone è in esecuzione dopo il controllo; altrimenti false.";
 
 /* Translated with LLM */
 "check service" = "controlla servizio";
@@ -611,6 +674,9 @@
 "close hoverball" = "chiudi hoverball";
 
 /* Translated with LLM */
+"close live captions" = "chiudi i sottotitoli in diretta";
+
+/* Translated with LLM */
 "cloud archive sync" = "sincronizzazione archivio cloud";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Collegati a una rete Wi‑Fi prima di trasferire le registrazioni.";
 
 /* Translated with LLM */
-"connected" = "collegato";
+"connected" = "Collegato";
+
+/* Translated with LLM */
+"Connected" = "Collegato";
+
+/* Translated with LLM */
+"Connected At" = "Collegato alle";
 
 /* Translated with LLM */
 "connected call" = "chiamata connessa";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Eccezioni contatto";
+
+/* Translated with LLM */
+"Contact Identifier" = "Identificatore del contatto";
+
+/* Translated with LLM */
+"Contact Label" = "Etichetta del contatto";
 
 /* Translated with LLM */
 "Contact Name" = "Nome del contatto";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Riproduzione continua attivata";
+
+/* Translated with LLM */
+"control call audio" = "controlla audio chiamata";
+
+/* Translated with LLM */
+"control call muting" = "Controlla audio chiamata";
+
+/* Translated with LLM */
+"Control Call Muting" = "Controlla audio chiamata";
+
+/* Translated with LLM */
+"control hoverball" = "Controllo Hoverball";
+
+/* Translated with LLM */
+"Control Hoverball" = "Controllo Hoverball";
+
+/* Translated with LLM */
+"Control Live Captions" = "Controllo dei sottotitoli in diretta";
+
+/* Translated with LLM */
+"control live captions" = "Controllo dei sottotitoli in diretta";
+
+/* Translated with LLM */
+"control recording" = "Controllo registrazione";
+
+/* Translated with LLM */
+"Control Recording" = "Controllo registrazione";
+
+/* Translated with LLM */
+"control screen recording" = "Controllo registrazione schermo";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Controllo registrazione schermo";
 
 /* Translated with LLM */
 "Conversion Failed" = "Conversione fallita";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Impossibile disconnettere l’account: %@";
 
 /* Translated with LLM */
+"Country Code" = "Prefisso internazionale";
+
+/* Translated with LLM */
 "Created At" = "Data di creazione";
 
 /* Translated with LLM */
 "Credentials" = "Credenziali";
+
+/* Translated with LLM */
+"Current" = "Corrente";
 
 /* Translated with LLM */
 "current call" = "chiamata corrente";
@@ -809,7 +926,7 @@
 "Day of Week String" = "Stringa del giorno della settimana";
 
 /* Translated with LLM */
-"deactivate" = "disattiva";
+"deactivate" = "Disattiva";
 
 /* Translated with LLM */
 "Deactivate" = "Disattiva";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "disattiva hoverball";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Disattiva l’hoverball del registratore.";
+"deactivate live captions" = "disattiva i sottotitoli in diretta";
 
 /* Translated with LLM */
 "Debugging" = "Debug";
@@ -863,10 +980,16 @@
 "Developer Options" = "Opzioni sviluppatore";
 
 /* Translated with LLM */
+"Dialing" = "Composizione";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Dettatura disabilitata";
 
 /* Translated with LLM */
 "Digital Video" = "Video digitale";
+
+/* Translated with LLM */
+"Digits" = "Cifre";
 
 /* Translated with LLM */
 "Direction" = "Direzione";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Scarta registrazione";
+
+/* Translated with LLM */
+"Disconnected" = "Disconnesso";
+
+/* Translated with LLM */
+"Disconnected At" = "Disconnesso alle";
 
 /* Translated with LLM */
 "Discreet Mode" = "Modalità Discreta";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Mostra il nome del bundle sorgente della registrazione.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Visualizza una notifica locale.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Visualizza una notifica locale. Restituisce true se la richiesta di notifica è stata inviata con successo, altrimenti false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Vuoi cancellare il file di log “%@”?";
@@ -1043,7 +1172,7 @@
 "Duration" = "Durata";
 
 /* Translated with LLM */
-"duration" = "durata";
+"duration" = "Durata";
 
 /* Translated with LLM */
 "Duration Before Idle" = "Durata prima dell’inattività";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Abilita Face ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Abilita la misurazione del livello e mostra un indicatore quando l’hoverball è piegato. Questa opzione è disponibile solo quando “Transizione quando inattivo” è impostata su “Piega sempre”.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Abilita la misurazione del livello per pilotare la forma d’onda in tempo reale sul pannello di stato “Registrazione” e presentare un indicatore a barre quando la sfera fluttuante è compressa.";
 
 /* Translated with LLM */
 "Enable Logging" = "Abilita registrazione";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Consente al server WebDAV di sospendersi automaticamente quando l’applicazione passa in background e l’ultima connessione viene chiusa, per poi riprendere quando l’applicazione torna in primo piano.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Codifica l’audio durante la registrazione per ridurre le dimensioni dei file temporanei e il tempo di post-elaborazione. Può usare più CPU e batteria, e le registrazioni interrotte possono essere più difficili da recuperare.";
+
+/* Translated with LLM */
 "Encoding" = "Codifica";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "terminare la registrazione dello schermo";
 
 /* Translated with LLM */
-"Enhance Recording" = "Migliora registrazione";
+"Ended" = "Terminato";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Registrazione automatica avanzata";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Esci da Hoverball";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Esci dai sottotitoli in diretta";
+
+/* Translated with LLM */
 "Expand Recursively" = "Espandi ricorsivamente";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Esporta come ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Nome file di esportazione";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Esporta le registrazioni dove vuoi, senza limitazioni.";
@@ -1256,6 +1394,9 @@
 "File Format" = "Formato file";
 
 /* Translated with LLM */
+"File Name" = "Nome file";
+
+/* Translated with LLM */
 "File not found." = "File non trovato.";
 
 /* Translated with LLM */
@@ -1279,8 +1420,8 @@
 /* Translated with LLM */
 "Fix File-System" = "Ripara file-system";
 
-/* No comment provided by engineer. */
-"Focus" = "Focus";
+/* Translated with LLM */
+"Focus" = "Messa a fuoco";
 
 /* Translated with LLM */
 "Fold When Inactive" = "Ripiega quando inattivo";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Ottieni ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Ottieni informazioni sulla chiamata di ${requestedSession}";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Ottieni informazioni sulla registrazione di ${requestedSession}";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Ottieni il controllo avanzato durante la registrazione direttamente nella chiamata.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Ottieni durata chiamata";
 
 /* Translated with LLM */
+"Get Call Info" = "Ottieni informazioni chiamata";
+
+/* Translated with LLM */
 "Get Call Status" = "Ottieni stato chiamata";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Ottieni le informazioni sul percorso di registrazione corrente come valore di testo legacy. Per le nuove scorciatoie, preferisci “Ottieni informazioni sulla registrazione”.";
 
 /* Translated with LLM */
 "Get In Touch" = "Mettiti in contatto";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Ricevi notifiche al termine della registrazione.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Ottieni le informazioni sulla chiamata primaria come un singolo oggetto.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Ottieni la durata della registrazione";
+
+/* Translated with LLM */
+"Get Recording Info" = "Ottieni informazioni registrazione";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Ottieni le informazioni di registrazione come singolo oggetto.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Ottieni percorsi di registrazione";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Ottieni stato registrazione";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Ottieni la durata di registrazione corrente di TrollRecorder.";
+"Get Screen Recording Info" = "Ottieni informazioni registrazione schermo";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Ottieni i percorsi di registrazione correnti di TrollRecorder.";
+"Get screen recording information as a single object." = "Ottieni le informazioni sulla registrazione dello schermo come singolo oggetto.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Ottieni lo stato di registrazione corrente di TrollRecorder.";
+"Get Service Info" = "Ottieni informazioni sul servizio";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Ottieni la durata della chiamata primaria del dispositivo.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Ottiene la durata della registrazione corrente come valore numerico legacy. Per le nuove scorciatoie, preferisci “Ottieni informazioni sulla registrazione”.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Ottieni lo stato di chiamata primaria del dispositivo.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Ottieni lo stato di registrazione corrente come valore booleano legacy. Il risultato è vero quando il campo di stato selezionato è vero; falso quando è falso o non disponibile. Per le nuove scorciatoie, preferisci “Ottieni informazioni sulla registrazione”.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Ottiene la durata della chiamata primaria come valore numerico legacy. Per le nuove scorciatoie, preferisci “Ottieni informazioni sulla chiamata”.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Ottieni lo stato della chiamata primaria come valore di testo legacy. Per le nuove scorciatoie, preferisci “Ottieni informazioni sulla chiamata”.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Vai alla schermata principale quando sbloccato";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Chiamata di gruppo";
+
+/* Translated with LLM */
+"handle incoming calls" = "Gestisci chiamate in arrivo";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Gestisci chiamate in arrivo";
 
 /* Translated with LLM */
 "hang up calls" = "riaggancia chiamate";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "Palloncino";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "Palloncino (Legacy)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "Palloncino Plus";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Stile Hoverball";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Registrazione chiamate";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Se non c’è una chiamata attiva, premi entrambi i pulsanti fisici del volume per eseguire l’azione specificata.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Se ciò accade spesso, disattiva “Codifica in tempo reale” nelle impostazioni di “Post-elaborazione e output”.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Se hai modificato le registrazioni con Filza o hai riscontrato problemi di privilegi del file system, puoi risolverli qui.";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Installa il tweak della cronologia delle chiamate";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Interrompe qualsiasi audio uplink o voce fuori campo attualmente in riproduzione verso il microfono. Restituisce true se la riproduzione è stata interrotta, altrimenti false.";
+
+/* Translated with LLM */
+"interrupt call playback" = "interrompi riproduzione chiamata";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "interrompi audio uplink";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Interrompi riproduzione uplink";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Interrompi riproduzione uplink";
+
+/* Translated with LLM */
+"interrupt voice over" = "interrompi voice over";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Firma del codice non valida";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "È disponibile";
 
 /* Translated with LLM */
 "Is Favourite" = "È Preferito";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "È in pausa";
 
 /* Translated with LLM */
-"is recording" = "sta registrando";
+"is recording" = "Sta registrando";
+
+/* Translated with LLM */
+"Is Recording" = "Sta registrando";
 
 /* Translated with LLM */
 "Is Running" = "È in esecuzione";
+
+/* Translated with LLM */
+"Is Service Running" = "Il servizio è in esecuzione";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "È in attesa del dispositivo";
+
+/* Translated with LLM */
+"ISO Country Code" = "Codice paese ISO";
 
 /* Translated with LLM */
 "Item #%lu" = "Elemento #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Mantieni lo schermo acceso quando connesso";
+
+/* Translated with LLM */
+"Key Event" = "Evento chiave";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Evitamento tastiera";
@@ -1616,6 +1835,9 @@
 "Later" = "Più tardi";
 
 /* Translated with LLM */
+"Latest" = "Ultimo";
+
+/* Translated with LLM */
 "launch" = "lancio";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "bordo iniziale";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Azione legacy. Attendi che le chiamate vengano risposte e connesse. Restituisce true se una chiamata in composizione smette di comporre prima del timeout; altrimenti false. Per le nuove scorciatoie, preferisci “Attendi chiamata”.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Azione audio chiamata legacy. Per le nuove scorciatoie, preferisci “Controlla audio chiamata”. Restituisce true se la richiesta è stata inviata con successo al demone; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Azione hoverball legacy. Per le nuove scorciatoie, preferisci “Control Hoverball”. Restituisce true se l’impostazione hoverball è stata disabilitata con successo; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Azione hoverball legacy. Per le nuove scorciatoie, preferisci “Control Hoverball”. Restituisce true se l’impostazione hoverball è stata attivata con successo; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Azione hoverball legacy. Per le nuove scorciatoie, preferisci “Control Hoverball”. Restituisce true se l’impostazione hoverball è stata attivata con successo; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Azione chiamata in arrivo legacy. Per le nuove scorciatoie, preferisci “Gestisci le chiamate in arrivo”. Restituisce true se la richiesta è stata inviata con successo al demone; altrimenti false.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Jailbreak legacy";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Azione legacy per i sottotitoli in diretta. Per le nuove scorciatoie, preferisci “Controlla i sottotitoli in diretta”. Restituisce true se i sottotitoli in diretta sono stati disattivati correttamente; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Azione legacy per i sottotitoli in diretta. Per le nuove scorciatoie, preferisci “Controlla i sottotitoli in diretta”. Restituisce true se i sottotitoli in diretta sono stati attivati correttamente; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Azione legacy per i sottotitoli in diretta. Per le nuove scorciatoie, preferisci “Controlla i sottotitoli in diretta”. Restituisce true se i sottotitoli in diretta sono stati attivati correttamente; altrimenti false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Azione di registrazione legacy. Preferisci “Controlla registrazione” per le nuove scorciatoie. Restituisce true se la richiesta di registrazione è riuscita, altrimenti false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Azione di registrazione legacy. Preferisci “Controlla registrazione” per le nuove scorciatoie. Restituisce true se la richiesta di arresto è riuscita, altrimenti false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Azione di registrazione dello schermo legacy. Preferisci “Controlla registrazione schermo” per le nuove scorciatoie. Restituisce true se la richiesta di registrazione dello schermo è riuscita, altrimenti false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Azione di registrazione dello schermo legacy. Preferisci “Controlla registrazione schermo” per le nuove scorciatoie. Restituisce true se la richiesta di arresto è riuscita, altrimenti false.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Si è verificato un errore meno grave.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Sottotitoli in diretta";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Didascalie in diretta (Legacy)";
 
 /* Translated with LLM */
 "Loading…" = "Caricamento…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Esegui una registrazione ${requestedMode}";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Effettua una nuova registrazione o interrompila.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Crea un nuovo promemoria vocale o interrompine uno esistente.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Metadati";
 
 /* Translated with LLM */
+"Metadata Path" = "Percorso metadati";
+
+/* Translated with LLM */
 "Microphone" = "Microfono";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "Misto";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Mixer e Combinatore";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Formato audio del mixer";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "Audio MPEG-4";
 
 /* Translated with LLM */
-"mute" = "muto";
+"mute" = "Muto";
+
+/* Translated with LLM */
+"Mute" = "Muto";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Silenzia ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Silenzia chiamate esistenti";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Silenzia il canale specificato di tutte le chiamate esistenti.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Disattiva o riattiva l’audio del canale specificato per tutte le chiamate esistenti. Restituisce “true” se la richiesta è stata inviata correttamente al demone; altrimenti “false”.";
 
 /* Translated with LLM */
 "My Favourite" = "Il mio preferito";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Nome con Alias";
+
+/* Translated with LLM */
+"Network Code" = "Codice di rete";
 
 /* Translated with LLM */
 "Network Storage" = "Archiviazione di rete";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Niente Dentro";
 
 /* Translated with LLM */
-"notification" = "notifica";
+"notification" = "Notifica";
+
+/* Translated with LLM */
+"Notification" = "Notifica";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Permesso di notifica negato";
@@ -2009,7 +2279,7 @@
 "Open Hoverball" = "Apri Hoverball";
 
 /* Translated with LLM */
-"open hoverball" = "apri hoverball";
+"open hoverball" = "Apri Hoverball";
 
 /* Translated with LLM */
 "Open in Filza" = "Apri in Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Apri in Mappe";
 
 /* Translated with LLM */
+"Open Live Captions" = "Apri i sottotitoli in diretta";
+
+/* Translated with LLM */
+"open live captions" = "Apri i sottotitoli in diretta";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Apri Troll Recorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Apre, chiude o attiva/disattiva i sottotitoli in diretta. Restituisce true se l’impostazione dei sottotitoli in diretta è stata modificata con successo; altrimenti false.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Apre, chiude o attiva/disattiva l’hoverball del registratore. Restituisce true se l’impostazione dell’hoverball è stata modificata con successo; altrimenti false.";
 
 /* Translated with LLM */
 "Operation Failed" = "Operazione fallita";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Metti in pausa la registrazione";
 
 /* Translated with LLM */
+"pause recording" = "Metti in pausa la registrazione";
+
+/* Translated with LLM */
 "Paused" = "In pausa";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Esegui una sincronizzazione completa di “Backup con iCloud” e “Archivio Cloud Intelligente”.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Esegue una sincronizzazione completa di “Backup con iCloud” e “Archivio Smart Cloud”. Restituisce true se il demone è in esecuzione e la sincronizzazione riporta successo; altrimenti false.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Esegui la sincronizzazione completa";
@@ -2105,7 +2390,7 @@
 "Phone" = "Telefono";
 
 /* Translated with LLM */
-"phone" = "telefono";
+"phone" = "Telefono";
 
 /* Translated with LLM */
 "Phone Address" = "Indirizzo telefono";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "Riproduci ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Riproduce un file audio nella chiamata corrente. Restituisce true se la riproduzione è stata avviata con successo, altrimenti false. I file audio non validi generano un errore.";
+
+/* Translated with LLM */
 "play audio file" = "riproduci file audio";
+
+/* Translated with LLM */
+"play call audio" = "Riproduci audio chiamata";
+
+/* Translated with LLM */
+"Play Call Audio" = "Riproduci audio chiamata";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Avviso di riproduzione registrazione";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Riproduci suono";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Riproduci il file audio specificato nel microfono.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Riproduce il testo vocale specificato al microfono.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Riproduci tramite ricevitore";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Riproduci tramite altoparlante";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Riproduci audio uplink";
-
-/* Translated with LLM */
 "play uplink audio" = "riproduci audio uplink";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Riproduci Uplink Voice-Over";
 
 /* Translated with LLM */
 "play voice over" = "riproduci voce fuori campo";
@@ -2261,6 +2543,12 @@
 "post notification" = "notifica postale";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Post-elaborazione e output";
+
+/* Translated with LLM */
+"Pre-release Version" = "Versione di pre-rilascio";
+
+/* Translated with LLM */
 "Preparing" = "Preparazione";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Conserva tutti i canali";
+
+/* Translated with LLM */
+"Preset Providers" = "Provider preimpostati";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Azione di pressione prolungata";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Pronto per registrare!";
 
 /* Translated with LLM */
+"real-time captions" = "sottotitoli in tempo reale";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Codifica in tempo reale";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Errore di autorizzazione ricevuto: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Registra";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Registrazione (Legacy)";
 
 /* Translated with LLM */
 "Record All Calls" = "Registra tutte le chiamate";
@@ -2447,6 +2747,15 @@
 "recording file" = "file di registrazione";
 
 /* Translated with LLM */
+"Recording Info" = "Informazioni registrazione";
+
+/* Translated with LLM */
+"recording info" = "Informazioni registrazione";
+
+/* Translated with LLM */
+"recording information" = "informazioni registrazione";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Registrazione interrotta";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Opzioni di registrazione";
 
 /* Translated with LLM */
-"recording path" = "percorso di registrazione";
+"recording path" = "Percorso di registrazione";
+
+/* Translated with LLM */
+"Recording Path" = "Percorso di registrazione";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "La registrazione inizia quando sia gli ingressi che le uscite audio sono continuamente attivi.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Rigenera tutto";
 
 /* Translated with LLM */
-"reject" = "rifiuta";
+"reject" = "Rifiuta";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Rifiuta automaticamente tutte le chiamate in arrivo.";
+"Reject" = "Rifiuta";
 
 /* Translated with LLM */
 "reject call" = "rifiuta chiamata";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Rifiuta le chiamate in arrivo";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Identificatori bundle applicazioni correlate";
+
+/* Translated with LLM */
+"Related Application Count" = "Conteggio applicazioni correlate";
 
 /* Translated with LLM */
 "Relaunched" = "Riavvio completato";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Reimposta servizio";
 
 /* Translated with LLM */
+"responses" = "risposte";
+
+/* Translated with LLM */
 "Respring" = "Riavvio SpringBoard";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Ripristino";
 
 /* Translated with LLM */
+"Resume" = "Riprendi";
+
+/* Translated with LLM */
 "Resume Recording" = "Riprendi registrazione";
+
+/* Translated with LLM */
+"resume recording" = "Riprendi registrazione";
 
 /* Translated with LLM */
 "Resume with Warning" = "Riprendi con avviso";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "arresto cattura schermo";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Informazioni registrazione schermo";
+
+/* Translated with LLM */
+"screen recording info" = "Informazioni registrazione schermo";
+
+/* Translated with LLM */
 "screen recording off" = "registrazione dello schermo disattivata";
+
+/* Translated with LLM */
+"screen recording status" = "stato di registrazione dello schermo";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Ricerca di dispositivi nelle vicinanze";
 
 /* Translated with LLM */
-"Search…" = "Ricerca…";
-
-/* Translated with LLM */
 "Seconds" = "Secondi";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Invia diagnostica";
 
 /* Translated with LLM */
+"Sender Address" = "Indirizzo del mittente";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Nome localizzato del mittente";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Nome breve localizzato del mittente";
+
+/* Translated with LLM */
 "Sender Name" = "Nome del mittente";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Indirizzo telefonico del mittente";
+
+/* Translated with LLM */
+"Sender Service Name" = "Nome del servizio mittente";
 
 /* Translated with LLM */
 "Sender Short Name" = "Nome breve del mittente";
@@ -2777,13 +3122,22 @@
 "service active" = "servizio attivo";
 
 /* Translated with LLM */
+"Service Info" = "Info sul servizio";
+
+/* Translated with LLM */
+"service info" = "Info sul servizio";
+
+/* Translated with LLM */
 "Service is alive" = "Il servizio è attivo";
 
 /* Translated with LLM */
 "Service is dead" = "Il servizio non è attivo";
 
 /* Translated with LLM */
-"Service Status" = "Stato del servizio";
+"service status" = "stato del servizio";
+
+/* Translated with LLM */
+"service statuses" = "stati del servizio";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Imposta un nuovo nome per questa registrazione, oppure lascia vuoto per usare quello predefinito.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Mostra notifica";
 
 /* Translated with LLM */
-"show notification" = "mostra notifica";
+"show notification" = "Mostra notifica";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Mostra notifica ${requestedMessage}";
@@ -2903,6 +3257,15 @@
 "Space" = "Spazio";
 
 /* Translated with LLM */
+"speak call voice over" = "riproduci voce fuori campo";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Riproduci Uplink Voice-Over";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Riproduce il testo vocale specificato nella chiamata corrente. Restituisce true se la riproduzione è iniziata con successo, altrimenti false. Quando si attende il termine della riproduzione, il tempo massimo di attesa è di 60 secondi.";
+
+/* Translated with LLM */
 "Speaker" = "Altoparlante";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "audio parlato";
 
 /* Translated with LLM */
-"start" = "avvia";
+"Stable Version" = "Versione stabile";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Avvia una registrazione dello schermo di sistema proprio come fai nel Centro di Controllo.";
+"Standby" = "Standby";
+
+/* Translated with LLM */
+"start" = "Avvia";
+
+/* Translated with LLM */
+"Start" = "Avvia";
 
 /* Translated with LLM */
 "Start Call Recording" = "Avvia registrazione chiamate";
@@ -2939,9 +3308,6 @@
 "Start Date" = "Data di inizio";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Avviare o preparare la registrazione di una chiamata, la registrazione audio di sistema o creare un memo vocale.";
-
-/* Translated with LLM */
 "Start Recording" = "Avvia registrazione";
 
 /* Translated with LLM */
@@ -2951,13 +3317,19 @@
 "Start Screen Recording" = "Avvia registrazione schermo";
 
 /* Translated with LLM */
-"start screen recording" = "avvia registrazione schermo";
+"start screen recording" = "Avvia registrazione schermo";
 
 /* Translated with LLM */
 "Start System Audio Recording" = "Avvia registrazione audio di sistema";
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "Avvia registrazione memo vocali";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Avvia, interrompi o attiva/disattiva la registrazione dello schermo di sistema. Restituisce true se la richiesta di registrazione dello schermo è riuscita, altrimenti false.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Avvia, interrompi, metti in pausa, riprendi o attiva/disattiva una registrazione. Restituisce true se la richiesta di registrazione è riuscita, altrimenti false.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "L’avvio del servizio di esportazione richiede più tempo del previsto. Controlla la rete e riprova.";
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Rimanete sintonizzati. Stiamo registrando la chiamata in background.";
 
 /* Translated with LLM */
-"stop" = "ferma";
+"stop" = "Ferma";
 
 /* Translated with LLM */
 "Stop" = "Ferma";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "Ferma e salva";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Interrompi una registrazione di chiamata, una registrazione audio di sistema o un memo vocale, se presente.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Interrompi una registrazione dello schermo di sistema, se presente.";
 
 /* Translated with LLM */
 "Stop Recording" = "Interrompi registrazione";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Interrompi registrazione schermo";
 
 /* Translated with LLM */
-"stop screen recording" = "interrompi registrazione schermo";
+"stop screen recording" = "Interrompi registrazione schermo";
 
 /* Translated with LLM */
 "Stop Service" = "Interrompi servizio";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Registrazione audio di sistema";
 
 /* Translated with LLM */
-"system audio recording" = "registrazione audio di sistema";
+"system audio recording" = "Registrazione audio di sistema";
 
 /* Translated with LLM */
 "System Language" = "Lingua di sistema";
 
 /* Translated with LLM */
 "System Record" = "Registrazione di sistema";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Registrazione di sistema (Legacy)";
+
+/* Translated with LLM */
+"system record info" = "informazioni registrazione di sistema";
+
+/* Translated with LLM */
+"system recording status" = "stato di registrazione di sistema";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Tocca __un bordo qualsiasi__  \nper selezionarlo come ___bordo attivo___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Errore tecnico rilevato";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Utilità Telefoniche";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Ignora temporaneamente";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Si è verificato un errore temporaneo, ulteriori tentativi potrebbero risolvere il problema.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Percorso di registrazione temporaneo";
+
+/* Translated with LLM */
 "terminate" = "termina";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Termina immediatamente tutte le chiamate attive.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Termina immediatamente tutte le chiamate attive. Restituisce true se la richiesta è stata inviata al demone con successo; altrimenti false.";
 
 /* Translated with LLM */
 "terminate call" = "termina chiamata";
@@ -3134,9 +3515,6 @@
 "text to speech" = "sintesi vocale";
 
 /* Translated with LLM */
-"text-to-speech" = "sintesi vocale";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "La %@ è stata interrotta dal sistema. Puoi convertire manualmente la registrazione in un secondo momento.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "L’identificatore del bundle dell’applicazione che ha avviato la chiamata.";
+
+/* Translated with LLM */
+"The call event to wait for." = "L’evento di chiamata da attendere.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Il contenuto del file di testo “%@” è vuoto.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Il numero massimo di secondi di attesa per la connessione delle chiamate.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Il numero massimo di secondi di attesa per l’evento di chiamata selezionato.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "I metadati di posizione mancanti verranno popolati se apri l’applicazione subito dopo la registrazione.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "L’azione del pulsante principale sul lato destro dell’hoverball quando non è attiva alcuna chiamata.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Il file audio selezionato non è valido o non è supportato.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Il servizio non è configurato correttamente.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Il nome dell’operatore del servizio del mittente.";
+
+/* Translated with LLM */
+"The session to inspect." = "La sessione da ispezionare.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "La dimensione del file audio selezionato.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Il tipo di contenuto da registrare.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Il tipo di registrazione da controllare. “Qualsiasi registrazione” si applica solo a stop, pausa, ripresa e attiva/disattiva.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Il tipo di registrazione da interrompere.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "L’identificatore univoco della chiamata.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Questa registrazione proviene da WeChat e “WeChat Assistant” ti aiuta a compilare i nomi e le note dei contatti WeChat la prossima volta.\nSembra che tu non abbia “WeChat Assistant” abilitato, vuoi abilitarlo immediatamente?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Questa registrazione è stata effettuata utilizzando la “Codifica in tempo reale”. Questo metodo di registrazione non produce un audio temporaneo grezzo che può essere utilizzato per il recupero, quindi le registrazioni interrotte non possono essere recuperate.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Questa versione di WeChat (%@) non è supportata. Aggiorna all’ultima versione.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Millisecondi a tre cifre";
 
 /* Translated with LLM */
+"Threshold" = "Soglia";
+
+/* Translated with LLM */
 "Time Sensitive" = "Urgente";
 
 /* Translated with LLM */
 "time sensitive notification" = "notifica urgente";
+
+/* Translated with LLM */
+"Timeout" = "Timeout";
 
 /* Translated with LLM */
 "Title" = "Titolo";
@@ -3359,6 +3764,9 @@
 "toggle" = "attiva/disattiva";
 
 /* Translated with LLM */
+"Toggle" = "attiva/disattiva";
+
+/* Translated with LLM */
 "Toggle ${requestedMode}" = "Attiva/disattiva ${requestedMode}";
 
 /* Translated with LLM */
@@ -3368,10 +3776,13 @@
 "Toggle Hoverball" = "Attiva/disattiva Hoverball";
 
 /* Translated with LLM */
-"toggle hoverball" = "attiva/disattiva hoverball";
+"toggle hoverball" = "Attiva/disattiva Hoverball";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Attiva/disattiva la sfera hoverball del registratore.";
+"toggle live captions" = "Attiva/disattiva i sottotitoli in tempo reale";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Attiva/disattiva i sottotitoli in tempo reale";
 
 /* Translated with LLM */
 "Toggle Recording" = "Attiva/disattiva registrazione";
@@ -3383,13 +3794,10 @@
 "Toggle Screen Recording" = "Attiva/disattiva registrazione schermo";
 
 /* Translated with LLM */
-"toggle screen recording" = "attiva/disattiva registrazione schermo";
+"toggle screen recording" = "Attiva/disattiva registrazione schermo";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Attiva/disattiva registrazione audio di sistema";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Attiva/disattiva la registrazione dello schermo di sistema proprio come fai nel Centro di Controllo.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Attiva/disattiva registrazione memo vocali";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "riproduzione TTS";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Disattiva “Codifica in tempo reale”";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Disattiva questa opzione per rendere effettive le altre opzioni di questa pagina per l’applicazione corrente.";
@@ -3554,7 +3965,10 @@
 "Unmark" = "Annulla segnalibro";
 
 /* Translated with LLM */
-"unmute" = "riattiva audio";
+"unmute" = "Riattiva audio";
+
+/* Translated with LLM */
+"Unmute" = "Riattiva audio";
 
 /* Translated with LLM */
 "Unmute ${requestedChannel}" = "Riattiva ${requestedChannel}";
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Riattiva chiamate esistenti";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Riattiva il canale specificato di tutte le chiamate esistenti.";
 
 /* Translated with LLM */
 "Unspecified" = "Non specificato";
@@ -3659,6 +4070,9 @@
 "Utility" = "Utilità";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Utilità (Legacy)";
+
+/* Translated with LLM */
 "Variant" = "Variante";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Visualizza log: Archiviazione di rete";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Visualizza log: Registratore in tempo reale";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Visualizza registri: Espressione vocale";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "I contatti VIP verranno sempre registrati e aggiunti ai preferiti.";
+
+/* Translated with LLM */
+"Voice Chat" = "Chat vocale";
 
 /* Translated with LLM */
 "Voice Memo" = "Memo vocale";
@@ -3761,19 +4181,52 @@
 "wait" = "attendi";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Attendi la chiamata di ${requestedEvent}";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Attendi la chiamata di ${requestedEvent}";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Attendi ${requestedTimeout} secondi";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Attendi che le chiamate vengano risposte e connesse.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Attendi un evento di chiamata. Restituisce le informazioni sulla chiamata quando si verifica l’evento selezionato; altrimenti non restituisce nulla allo scadere del timeout.";
 
 /* Translated with LLM */
-"wait for call" = "attendere la chiamata";
+"wait for call" = "Attendi la chiamata";
+
+/* Translated with LLM */
+"Wait for Call" = "Attendi la chiamata";
+
+/* Translated with LLM */
+"wait for call ended" = "attendere la fine della chiamata";
+
+/* Translated with LLM */
+"wait for call event" = "Attendi evento di chiamata";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Attendi evento di chiamata";
 
 /* Translated with LLM */
 "Wait for Calls" = "Attesa chiamate";
 
 /* Translated with LLM */
+"wait for connected call" = "attendere chiamata connessa";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Attendi le chiamate connesse";
+
+/* Translated with LLM */
+"wait for incoming call" = "attendere chiamata in arrivo";
+
+/* Translated with LLM */
+"wait for outgoing call" = "attendere chiamata in uscita";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Attendi fino al termine";
+
+/* Translated with LLM */
+"Waiting For Device" = "In attesa del dispositivo";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Attenzione, la tua chiamata sta venendo registrata. Attenzione, la tua chiamata sta venendo registrata.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Quando il server WebDAV è abilitato, se consentire l’accesso da un comune browser web come Safari, Chrome, Edge, ecc.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Se accettare o rifiutare le chiamate in arrivo.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Indica se scartare la registrazione quando si interrompe. Ignorato all’avvio o durante l’attivazione/disattivazione.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Se forzare l’applicazione a utilizzare l’interfaccia utente chiara o scura.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Se forzare l’hoverball a usare lo stile chiaro o scuro.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Se includere l’audio del microfono quando si avvia o si attiva/disattiva la registrazione dello schermo.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Se ripetere all’infinito la riproduzione dell’audio. Se abilitata, questa azione restituirà immediatamente il controllo dopo l’inizio della riproduzione.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Se attivare o disattivare l’audio della chiamata.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Se aprire, chiudere o attivare/disattivare i sottotitoli live.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Se aprire, chiudere o attivare/disattivare l’hoverball.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Se avviare, interrompere o attivare/disattivare la registrazione dello schermo.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Se avviare, arrestare, mettere in pausa, riprendere o alternare la registrazione.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Indica se attendere il termine della riproduzione. Se disattivata, questa azione restituirà il controllo immediatamente dopo l’avvio della riproduzione.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Se attendere o meno il termine della riproduzione. Se disattivata, questa azione restituirà il controllo immediatamente dopo l’avvio della riproduzione. «Ripeti all’infinito» restituisce sempre il controllo immediatamente dopo l’avvio della riproduzione.";
+
+/* Translated with LLM */
+"Which channel to control." = "Quale canale controllare.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Quale canale disattivare.";

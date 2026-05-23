@@ -1,4 +1,25 @@
 /* No comment provided by engineer. */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* No comment provided by engineer. */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} 录音";
+
+/* No comment provided by engineer. */
+"${requestedAction} hoverball" = "${requestedAction} 悬浮球";
+
+/* No comment provided by engineer. */
+"${requestedAction} live captions" = "${requestedAction} 实时字幕";
+
+/* No comment provided by engineer. */
+"${requestedAction} screen recording" = "${requestedAction} 屏幕录制";
+
+/* No comment provided by engineer. */
+"${requestedResponse} incoming calls" = "${requestedResponse} 来电";
+
+/* No comment provided by engineer. */
+"%@ Help" = "%@ 帮助";
+
+/* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
 /* No comment provided by engineer. */
@@ -89,7 +110,7 @@
 "accept" = "接听";
 
 /* No comment provided by engineer. */
-"Accept all incoming calls automatically." = "自动接听所有来电。";
+"Accept" = "接听";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "accept call" = "接听来电";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "接听来电";
 
 /* No comment provided by engineer. */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "接听或拒接所有来电。返回「真」表示请求已成功发送到守护进程，否则返回「假」。";
+
+/* No comment provided by engineer. */
 "Access From Web Browser" = "从浏览器访问";
 
 /* No comment provided by engineer. */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "从网络中的另一台设备的 WebDAV 客户端中访问你的录音。仅当应用程序处于前台时服务可用。";
+
+/* No comment provided by engineer. */
+"actions" = "动作";
 
 /* No comment provided by engineer. */
 "activate" = "激活";
@@ -109,8 +136,14 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "activate hoverball" = "激活悬浮球";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"activate live captions" = "激活实时字幕";
+
+/* App Intent session information actions. */
+"Active Call Count" = "活跃通话数量";
+
 /* No comment provided by engineer. */
-"Activate the recorder hoverball." = "启动服务，并打开录音悬浮球。";
+"Active Call Identifiers" = "活跃通话标识符";
 
 /* No comment provided by engineer. */
 "Add" = "添加";
@@ -251,7 +284,13 @@
 "Any" = "不限";
 
 /* No comment provided by engineer. */
+"Any Recording" = "任何录音";
+
+/* No comment provided by engineer. */
 "App Icon" = "应用程序图标";
+
+/* No comment provided by engineer. */
+"App Intent" = "快捷指令";
 
 /* No comment provided by engineer. */
 "App Language" = "界面语言";
@@ -271,7 +310,7 @@
 /* No comment provided by engineer. */
 "Applications" = "应用程序";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "App Store" = "App Store";
 
 /* No comment provided by engineer. */
@@ -425,7 +464,7 @@
 "begin screen recording" = "开始屏幕录制";
 
 /* No comment provided by engineer. */
-"Beta" = "预发布版";
+"Beta" = "Beta";
 
 /* No comment provided by engineer. */
 "Bi-sync" = "双向同步";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "购买高级许可";
 
 /* No comment provided by engineer. */
+"Byte Count" = "字节数";
+
+/* No comment provided by engineer. */
 "Calculating…" = "计算中…";
 
 /* No comment provided by engineer. */
@@ -477,6 +519,9 @@
 
 /* No comment provided by engineer. */
 "call" = "通话";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"call audio" = "通话音频";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call audio on" = "通话音频开启";
@@ -487,17 +532,29 @@
 /* No comment provided by engineer. */
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "通话音频管线监听失败，轻点此通知以重启录音服务。";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"call connected" = "通话已接通";
+/* App Intent call automation actions. */
+"Call Automation" = "通话自动化";
 
 /* No comment provided by engineer. */
-"Call Direction" = "通话方向";
+"Call Automation (Legacy)" = "通话自动化（经典）";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"call connected" = "通话已接通";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call duration" = "通话时长";
 
 /* No comment provided by engineer. */
+"Call History Identifier" = "通话记录标识符";
+
+/* No comment provided by engineer. */
 "Call Identifier" = "通话标识符";
+
+/* No comment provided by engineer. */
+"Call Info" = "通话信息";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"call info" = "通话信息";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call information" = "通话信息";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "通话录音：对方字幕";
 
 /* No comment provided by engineer. */
-"Call State" = "通话状态";
+"Call Sniffer" = "第三方 App 通话";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call status" = "通话状态";
@@ -548,10 +605,16 @@
 "Caution" = "注意";
 
 /* No comment provided by engineer. */
+"Channel" = "通道";
+
+/* No comment provided by engineer. */
 "check" = "检查";
 
 /* No comment provided by engineer. */
-"Check if the daemon is running. If not, launch it." = "检查守护进程是否正在运行。如果没有则启动它。";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "检查守护进程是否正在运行。如果没有则启动它。检查后守护进程正在运行时返回服务信息，否则不返回任何内容。";
+
+/* No comment provided by engineer. */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "检查守护进程是否正在运行。如果没有则启动它。返回「真」表示检查后守护进程正在运行，否则返回「假」。";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "check service" = "检查服务";
@@ -611,6 +674,9 @@
 "close hoverball" = "关闭悬浮球";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"close live captions" = "关闭实时字幕";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "cloud archive sync" = "云存档同步";
 
 /* No comment provided by engineer. */
@@ -631,10 +697,10 @@
 /* No comment provided by engineer. */
 "Compressing" = "压缩中";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Configure the embedded client with your WebDAV server address, username and password." = "使用 WebDAV 服务器地址、用户名和密码配置嵌入式客户端。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Configure WebDAV Client" = "配置 WebDAV 客户端";
 
 /* No comment provided by engineer. */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "在传输录音之前，请连接到无线局域网。";
 
 /* No comment provided by engineer. */
-"connected" = "已连接";
+"connected" = "已接通";
+
+/* No comment provided by engineer. */
+"Connected" = "已接通";
+
+/* No comment provided by engineer. */
+"Connected At" = "接通时间";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "connected call" = "已接通的通话";
@@ -663,6 +735,12 @@
 
 /* No comment provided by engineer. */
 "Contact Exceptions" = "联系人例外";
+
+/* No comment provided by engineer. */
+"Contact Identifier" = "联系人标识符";
+
+/* No comment provided by engineer. */
+"Contact Label" = "联系人标签";
 
 /* No comment provided by engineer. */
 "Contact Name" = "联系人名称";
@@ -708,6 +786,39 @@
 
 /* No comment provided by engineer. */
 "Continuous Playback On" = "持续播放已启用";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control call audio" = "控制通话静音";
+
+/* No comment provided by engineer. */
+"Control Call Muting" = "控制通话静音";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control call muting" = "控制通话静音";
+
+/* No comment provided by engineer. */
+"Control Hoverball" = "控制悬浮球";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control hoverball" = "控制悬浮球";
+
+/* No comment provided by engineer. */
+"Control Live Captions" = "控制实时字幕";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control live captions" = "控制实时字幕";
+
+/* No comment provided by engineer. */
+"Control Recording" = "控制录音";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control recording" = "控制录音";
+
+/* No comment provided by engineer. */
+"Control Screen Recording" = "控制屏幕录制";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control screen recording" = "控制屏幕录制";
 
 /* No comment provided by engineer. */
 "Conversion Failed" = "转换失败";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "无法登出账户：%@";
 
 /* No comment provided by engineer. */
+"Country Code" = "国家代码";
+
+/* No comment provided by engineer. */
 "Created At" = "创建于";
 
 /* No comment provided by engineer. */
 "Credentials" = "凭据";
+
+/* No comment provided by engineer. */
+"Current" = "当前";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "current call" = "当前通话";
@@ -820,8 +937,8 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "deactivate hoverball" = "反激活悬浮球";
 
-/* No comment provided by engineer. */
-"Deactivate the recorder hoverball." = "启动服务，并关闭录音悬浮球。";
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"deactivate live captions" = "停用实时字幕";
 
 /* No comment provided by engineer. */
 "Debugging" = "调试";
@@ -863,10 +980,16 @@
 "Developer Options" = "开发者选项";
 
 /* No comment provided by engineer. */
+"Dialing" = "拨号中";
+
+/* No comment provided by engineer. */
 "Dictation Disabled" = "听写已关闭";
 
 /* No comment provided by engineer. */
 "Digital Video" = "数字视频";
+
+/* No comment provided by engineer. */
+"Digits" = "按键";
 
 /* No comment provided by engineer. */
 "Direction" = "通话方向";
@@ -915,6 +1038,12 @@
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "discard recording" = "丢弃录音";
+
+/* No comment provided by engineer. */
+"Disconnected" = "已断开";
+
+/* No comment provided by engineer. */
+"Disconnected At" = "断开时间";
 
 /* No comment provided by engineer. */
 "Discreet Mode" = "隐秘模式";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "显示录音的来源，即通话时所使用的应用程序名称。";
 
 /* No comment provided by engineer. */
-"Displays a local notification." = "显示本地通知。";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "显示本地通知。返回「真」表示通知请求已成功发送，否则返回「假」。";
 
 /* No comment provided by engineer. */
 "Do you want to clear this log file “%@”?" = "你确定要清空日志文件 “%@” 吗？";
@@ -1024,10 +1153,10 @@
 /* No comment provided by engineer. */
 "Drag this live caption preview\nChange the vertical center on screen\nRelease to save automatically" = "拖动这个实时字幕预览\n改变屏幕上的竖直中心\n松手后自动保存";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Drive ID" = "驱动器 ID";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Dropbox" = "Dropbox";
 
 /* No comment provided by engineer. */
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "启用面容 ID";
 
 /* No comment provided by engineer. */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "启用电平计量，并在悬浮球折叠时显示指示器。此选项仅在 “闲置效果” 设置为 “始终折叠” 时可用。";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "启用声级计量，用于驱动 “录制中” 状态面板的实时波形，并在悬浮球折叠时显示条形指示器。";
 
 /* No comment provided by engineer. */
 "Enable Logging" = "启用日志";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "当应用程序进入后台且最后一个连接关闭时，自动暂停 WebDAV 服务。当应用程序回到前台时恢复服务。";
 
 /* No comment provided by engineer. */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "录制时直接编码音频，以减少临时文件大小和后处理时间。启用后可能增加 CPU 和电量消耗；如果录制被中断，恢复难度可能更高。";
+
+/* No comment provided by engineer. */
 "Encoding" = "编码中";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "结束屏幕录制";
 
 /* No comment provided by engineer. */
-"Enhance Recording" = "增强录音";
+"Ended" = "已结束";
 
 /* No comment provided by engineer. */
 "Enhanced Automatic Recording" = "增强自动录音";
@@ -1165,11 +1297,14 @@
 /* No comment provided by engineer. */
 "Error retrieving discovery document: %@" = "检索接口目录时发生错误：%@";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "exit" = "退出";
 
 /* No comment provided by engineer. */
 "Exit Hoverball" = "关闭悬浮球";
+
+/* No comment provided by engineer. */
+"Exit Live Captions" = "关闭实时字幕";
 
 /* No comment provided by engineer. */
 "Expand Recursively" = "递归展开";
@@ -1179,6 +1314,9 @@
 
 /* No comment provided by engineer. */
 "Export as ZIP" = "导出为 ZIP";
+
+/* No comment provided by engineer. */
+"Export File Name" = "导出文件名";
 
 /* No comment provided by engineer. */
 "Export recordings to anywhere you want without limitations." = "将录音导出并保存到任何地方。";
@@ -1254,6 +1392,9 @@
 
 /* No comment provided by engineer. */
 "File Format" = "文件格式";
+
+/* No comment provided by engineer. */
+"File Name" = "文件名";
 
 /* No comment provided by engineer. */
 "File not found." = "未找到文件。";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "获取 ${requestedField}";
 
 /* No comment provided by engineer. */
+"Get ${requestedSession} call info" = "获取 ${requestedSession} 通话信息";
+
+/* No comment provided by engineer. */
+"Get ${requestedSession} recording info" = "获取 ${requestedSession} 录制信息";
+
+/* No comment provided by engineer. */
 "Get advanced control when recording right in your call." = "在通话中打开控制面板即可控制录制参数。";
 
 /* No comment provided by engineer. */
 "Get Call Duration" = "获取通话时长";
 
 /* No comment provided by engineer. */
+"Get Call Info" = "获取通话信息";
+
+/* No comment provided by engineer. */
 "Get Call Status" = "获取通话状态";
+
+/* Legacy App Intent descriptions. */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "以旧版文本形式获取当前录音路径信息。建议新的快捷指令使用 “获取录制信息”。";
 
 /* No comment provided by engineer. */
 "Get In Touch" = "保持联系";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "录音完成后可推送通知提醒。";
 
 /* No comment provided by engineer. */
+"Get primary call information as a single object." = "获取主通话信息并作为单个对象返回。";
+
+/* No comment provided by engineer. */
 "Get Recording Duration" = "获取录音持续时间";
+
+/* No comment provided by engineer. */
+"Get Recording Info" = "获取录制信息";
+
+/* No comment provided by engineer. */
+"Get recording information as a single object." = "获取录制信息并作为单个对象返回。";
 
 /* No comment provided by engineer. */
 "Get Recording Paths" = "获取录音路径";
@@ -1378,20 +1540,26 @@
 /* No comment provided by engineer. */
 "Get Recording Status" = "获取录音状态";
 
-/* No comment provided by engineer. */
-"Get the current recording duration of the Troll Recorder." = "获取巨魔录音机当前的录音时长。";
+/* App Intent screen recording information actions. */
+"Get Screen Recording Info" = "获取屏幕录制信息";
 
 /* No comment provided by engineer. */
-"Get the current recording paths of the Troll Recorder." = "获取巨魔录音机当前的录音路径。";
+"Get screen recording information as a single object." = "获取屏幕录制信息并作为单个对象返回。";
+
+/* App Intent service information actions. */
+"Get Service Info" = "获取服务信息";
 
 /* No comment provided by engineer. */
-"Get the current recording status of the Troll Recorder." = "获取巨魔录音机当前的录音状态。";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "以旧版数值形式获取当前录音持续时间。建议新的快捷指令使用 “获取录制信息”。";
 
 /* No comment provided by engineer. */
-"Get the primary call duration of the device." = "获取主要通话的时长。";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "以旧版布尔值形式获取当前录音状态。所选状态字段为「真」时结果为「真」；为「假」或不可用时结果为「假」。建议新的快捷指令使用 “获取录制信息”。";
 
 /* No comment provided by engineer. */
-"Get the primary call status of the device." = "获取主要通话的状态。";
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "以旧版数值形式获取主通话时长。建议新的快捷指令使用 “获取通话信息”。";
+
+/* No comment provided by engineer. */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "以旧版文本形式获取主通话状态。建议新的快捷指令使用 “获取通话信息”。";
 
 /* No comment provided by engineer. */
 "Go Home When Unlocked" = "解锁后回到桌面";
@@ -1401,6 +1569,12 @@
 
 /* No comment provided by engineer. */
 "Group Call" = "群组通话";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"handle incoming calls" = "处理来电";
+
+/* No comment provided by engineer. */
+"Handle Incoming Calls" = "处理来电";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "hang up calls" = "挂断通话";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "悬浮球";
 
 /* No comment provided by engineer. */
+"Hoverball (Legacy)" = "悬浮球（经典）";
+
+/* No comment provided by engineer. */
 "Hoverball Plus" = "悬浮球 +";
 
 /* No comment provided by engineer. */
@@ -1445,7 +1622,10 @@
 "Hoverball Style" = "显示样式";
 
 /* No comment provided by engineer. */
-"hud" = "hud";
+"hud" = "悬浮球";
+
+/* No comment provided by engineer. */
+"HUD" = "悬浮球";
 
 /* No comment provided by engineer. */
 "HUD_CALL_RECORDING" = "开始通话录音";
@@ -1456,7 +1636,7 @@
 /* No comment provided by engineer. */
 "I Agree to the E.U.L.A." = "我已经阅读并同意《最终用户许可协议》";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "icloud" = "iCloud";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -1482,6 +1662,9 @@
 
 /* No comment provided by engineer. */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "当没有活跃通话时，同时按下两个音量键执行指定的动作。";
+
+/* No comment provided by engineer. */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "如果你频繁遇到这样的状况，需要在 “后处理与输出” 设置页中关闭 “实时编码” 选项。";
 
 /* No comment provided by engineer. */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "如果你使用 Filza 修改了录音，或者遇到了任何文件系统权限问题，可以在这里修复它们。";
@@ -1523,13 +1706,13 @@
 "Incoming" = "来电";
 
 /* No comment provided by engineer. */
-"incoming" = "呼入";
+"incoming" = "来电";
 
 /* No comment provided by engineer. */
 "Incoming Call" = "来电时";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"incoming call" = "来电";
+/* No comment provided by engineer. */
+"incoming call" = "来电时";
 
 /* No comment provided by engineer. */
 "Incoming Call Answered" = "来电接通时";
@@ -1553,16 +1736,37 @@
 "Install Call History Tweak" = "安装通话记录插件";
 
 /* No comment provided by engineer. */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "打断当前正在向麦克风播放的上行音频或语音播报。返回「真」表示播放已打断，否则返回「假」。";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"interrupt call playback" = "打断通话播放";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"interrupt uplink audio" = "打断上行音频";
+
+/* No comment provided by engineer. */
+"Interrupt Uplink Playback" = "打断通话播放";
+
+/* No comment provided by engineer. */
+"interrupt uplink playback" = "打断通话播放";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"interrupt voice over" = "打断语音播报";
+
+/* No comment provided by engineer. */
 "Invalid Code Signature" = "无效的代码签名";
 
 /* No comment provided by engineer. */
 "Invalid code signature.\nPlease reinstall this application from TrollStore." = "无效的代码签名。\n请从 TrollStore 重新安装此应用程序。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "iPad" = "iPad";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "iPhone" = "iPhone";
+
+/* No comment provided by engineer. */
+"Is Available" = "是否可用";
 
 /* No comment provided by engineer. */
 "Is Favourite" = "是否收藏";
@@ -1583,7 +1787,19 @@
 "is recording" = "是否正在录制";
 
 /* No comment provided by engineer. */
+"Is Recording" = "是否正在录制";
+
+/* No comment provided by engineer. */
 "Is Running" = "是否正在录制";
+
+/* No comment provided by engineer. */
+"Is Service Running" = "服务是否正在运行";
+
+/* No comment provided by engineer. */
+"Is Waiting For Device" = "是否正在等待设备";
+
+/* No comment provided by engineer. */
+"ISO Country Code" = "ISO 国家代码";
 
 /* No comment provided by engineer. */
 "Item #%lu" = "项 #%lu";
@@ -1596,6 +1812,9 @@
 
 /* No comment provided by engineer. */
 "Keep Screen On When Connected" = "连接时保持屏幕常亮";
+
+/* No comment provided by engineer. */
+"Key Event" = "按键事件";
 
 /* No comment provided by engineer. */
 "Keyboard Avoidance" = "键盘避让";
@@ -1616,6 +1835,9 @@
 "Later" = "以后再说";
 
 /* No comment provided by engineer. */
+"Latest" = "最新";
+
+/* No comment provided by engineer. */
 "launch" = "启动";
 
 /* No comment provided by engineer. */
@@ -1634,7 +1856,46 @@
 "leading edge" = "左边";
 
 /* No comment provided by engineer. */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "经典动作。等待任意通话被接听并接通。返回「真」表示有正在拨号的通话在超时前结束拨号状态，否则返回「假」。新快捷指令建议使用“等待通话事件”。";
+
+/* No comment provided by engineer. */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "经典通话静音动作。新快捷指令建议使用“控制通话静音”。返回「真」表示请求已成功发送到守护进程，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "旧版悬浮球动作。建议新的快捷指令使用 “控制悬浮球”。返回「真」表示悬浮球设置已成功停用，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "旧版悬浮球动作。建议新的快捷指令使用 “控制悬浮球”。返回「真」表示悬浮球设置已成功启用，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "旧版悬浮球动作。建议新的快捷指令使用 “控制悬浮球”。返回「真」表示悬浮球设置已成功切换，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "旧版来电动作。建议新的快捷指令使用 “处理来电”。返回「真」表示请求已成功发送到守护进程，否则返回「假」。";
+
+/* No comment provided by engineer. */
 "Legacy Jailbreak" = "传统越狱";
+
+/* No comment provided by engineer. */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "旧版实时字幕动作。建议新的快捷指令使用 “控制实时字幕”。返回「真」表示实时字幕已成功停用，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "旧版实时字幕动作。建议新的快捷指令使用 “控制实时字幕”。返回「真」表示实时字幕已成功启用，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "旧版实时字幕动作。建议新的快捷指令使用 “控制实时字幕”。返回「真」表示实时字幕已成功切换，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "旧版录音动作。建议新的快捷指令使用 “控制录音”。返回「真」表示录音请求成功，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "旧版录音动作。建议新的快捷指令使用 “控制录音”。返回「真」表示停止请求成功，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "旧版屏幕录制动作。建议新的快捷指令使用 “控制屏幕录制”。返回「真」表示屏幕录制请求成功，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "旧版屏幕录制动作。建议新的快捷指令使用 “控制屏幕录制”。返回「真」表示停止请求成功，否则返回「假」。";
 
 /* No comment provided by engineer. */
 "Less serious error occurred." = "发生较轻微的错误。";
@@ -1659,6 +1920,9 @@
 
 /* No comment provided by engineer. */
 "Live Captions" = "实时字幕";
+
+/* No comment provided by engineer. */
+"Live Captions (Legacy)" = "实时字幕（经典）";
 
 /* No comment provided by engineer. */
 "Loading…" = "载入中…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "录制一个 ${requestedMode} 录音";
 
 /* No comment provided by engineer. */
-"Make a new recording, or stop an existing one." = "开始一次新的录音，或停止一个正在进行的录制。";
-
-/* No comment provided by engineer. */
 "Make a new voice memo, or stop an existing one." = "开始一次新的语音备忘录，或停止一个正在进行的录制。";
 
 /* No comment provided by engineer. */
@@ -1790,6 +2051,9 @@
 "Metadata" = "元数据";
 
 /* No comment provided by engineer. */
+"Metadata Path" = "元数据路径";
+
+/* No comment provided by engineer. */
 "Microphone" = "麦克风";
 
 /* No comment provided by engineer. */
@@ -1810,7 +2074,7 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "microphone speech" = "麦克风语音";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Microsoft OneDrive" = "Microsoft OneDrive";
 
 /* No comment provided by engineer. */
@@ -1821,9 +2085,6 @@
 
 /* No comment provided by engineer. */
 "Mixed" = "混合";
-
-/* No comment provided by engineer. */
-"Mixer & Combiner" = "混音器与合并器";
 
 /* No comment provided by engineer. */
 "Mixer Audio Format" = "音频格式";
@@ -1856,6 +2117,9 @@
 "mute" = "静音";
 
 /* No comment provided by engineer. */
+"Mute" = "静音";
+
+/* No comment provided by engineer. */
 "Mute ${requestedChannel}" = "使 ${requestedChannel} 静音";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "静音现有通话";
 
 /* No comment provided by engineer. */
-"Mute specified channel of all existing calls." = "静音所有通话的指定通道。";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "静音或取消静音所有现有通话的指定通道。返回「真」表示请求已成功发送到守护进程，否则返回「假」。";
 
 /* No comment provided by engineer. */
 "My Favourite" = "已收藏";
@@ -1881,6 +2145,9 @@
 
 /* No comment provided by engineer. */
 "Name with Alias" = "带别名的名称";
+
+/* No comment provided by engineer. */
+"Network Code" = "网络代码";
 
 /* No comment provided by engineer. */
 "Network Storage" = "网络存储";
@@ -1955,6 +2222,9 @@
 "notification" = "通知";
 
 /* No comment provided by engineer. */
+"Notification" = "通知";
+
+/* No comment provided by engineer. */
 "Notification Permission Denied" = "推送通知被拒绝访问";
 
 /* No comment provided by engineer. */
@@ -1984,7 +2254,7 @@
 /* No comment provided by engineer. */
 "On another device, choose “Import From Another Device”, then pick “%@”. Do not leave this page during transmission." = "在另一台设备选择 “从其他设备导入”，然后选择 “%@”。传输过程中请勿离开此页面。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "OneDrive" = "OneDrive";
 
 /* No comment provided by engineer. */
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "在地图中打开";
 
 /* No comment provided by engineer. */
+"Open Live Captions" = "打开实时字幕";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"open live captions" = "打开实时字幕";
+
+/* No comment provided by engineer. */
 "Open Troll Recorder" = "打开巨魔录音机";
+
+/* No comment provided by engineer. */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "打开、关闭或切换实时字幕。返回「真」表示实时字幕设置已成功变更，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "打开、关闭或切换录音悬浮球。返回「真」表示悬浮球设置已成功变更，否则返回「假」。";
 
 /* No comment provided by engineer. */
 "Operation Failed" = "操作失败";
@@ -2086,11 +2368,14 @@
 /* No comment provided by engineer. */
 "Pause Recording" = "暂停录音";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"pause recording" = "暂停录音";
+
 /* No comment provided by engineer. */
 "Paused" = "暂停";
 
 /* No comment provided by engineer. */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "执行 “使用 iCloud 备份” 和 “智能云归档” 的完全同步。";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "执行 “使用 iCloud 备份” 和 “智能云归档” 的完全同步。返回「真」表示守护进程正在运行且同步报告成功，否则返回「假」。";
 
 /* No comment provided by engineer. */
 "Perform Full Synchronization" = "执行完全同步";
@@ -2152,8 +2437,17 @@
 /* No comment provided by engineer. */
 "Play ${audioFile}" = "播放 ${audioFile}";
 
+/* No comment provided by engineer. */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "向当前通话播放音频文件。返回「真」表示播放已成功开始，否则返回「假」。无效音频文件会抛出错误。";
+
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "play audio file" = "播放音频文件";
+
+/* No comment provided by engineer. */
+"Play Call Audio" = "播放通话音频";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"play call audio" = "播放通话音频";
 
 /* No comment provided by engineer. */
 "Play Recording Warning" = "播放录音警告";
@@ -2162,28 +2456,16 @@
 "Play Sound" = "播放声音";
 
 /* No comment provided by engineer. */
-"Play specified audio file to the microphone." = "向麦克风播放指定的音频文件。";
-
-/* No comment provided by engineer. */
-"Play specified voice-over text to the microphone." = "向麦克风播报指定的文本内容。";
-
-/* No comment provided by engineer. */
 "Play Through Receiver" = "通过听筒播放";
 
 /* No comment provided by engineer. */
 "Play Through Speaker" = "通过扬声器播放";
 
-/* No comment provided by engineer. */
-"Play Uplink Audio" = "播放上行音频";
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"play uplink audio" = "播放通话音频";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"play uplink audio" = "播放上行音频";
-
-/* No comment provided by engineer. */
-"Play Uplink Voice-Over" = "通话语音播报";
-
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"play voice over" = "播放 Voice-Over";
+"play voice over" = "播报通话语音";
 
 /* No comment provided by engineer. */
 "Play/Pause" = "播放/暂停";
@@ -2261,6 +2543,12 @@
 "post notification" = "发送通知";
 
 /* No comment provided by engineer. */
+"Post-processing & Output" = "后处理与输出";
+
+/* No comment provided by engineer. */
+"Pre-release Version" = "预发布版";
+
+/* No comment provided by engineer. */
 "Preparing" = "准备中";
 
 /* No comment provided by engineer. */
@@ -2268,6 +2556,9 @@
 
 /* No comment provided by engineer. */
 "Preserve All Channels" = "保留所有通道";
+
+/* No comment provided by engineer. */
+"Preset Providers" = "预设服务提供商";
 
 /* No comment provided by engineer. */
 "Press & Hold Action" = "长按动作";
@@ -2383,6 +2674,12 @@
 /* No comment provided by engineer. */
 "Ready to record!" = "准备录音！";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"real-time captions" = "实时字幕";
+
+/* No comment provided by engineer. */
+"Real-time Encoding" = "实时编码";
+
 /* No comment provided by engineer. */
 "Received authorization error: %@" = "发生认证错误: %@";
 
@@ -2400,6 +2697,9 @@
 
 /* No comment provided by engineer. */
 "Record" = "录制";
+
+/* No comment provided by engineer. */
+"Record (Legacy)" = "录制（经典）";
 
 /* No comment provided by engineer. */
 "Record All Calls" = "所有通话录音";
@@ -2432,7 +2732,7 @@
 "Recording" = "录制中";
 
 /* No comment provided by engineer. */
-"recording" = "录音";
+"recording" = "录制中";
 
 /* No comment provided by engineer. */
 "Recording (Localized)" = "录音";
@@ -2445,6 +2745,15 @@
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "recording file" = "录音文件";
+
+/* No comment provided by engineer. */
+"Recording Info" = "录制信息";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"recording info" = "录制信息";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"recording information" = "录制信息";
 
 /* No comment provided by engineer. */
 "Recording Interrupted" = "录音被中断";
@@ -2460,6 +2769,9 @@
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "recording path" = "录音路径";
+
+/* No comment provided by engineer. */
+"Recording Path" = "录音路径";
 
 /* No comment provided by engineer. */
 "Recording starts when both the audio inputs and outputs are continuously active." = "当音频输入和输出都处于持续活跃状态时，录音开始。如果你需要自动录制来自微信等不支持 CallKit 的应用中的通话，请保持此选项打开。";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "完全重新生成";
 
 /* No comment provided by engineer. */
-"reject" = "拒绝";
+"reject" = "拒接";
 
 /* No comment provided by engineer. */
-"Reject all incoming calls automatically." = "自动拒接所有来电。";
+"Reject" = "拒接";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "reject call" = "拒接来电";
 
 /* No comment provided by engineer. */
 "Reject Incoming Calls" = "拒接来电";
+
+/* No comment provided by engineer. */
+"Related Application Bundle Identifiers" = "关联应用捆绑包标识符";
+
+/* No comment provided by engineer. */
+"Related Application Count" = "关联应用数量";
 
 /* No comment provided by engineer. */
 "Relaunched" = "妙手已回春";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "重置服务";
 
 /* No comment provided by engineer. */
+"responses" = "响应";
+
+/* No comment provided by engineer. */
 "Respring" = "妙手回春";
 
 /* No comment provided by engineer. */
@@ -2597,7 +2918,13 @@
 "Restoring" = "恢复中";
 
 /* No comment provided by engineer. */
+"Resume" = "继续";
+
+/* No comment provided by engineer. */
 "Resume Recording" = "继续录音";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"resume recording" = "继续录音";
 
 /* No comment provided by engineer. */
 "Resume with Warning" = "继续并警告";
@@ -2668,8 +2995,17 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "screen capture stop" = "停止屏幕截图";
 
+/* No comment provided by engineer. */
+"Screen Recording Info" = "屏幕录制信息";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"screen recording info" = "屏幕录制信息";
+
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "screen recording off" = "关闭屏幕录制";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"screen recording status" = "屏幕录制状态";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "软件著作权登记号：2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "正在搜索附近的设备";
 
 /* No comment provided by engineer. */
-"Search…" = "搜索…";
-
-/* No comment provided by engineer. */
 "Seconds" = "秒数";
 
 /* No comment provided by engineer. */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "发送诊断信息";
 
 /* No comment provided by engineer. */
+"Sender Address" = "号卡电话号码";
+
+/* No comment provided by engineer. */
+"Sender Localized Name" = "号卡名称";
+
+/* No comment provided by engineer. */
+"Sender Localized Short Name" = "号卡别名";
+
+/* No comment provided by engineer. */
 "Sender Name" = "号卡名称";
 
 /* No comment provided by engineer. */
 "Sender Phone Address" = "号卡电话号码";
+
+/* No comment provided by engineer. */
+"Sender Service Name" = "运营商名称";
 
 /* No comment provided by engineer. */
 "Sender Short Name" = "号卡别名";
@@ -2777,13 +3122,22 @@
 "service active" = "服务活跃";
 
 /* No comment provided by engineer. */
+"Service Info" = "服务信息";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"service info" = "服务信息";
+
+/* No comment provided by engineer. */
 "Service is alive" = "服务正常运行";
 
 /* No comment provided by engineer. */
 "Service is dead" = "服务已停止";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"service status" = "服务状态";
+
 /* No comment provided by engineer. */
-"Service Status" = "服务状态";
+"service statuses" = "服务状态";
 
 /* No comment provided by engineer. */
 "Set a new name for this recording, or leave blank to use default." = "为这段录音设置一个新的名称，或者留空使用默认名称。";
@@ -2848,13 +3202,13 @@
 /* No comment provided by engineer. */
 "Show “View Details” menu item for developers to check the manifests of recordings." = "为开发者显示 “查看详情” 菜单项，以查看录音的细节清单。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Sign in with your Dropbox account to authorize the app to access your Dropbox." = "使用您的 Dropbox 账号登录，以授权应用访问您的 Dropbox。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Sign in with your Google account to authorize the app to access your Google Drive." = "使用您的 Google 账号登录，以授权应用访问您的 Google Drive。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "Sign in with your Microsoft account to authorize the app to access your Microsoft OneDrive." = "使用您的 Microsoft 账号登录，以授权应用访问您的 Microsoft OneDrive。";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -2902,6 +3256,15 @@
 /* No comment provided by engineer. */
 "Space" = "空格";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"speak call voice over" = "播报通话语音";
+
+/* No comment provided by engineer. */
+"Speak Call Voice-Over" = "播报通话语音";
+
+/* No comment provided by engineer. */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "向当前通话播报指定的文本内容。返回「真」表示播放已成功开始，否则返回「假」。等待播放完成时，最长等待时间为 60 秒。";
+
 /* No comment provided by engineer. */
 "Speaker" = "扬声器";
 
@@ -2924,10 +3287,16 @@
 "spoken audio" = "语音音频";
 
 /* No comment provided by engineer. */
+"Stable Version" = "正式版";
+
+/* No comment provided by engineer. */
+"Standby" = "待机";
+
+/* No comment provided by engineer. */
 "start" = "开始";
 
 /* No comment provided by engineer. */
-"Start a system screen recording just like what you do in the Control Center." = "开始录制系统屏幕，就像你在控制中心中所做的那样。";
+"Start" = "开始";
 
 /* No comment provided by engineer. */
 "Start Call Recording" = "开始通话录音";
@@ -2937,9 +3306,6 @@
 
 /* No comment provided by engineer. */
 "Start Date" = "起始日期";
-
-/* No comment provided by engineer. */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "开始或准备开始通话录音，开始系统音频录制，或创建一个语音备忘录。";
 
 /* No comment provided by engineer. */
 "Start Recording" = "开始录音";
@@ -2958,6 +3324,12 @@
 
 /* No comment provided by engineer. */
 "Start Voice Memo Recording" = "开始录制语音备忘录";
+
+/* No comment provided by engineer. */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "开始、停止或启停系统屏幕录制。返回「真」表示屏幕录制请求成功，否则返回「假」。";
+
+/* No comment provided by engineer. */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "开始、停止、暂停、继续或启停录音。返回「真」表示录音请求成功，否则返回「假」。";
 
 /* No comment provided by engineer. */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "启动导出服务的时间比预期的要长。请检查网络连接后重试。";
@@ -2982,12 +3354,6 @@
 
 /* No comment provided by engineer. */
 "Stop & Save" = "结束并保存";
-
-/* No comment provided by engineer. */
-"Stop a call recording, system audio recording or voice memo if exists." = "停止正在进行的通话录音，系统音频或语音备忘录的录制。";
-
-/* No comment provided by engineer. */
-"Stop a system screen recording if exists." = "停止正在进行的屏幕录制。";
 
 /* No comment provided by engineer. */
 "Stop Recording" = "停止录音";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "录制系统音频";
 
 /* No comment provided by engineer. */
-"system audio recording" = "系统音频录制";
+"system audio recording" = "录制系统音频";
 
 /* No comment provided by engineer. */
 "System Language" = "系统语言";
 
 /* No comment provided by engineer. */
 "System Record" = "系统录制";
+
+/* No comment provided by engineer. */
+"System Record (Legacy)" = "系统录制（经典）";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"system record info" = "系统录制信息";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"system recording status" = "系统录制状态";
 
 /* No comment provided by engineer. */
 "Tap __any edge__  \nto select it as an ___active edge___." = "轻按并选中 __任一边缘__，  \n使其进入 ___活跃状态___。";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "检测到技术错误";
 
 /* No comment provided by engineer. */
+"Telephony Utilities" = "电话和 FaceTime";
+
+/* No comment provided by engineer. */
 "Temporarily Ignore" = "暂时忽略";
 
 /* No comment provided by engineer. */
 "Temporary error occurred, more retries might fix." = "发生了临时错误，多试几次可能会有所帮助。";
 
 /* No comment provided by engineer. */
+"Temporary Recording Path" = "临时录音路径";
+
+/* No comment provided by engineer. */
 "terminate" = "终止";
 
 /* No comment provided by engineer. */
-"Terminate all active calls immediately." = "立即挂断所有正在进行的通话。";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "立即挂断所有正在进行的通话。返回「真」表示请求已成功发送到守护进程，否则返回「假」。";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "terminate call" = "结束通话";
@@ -3134,9 +3515,6 @@
 "text to speech" = "文本转语音";
 
 /* No comment provided by engineer. */
-"text-to-speech" = "文本转语音";
-
-/* No comment provided by engineer. */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "%@ 已被系统中断。你可以稍后手动转换录音。";
 
 /* No comment provided by engineer. */
@@ -3150,6 +3528,9 @@
 
 /* No comment provided by engineer. */
 "The bundle identifier of the application that initiated the call." = "发起通话的 App 标识符。";
+
+/* No comment provided by engineer. */
+"The call event to wait for." = "要等待的通话事件。";
 
 /* No comment provided by engineer. */
 "The content of text file “%@” is empty." = "文本文件 “%@” 的内容为空。";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "等待接通电话的最长秒数。";
 
 /* No comment provided by engineer. */
+"The maximum seconds to wait for the selected call event." = "等待所选通话事件的最长秒数。";
+
+/* No comment provided by engineer. */
 "The missing location metadata will be populated if you open the application right after the recording." = "如果你在录音结束后的一段时间内打开应用程序，缺失的位置元数据将被填充。";
 
 /* No comment provided by engineer. */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "当没有活跃通话时，轻按悬浮球右侧的主按钮时，所执行的操作。";
 
 /* No comment provided by engineer. */
+"The selected audio file is invalid or unsupported." = "所选音频文件无效或不受支持。";
+
+/* No comment provided by engineer. */
 "The service is not properly configured." = "此服务尚未完成配置。";
 
 /* No comment provided by engineer. */
 "The service operator name of the sender." = "运营商的名称。";
+
+/* No comment provided by engineer. */
+"The session to inspect." = "要检查的会话。";
 
 /* No comment provided by engineer. */
 "The size of selected audio file." = "选定音频文件的大小。";
@@ -3249,6 +3639,12 @@
 
 /* No comment provided by engineer. */
 "The type of content to be recorded." = "需要录制的内容类型。";
+
+/* No comment provided by engineer. */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "要控制的录音类型。“任何录音” 仅适用于停止、暂停、继续和启停。";
+
+/* No comment provided by engineer. */
+"The type of recording to stop." = "要停止的录音类型。";
 
 /* No comment provided by engineer. */
 "The unique identifier of the call." = "通话的唯一标识符。";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "当前录音来自微信，我们的 “微信通话助理” 可以帮助你在下次录音时填充微信联系人姓名和备注。\n你似乎没有启用 “微信通话助理”，你想立即启用吗？";
 
 /* No comment provided by engineer. */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "此录音是通过 “实时编码” 方式录制的。这种录制方式不会产生可用于恢复的原始临时音频，因此一旦被中断则无法恢复。";
+
+/* No comment provided by engineer. */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "微信通话助理不支持当前版本的微信（%@）。请升级到最新版本。";
 
 /* No comment provided by engineer. */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "毫秒数";
 
 /* No comment provided by engineer. */
+"Threshold" = "阈值";
+
+/* No comment provided by engineer. */
 "Time Sensitive" = "即时通知";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "time sensitive notification" = "即时通知";
+
+/* No comment provided by engineer. */
+"Timeout" = "超时";
 
 /* No comment provided by engineer. */
 "Title" = "标题";
@@ -3355,8 +3760,11 @@
 /* No comment provided by engineer. */
 "To: %@" = "结束于：%@";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "toggle" = "切换";
+
+/* No comment provided by engineer. */
+"Toggle" = "切换";
 
 /* No comment provided by engineer. */
 "Toggle ${requestedMode}" = "启停 ${requestedMode}";
@@ -3371,7 +3779,10 @@
 "toggle hoverball" = "切换悬浮球";
 
 /* No comment provided by engineer. */
-"Toggle ON/OFF the recorder hoverball." = "启动服务，并切换录音悬浮球。";
+"Toggle Live Captions" = "切换实时字幕";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"toggle live captions" = "切换实时字幕";
 
 /* No comment provided by engineer. */
 "Toggle Recording" = "启停录音";
@@ -3387,9 +3798,6 @@
 
 /* No comment provided by engineer. */
 "Toggle System Audio Recording" = "启停系统音频录制";
-
-/* No comment provided by engineer. */
-"Toggle system screen recording just like what you do in the Control Center." = "启动或停止系统屏幕录制，就像你在控制中心中所做的那样。";
 
 /* No comment provided by engineer. */
 "Toggle Voice Memo Recording" = "启停语音备忘录";
@@ -3442,11 +3850,14 @@
 /* No comment provided by engineer. */
 "Troll Recorder %@" = "巨魔录音机 %@";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "tts" = "TTS";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "tts playback" = "TTS 回放";
+
+/* No comment provided by engineer. */
+"Turn Off “Real-time Encoding”" = "关闭 “实时编码”";
 
 /* No comment provided by engineer. */
 "Turn this option off to make the other options on this page take effect for the current application." = "关闭此选项，使此页面上的其他选项对当前应用程序生效。";
@@ -3557,6 +3968,9 @@
 "unmute" = "取消静音";
 
 /* No comment provided by engineer. */
+"Unmute" = "取消静音";
+
+/* No comment provided by engineer. */
 "Unmute ${requestedChannel}" = "取消 ${requestedChannel} 静音";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -3564,9 +3978,6 @@
 
 /* No comment provided by engineer. */
 "Unmute Existing Calls" = "取消静音现有通话";
-
-/* No comment provided by engineer. */
-"Unmute specified channel of all existing calls." = "取消静音所有通话的指定通道。";
 
 /* No comment provided by engineer. */
 "Unspecified" = "未指定";
@@ -3659,6 +4070,9 @@
 "Utility" = "实用工具";
 
 /* No comment provided by engineer. */
+"Utility (Legacy)" = "实用工具（经典）";
+
+/* No comment provided by engineer. */
 "Variant" = "变体";
 
 /* No comment provided by engineer. */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "网络存储";
 
 /* No comment provided by engineer. */
+"View Logs: Real-time Recorder" = "实时录音";
+
+/* No comment provided by engineer. */
 "View Logs: Speech Utterance" = "语音播报";
 
 /* No comment provided by engineer. */
@@ -3729,6 +4146,9 @@
 
 /* No comment provided by engineer. */
 "VIP contacts will always be recorded and added to the favourites." = "VIP 联系人将始终被录音并添加到收藏中。";
+
+/* No comment provided by engineer. */
+"Voice Chat" = "语音聊天";
 
 /* No comment provided by engineer. */
 "Voice Memo" = "语音备忘录";
@@ -3751,7 +4171,7 @@
 /* No comment provided by engineer. */
 "Voice Memos" = "语音备忘录";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "VoIP" = "网络电话";
 
 /* No comment provided by engineer. */
@@ -3761,19 +4181,52 @@
 "wait" = "等待";
 
 /* No comment provided by engineer. */
+"Wait for ${requestedEvent} call" = "等待 ${requestedEvent} 通话事件";
+
+/* No comment provided by engineer. */
+"Wait for ${requestedEvent} call event" = "等待 ${requestedEvent} 通话事件";
+
+/* No comment provided by engineer. */
 "Wait for ${requestedTimeout} seconds" = "等待 ${requestedTimeout} 秒";
 
 /* No comment provided by engineer. */
-"Wait for any calls to be answered and connected." = "等待任意通话被接听并接通。";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "等待通话事件。所选事件发生时返回通话信息，超时则不返回任何内容。";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"wait for call" = "等待通话";
+"wait for call" = "等待通话事件";
+
+/* No comment provided by engineer. */
+"Wait for Call" = "等待通话事件";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for call ended" = "等待通话结束";
+
+/* No comment provided by engineer. */
+"Wait for Call Event" = "等待通话事件";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for call event" = "等待通话事件";
 
 /* No comment provided by engineer. */
 "Wait for Calls" = "等待通话";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for connected call" = "等待通话接通";
+
 /* No comment provided by engineer. */
 "Wait for Connected Calls" = "等待接通";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for incoming call" = "等待来电";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for outgoing call" = "等待外拨通话";
+
+/* No comment provided by engineer. */
+"Wait Until Finished" = "等待播放完成";
+
+/* No comment provided by engineer. */
+"Waiting For Device" = "正在等待设备";
 
 /* No comment provided by engineer. */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "警告，您的通话正在被录音。警告，您的通话正在被录音。";
@@ -3793,7 +4246,7 @@
 /* No comment provided by engineer. */
 "We love colorful and moving backgrounds, but option here for you to disable it." = "我们喜欢移动着的、多彩的背景，但是我们依然提供了选项让你来关闭它。";
 
-/* Translated with LLM */
+/* No comment provided by engineer. */
 "WebDAV" = "WebDAV";
 
 /* No comment provided by engineer. */
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "启用 WebDAV 服务器后，是否允许你从 Safari、Chrome、Edge 等常见的网络浏览器访问。";
 
 /* No comment provided by engineer. */
+"Whether to accept or reject incoming calls." = "接听还是拒接来电。";
+
+/* No comment provided by engineer. */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "停止录音时是否丢弃录音。开始或启停时会忽略此项。";
+
+/* No comment provided by engineer. */
 "Whether to force the application to use the light or the dark user interface." = "是否强制应用程序使用浅色或深色用户界面。";
 
 /* No comment provided by engineer. */
 "Whether to force the hoverball to use the light or the dark style." = "是否强制悬浮球使用浅色或深色样式。";
 
 /* No comment provided by engineer. */
+"Whether to include microphone audio when starting or toggling screen recording." = "开始或启停屏幕录制时是否包含麦克风音频。";
+
+/* No comment provided by engineer. */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "是否无限重复播放音频。如果启用，此操作将在开始播放后立即返回。";
+
+/* No comment provided by engineer. */
+"Whether to mute or unmute call audio." = "静音还是取消静音通话音频。";
+
+/* No comment provided by engineer. */
+"Whether to open, close, or toggle live captions." = "打开、关闭还是切换实时字幕。";
+
+/* No comment provided by engineer. */
+"Whether to open, close, or toggle the hoverball." = "打开、关闭还是切换悬浮球。";
+
+/* No comment provided by engineer. */
+"Whether to start, stop, or toggle screen recording." = "开始、停止还是启停屏幕录制。";
+
+/* No comment provided by engineer. */
+"Whether to start, stop, pause, resume, or toggle recording." = "开始、停止、暂停、继续还是启停录音。";
+
+/* No comment provided by engineer. */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "是否等待播放完成。关闭后，此动作会在播放开始后立即返回。";
+
+/* No comment provided by engineer. */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "是否等待播放完成。关闭后，此动作会在播放开始后立即返回。“无限重复” 始终会在播放开始后立即返回。";
+
+/* No comment provided by engineer. */
+"Which channel to control." = "要控制的通话通道。";
 
 /* No comment provided by engineer. */
 "Which channel to mute." = "需要静音的通道。";

@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} nahrávání";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} živé titulky";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} nahrávání obrazovky";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} příchozí hovory";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Nápověda";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "Pro funkci „Launch Shield“ je vyžadován widget.";
 
 /* Translated with LLM */
-"accept" = "přijmout";
+"accept" = "Přijmout";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Automaticky přijímat všechny příchozí hovory.";
+"Accept" = "Přijmout";
 
 /* Translated with LLM */
 "accept call" = "přijmout hovor";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Přijímat příchozí hovory";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Přijmout nebo odmítnout všechny příchozí hovory. Vrací true, pokud byl požadavek úspěšně odeslán démonovi; jinak false.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Přístup z webového prohlížeče";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Přistupujte ke svým nahrávkám z prohlížeče WebDAV na jiném zařízení v síti. Server je aktivní pouze tehdy, když je aplikace v popředí.";
+
+/* Translated with LLM */
+"actions" = "akce";
 
 /* Translated with LLM */
 "activate" = "aktivovat";
@@ -110,7 +137,13 @@
 "activate hoverball" = "aktivovat Hoverball";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Aktivujte vznášedlo rekordéru.";
+"activate live captions" = "aktivovat živé titulky";
+
+/* Translated with LLM */
+"Active Call Count" = "Počet aktivních hovorů";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Identifikátory aktivních volání";
 
 /* Translated with LLM */
 "Add" = "Přidat";
@@ -251,7 +284,13 @@
 "Any" = "Jakýkoli";
 
 /* Translated with LLM */
+"Any Recording" = "Jakákoli nahrávka";
+
+/* Translated with LLM */
 "App Icon" = "Ikona aplikace";
+
+/* Translated with LLM */
+"App Intent" = "Záměr aplikace";
 
 /* Translated with LLM */
 "App Language" = "Jazyk aplikace";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "archivovat";
+"archive" = "Archiv";
 
 /* Translated with LLM */
 "Archive" = "Archiv";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "Koupit TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "Počet bajtů";
+
+/* Translated with LLM */
 "Calculating…" = "Probíhá výpočet…";
 
 /* Translated with LLM */
 "Call" = "Hovor";
 
 /* Translated with LLM */
-"call" = "hovor";
+"call" = "Hovor";
+
+/* Translated with LLM */
+"call audio" = "zvuk hovoru";
 
 /* Translated with LLM */
 "call audio on" = "zapnout zvuk hovoru";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Sledování zvukového potrubí hovoru se nezdařilo. Klepnutím na toto oznámení znovu spustíte nahrávací službu.";
 
 /* Translated with LLM */
-"call connected" = "volání připojeno";
+"Call Automation" = "Automatizace volání";
 
 /* Translated with LLM */
-"Call Direction" = "Směr volání";
+"Call Automation (Legacy)" = "Automatizace volání (starší)";
+
+/* Translated with LLM */
+"call connected" = "volání připojeno";
 
 /* Translated with LLM */
 "call duration" = "délka hovoru";
 
 /* Translated with LLM */
+"Call History Identifier" = "Identifikátor historie hovorů";
+
+/* Translated with LLM */
 "Call Identifier" = "Identifikátor hovoru";
+
+/* Translated with LLM */
+"Call Info" = "Informace o hovoru";
+
+/* Translated with LLM */
+"call info" = "Informace o hovoru";
 
 /* Translated with LLM */
 "call information" = "informace o volání";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Nahrávání hovorů: Druhá strana";
 
 /* Translated with LLM */
-"Call State" = "Stav hovoru";
+"Call Sniffer" = "Odposlech hovorů";
 
 /* Translated with LLM */
 "call status" = "stav hovoru";
@@ -548,10 +605,16 @@
 "Caution" = "Upozornění";
 
 /* Translated with LLM */
+"Channel" = "Kanál";
+
+/* Translated with LLM */
 "check" = "zkontrolovat";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Zkontrolujte, zda je démon spuštěn. Pokud ne, spusťte jej.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Zkontroluje, zda je démon spuštěn. Pokud ne, spustí jej. Vrátí informace o službě, pokud démon po kontrole běží; jinak nevrátí nic.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Zkontroluje, zda je démon spuštěn. Pokud ne, spustí jej. Vrací true, pokud je démon po kontrole spuštěn; jinak false.";
 
 /* Translated with LLM */
 "check service" = "kontrola služby";
@@ -611,6 +674,9 @@
 "close hoverball" = "zavřít hoverball";
 
 /* Translated with LLM */
+"close live captions" = "zavřít živé titulky";
+
+/* Translated with LLM */
 "cloud archive sync" = "synchronizace cloudového archivu";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Před přenosem nahrávek se připojte k síti Wi‑Fi.";
 
 /* Translated with LLM */
-"connected" = "připojeno";
+"connected" = "Připojeno";
+
+/* Translated with LLM */
+"Connected" = "Připojeno";
+
+/* Translated with LLM */
+"Connected At" = "Čas připojení";
 
 /* Translated with LLM */
 "connected call" = "spojený hovor";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Výjimky pro kontakty";
+
+/* Translated with LLM */
+"Contact Identifier" = "Identifikátor kontaktu";
+
+/* Translated with LLM */
+"Contact Label" = "Štítek kontaktu";
 
 /* Translated with LLM */
 "Contact Name" = "Jméno kontaktu";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Nepřetržité přehrávání zapnuto";
+
+/* Translated with LLM */
+"control call audio" = "ovládání zvuku hovoru";
+
+/* Translated with LLM */
+"control call muting" = "Ovládání ztlumení hovoru";
+
+/* Translated with LLM */
+"Control Call Muting" = "Ovládání ztlumení hovoru";
+
+/* Translated with LLM */
+"control hoverball" = "Ovládání Hoverballu";
+
+/* Translated with LLM */
+"Control Hoverball" = "Ovládání Hoverballu";
+
+/* Translated with LLM */
+"Control Live Captions" = "Ovládání živých titulků";
+
+/* Translated with LLM */
+"control live captions" = "Ovládání živých titulků";
+
+/* Translated with LLM */
+"control recording" = "Ovládání nahrávání";
+
+/* Translated with LLM */
+"Control Recording" = "Ovládání nahrávání";
+
+/* Translated with LLM */
+"control screen recording" = "Ovládání nahrávání obrazovky";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Ovládání nahrávání obrazovky";
 
 /* Translated with LLM */
 "Conversion Failed" = "Konverze se nezdařila";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Nepodařilo se odhlásit účet: %@";
 
 /* Translated with LLM */
+"Country Code" = "Kód země";
+
+/* Translated with LLM */
 "Created At" = "Vytvořeno";
 
 /* Translated with LLM */
 "Credentials" = "Přihlašovací údaje";
+
+/* Translated with LLM */
+"Current" = "Aktuální";
 
 /* Translated with LLM */
 "current call" = "aktuální hovor";
@@ -809,7 +926,7 @@
 "Day of Week String" = "Řetězec dne v týdnu";
 
 /* Translated with LLM */
-"deactivate" = "deaktivovat";
+"deactivate" = "Deaktivovat";
 
 /* Translated with LLM */
 "Deactivate" = "Deaktivovat";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "deaktivovat Hoverball";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Deaktivujte vznášedlo rekordéru.";
+"deactivate live captions" = "deaktivovat živé titulky";
 
 /* Translated with LLM */
 "Debugging" = "Ladění";
@@ -863,10 +980,16 @@
 "Developer Options" = "Možnosti pro vývojáře";
 
 /* Translated with LLM */
+"Dialing" = "Vytáčení";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Diktování zakázáno";
 
 /* Translated with LLM */
 "Digital Video" = "Digitální video";
+
+/* Translated with LLM */
+"Digits" = "Číslice";
 
 /* Translated with LLM */
 "Direction" = "Směr";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Popis směru";
 
 /* Translated with LLM */
-"directory" = "adresář";
+"directory" = "Adresář";
 
 /* Translated with LLM */
 "Directory" = "Adresář";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Zahodit nahrávku";
+
+/* Translated with LLM */
+"Disconnected" = "Odpojeno";
+
+/* Translated with LLM */
+"Disconnected At" = "Čas odpojení";
 
 /* Translated with LLM */
 "Discreet Mode" = "Diskrétní režim";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Zobrazit název zdrojového svazku nahrávky.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Zobrazí místní oznámení.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Zobrazí místní oznámení. Vrací true, pokud byl požadavek na oznámení úspěšně odeslán; jinak false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Chcete vymazat tento soubor protokolu „%@“?";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Povolit Face ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Povolit měření úrovně a zobrazit indikátor, když je plovoucí koule složená. Tato možnost je k dispozici pouze tehdy, je-li „Přechod při nečinnosti“ nastaveno na „Vždy složit“.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Povolte měření úrovně pro řízení průběhu v reálném čase na stavovém panelu „Nahrávání“ a zobrazení sloupcového indikátoru, když je sbalená plovoucí koule.";
 
 /* Translated with LLM */
 "Enable Logging" = "Povolit protokolování";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Umožňuje serveru WebDAV, aby se automaticky pozastavil, když aplikace přejde na pozadí a poslední připojení je uzavřeno, a poté se obnovil, když se aplikace vrátí do popředí.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Kódujte zvuk během nahrávání, abyste zmenšili velikost dočasných souborů a zkrátili dobu následného zpracování. Může to více zatížit CPU a baterii a přerušené nahrávky může být obtížnější obnovit.";
+
+/* Translated with LLM */
 "Encoding" = "Kódování";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "ukončit nahrávání obrazovky";
 
 /* Translated with LLM */
-"Enhance Recording" = "Vylepšení nahrávání";
+"Ended" = "Ukončeno";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Vylepšené automatické nahrávání";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Ukončit vznášedlo";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Ukončit živé titulky";
+
+/* Translated with LLM */
 "Expand Recursively" = "Rozbalit rekurzivně";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Exportovat jako ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Název exportovaného souboru";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Exportujte nahrávky kamkoli chcete bez omezení.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Formát souboru";
+
+/* Translated with LLM */
+"File Name" = "Název souboru";
 
 /* Translated with LLM */
 "File not found." = "Soubor nebyl nalezen.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Získat ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Získat informace o volání ${requestedSession}";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Získat informace o záznamu ${requestedSession}";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Získejte pokročilé ovládání při nahrávání přímo v hovoru.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Získat délku hovoru";
 
 /* Translated with LLM */
+"Get Call Info" = "Získat informace o hovoru";
+
+/* Translated with LLM */
 "Get Call Status" = "Získat stav hovoru";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Získání informací o aktuální cestě nahrávky jako starší textové hodnoty. Pro nové zkratky preferujte „Získat informace o nahrávce“.";
 
 /* Translated with LLM */
 "Get In Touch" = "Spojte se s námi";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Získat oznámení po dokončení záznamu.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Získat informace o primárním hovoru jako jeden objekt.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Získat délku nahrávání";
+
+/* Translated with LLM */
+"Get Recording Info" = "Získat informace o nahrávání";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Získání informací o nahrávce jako jednoho objektu.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Získat cesty k nahrávkám";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Získat stav nahrávání";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Získat aktuální délku nahrávání v aplikaci TrollRecorder.";
+"Get Screen Recording Info" = "Získat informace o nahrávání obrazovky";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Získat aktuální cesty k nahrávkám v aplikaci TrollRecorder.";
+"Get screen recording information as a single object." = "Získání informací o nahrávání obrazovky jako jednoho objektu.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Získat aktuální stav nahrávání v aplikaci TrollRecorder.";
+"Get Service Info" = "Získat informace o službě";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Získat dobu trvání primárního hovoru zařízení.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Získání aktuální doby trvání nahrávky jako starší číselné hodnoty. Pro nové zkratky preferujte „Získat informace o nahrávce“.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Získat stav primárního hovoru zařízení.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Získejte aktuální stav nahrávání jako starší logickou hodnotu. Výsledek je pravda, pokud je vybrané pole stavu pravda; nepravda, pokud je nepravda nebo není k dispozici. Pro nové zkratky preferujte „Získat informace o nahrávání“.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Získání doby trvání primárního hovoru jako starší číselné hodnoty. Pro nové zkratky preferujte „Získat informace o hovoru“.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Získání stavu primárního hovoru jako starší textové hodnoty. Pro nové zkratky preferujte „Získat informace o hovoru“.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Přejít na plochu po odemčení";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Skupinové volání";
+
+/* Translated with LLM */
+"handle incoming calls" = "Zpracovat příchozí hovory";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Zpracovat příchozí hovory";
 
 /* Translated with LLM */
 "hang up calls" = "zavěsit hovory";
@@ -1435,6 +1609,9 @@
 /* No comment provided by engineer. */
 "Hoverball" = "Hoverball";
 
+/* Translated with LLM */
+"Hoverball (Legacy)" = "Hoverball (starší verze)";
+
 /* No comment provided by engineer. */
 "Hoverball Plus" = "Hoverball Plus";
 
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Styl vznášedla";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Nahrávání hovorů";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Pokud není aktivní žádný telefonní hovor, stiskněte obě fyzická tlačítka hlasitosti pro provedení zadané akce.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Pokud k tomu dochází často, vypněte „Real-time Encoding“ v nastavení „Post-processing & Output“.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Pokud jste upravovali nahrávky pomocí Filzy nebo narazili na problémy s oprávněními souborového systému, můžete je opravit zde.";
@@ -1529,7 +1712,7 @@
 "Incoming Call" = "Příchozí hovor";
 
 /* Translated with LLM */
-"incoming call" = "příchozí hovor";
+"incoming call" = "Příchozí hovor";
 
 /* Translated with LLM */
 "Incoming Call Answered" = "Příchozí hovor přijat";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Instalovat úpravu historie hovorů";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Přeruší jakýkoli zvuk uplinku nebo hlasový komentář, který se právě přehrává do mikrofonu. Vrací true, pokud bylo přehrávání přerušeno; jinak false.";
+
+/* Translated with LLM */
+"interrupt call playback" = "Přerušit přehrávání volání";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "přerušit uplink zvuku";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Přerušit přehrávání uplinku";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Přerušit přehrávání uplinku";
+
+/* Translated with LLM */
+"interrupt voice over" = "přerušit voice over";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Neplatný podpis kódu";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Je k dispozici";
 
 /* Translated with LLM */
 "Is Favourite" = "Je oblíbený";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "Je pozastaveno";
 
 /* Translated with LLM */
-"is recording" = "nahrává";
+"is recording" = "Nahrává";
+
+/* Translated with LLM */
+"Is Recording" = "Nahrává";
 
 /* Translated with LLM */
 "Is Running" = "Běží";
+
+/* Translated with LLM */
+"Is Service Running" = "Je služba spuštěna";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Čeká na zařízení";
+
+/* Translated with LLM */
+"ISO Country Code" = "Kód země ISO";
 
 /* Translated with LLM */
 "Item #%lu" = "Položka #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Ponechat obrazovku zapnutou při připojení";
+
+/* Translated with LLM */
+"Key Event" = "Klíčová událost";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Vyhýbání se klávesnici";
@@ -1616,6 +1835,9 @@
 "Later" = "Později";
 
 /* Translated with LLM */
+"Latest" = "Nejnovější";
+
+/* Translated with LLM */
 "launch" = "spuštění";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "přední okraj";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Starší akce. Počká, dokud nejsou všechny hovory přijaty a spojeny. Vrací true, pokud vytáčený hovor přestane vytáčet před vypršením časového limitu; jinak false. U nových zkratek preferujte „Čekat na hovor“.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Starší akce pro zvuk hovoru. Pro nové zkratky preferujte „Ovládání ztlumení hovoru“. Vrací hodnotu true, pokud byl požadavek úspěšně odeslán démonovi; jinak false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Akce staršího hoverballu. Pro nové zkratky preferujte „Control Hoverball“. Vrací hodnotu true, pokud bylo nastavení hoverballu úspěšně zakázáno; jinak false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Akce staršího hoverballu. Pro nové zkratky preferujte „Control Hoverball“. Vrací hodnotu true, pokud bylo nastavení hoverballu úspěšně povoleno; jinak false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Akce staršího hoverballu. Pro nové zkratky preferujte „Control Hoverball“. Vrací hodnotu true, pokud bylo nastavení hoverballu úspěšně přepnuto; jinak false.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Starší akce pro příchozí hovor. Pro nové zkratky preferujte „Zpracovat příchozí hovory“. Vrací hodnotu true, pokud byl požadavek úspěšně odeslán démonovi; jinak false.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Starý jailbreak";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Akce s živými titulky (starší verze). Pro nové zkratky upřednostněte „Ovládání živých titulků“. Vrací hodnotu true, pokud byly živé titulky úspěšně vypnuty; jinak false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Akce s živými titulky (starší verze). Pro nové zkratky upřednostněte „Ovládání živých titulků“. Vrací hodnotu true, pokud byly živé titulky úspěšně povoleny; jinak false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Akce s živými titulky (starší verze). Pro nové zkratky upřednostněte „Ovládání živých titulků“. Vrací hodnotu true, pokud byly živé titulky úspěšně přepnuty; jinak false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Akce staršího nahrávání. Pro nové zkratky preferujte „Ovládání nahrávání“. Vrací hodnotu true, pokud byl požadavek na nahrávání úspěšný; jinak false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Akce staršího nahrávání. Pro nové zkratky preferujte „Ovládání nahrávání“. Vrací hodnotu true, pokud byl požadavek na zastavení úspěšný; jinak false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Akce staršího nahrávání obrazovky. Pro nové zkratky preferujte „Ovládání nahrávání obrazovky“. Vrací hodnotu true, pokud byl požadavek na nahrávání obrazovky úspěšný; jinak false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Akce staršího nahrávání obrazovky. Pro nové zkratky preferujte „Ovládání nahrávání obrazovky“. Vrací hodnotu true, pokud byl požadavek na zastavení úspěšný; jinak false.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Došlo k méně závažné chybě.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Živé titulky";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Živé titulky (starší verze)";
 
 /* Translated with LLM */
 "Loading…" = "Načítání…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Pořídit záznam ${requestedMode}";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Vytvořte nový záznam nebo zastavte stávající.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Vytvořte novou hlasovou poznámku nebo zastavte stávající.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Metadata";
 
 /* Translated with LLM */
+"Metadata Path" = "Cesta k metadatům";
+
+/* Translated with LLM */
 "Microphone" = "Mikrofon";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "Smíšený";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Mixér a kombinátor";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Formát zvuku mixéru";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "Zvuk MPEG-4";
 
 /* Translated with LLM */
-"mute" = "ztlumit";
+"mute" = "Ztlumit";
+
+/* Translated with LLM */
+"Mute" = "Ztlumit";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Ztlumit ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Ztlumit stávající hovory";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Ztlumit zadaný kanál všech stávajících hovorů.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Ztlumí nebo zruší ztlumení zadaného kanálu všech existujících hovorů. Vrací hodnotu true, pokud byl požadavek úspěšně odeslán démonovi; jinak false.";
 
 /* Translated with LLM */
 "My Favourite" = "Můj oblíbený";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Název s přezdívkou";
+
+/* Translated with LLM */
+"Network Code" = "Kód sítě";
 
 /* Translated with LLM */
 "Network Storage" = "Síťové úložiště";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Nic uvnitř";
 
 /* Translated with LLM */
-"notification" = "oznámení";
+"notification" = "Oznámení";
+
+/* Translated with LLM */
+"Notification" = "Oznámení";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Oprávnění k oznámení zamítnuto";
@@ -2000,7 +2270,7 @@
 "Open" = "Otevřít";
 
 /* Translated with LLM */
-"open" = "otevřít";
+"open" = "Otevřít";
 
 /* Translated with LLM */
 "Open Application" = "Otevřít aplikaci";
@@ -2009,7 +2279,7 @@
 "Open Hoverball" = "Otevřít Hoverball";
 
 /* Translated with LLM */
-"open hoverball" = "otevřít hoverball";
+"open hoverball" = "Otevřít Hoverball";
 
 /* Translated with LLM */
 "Open in Filza" = "Otevřít ve Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Otevřít v Mapách";
 
 /* Translated with LLM */
+"Open Live Captions" = "Otevřít živé titulky";
+
+/* Translated with LLM */
+"open live captions" = "Otevřít živé titulky";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Otevřít TrollRecorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Otevřít, zavřít nebo přepínat živé titulky. Vrací hodnotu true, pokud bylo nastavení živých titulků úspěšně změněno; jinak false.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Otevřít, zavřít nebo přepínat vznášecí kouli rekordéru. Vrací hodnotu true, pokud bylo nastavení vznášecí koule úspěšně změněno; jinak false.";
 
 /* Translated with LLM */
 "Operation Failed" = "Operace se nezdařila";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Pozastavit nahrávání";
 
 /* Translated with LLM */
+"pause recording" = "Pozastavit nahrávání";
+
+/* Translated with LLM */
 "Paused" = "Pozastaveno";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Proveďte úplnou synchronizaci „Zálohování s iCloudem“ a „Inteligentní cloudový archiv“.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Proveďte úplnou synchronizaci „Zálohování s iCloudem“ a „Inteligentní cloudový archiv“. Vrací hodnotu true, pokud je démon spuštěn a synchronizace hlásí úspěch; jinak false.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Provést úplnou synchronizaci";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "Přehrát ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Přehraje zadaný zvukový soubor do mikrofonu. Vrací true, pokud bylo přehrávání úspěšně spuštěno; jinak false. Neplatné zvukové soubory vyvolají chybu.";
+
+/* Translated with LLM */
 "play audio file" = "přehrát zvukový soubor";
+
+/* Translated with LLM */
+"play call audio" = "Přehrát zvuk hovoru";
+
+/* Translated with LLM */
+"Play Call Audio" = "Přehrát zvuk hovoru";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Upozornění na přehrávání záznamu";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Přehrát zvuk";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Přehrát zadaný zvukový soubor do mikrofonu.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Přehrát zadaný hlasový text do mikrofonu.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Přehrávání přes sluchátko";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Přehrávání přes reproduktor";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Přehrát zvuk na přípojce";
-
-/* Translated with LLM */
 "play uplink audio" = "přehrát zvuk na přípojce";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Přehrát hlasové vysílání na přípojce";
 
 /* Translated with LLM */
 "play voice over" = "přehrát hlasový komentář";
@@ -2261,6 +2543,12 @@
 "post notification" = "odeslat oznámení";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Následné zpracování a výstup";
+
+/* Translated with LLM */
+"Pre-release Version" = "Verze před vydáním";
+
+/* Translated with LLM */
 "Preparing" = "Příprava";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Zachovat všechny kanály";
+
+/* Translated with LLM */
+"Preset Providers" = "Poskytovatelé předvoleb";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Akce stisknutí a podržení";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Připraveno k nahrávání!";
 
 /* Translated with LLM */
+"real-time captions" = "titulky v reálném čase";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Kódování v reálném čase";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Přijata chyba autorizace: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Záznam";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Nahrávání (starší)";
 
 /* Translated with LLM */
 "Record All Calls" = "Nahrávat všechny hovory";
@@ -2447,6 +2747,15 @@
 "recording file" = "soubor nahrávky";
 
 /* Translated with LLM */
+"Recording Info" = "Informace o nahrávání";
+
+/* Translated with LLM */
+"recording info" = "Informace o nahrávání";
+
+/* Translated with LLM */
+"recording information" = "informace o nahrávání";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Nahrávání přerušeno";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Možnosti nahrávání";
 
 /* Translated with LLM */
-"recording path" = "cesta nahrávky";
+"recording path" = "Cesta nahrávky";
+
+/* Translated with LLM */
+"Recording Path" = "Cesta nahrávky";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Nahrávání se spustí, když jsou zvukové vstupy i výstupy nepřetržitě aktivní.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Regenerovat vše";
 
 /* Translated with LLM */
-"reject" = "odmítnout";
+"reject" = "Odmítnout";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Automaticky odmítnout všechny příchozí hovory.";
+"Reject" = "Odmítnout";
 
 /* Translated with LLM */
 "reject call" = "odmítnout hovor";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Odmítnout příchozí hovory";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Identifikátory souvisejících aplikačních balíčků";
+
+/* Translated with LLM */
+"Related Application Count" = "Počet souvisejících aplikací";
 
 /* Translated with LLM */
 "Relaunched" = "Znovu spuštěno";
@@ -2569,8 +2887,11 @@
 /* Translated with LLM */
 "Reset Service" = "Resetovat službu";
 
-/* No comment provided by engineer. */
-"Respring" = "Respring";
+/* Translated with LLM */
+"responses" = "odpovědi";
+
+/* Translated with LLM */
+"Respring" = "Restartovat";
 
 /* Translated with LLM */
 "Restart Render Server" = "Restartovat vykreslovací server";
@@ -2597,7 +2918,13 @@
 "Restoring" = "Obnovování";
 
 /* Translated with LLM */
+"Resume" = "Obnovit";
+
+/* Translated with LLM */
 "Resume Recording" = "Obnovit nahrávání";
+
+/* Translated with LLM */
+"resume recording" = "Obnovit nahrávání";
 
 /* Translated with LLM */
 "Resume with Warning" = "Obnovit s varováním";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "zastavení zachycení obrazovky";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Informace o nahrávání obrazovky";
+
+/* Translated with LLM */
+"screen recording info" = "Informace o nahrávání obrazovky";
+
+/* Translated with LLM */
 "screen recording off" = "nahrávání obrazovky vypnuto";
+
+/* Translated with LLM */
+"screen recording status" = "stav nahrávání obrazovky";
 
 /* Translated with LLM */
 "SCRN: 2025SR1911573" = "Č. osvědčení: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Vyhledávání blízkých zařízení";
 
 /* Translated with LLM */
-"Search…" = "Hledat…";
-
-/* Translated with LLM */
 "Seconds" = "Sekundy";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Odeslat diagnostiku";
 
 /* Translated with LLM */
+"Sender Address" = "Adresa odesílatele";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Lokalizovaný název odesílatele";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Lokalizovaný zkrácený název odesílatele";
+
+/* Translated with LLM */
 "Sender Name" = "Jméno odesílatele";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Telefonní adresa odesílatele";
+
+/* Translated with LLM */
+"Sender Service Name" = "Název služby odesílatele";
 
 /* Translated with LLM */
 "Sender Short Name" = "Krátký název odesílatele";
@@ -2777,13 +3122,22 @@
 "service active" = "služba aktivní";
 
 /* Translated with LLM */
+"Service Info" = "Informace o službě";
+
+/* Translated with LLM */
+"service info" = "Informace o službě";
+
+/* Translated with LLM */
 "Service is alive" = "Služba je aktivní";
 
 /* Translated with LLM */
 "Service is dead" = "Služba je mrtvá";
 
 /* Translated with LLM */
-"Service Status" = "Stav služby";
+"service status" = "stav služby";
+
+/* Translated with LLM */
+"service statuses" = "stavy služeb";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Nastavte nový název pro tento záznam, nebo ponechte prázdné pro použití výchozího názvu.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Zobrazit oznámení";
 
 /* Translated with LLM */
-"show notification" = "zobrazit oznámení";
+"show notification" = "Zobrazit oznámení";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Zobrazit oznámení ${requestedMessage}";
@@ -2903,10 +3257,19 @@
 "Space" = "Místo na disku";
 
 /* Translated with LLM */
+"speak call voice over" = "přehrát hlasový komentář";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Přehrát hlasové vysílání na přípojce";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Přehrát zadaný hlasový text do mikrofonu. Vrací true, pokud bylo přehrávání úspěšně spuštěno; jinak false. Při čekání na dokončení přehrávání je maximální doba čekání 60 sekund.";
+
+/* Translated with LLM */
 "Speaker" = "Reproduktor";
 
 /* Translated with LLM */
-"speaker" = "reproduktor";
+"speaker" = "Reproduktor";
 
 /* Translated with LLM */
 "speaker off" = "reproduktor vypnutý";
@@ -2924,10 +3287,16 @@
 "spoken audio" = "mluvený zvuk";
 
 /* Translated with LLM */
-"start" = "spustit";
+"Stable Version" = "Stabilní verze";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Spusťte systémové nahrávání obrazovky, stejně jako v Ovládacím centru.";
+"Standby" = "Pohotovostní režim";
+
+/* Translated with LLM */
+"start" = "Spustit";
+
+/* Translated with LLM */
+"Start" = "Spustit";
 
 /* Translated with LLM */
 "Start Call Recording" = "Spustit nahrávání hovorů";
@@ -2939,9 +3308,6 @@
 "Start Date" = "Datum zahájení";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Spusťte nebo připravte nahrávání hovoru, systémový zvukový záznam nebo vytvořte hlasovou poznámku.";
-
-/* Translated with LLM */
 "Start Recording" = "Spustit nahrávání";
 
 /* Translated with LLM */
@@ -2951,13 +3317,19 @@
 "Start Screen Recording" = "Spustit nahrávání obrazovky";
 
 /* Translated with LLM */
-"start screen recording" = "spustit nahrávání obrazovky";
+"start screen recording" = "Spustit nahrávání obrazovky";
 
 /* Translated with LLM */
 "Start System Audio Recording" = "Spustit nahrávání systémového zvuku";
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "Spustit nahrávání hlasových poznámek";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Spustí, zastaví nebo přepne nahrávání obrazovky systému. Vrací hodnotu true, pokud byl požadavek na nahrávání obrazovky úspěšný; jinak false.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Spustí, zastaví, pozastaví, obnoví nebo přepne nahrávání. Vrací hodnotu true, pokud byl požadavek na nahrávání úspěšný; jinak false.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Spuštění exportní služby trvá déle, než se očekávalo. Zkontrolujte prosím síť a zkuste to znovu.";
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Zůstaňte naladěni. Na pozadí nahráváme váš hovor.";
 
 /* Translated with LLM */
-"stop" = "zastavit";
+"stop" = "Zastavit";
 
 /* Translated with LLM */
 "Stop" = "Zastavit";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "Zastavit a uložit";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Zastavit nahrávání hovoru, systémového zvukového záznamu nebo hlasové poznámky, pokud existuje.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Zastavit záznam obrazovky systému, pokud existuje.";
 
 /* Translated with LLM */
 "Stop Recording" = "Zastavit nahrávání";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Zastavit nahrávání obrazovky";
 
 /* Translated with LLM */
-"stop screen recording" = "zastavit nahrávání obrazovky";
+"stop screen recording" = "Zastavit nahrávání obrazovky";
 
 /* Translated with LLM */
 "Stop Service" = "Zastavit službu";
@@ -3080,6 +3446,15 @@
 "System Record" = "Systémový záznam";
 
 /* Translated with LLM */
+"System Record (Legacy)" = "Systémový záznam (starší)";
+
+/* Translated with LLM */
+"system record info" = "informace o systémovém záznamu";
+
+/* Translated with LLM */
+"system recording status" = "stav systémového záznamu";
+
+/* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Klepnutím na __libovolný okraj__  \njej vyberete jako ___aktivní hranu___.";
 
 /* Translated with LLM */
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Zjištěna technická chyba";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Telefonní nástroje";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Dočasně ignorovat";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Vyskytla se dočasná chyba, další pokusy by ji mohly opravit.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Dočasná cesta nahrávky";
+
+/* Translated with LLM */
 "terminate" = "ukončit";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Okamžitě ukončit všechna aktivní volání.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Okamžitě ukončete všechna aktivní volání. Vrací true, pokud byl požadavek úspěšně odeslán démonovi; jinak false.";
 
 /* Translated with LLM */
 "terminate call" = "ukončit hovor";
@@ -3134,9 +3515,6 @@
 "text to speech" = "převod textu na řeč";
 
 /* Translated with LLM */
-"text-to-speech" = "převod textu na řeč";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "Systém přerušil %@. Záznam můžete později převést ručně.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "Identifikátor svazku aplikace, která volání iniciovala.";
+
+/* Translated with LLM */
+"The call event to wait for." = "Událost volání, na kterou se má čekat.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Obsah textového souboru „%@“ je prázdný.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Maximální počet sekund čekání na spojení hovorů.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Maximální počet sekund čekání na vybranou událost volání.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "Chybějící metadata o poloze budou doplněna, pokud aplikaci otevřete ihned po nahrávání.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "Akce primárního tlačítka na pravé straně plovoucí koule, když není aktivní žádný hovor.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Vybraný zvukový soubor je neplatný nebo nepodporovaný.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Služba není správně nakonfigurována.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Název provozovatele služby odesílatele.";
+
+/* Translated with LLM */
+"The session to inspect." = "Relace ke kontrole.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "Velikost vybraného zvukového souboru.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Typ obsahu, který má být zaznamenán.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Typ záznamu, který se má ovládat. Jakýkoli záznam se vztahuje pouze na zastavení, pozastavení, obnovení a přepínání.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Typ záznamu, který se má zastavit.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "Jedinečný identifikátor hovoru.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Tento záznam je z WeChatu a „WeChat Assistant“ vám pomůže příště vyplnit jména kontaktů a poznámky z WeChatu.\nZdá se, že nemáte povolený „WeChat Assistant“, chcete jej okamžitě povolit?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Tato nahrávka byla pořízena pomocí „Real-time Encoding“. Tento způsob nahrávání nevytváří surový dočasný zvuk, který by bylo možné použít pro obnovu, takže přerušené nahrávky nelze obnovit.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Tato verze WeChat (%@) není podporována. Aktualizujte prosím na nejnovější verzi.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Třímístné milisekundy";
 
 /* Translated with LLM */
+"Threshold" = "Práh";
+
+/* Translated with LLM */
 "Time Sensitive" = "Časově citlivé";
 
 /* Translated with LLM */
 "time sensitive notification" = "časově citlivé oznámení";
+
+/* Translated with LLM */
+"Timeout" = "Časový limit";
 
 /* Translated with LLM */
 "Title" = "Název";
@@ -3356,7 +3761,10 @@
 "To: %@" = "Komu: %@";
 
 /* Translated with LLM */
-"toggle" = "přepínač";
+"toggle" = "Přepínač";
+
+/* Translated with LLM */
+"Toggle" = "Přepínač";
 
 /* Translated with LLM */
 "Toggle ${requestedMode}" = "Přepnout ${requestedMode}";
@@ -3368,10 +3776,13 @@
 "Toggle Hoverball" = "Přepnout Hoverball";
 
 /* Translated with LLM */
-"toggle hoverball" = "přepnout hoverball";
+"toggle hoverball" = "Přepnout Hoverball";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Zapnout/vypnout Hoverball rekordéru.";
+"toggle live captions" = "Přepnout živé titulky";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Přepnout živé titulky";
 
 /* Translated with LLM */
 "Toggle Recording" = "Přepnout nahrávání";
@@ -3383,13 +3794,10 @@
 "Toggle Screen Recording" = "Přepnout nahrávání obrazovky";
 
 /* Translated with LLM */
-"toggle screen recording" = "přepnout nahrávání obrazovky";
+"toggle screen recording" = "Přepnout nahrávání obrazovky";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Přepnout nahrávání systémového zvuku";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Přepínání systémového nahrávání obrazovky, stejně jako v Ovládacím centru.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Přepnout nahrávání hlasových poznámek";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "přehrávání TTS";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Vypnout „kódování v reálném čase“";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Vypnutím této možnosti zajistíte, že ostatní možnosti na této stránce budou platit pro aktuální aplikaci.";
@@ -3557,6 +3968,9 @@
 "unmute" = "Zapnout zvuk";
 
 /* Translated with LLM */
+"Unmute" = "Zapnout zvuk";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "Zrušit ztlumení ${requestedChannel}";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Zrušit ztlumení stávajících hovorů";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Zrušit ztlumení zadaného kanálu všech stávajících hovorů.";
 
 /* Translated with LLM */
 "Unspecified" = "Nespecifikováno";
@@ -3659,6 +4070,9 @@
 "Utility" = "Nástroj";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Nástroj (Starší)";
+
+/* Translated with LLM */
 "Variant" = "Varianta";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Zobrazit protokoly: Síťové úložiště";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Zobrazit protokoly: Záznamník v reálném čase";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Zobrazit protokoly: Hlasové vysílání";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP kontakty budou vždy nahrávány a přidány do oblíbených.";
+
+/* Translated with LLM */
+"Voice Chat" = "Hlasový chat";
 
 /* Translated with LLM */
 "Voice Memo" = "Hlasová poznámka";
@@ -3761,19 +4181,52 @@
 "wait" = "čekat";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Počkat na volání ${requestedEvent}";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Počkat na událost volání ${requestedEvent}";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Počkejte ${requestedTimeout} sekund";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Počkejte, dokud nebudou všechny hovory přijaty a spojeny.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Čekání na událost volání. Vrátí informace o volání, pokud nastane vybraná událost; jinak po uplynutí časového limitu nevrátí nic.";
 
 /* Translated with LLM */
-"wait for call" = "čekat na hovor";
+"wait for call" = "Čekat na hovor";
+
+/* Translated with LLM */
+"Wait for Call" = "Čekat na hovor";
+
+/* Translated with LLM */
+"wait for call ended" = "čekání na ukončení hovoru";
+
+/* Translated with LLM */
+"wait for call event" = "Čekat na událost volání";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Čekat na událost volání";
 
 /* Translated with LLM */
 "Wait for Calls" = "Čekat na hovory";
 
 /* Translated with LLM */
+"wait for connected call" = "čekání na připojený hovor";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Čekat na připojené hovory";
+
+/* Translated with LLM */
+"wait for incoming call" = "čekání na příchozí hovor";
+
+/* Translated with LLM */
+"wait for outgoing call" = "čekání na odchozí hovor";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Počkat na dokončení";
+
+/* Translated with LLM */
+"Waiting For Device" = "Čekání na zařízení";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Varování, váš hovor je právě nahráván. Varování, váš hovor je právě nahráván.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Když je server WebDAV povolen, určuje, zda je povolen přístup z běžného webového prohlížeče, jako je Safari, Chrome, Edge atd.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Zda přijmout nebo odmítnout příchozí hovory.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Zda se má nahrávka při zastavení zahodit. Ignorováno při spuštění nebo přepínání.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Zda vynutit použití světlého nebo tmavého uživatelského rozhraní aplikace.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Zda vynutit, aby vznášedlo používalo světlý nebo tmavý styl.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Zda při spuštění nebo přepnutí nahrávání obrazovky zahrnout zvuk z mikrofonu.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Zda se má přehrávání zvuku opakovat donekonečna. Pokud je povoleno, tato akce se vrátí ihned po zahájení přehrávání.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Zda ztlumit nebo zrušit ztlumení zvuku hovoru.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Zda otevřít, zavřít nebo přepínat živé titulky.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Zda otevřít, zavřít nebo přepnout vznášedlo.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Zda spustit, zastavit nebo přepnout nahrávání obrazovky.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Zda spustit, zastavit, pozastavit, obnovit nebo přepnout nahrávání.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Zda se má čekat na dokončení přehrávání. Pokud je tato možnost vypnuta, akce se vrátí ihned po spuštění přehrávání.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Zda se má čekat na dokončení přehrávání. Pokud je tato možnost vypnuta, akce se vrátí ihned po spuštění přehrávání. Opakovat nekonečně se vždy vrací ihned po spuštění přehrávání.";
+
+/* Translated with LLM */
+"Which channel to control." = "Který kanál ovládat.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Který kanál ztlumit.";

@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} ghi âm";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} phụ đề trực tiếp";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} ghi màn hình";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} cuộc gọi đến";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Trợ giúp";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -89,7 +110,7 @@
 "accept" = "Chấp nhận";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Tự động chấp nhận tất cả các cuộc gọi đến.";
+"Accept" = "Chấp nhận";
 
 /* Translated with LLM */
 "accept call" = "chấp nhận cuộc gọi";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Chấp nhận cuộc gọi đến";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Chấp nhận hoặc từ chối tất cả các cuộc gọi đến. Trả về true nếu yêu cầu được gửi đến daemon thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Truy cập từ trình duyệt web";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Truy cập các bản ghi âm của bạn từ trình duyệt WebDAV từ một thiết bị khác trong mạng. Máy chủ chỉ hoạt động khi ứng dụng ở phía trước.";
+
+/* Translated with LLM */
+"actions" = "hành động";
 
 /* Translated with LLM */
 "activate" = "kích hoạt";
@@ -110,7 +137,13 @@
 "activate hoverball" = "kích hoạt bong bóng";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Kích hoạt bong bóng ghi âm.";
+"activate live captions" = "bật phụ đề trực tiếp";
+
+/* Translated with LLM */
+"Active Call Count" = "Số cuộc gọi đang hoạt động";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Mã định danh cuộc gọi đang hoạt động";
 
 /* Translated with LLM */
 "Add" = "Thêm";
@@ -251,7 +284,13 @@
 "Any" = "Bất kỳ";
 
 /* Translated with LLM */
+"Any Recording" = "Bất kỳ bản ghi âm nào";
+
+/* Translated with LLM */
 "App Icon" = "Biểu tượng App";
+
+/* Translated with LLM */
+"App Intent" = "Intent của ứng dụng";
 
 /* Translated with LLM */
 "App Language" = "Ngôn ngữ ứng dụng";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "bản sao lưu";
+"archive" = "Bản sao lưu";
 
 /* Translated with LLM */
 "Archive" = "Bản sao lưu";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "Mua TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "Số byte";
+
+/* Translated with LLM */
 "Calculating…" = "Đang tính toán…";
 
 /* Translated with LLM */
 "Call" = "Gọi";
 
 /* Translated with LLM */
-"call" = "gọi";
+"call" = "Gọi";
+
+/* Translated with LLM */
+"call audio" = "âm thanh cuộc gọi";
 
 /* Translated with LLM */
 "call audio on" = "bật âm thanh cuộc gọi";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Giám sát đường truyền âm thanh cuộc gọi thất bại. Nhấn vào thông báo này để khởi động lại dịch vụ ghi âm.";
 
 /* Translated with LLM */
-"call connected" = "cuộc gọi đã kết nối";
+"Call Automation" = "Tự động hóa cuộc gọi";
 
 /* Translated with LLM */
-"Call Direction" = "Hướng cuộc gọi";
+"Call Automation (Legacy)" = "Tự động hóa cuộc gọi (Phiên bản cũ)";
+
+/* Translated with LLM */
+"call connected" = "cuộc gọi đã kết nối";
 
 /* Translated with LLM */
 "call duration" = "thời lượng cuộc gọi";
 
 /* Translated with LLM */
+"Call History Identifier" = "Mã nhận dạng lịch sử cuộc gọi";
+
+/* Translated with LLM */
 "Call Identifier" = "Mã định danh cuộc gọi";
+
+/* Translated with LLM */
+"Call Info" = "Thông tin cuộc gọi";
+
+/* Translated with LLM */
+"call info" = "Thông tin cuộc gọi";
 
 /* Translated with LLM */
 "call information" = "thông tin cuộc gọi";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Ghi âm cuộc gọi: Đầu dây bên kia";
 
 /* Translated with LLM */
-"Call State" = "Trạng thái cuộc gọi";
+"Call Sniffer" = "Theo dõi cuộc gọi";
 
 /* Translated with LLM */
 "call status" = "trạng thái cuộc gọi";
@@ -548,10 +605,16 @@
 "Caution" = "Cảnh báo";
 
 /* Translated with LLM */
+"Channel" = "Kênh";
+
+/* Translated with LLM */
 "check" = "kiểm tra";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Kiểm tra xem daemon có đang chạy không. Nếu không, hãy khởi động nó.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Kiểm tra xem daemon có đang chạy không. Nếu không, hãy khởi động nó. Trả về thông tin dịch vụ nếu daemon đang chạy sau khi kiểm tra; nếu không thì không trả về gì.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Kiểm tra xem daemon có đang chạy không. Nếu không, hãy khởi động nó. Trả về true nếu daemon đang chạy sau khi kiểm tra; nếu không thì trả về false.";
 
 /* Translated with LLM */
 "check service" = "kiểm tra dịch vụ";
@@ -611,6 +674,9 @@
 "close hoverball" = "đóng bong bóng";
 
 /* Translated with LLM */
+"close live captions" = "Đóng phụ đề trực tiếp";
+
+/* Translated with LLM */
 "cloud archive sync" = "đồng bộ kho lưu trữ đám mây";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Hãy kết nối với mạng Wi‑Fi trước khi chuyển các bản ghi âm.";
 
 /* Translated with LLM */
-"connected" = "đã kết nối";
+"connected" = "Đã kết nối";
+
+/* Translated with LLM */
+"Connected" = "Đã kết nối";
+
+/* Translated with LLM */
+"Connected At" = "Đã kết nối lúc";
 
 /* Translated with LLM */
 "connected call" = "cuộc gọi đã kết nối";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Ngoại lệ liên hệ";
+
+/* Translated with LLM */
+"Contact Identifier" = "Mã định danh liên hệ";
+
+/* Translated with LLM */
+"Contact Label" = "Nhãn Liên Hệ";
 
 /* Translated with LLM */
 "Contact Name" = "Tên Liên Hệ";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Bật phát liên tục";
+
+/* Translated with LLM */
+"control call audio" = "điều khiển âm thanh cuộc gọi";
+
+/* Translated with LLM */
+"control call muting" = "Điều khiển âm thanh cuộc gọi";
+
+/* Translated with LLM */
+"Control Call Muting" = "Điều khiển âm thanh cuộc gọi";
+
+/* Translated with LLM */
+"control hoverball" = "Điều khiển Bong bóng";
+
+/* Translated with LLM */
+"Control Hoverball" = "Điều khiển Bong bóng";
+
+/* Translated with LLM */
+"Control Live Captions" = "Điều khiển Phụ đề trực tiếp";
+
+/* Translated with LLM */
+"control live captions" = "Điều khiển Phụ đề trực tiếp";
+
+/* Translated with LLM */
+"control recording" = "Kiểm Soát Ghi Âm";
+
+/* Translated with LLM */
+"Control Recording" = "Kiểm Soát Ghi Âm";
+
+/* Translated with LLM */
+"control screen recording" = "Kiểm Soát Ghi Màn Hình";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Kiểm Soát Ghi Màn Hình";
 
 /* Translated with LLM */
 "Conversion Failed" = "Chuyển đổi thất bại";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Không thể đăng xuất tài khoản: %@";
 
 /* Translated with LLM */
+"Country Code" = "Mã quốc gia";
+
+/* Translated with LLM */
 "Created At" = "Ngày tạo";
 
 /* Translated with LLM */
 "Credentials" = "Thông tin xác thực";
+
+/* Translated with LLM */
+"Current" = "Hiện tại";
 
 /* Translated with LLM */
 "current call" = "cuộc gọi hiện tại";
@@ -809,7 +926,7 @@
 "Day of Week String" = "Tên ngày trong tuần";
 
 /* Translated with LLM */
-"deactivate" = "huỷ kích hoạt";
+"deactivate" = "Huỷ kích hoạt";
 
 /* Translated with LLM */
 "Deactivate" = "Huỷ kích hoạt";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "tắt bong bóng";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Vô hiệu hóa bong bóng ghi âm.";
+"deactivate live captions" = "tắt phụ đề trực tiếp";
 
 /* Translated with LLM */
 "Debugging" = "Gỡ Lỗi";
@@ -863,10 +980,16 @@
 "Developer Options" = "Tuỳ chọn Nhà phát triển";
 
 /* Translated with LLM */
+"Dialing" = "Đang gọi";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Tính năng ghi âm bị tắt";
 
 /* Translated with LLM */
 "Digital Video" = "Video Số";
+
+/* Translated with LLM */
+"Digits" = "Chữ số";
 
 /* Translated with LLM */
 "Direction" = "Hướng";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Mô tả hướng";
 
 /* Translated with LLM */
-"directory" = "thư mục";
+"directory" = "Thư mục";
 
 /* Translated with LLM */
 "Directory" = "Thư mục";
@@ -905,7 +1028,7 @@
 "Discard" = "Bỏ qua";
 
 /* Translated with LLM */
-"discard" = "bỏ qua";
+"discard" = "Bỏ qua";
 
 /* Translated with LLM */
 "Discard Changes" = "Bỏ thay đổi";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Bỏ ghi âm";
+
+/* Translated with LLM */
+"Disconnected" = "Đã ngắt kết nối";
+
+/* Translated with LLM */
+"Disconnected At" = "Đã ngắt kết nối lúc";
 
 /* Translated with LLM */
 "Discreet Mode" = "Chế độ kín đáo";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Hiển thị tên gói nguồn của bản ghi.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Hiển thị thông báo cục bộ.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Hiển thị một thông báo cục bộ. Trả về true nếu yêu cầu thông báo được gửi thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Bạn có muốn xóa tệp nhật ký “%@” không?";
@@ -1043,7 +1172,7 @@
 "Duration" = "Thời lượng";
 
 /* Translated with LLM */
-"duration" = "thời lượng";
+"duration" = "Thời lượng";
 
 /* Translated with LLM */
 "Duration Before Idle" = "Thời Lượng Trước Khi Nhàn Rỗi";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Bật Face ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Bật đo mức âm lượng và hiển thị chỉ báo khi bong bóng được gập lại. Tùy chọn này chỉ khả dụng khi “Chuyển đổi khi nhàn rỗi” đặt là “Luôn gấp lại”.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Bật tính năng đo mức âm thanh để hiển thị dạng sóng thời gian thực trên bảng trạng thái “Ghi âm” và hiển thị thanh chỉ báo khi quả cầu trôi được thu gọn lại.";
 
 /* Translated with LLM */
 "Enable Logging" = "Bật ghi nhật ký";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Cho phép máy chủ WebDAV tự động tạm dừng khi ứng dụng chuyển sang nền và kết nối cuối cùng bị đóng, sau đó tự động tiếp tục khi ứng dụng trở lại nền trước.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Mã hóa âm thanh trong khi ghi để giảm kích thước tệp tạm thời và thời gian xử lý sau. Tùy chọn này có thể dùng nhiều CPU và pin hơn, và bản ghi bị gián đoạn có thể khó khôi phục hơn.";
+
+/* Translated with LLM */
 "Encoding" = "Mã hoá";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "kết thúc ghi màn hình";
 
 /* Translated with LLM */
-"Enhance Recording" = "Tăng cường ghi âm";
+"Ended" = "Đã kết thúc";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Ghi Âm Tự Động Nâng Cao";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Thoát bong bóng";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Thoát Phụ đề trực tiếp";
+
+/* Translated with LLM */
 "Expand Recursively" = "Mở rộng đệ quy";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Xuất dưới dạng ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Tên tệp xuất";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Xuất các bản ghi âm đến bất cứ nơi nào bạn muốn mà không có giới hạn.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Định dạng tệp";
+
+/* Translated with LLM */
+"File Name" = "Tên tệp";
 
 /* Translated with LLM */
 "File not found." = "Không tìm thấy tệp.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Lấy ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Lấy thông tin cuộc gọi ${requestedSession}";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Lấy thông tin bản ghi âm ${requestedSession}";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Nhận điều khiển nâng cao khi ghi âm ngay trong cuộc gọi của bạn.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Lấy thời lượng cuộc gọi";
 
 /* Translated with LLM */
+"Get Call Info" = "Lấy thông tin cuộc gọi";
+
+/* Translated with LLM */
 "Get Call Status" = "Lấy trạng thái cuộc gọi";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Lấy thông tin đường dẫn ghi âm hiện tại dưới dạng giá trị văn bản kế thừa. Ưu tiên sử dụng “Lấy Thông Tin Ghi Âm” cho các phím tắt mới.";
 
 /* Translated with LLM */
 "Get In Touch" = "Liên lạc";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Nhận thông báo sau khi hoàn thành bản ghi.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Lấy thông tin cuộc gọi chính dưới dạng một đối tượng duy nhất.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Lấy thời lượng ghi âm";
+
+/* Translated with LLM */
+"Get Recording Info" = "Lấy Thông Tin Ghi Âm";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Lấy thông tin ghi âm dưới dạng một đối tượng duy nhất.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Lấy đường dẫn ghi âm";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Lấy trạng thái ghi âm";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Lấy thời lượng ghi âm hiện tại của Troll Recorder.";
+"Get Screen Recording Info" = "Lấy Thông Tin Quay Màn Hình";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Lấy đường dẫn ghi âm hiện tại của Troll Recorder.";
+"Get screen recording information as a single object." = "Lấy thông tin quay màn hình dưới dạng một đối tượng duy nhất.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Lấy trạng thái ghi âm hiện tại của Troll Recorder.";
+"Get Service Info" = "Lấy thông tin dịch vụ";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Lấy thời lượng cuộc gọi chính của thiết bị.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Lấy thời lượng ghi âm hiện tại dưới dạng giá trị số kế thừa. Ưu tiên sử dụng “Lấy Thông Tin Ghi Âm” cho các phím tắt mới.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Lấy trạng thái cuộc gọi chính của thiết bị.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Lấy trạng thái ghi âm hiện tại dưới dạng giá trị Boolean cũ. Kết quả là true khi trường trạng thái đã chọn là true; false khi trường đó là false hoặc không khả dụng. Ưu tiên sử dụng “Get Recording Info” cho các phím tắt mới.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Lấy thời lượng cuộc gọi chính dưới dạng giá trị số kế thừa. Ưu tiên sử dụng “Lấy Thông Tin Cuộc Gọi” cho các phím tắt mới.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Lấy trạng thái cuộc gọi chính dưới dạng giá trị văn bản kế thừa. Ưu tiên sử dụng “Lấy Thông Tin Cuộc Gọi” cho các phím tắt mới.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Về màn hình chính khi mở khóa";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Cuộc gọi nhóm";
+
+/* Translated with LLM */
+"handle incoming calls" = "Xử lý cuộc gọi đến";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Xử lý cuộc gọi đến";
 
 /* Translated with LLM */
 "hang up calls" = "ngắt cuộc gọi";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "Bong Bóng";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "Hoverball (Phiên bản cũ)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "Bong Bóng +";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Chế Độ Sáng/Tối";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Ghi Âm cuộc gọi";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Nếu không có cuộc gọi nào đang diễn ra, hãy nhấn cả hai nút âm lượng vật lý để thực hiện hành động đã chỉ định.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Nếu tình trạng này xảy ra thường xuyên, hãy tắt “Mã hóa thời gian thực” trong phần cài đặt “Xử lý sau & Đầu ra”.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Nếu bạn đã sửa đổi bản ghi bằng Filza hoặc gặp phải bất kỳ sự cố nào về đặc quyền hệ thống tệp, bạn có thể khắc phục chúng tại đây.";
@@ -1523,13 +1706,13 @@
 "Incoming" = "Cuộc gọi đến";
 
 /* Translated with LLM */
-"incoming" = "đang đến";
+"incoming" = "Cuộc gọi đến";
 
 /* Translated with LLM */
 "Incoming Call" = "Cuộc gọi đến";
 
 /* Translated with LLM */
-"incoming call" = "cuộc gọi đến";
+"incoming call" = "Cuộc gọi đến";
 
 /* Translated with LLM */
 "Incoming Call Answered" = "Cuộc gọi đến đã trả lời";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Cài đặt Tweak Lịch Sử Cuộc Gọi";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Ngắt bất kỳ luồng âm thanh hoặc giọng nói nào đang được phát lên qua micro. Trả về true nếu quá trình phát đã bị ngắt; ngược lại, trả về false.";
+
+/* Translated with LLM */
+"interrupt call playback" = "ngắt phát lại cuộc gọi";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "ngắt âm thanh đường truyền lên";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Ngắt Phát Lại Đường Lên";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Ngắt Phát Lại Đường Lên";
+
+/* Translated with LLM */
+"interrupt voice over" = "ngắt lời bình luận";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Mã chữ ký không hợp lệ";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Có sẵn";
 
 /* Translated with LLM */
 "Is Favourite" = "Được yêu thích";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "Đã tạm dừng";
 
 /* Translated with LLM */
-"is recording" = "đang ghi âm";
+"is recording" = "Đang ghi âm";
+
+/* Translated with LLM */
+"Is Recording" = "Đang ghi âm";
 
 /* Translated with LLM */
 "Is Running" = "Đang chạy";
+
+/* Translated with LLM */
+"Is Service Running" = "Dịch vụ có đang chạy không?";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Đang chờ thiết bị";
+
+/* Translated with LLM */
+"ISO Country Code" = "Mã quốc gia ISO";
 
 /* Translated with LLM */
 "Item #%lu" = "Mục #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Giữ Màn Hình Bật Khi Kết Nối";
+
+/* Translated with LLM */
+"Key Event" = "Sự kiện phím";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Tránh bàn phím";
@@ -1616,6 +1835,9 @@
 "Later" = "Sau";
 
 /* Translated with LLM */
+"Latest" = "Mới nhất";
+
+/* Translated with LLM */
 "launch" = "Khởi chạy";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "cạnh dẫn đầu";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Hành động cũ. Chờ cho đến khi các cuộc gọi được nhấc máy và kết nối. Trả về true nếu cuộc gọi đang quay số dừng lại trước khi hết thời gian chờ; nếu không, trả về false. Nên sử dụng “Chờ cuộc gọi” cho các phím tắt mới.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Hành động âm thanh cuộc gọi kế thừa. Ưu tiên dùng “Control Call Muting” cho phím tắt mới. Trả về true nếu yêu cầu được gửi đến daemon thành công; nếu không thì trả về false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Hành động Hoverball cũ. Ưu tiên dùng “Control Hoverball” cho phím tắt mới. Trả về true nếu tắt cài đặt Hoverball thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Hành động Hoverball cũ. Ưu tiên dùng “Control Hoverball” cho phím tắt mới. Trả về true nếu bật cài đặt Hoverball thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Hành động Hoverball cũ. Ưu tiên dùng “Control Hoverball” cho phím tắt mới. Trả về true nếu cài đặt Hoverball được bật/tắt thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Hành động cuộc gọi đến kế thừa. Ưu tiên dùng “Handle Incoming Calls” cho phím tắt mới. Trả về true nếu yêu cầu được gửi đến daemon thành công; nếu không thì trả về false.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Jailbreak phiên bản cũ";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Hành động phụ đề trực tiếp kế thừa. Ưu tiên “Control Live Captions” cho các phím tắt mới. Trả về true nếu phụ đề trực tiếp đã được tắt thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Hành động phụ đề trực tiếp kế thừa. Ưu tiên “Control Live Captions” cho các phím tắt mới. Trả về true nếu phụ đề trực tiếp được bật thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Hành động phụ đề trực tiếp kế thừa. Ưu tiên “Control Live Captions” cho các phím tắt mới. Trả về true nếu phụ đề trực tiếp được bật/tắt thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Hành động ghi âm kế thừa. Ưu tiên sử dụng “Control Recording” cho các phím tắt mới. Trả về true nếu yêu cầu ghi âm thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Hành động ghi âm kế thừa. Ưu tiên sử dụng “Control Recording” cho các phím tắt mới. Trả về true nếu yêu cầu dừng thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Hành động ghi màn hình kế thừa. Ưu tiên sử dụng “Control Screen Recording” cho các phím tắt mới. Trả về true nếu yêu cầu ghi màn hình thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Hành động ghi màn hình kế thừa. Ưu tiên sử dụng “Control Screen Recording” cho các phím tắt mới. Trả về true nếu yêu cầu dừng thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Đã xảy ra lỗi ít nghiêm trọng hơn.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Phụ đề trực tiếp";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Phụ đề trực tiếp (Phiên bản cũ)";
 
 /* Translated with LLM */
 "Loading…" = "Đang tải…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Thực hiện ghi âm ${requestedMode}";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Tạo bản ghi âm mới hoặc dừng bản ghi âm hiện tại.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Tạo một bản ghi nhớ giọng nói mới hoặc dừng bản ghi nhớ giọng nói hiện tại.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Siêu dữ liệu";
 
 /* Translated with LLM */
+"Metadata Path" = "Đường dẫn siêu dữ liệu";
+
+/* Translated with LLM */
 "Microphone" = "Micrô";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "Hỗn hợp";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Phối & Kết hợp";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Định dạng âm thanh bộ hoà âm";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "Âm thanh MPEG-4";
 
 /* Translated with LLM */
-"mute" = "tắt tiếng";
+"mute" = "Tắt tiếng";
+
+/* Translated with LLM */
+"Mute" = "Tắt tiếng";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Tắt tiếng ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Tắt tiếng cuộc gọi hiện tại";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Tắt tiếng kênh đã chỉ định của tất cả các cuộc gọi hiện có.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Tắt tiếng hoặc bật tiếng kênh được chỉ định trong tất cả các cuộc gọi hiện có. Trả về true nếu yêu cầu được gửi đến daemon thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "My Favourite" = "Yêu thích của tôi";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Tên có Biệt danh";
+
+/* Translated with LLM */
+"Network Code" = "Mã mạng";
 
 /* Translated with LLM */
 "Network Storage" = "Sao Lưu Đám Mây";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Không có gì bên trong";
 
 /* Translated with LLM */
-"notification" = "thông báo";
+"notification" = "Thông báo";
+
+/* Translated with LLM */
+"Notification" = "Thông báo";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Quyền thông báo bị từ chối";
@@ -2000,7 +2270,7 @@
 "Open" = "Mở";
 
 /* Translated with LLM */
-"open" = "mở";
+"open" = "Mở";
 
 /* Translated with LLM */
 "Open Application" = "Mở ứng dụng";
@@ -2009,7 +2279,7 @@
 "Open Hoverball" = "Mở bong bóng";
 
 /* Translated with LLM */
-"open hoverball" = "mở bong bóng";
+"open hoverball" = "Mở bong bóng";
 
 /* Translated with LLM */
 "Open in Filza" = "Mở trong Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Mở trong Bản đồ";
 
 /* Translated with LLM */
+"Open Live Captions" = "Mở Phụ đề trực tiếp";
+
+/* Translated with LLM */
+"open live captions" = "Mở Phụ đề trực tiếp";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Mở Troll Recorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Mở, đóng hoặc chuyển đổi phụ đề trực tiếp. Trả về true nếu cài đặt phụ đề trực tiếp được thay đổi thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Mở, đóng hoặc chuyển đổi bong bóng của trình ghi. Trả về true nếu cài đặt bong bóng được thay đổi thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "Operation Failed" = "Thao tác thất bại";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Tạm dừng ghi âm";
 
 /* Translated with LLM */
+"pause recording" = "Tạm dừng ghi âm";
+
+/* Translated with LLM */
 "Paused" = "Tạm dừng";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Thực hiện đồng bộ hóa đầy đủ “Sao lưu bằng iCloud” và “Lưu trữ đám mây thông minh”.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Thực hiện đồng bộ hóa toàn bộ “Sao lưu với iCloud” và “Lưu trữ đám mây thông minh”. Trả về true nếu daemon đang chạy và quá trình đồng bộ báo cáo thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Thực hiện đồng bộ hóa đầy đủ";
@@ -2105,7 +2390,7 @@
 "Phone" = "Điện thoại";
 
 /* Translated with LLM */
-"phone" = "điện thoại";
+"phone" = "Điện thoại";
 
 /* Translated with LLM */
 "Phone Address" = "Địa chỉ điện thoại";
@@ -2147,13 +2432,22 @@
 "Play" = "Phát";
 
 /* Translated with LLM */
-"play" = "phát";
+"play" = "Phát";
 
 /* Translated with LLM */
 "Play ${audioFile}" = "Phát ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Phát tệp âm thanh vào cuộc gọi hiện tại. Trả về true nếu quá trình phát bắt đầu thành công; nếu không, trả về false. Các tệp âm thanh không hợp lệ sẽ gây ra lỗi.";
+
+/* Translated with LLM */
 "play audio file" = "phát tệp âm thanh";
+
+/* Translated with LLM */
+"play call audio" = "Phát âm thanh cuộc gọi";
+
+/* Translated with LLM */
+"Play Call Audio" = "Phát âm thanh cuộc gọi";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Phát Cảnh Báo Ghi Âm";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Phát Âm Thanh";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Phát tệp âm thanh đã chỉ định vào micrô.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Phát văn bản lồng ghép đã chỉ định vào micrô.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Phát qua loa thoại";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Phát qua loa";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Phát âm thanh Uplink";
-
-/* Translated with LLM */
 "play uplink audio" = "phát âm thanh uplink";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Phát văn bản lồng ghép Uplink";
 
 /* Translated with LLM */
 "play voice over" = "phát giọng lồng tiếng";
@@ -2261,6 +2543,12 @@
 "post notification" = "đăng thông báo";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Hậu xử lý & đầu ra";
+
+/* Translated with LLM */
+"Pre-release Version" = "Phiên bản Tiền phát hành";
+
+/* Translated with LLM */
 "Preparing" = "Đang chuẩn bị";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Lưu trữ tất cả các kênh";
+
+/* Translated with LLM */
+"Preset Providers" = "Nhà cung cấp cài đặt sẵn";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Hành Động Nhấn & Giữ";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Sẵn sàng để ghi âm!";
 
 /* Translated with LLM */
+"real-time captions" = "phụ đề thời gian thực";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Mã hóa thời gian thực";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Đã nhận được lỗi ủy quyền: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Ghi âm";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Ghi âm (Phiên bản cũ)";
 
 /* Translated with LLM */
 "Record All Calls" = "Ghi Âm Tất Cả Cuộc Gọi";
@@ -2429,7 +2729,7 @@
 "recorder hoverball" = "bong bóng máy ghi âm";
 
 /* Translated with LLM */
-"recording" = "ghi";
+"recording" = "Đang ghi";
 
 /* Translated with LLM */
 "Recording" = "Đang ghi";
@@ -2447,6 +2747,15 @@
 "recording file" = "tệp ghi âm";
 
 /* Translated with LLM */
+"Recording Info" = "Thông Tin Ghi Âm";
+
+/* Translated with LLM */
+"recording info" = "Thông Tin Ghi Âm";
+
+/* Translated with LLM */
+"recording information" = "thông tin ghi âm";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Ghi âm bị gián đoạn";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Tùy chọn ghi âm";
 
 /* Translated with LLM */
-"recording path" = "đường dẫn ghi âm";
+"recording path" = "Đường dẫn ghi âm";
+
+/* Translated with LLM */
+"Recording Path" = "Đường dẫn ghi âm";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Ghi âm bắt đầu khi cả đầu vào và đầu ra âm thanh liên tục hoạt động.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Tái tạo tất cả";
 
 /* Translated with LLM */
-"reject" = "từ chối";
+"reject" = "Từ chối";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Từ chối tất cả các cuộc gọi đến tự động.";
+"Reject" = "Từ chối";
 
 /* Translated with LLM */
 "reject call" = "từ chối cuộc gọi";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Từ chối cuộc gọi đến";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Mã định danh gói ứng dụng liên quan";
+
+/* Translated with LLM */
+"Related Application Count" = "Số lượng ứng dụng liên quan";
 
 /* Translated with LLM */
 "Relaunched" = "Đã khởi động lại";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Đặt lại dịch vụ";
 
 /* Translated with LLM */
+"responses" = "phản hồi";
+
+/* Translated with LLM */
 "Respring" = "Khởi động lại";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Đang khôi phục";
 
 /* Translated with LLM */
+"Resume" = "Tiếp tục";
+
+/* Translated with LLM */
 "Resume Recording" = "Tiếp tục ghi âm";
+
+/* Translated with LLM */
+"resume recording" = "Tiếp tục ghi âm";
 
 /* Translated with LLM */
 "Resume with Warning" = "Tiếp tục với cảnh báo";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "dừng chụp màn hình";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Thông Tin Quay Màn Hình";
+
+/* Translated with LLM */
+"screen recording info" = "Thông Tin Quay Màn Hình";
+
+/* Translated with LLM */
 "screen recording off" = "tắt ghi màn hình";
+
+/* Translated with LLM */
+"screen recording status" = "trạng thái quay màn hình";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Đang tìm kiếm thiết bị ở gần";
 
 /* Translated with LLM */
-"Search…" = "Tìm kiếm…";
-
-/* Translated with LLM */
 "Seconds" = "Giây";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Gửi Chẩn Đoán";
 
 /* Translated with LLM */
+"Sender Address" = "Địa chỉ người gửi";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Tên Địa Phương Của Người Gửi";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Tên Ngắn Địa Phương Của Người Gửi";
+
+/* Translated with LLM */
 "Sender Name" = "Tên người gửi";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Địa chỉ điện thoại người gửi";
+
+/* Translated with LLM */
+"Sender Service Name" = "Tên dịch vụ người gửi";
 
 /* Translated with LLM */
 "Sender Short Name" = "Tên ngắn gọn người gửi";
@@ -2777,13 +3122,22 @@
 "service active" = "dịch vụ đang hoạt động";
 
 /* Translated with LLM */
+"Service Info" = "Thông tin dịch vụ";
+
+/* Translated with LLM */
+"service info" = "Thông tin dịch vụ";
+
+/* Translated with LLM */
 "Service is alive" = "Dịch vụ đang hoạt động";
 
 /* Translated with LLM */
 "Service is dead" = "Dịch vụ đã ngừng hoạt động";
 
 /* Translated with LLM */
-"Service Status" = "Trạng thái dịch vụ";
+"service status" = "trạng thái dịch vụ";
+
+/* Translated with LLM */
+"service statuses" = "trạng thái dịch vụ";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Đặt tên mới cho bản ghi này hoặc để trống để sử dụng mặc định.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Hiển thị thông báo";
 
 /* Translated with LLM */
-"show notification" = "hiển thị thông báo";
+"show notification" = "Hiển thị thông báo";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Hiển thị thông báo ${requestedMessage}";
@@ -2903,10 +3257,19 @@
 "Space" = "Không gian";
 
 /* Translated with LLM */
+"speak call voice over" = "phát giọng lồng tiếng cuộc gọi";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Phát văn bản lồng ghép Uplink";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Phát văn bản lồng tiếng vào cuộc gọi hiện tại. Trả về true nếu quá trình phát bắt đầu thành công; nếu không, trả về false. Khi chờ quá trình phát kết thúc, thời gian chờ tối đa là 60 giây.";
+
+/* Translated with LLM */
 "Speaker" = "Người nói";
 
 /* Translated with LLM */
-"speaker" = "người nói";
+"speaker" = "Người nói";
 
 /* Translated with LLM */
 "speaker off" = "tắt loa";
@@ -2924,10 +3287,16 @@
 "spoken audio" = "âm thanh lời nói";
 
 /* Translated with LLM */
-"start" = "bắt đầu";
+"Stable Version" = "Phiên bản Ổn định";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Bắt đầu ghi màn hình hệ thống giống như những gì bạn làm trong Trung tâm điều khiển.";
+"Standby" = "Chế độ chờ";
+
+/* Translated with LLM */
+"start" = "Bắt đầu";
+
+/* Translated with LLM */
+"Start" = "Bắt đầu";
 
 /* Translated with LLM */
 "Start Call Recording" = "Bắt đầu ghi âm cuộc gọi";
@@ -2939,25 +3308,28 @@
 "Start Date" = "Ngày bắt đầu";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Bắt đầu hoặc chuẩn bị cho một cuộc gọi ghi âm, ghi âm âm thanh hệ thống hoặc tạo một ghi chú âm thanh.";
-
-/* Translated with LLM */
 "Start Recording" = "Bắt đầu ghi âm";
 
 /* Translated with LLM */
-"start recording" = "bắt đầu ghi âm";
+"start recording" = "Bắt đầu ghi âm";
 
 /* Translated with LLM */
 "Start Screen Recording" = "Bắt đầu ghi màn hình";
 
 /* Translated with LLM */
-"start screen recording" = "bắt đầu ghi màn hình";
+"start screen recording" = "Bắt đầu ghi màn hình";
 
 /* Translated with LLM */
 "Start System Audio Recording" = "Bắt đầu ghi âm hệ thống";
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "Bắt đầu ghi âm ghi chú thoại";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Bắt đầu, dừng hoặc bật/tắt tính năng ghi màn hình hệ thống. Trả về true nếu yêu cầu ghi màn hình thành công; nếu không, trả về false.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Bắt đầu, dừng, tạm dừng, tiếp tục hoặc chuyển đổi trạng thái của bản ghi âm. Trả về true nếu yêu cầu ghi âm thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Quá trình khởi động dịch vụ xuất dữ liệu đang mất nhiều thời gian hơn dự kiến. Vui lòng kiểm tra kết nối mạng và thử lại.";
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Hãy giữ nguyên. Chúng tôi đang ghi âm cuộc gọi của bạn ở chế độ nền.";
 
 /* Translated with LLM */
-"stop" = "dừng lại";
+"stop" = "Dừng";
 
 /* Translated with LLM */
 "Stop" = "Dừng";
@@ -2984,16 +3356,10 @@
 "Stop & Save" = "Dừng lại & Lưu";
 
 /* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Dừng ghi âm cuộc gọi, ghi âm âm thanh hệ thống hoặc ghi chú thoại nếu có.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Dừng ghi màn hình hệ thống nếu có.";
-
-/* Translated with LLM */
 "Stop Recording" = "Dừng Ghi Âm";
 
 /* Translated with LLM */
-"stop recording" = "dừng ghi âm";
+"stop recording" = "Dừng Ghi Âm";
 
 /* Translated with LLM */
 "Stop Recording When Disk Exhausted" = "Dừng ghi âm khi hết dung lượng";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Dừng Ghi Màn Hình";
 
 /* Translated with LLM */
-"stop screen recording" = "dừng ghi màn hình";
+"stop screen recording" = "Dừng Ghi Màn Hình";
 
 /* Translated with LLM */
 "Stop Service" = "Dừng dịch vụ";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Ghi âm hệ thống";
 
 /* Translated with LLM */
-"system audio recording" = "ghi âm hệ thống";
+"system audio recording" = "Ghi âm hệ thống";
 
 /* Translated with LLM */
 "System Language" = "Ngôn ngữ hệ thống";
 
 /* Translated with LLM */
 "System Record" = "Ghi âm hệ thống";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Ghi Hệ Thống (Kế thừa)";
+
+/* Translated with LLM */
+"system record info" = "thông tin ghi hệ thống";
+
+/* Translated with LLM */
+"system recording status" = "trạng thái ghi hệ thống";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Nhấn vào __bất kỳ cạnh nào__  \nđể chọn nó làm ___cạnh hoạt động___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Phát hiện lỗi kỹ thuật";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Tiện ích Điện thoại";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Tạm thời bỏ qua";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Đã xảy ra lỗi tạm thời, thử lại có thể khắc phục.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Đường dẫn ghi âm tạm thời";
+
+/* Translated with LLM */
 "terminate" = "kết thúc";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Kết thúc tất cả các cuộc gọi đang hoạt động ngay lập tức.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Ngay lập tức ngắt tất cả các cuộc gọi đang hoạt động. Trả về true nếu yêu cầu được gửi đến daemon thành công; nếu không, trả về false.";
 
 /* Translated with LLM */
 "terminate call" = "kết thúc cuộc gọi";
@@ -3134,9 +3515,6 @@
 "text to speech" = "chuyển văn bản thành giọng nói";
 
 /* Translated with LLM */
-"text-to-speech" = "chuyển văn bản thành giọng nói";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "Bản ghi %@ đã bị hệ thống ngắt quãng. Bạn có thể chuyển đổi bản ghi này một cách thủ công sau.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "Định danh gói của ứng dụng đã khởi tạo cuộc gọi.";
+
+/* Translated with LLM */
+"The call event to wait for." = "Sự kiện cuộc gọi cần chờ.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Nội dung của tệp văn bản “%@” là trống.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Thời gian tối đa để chờ các cuộc gọi được kết nối.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Số giây tối đa để chờ sự kiện cuộc gọi đã chọn.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "Siêu dữ liệu vị trí bị thiếu sẽ được điền nếu bạn mở ứng dụng ngay sau khi ghi.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "Hành động nút chính ở bên phải của bong bóng khi không có cuộc gọi nào đang hoạt động.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Tệp âm thanh đã chọn không hợp lệ hoặc không được hỗ trợ.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Dịch vụ không được cấu hình đúng cách.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Tên nhà cung cấp dịch vụ của người gửi.";
+
+/* Translated with LLM */
+"The session to inspect." = "Phiên cần kiểm tra.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "Kích thước của tệp âm thanh đã chọn.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Loại nội dung sẽ được ghi lại.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Loại bản ghi cần điều khiển. “Bất kỳ bản ghi nào” chỉ áp dụng cho các thao tác dừng, tạm dừng, tiếp tục và chuyển đổi.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Loại bản ghi cần dừng.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "Mã định danh duy nhất của cuộc gọi.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Ghi âm này đến từ WeChat, và “WeChat Assistant” giúp bạn điền tên và ghi chú liên hệ WeChat lần sau.\nBạn dường như chưa kích hoạt “WeChat Assistant”, bạn có muốn kích hoạt ngay bây giờ không?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Bản ghi âm này được ghi bằng phương pháp “Mã hóa thời gian thực”. Phương pháp ghi âm này không tạo ra tệp âm thanh thô tạm thời có thể dùng để khôi phục, do đó không thể khôi phục các bản ghi âm bị gián đoạn.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Phiên bản WeChat (%@) này không được hỗ trợ. Vui lòng nâng cấp lên phiên bản mới nhất.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Ba chữ số mili giây.";
 
 /* Translated with LLM */
+"Threshold" = "Ngưỡng";
+
+/* Translated with LLM */
 "Time Sensitive" = "Nhạy cảm với thời gian";
 
 /* Translated with LLM */
 "time sensitive notification" = "thông báo khẩn cấp";
+
+/* Translated with LLM */
+"Timeout" = "Hết thời gian";
 
 /* Translated with LLM */
 "Title" = "Tiêu đề";
@@ -3356,7 +3761,10 @@
 "To: %@" = "Đến: %@";
 
 /* Translated with LLM */
-"toggle" = "bật/tắt";
+"toggle" = "Bật/Tắt";
+
+/* Translated with LLM */
+"Toggle" = "Bật/Tắt";
 
 /* Translated with LLM */
 "Toggle ${requestedMode}" = "Bật/Tắt ${requestedMode}";
@@ -3368,28 +3776,28 @@
 "Toggle Hoverball" = "Bật/Tắt Bong bóng";
 
 /* Translated with LLM */
-"toggle hoverball" = "bật/tắt bong bóng";
+"toggle hoverball" = "Bật/Tắt Bong bóng";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Bật/Tắt bong bóng của máy ghi âm.";
+"toggle live captions" = "Bật/tắt Phụ đề trực tiếp";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Bật/tắt Phụ đề trực tiếp";
 
 /* Translated with LLM */
 "Toggle Recording" = "Bật/Tắt Ghi âm";
 
 /* Translated with LLM */
-"toggle recording" = "bật/tắt ghi âm";
+"toggle recording" = "Bật/Tắt Ghi âm";
 
 /* Translated with LLM */
 "Toggle Screen Recording" = "Bật/Tắt ghi màn hình";
 
 /* Translated with LLM */
-"toggle screen recording" = "bật/tắt ghi màn hình";
+"toggle screen recording" = "Bật/Tắt ghi màn hình";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Bật/Tắt ghi âm hệ thống";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Bật/Tắt ghi màn hình hệ thống giống như những gì bạn làm trong Trung tâm Điều khiển.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Bật/Tắt ghi âm ghi chú giọng nói";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "phát lại TTS";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Tắt “Mã hóa thời gian thực”";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Tắt tùy chọn này để làm cho các tùy chọn khác trên trang này có hiệu lực đối với ứng dụng hiện tại.";
@@ -3557,6 +3968,9 @@
 "unmute" = "Bỏ tắt tiếng";
 
 /* Translated with LLM */
+"Unmute" = "Bỏ tắt tiếng";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "Bỏ tắt tiếng ${requestedChannel}";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Bỏ tắt tiếng các cuộc gọi hiện có";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Bỏ tắt tiếng kênh đã chỉ định của tất cả các cuộc gọi hiện có.";
 
 /* Translated with LLM */
 "Unspecified" = "Không xác định";
@@ -3659,6 +4070,9 @@
 "Utility" = "Tiện ích";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Tiện ích (Phiên bản cũ)";
+
+/* Translated with LLM */
 "Variant" = "Biến thể";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Xem Nhật ký: Bộ nhớ Mạng";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Xem Nhật ký: Trình ghi thời gian thực";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Xem Nhật ký: Phát biểu";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "Các liên hệ VIP sẽ luôn được ghi lại và thêm vào các mục yêu thích.";
+
+/* Translated with LLM */
+"Voice Chat" = "Trò chuyện thoại";
 
 /* Translated with LLM */
 "Voice Memo" = "Ghi âm giọng nói";
@@ -3761,19 +4181,52 @@
 "wait" = "chờ";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Chờ cuộc gọi ${requestedEvent}";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Chờ sự kiện cuộc gọi ${requestedEvent}";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Chờ ${requestedTimeout} giây";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Chờ bất kỳ cuộc gọi nào được trả lời và kết nối.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Chờ sự kiện cuộc gọi. Trả về thông tin cuộc gọi khi sự kiện đã chọn xảy ra; nếu không, sẽ không trả về gì khi hết thời gian chờ.";
 
 /* Translated with LLM */
-"wait for call" = "chờ cuộc gọi";
+"wait for call" = "Chờ cuộc gọi";
+
+/* Translated with LLM */
+"Wait for Call" = "Chờ cuộc gọi";
+
+/* Translated with LLM */
+"wait for call ended" = "chờ cuộc gọi kết thúc";
+
+/* Translated with LLM */
+"wait for call event" = "Chờ sự kiện cuộc gọi";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Chờ sự kiện cuộc gọi";
 
 /* Translated with LLM */
 "Wait for Calls" = "Chờ cuộc gọi";
 
 /* Translated with LLM */
+"wait for connected call" = "chờ cuộc gọi đã kết nối";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Chờ cuộc gọi đã kết nối";
+
+/* Translated with LLM */
+"wait for incoming call" = "chờ cuộc gọi đến";
+
+/* Translated with LLM */
+"wait for outgoing call" = "chờ cuộc gọi đi";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Chờ Cho Đến Khi Hoàn Tất";
+
+/* Translated with LLM */
+"Waiting For Device" = "Đang chờ thiết bị";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Cảnh báo, cuộc gọi của bạn đang được ghi lại ngay bây giờ. Cảnh báo, cuộc gọi của bạn đang được ghi lại ngay bây giờ.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Khi máy chủ WebDAV được bật, có cho phép bạn truy cập từ trình duyệt web thông thường như Safari, Chrome, Edge, v.v. hay không.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Có nên nhận hay từ chối các cuộc gọi đến.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Có xóa bản ghi khi dừng hay không. Tùy chọn này sẽ bị bỏ qua khi bắt đầu hoặc chuyển đổi chế độ.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Cho dù buộc ứng dụng sử dụng giao diện người dùng sáng hay tối.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Cho dù buộc bong bóng mọi nơi sử dụng phong cách ánh sáng hay bóng tối.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Có nên bao gồm âm thanh micrô khi bắt đầu hoặc chuyển đổi chế độ quay màn hình hay không.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Có lặp lại vô hạn việc phát âm thanh hay không. Nếu được bật, hành động này sẽ trả về ngay lập tức sau khi bắt đầu phát.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Bật hay tắt âm thanh cuộc gọi.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Bật, tắt hoặc chuyển đổi chế độ phụ đề trực tiếp.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Mở, đóng hay chuyển đổi chế độ hiển thị của hoverball.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Bắt đầu, dừng hay chuyển đổi chế độ quay màn hình.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Bắt đầu, dừng, tạm dừng, tiếp tục hay chuyển đổi chế độ ghi âm.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Có nên đợi cho đến khi quá trình phát lại kết thúc hay không. Nếu tùy chọn này bị tắt, thao tác này sẽ kết thúc ngay sau khi quá trình phát lại bắt đầu.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Có nên đợi cho đến khi quá trình phát kết thúc hay không. Nếu tùy chọn này bị tắt, hành động này sẽ trả về ngay sau khi quá trình phát bắt đầu. Tùy chọn “Phát lặp vô hạn” luôn trả về ngay sau khi quá trình phát bắt đầu.";
+
+/* Translated with LLM */
+"Which channel to control." = "Kênh nào cần điều khiển.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Kênh nào để tắt tiếng.";

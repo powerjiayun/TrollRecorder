@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} запис";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} ховербол";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} живі субтитри";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} запис екрану";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} вхідні дзвінки";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Довідка";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "Для функції «Launch Shield» потрібен віджет.";
 
 /* Translated with LLM */
-"accept" = "прийняти";
+"accept" = "Прийняти";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Автоматично приймати всі вхідні дзвінки.";
+"Accept" = "Прийняти";
 
 /* Translated with LLM */
 "accept call" = "прийняти дзвінок";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Приймати вхідні дзвінки";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Прийняти або відхилити всі вхідні дзвінки. Повертає true, якщо запит було успішно надіслано демону, інакше false.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Доступ з браузера";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Доступ до записів через WebDAV-браузер з іншого пристрою в мережі. Сервер активний лише коли додаток на передньому плані.";
+
+/* Translated with LLM */
+"actions" = "дії";
 
 /* Translated with LLM */
 "activate" = "активувати";
@@ -110,7 +137,13 @@
 "activate hoverball" = "активувати плаваючу кнопку";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Активувати плаваючу кнопку для запису.";
+"activate live captions" = "увімкнути субтитри в реальному часі";
+
+/* Translated with LLM */
+"Active Call Count" = "Кількість активних викликів";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Ідентифікатори активних викликів";
 
 /* Translated with LLM */
 "Add" = "Додати";
@@ -251,7 +284,13 @@
 "Any" = "Будь-який";
 
 /* Translated with LLM */
+"Any Recording" = "Будь-який запис";
+
+/* Translated with LLM */
 "App Icon" = "Іконка додатка";
+
+/* Translated with LLM */
+"App Intent" = "Намір програми";
 
 /* Translated with LLM */
 "App Language" = "Мова додатка";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "архів";
+"archive" = "Архів";
 
 /* Translated with LLM */
 "Archive" = "Архів";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "Купити TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "Кількість байт";
+
+/* Translated with LLM */
 "Calculating…" = "Обчислення…";
 
 /* Translated with LLM */
 "Call" = "Дзвінок";
 
 /* Translated with LLM */
-"call" = "дзвінок";
+"call" = "Дзвінок";
+
+/* Translated with LLM */
+"call audio" = "звук дзвінка";
 
 /* Translated with LLM */
 "call audio on" = "увімкнути звук дзвінка";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Моніторинг аудіоканалу виклику не вдався. Торкніться цього сповіщення, щоб перезапустити службу запису.";
 
 /* Translated with LLM */
-"call connected" = "дзвінок з’єднано";
+"Call Automation" = "Автоматизація дзвінків";
 
 /* Translated with LLM */
-"Call Direction" = "Напрямок дзвінка";
+"Call Automation (Legacy)" = "Автоматизація дзвінків (застаріла)";
+
+/* Translated with LLM */
+"call connected" = "дзвінок з’єднано";
 
 /* Translated with LLM */
 "call duration" = "тривалість дзвінка";
 
 /* Translated with LLM */
+"Call History Identifier" = "Ідентифікатор журналу викликів";
+
+/* Translated with LLM */
 "Call Identifier" = "Ідентифікатор дзвінка";
+
+/* Translated with LLM */
+"Call Info" = "Інформація про дзвінок";
+
+/* Translated with LLM */
+"call info" = "Інформація про дзвінок";
 
 /* Translated with LLM */
 "call information" = "інформація про дзвінок";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Запис дзвінків: інша сторона";
 
 /* Translated with LLM */
-"Call State" = "Стан дзвінка";
+"Call Sniffer" = "Sniffer викликів";
 
 /* Translated with LLM */
 "call status" = "статус дзвінка";
@@ -548,10 +605,16 @@
 "Caution" = "Обережно";
 
 /* Translated with LLM */
+"Channel" = "Канал";
+
+/* Translated with LLM */
 "check" = "перевірити";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Перевірити роботу демона. Запустити, якщо не працює.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Перевіряє, чи запущено демон. Якщо ні, запускає його. Повертає службову інформацію, якщо після перевірки демон запущено; інакше нічого не повертає.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Перевіряє, чи запущено демон. Якщо ні, запускає його. Повертає true, якщо після перевірки демон запущено; інакше false.";
 
 /* Translated with LLM */
 "check service" = "перевірити службу";
@@ -611,6 +674,9 @@
 "close hoverball" = "закрити hoverball";
 
 /* Translated with LLM */
+"close live captions" = "Закрити субтитри в реальному часі";
+
+/* Translated with LLM */
 "cloud archive sync" = "синхронізація хмарного архіву";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Підключіться до мережі Wi-Fi перед передачею записів.";
 
 /* Translated with LLM */
-"connected" = "підключено";
+"connected" = "Підключено";
+
+/* Translated with LLM */
+"Connected" = "Підключено";
+
+/* Translated with LLM */
+"Connected At" = "Підключено о";
 
 /* Translated with LLM */
 "connected call" = "з’єднаний дзвінок";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Винятки контактів";
+
+/* Translated with LLM */
+"Contact Identifier" = "Ідентифікатор контакту";
+
+/* Translated with LLM */
+"Contact Label" = "Позначка контакту";
 
 /* Translated with LLM */
 "Contact Name" = "Ім’я контакту";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Безперервне відтворення увімкнено";
+
+/* Translated with LLM */
+"control call audio" = "керувати аудіо дзвінка";
+
+/* Translated with LLM */
+"control call muting" = "Керувати вимкненням звуку дзвінка";
+
+/* Translated with LLM */
+"Control Call Muting" = "Керувати вимкненням звуку дзвінка";
+
+/* Translated with LLM */
+"control hoverball" = "Керування Hoverball";
+
+/* Translated with LLM */
+"Control Hoverball" = "Керування Hoverball";
+
+/* Translated with LLM */
+"Control Live Captions" = "Керування субтитрами в реальному часі";
+
+/* Translated with LLM */
+"control live captions" = "Керування субтитрами в реальному часі";
+
+/* Translated with LLM */
+"control recording" = "Керування записом";
+
+/* Translated with LLM */
+"Control Recording" = "Керування записом";
+
+/* Translated with LLM */
+"control screen recording" = "Керування записом екрану";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Керування записом екрану";
 
 /* Translated with LLM */
 "Conversion Failed" = "Помилка перетворення";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Не вдалося вийти з облікового запису: %@";
 
 /* Translated with LLM */
+"Country Code" = "Код країни";
+
+/* Translated with LLM */
 "Created At" = "Створено";
 
 /* Translated with LLM */
 "Credentials" = "Облікові дані";
+
+/* Translated with LLM */
+"Current" = "Поточний";
 
 /* Translated with LLM */
 "current call" = "поточний дзвінок";
@@ -809,7 +926,7 @@
 "Day of Week String" = "День тижня";
 
 /* Translated with LLM */
-"deactivate" = "деактивувати";
+"deactivate" = "Деактивувати";
 
 /* Translated with LLM */
 "Deactivate" = "Деактивувати";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "деактивувати плаваючу кнопку";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Деактивувати плаваючу кнопку запису.";
+"deactivate live captions" = "деактивувати субтитри в реальному часі";
 
 /* Translated with LLM */
 "Debugging" = "Налагодження";
@@ -863,10 +980,16 @@
 "Developer Options" = "Налаштування розробника";
 
 /* Translated with LLM */
+"Dialing" = "Набір";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Диктування вимкнено";
 
 /* Translated with LLM */
 "Digital Video" = "Цифрове відео";
+
+/* Translated with LLM */
+"Digits" = "Цифри";
 
 /* Translated with LLM */
 "Direction" = "Напрямок";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Опис напрямку";
 
 /* Translated with LLM */
-"directory" = "директорія";
+"directory" = "Директорія";
 
 /* Translated with LLM */
 "Directory" = "Директорія";
@@ -905,7 +1028,7 @@
 "Discard" = "Скасувати";
 
 /* Translated with LLM */
-"discard" = "скасувати";
+"discard" = "Скасувати";
 
 /* Translated with LLM */
 "Discard Changes" = "Скасувати зміни";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Скасувати запис";
+
+/* Translated with LLM */
+"Disconnected" = "Відключено";
+
+/* Translated with LLM */
+"Disconnected At" = "Відключено о";
 
 /* Translated with LLM */
 "Discreet Mode" = "Прихований режим";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Показувати назву вихідного пакету запису.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Показує локальне сповіщення.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Відображає локальне сповіщення. Повертає true, якщо запит на сповіщення було надіслано успішно, інакше false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Очистити лог-файл «%@»?";
@@ -1043,7 +1172,7 @@
 "Duration" = "Тривалість";
 
 /* Translated with LLM */
-"duration" = "тривалість";
+"duration" = "Тривалість";
 
 /* Translated with LLM */
 "Duration Before Idle" = "Тривалість до бездіяльності";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Увімкнути Face ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Увімкнути індикатор рівня при згорнутій кнопці. Доступно лише при налаштуванні «Згортати при бездіяльності».";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Увімкніть вимірювання рівня, щоб керувати формою сигналу в реальному часі на панелі стану «Запис» і відображати смуговий індикатор, коли плаваючий м’яч згорнуто.";
 
 /* Translated with LLM */
 "Enable Logging" = "Увімкнути логування";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "WebDAV-сервер автоматично призупиняється у фоні та відновлюється при поверненні на передній план.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Кодуйте аудіо під час запису, щоб зменшити розмір тимчасових файлів і час постобробки. Це може збільшити використання CPU та батареї, а перервані записи може бути складніше відновити.";
+
+/* Translated with LLM */
 "Encoding" = "Кодування";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "завершити запис екрану";
 
 /* Translated with LLM */
-"Enhance Recording" = "Покращити запис";
+"Ended" = "Завершено";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Покращений автоматичний запис";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Закрити плаваючу кнопку";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Вийти з субтитрів у реальному часі";
+
+/* Translated with LLM */
 "Expand Recursively" = "Розгорнути рекурсивно";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Експортувати як ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Ім’я файлу експорту";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Експортуйте записи куди завгодно без обмежень.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Формат файлу";
+
+/* Translated with LLM */
+"File Name" = "Ім’я файлу";
 
 /* Translated with LLM */
 "File not found." = "Файл не знайдено.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Отримати ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Отримати інформацію про дзвінок ${requestedSession}";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Отримати інформацію про запис ${requestedSession}";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Розширене керування записом під час дзвінка.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Отримати тривалість дзвінка";
 
 /* Translated with LLM */
+"Get Call Info" = "Отримати інформацію про дзвінок";
+
+/* Translated with LLM */
 "Get Call Status" = "Отримати статус дзвінка";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Отримати поточну інформацію про шлях до запису як застаріле текстове значення. Для нових швидких команд надавайте перевагу «Отримати інформацію про запис».";
 
 /* Translated with LLM */
 "Get In Touch" = "Зв’язатися";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Отримувати сповіщення після завершення запису.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Отримати первинну інформацію про дзвінок як єдиний об’єкт.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Отримати тривалість запису";
+
+/* Translated with LLM */
+"Get Recording Info" = "Отримати інформацію про запис";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Отримати інформацію про запис як єдиний об’єкт.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Отримати шляхи запису";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Отримати статус запису";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Отримати поточну тривалість запису Troll Recorder.";
+"Get Screen Recording Info" = "Отримати інформацію про запис екрану";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Отримати поточні шляхи запису Troll Recorder.";
+"Get screen recording information as a single object." = "Отримати інформацію про запис екрану як єдиний об’єкт.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Отримати поточний статус запису Troll Recorder.";
+"Get Service Info" = "Отримати інформацію про службу";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Отримати тривалість основного дзвінка пристрою.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Отримати поточну тривалість запису як застаріле числове значення. Для нових швидких команд надавайте перевагу «Отримати інформацію про запис».";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Отримати статус поточного дзвінка.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Отримати поточний стан запису як застаріле булеве значення. Результат є істинним, коли вибране поле стану є істинним; хибним, коли воно є хибним або недоступним. Для нових швидких команд надавайте перевагу «Отримати інформацію про запис».";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Отримати первинну тривалість дзвінка як застаріле числове значення. Для нових швидких команд надавайте перевагу «Отримати інформацію про дзвінок».";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Отримати первинний статус виклику як застаріле текстове значення. Для нових швидких команд надавайте перевагу «Отримати інформацію про виклик».";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "На головний екран при розблокуванні";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Груповий дзвінок";
+
+/* Translated with LLM */
+"handle incoming calls" = "Обробка вхідних дзвінків";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Обробка вхідних дзвінків";
 
 /* Translated with LLM */
 "hang up calls" = "завершити дзвінки";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "Плаваюча кнопка";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "Ховербол (Застаріло)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "Плаваюча кнопка +";
 
 /* Translated with LLM */
@@ -1445,7 +1622,10 @@
 "Hoverball Style" = "Стиль плаваючої кнопки";
 
 /* Translated with LLM */
-"hud" = "інтерфейс";
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Запис дзвінка";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Якщо немає активного дзвінка, натисніть обидві фізичні кнопки гучності, щоб виконати вказану дію.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Якщо це трапляється часто, вимкніть «Кодування в реальному часі» в налаштуваннях «Постобробка та виведення».";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Якщо ви змінювали записи за допомогою Filza або зіткнулися з проблемами привілеїв файлової системи, ви можете виправити їх тут.";
@@ -1523,13 +1706,13 @@
 "Incoming" = "Вхідний";
 
 /* Translated with LLM */
-"incoming" = "вхідний";
+"incoming" = "Вхідний";
 
 /* Translated with LLM */
 "Incoming Call" = "Вхідний дзвінок";
 
 /* Translated with LLM */
-"incoming call" = "вхідний дзвінок";
+"incoming call" = "Вхідний дзвінок";
 
 /* Translated with LLM */
 "Incoming Call Answered" = "Вхідний дзвінок прийнято";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Встановити твік історії дзвінків";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Перервати будь-яке вихідне аудіо або голосове супроводження, яке зараз відтворюється на мікрофон. Повертає true, якщо відтворення було перервано; інакше false.";
+
+/* Translated with LLM */
+"interrupt call playback" = "перервати відтворення дзвінка";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "перервати аудіо по висхідній лінії зв’язку";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Перервати відтворення вихідного аудіо";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Перервати відтворення вихідного аудіо";
+
+/* Translated with LLM */
+"interrupt voice over" = "перервати голос за кадром";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Невірний підпис коду";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Доступно";
 
 /* Translated with LLM */
 "Is Favourite" = "У обраному";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "На паузі";
 
 /* Translated with LLM */
-"is recording" = "записує";
+"is recording" = "Ведеться запис";
+
+/* Translated with LLM */
+"Is Recording" = "Ведеться запис";
 
 /* Translated with LLM */
 "Is Running" = "Працює";
+
+/* Translated with LLM */
+"Is Service Running" = "Чи запущено службу";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Очікує на пристрій";
+
+/* Translated with LLM */
+"ISO Country Code" = "Код країни ISO";
 
 /* Translated with LLM */
 "Item #%lu" = "Елемент №%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Не вимикати екран при підключенні";
+
+/* Translated with LLM */
+"Key Event" = "Ключова подія";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Уникнення клавіатури";
@@ -1616,6 +1835,9 @@
 "Later" = "Пізніше";
 
 /* Translated with LLM */
+"Latest" = "Остання";
+
+/* Translated with LLM */
 "launch" = "запуск";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "провідний край";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Застаріла дія. Очікувати, поки будь-які дзвінки будуть прийняті та з’єднані. Повертає true, якщо дзвінок, що набирається, припиняє набір до закінчення тайм-ауту; інакше false. Для нових ярликів використовуйте «Очікувати дзвінок».";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Застаріла дія аудіо виклику. Для нових ярликів надавайте перевагу «Control Call Muting». Повертає true, якщо запит було успішно надіслано демону, інакше — false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Застаріла дія з ховерболом. Для нових ярликів надавайте перевагу «Керувати ховерболом». Повертає true, якщо налаштування ховербола було успішно вимкнено; інакше — false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Застаріла дія з ховерболом. Для нових ярликів надавайте перевагу «Керувати ховерболом». Повертає true, якщо налаштування ховербола було успішно ввімкнено; інакше — false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Застаріла дія з ховерболом. Для нових ярликів надавайте перевагу «Керувати ховерболом». Повертає true, якщо налаштування ховербола було успішно перемкнуто; інакше — false.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Застаріла дія вхідного дзвінка. Для нових ярликів надавайте перевагу «Handle Incoming Calls». Повертає true, якщо запит було успішно надіслано демону, інакше — false.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Застарілий джейлбрейк";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Застаріла дія для живих субтитрів. Для нових ярликів надавайте перевагу «Керувати живими субтитрами». Повертає true, якщо живі субтитри було успішно вимкнено, інакше false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Застаріла дія для живих субтитрів. Для нових ярликів надавайте перевагу «Керувати живими субтитрами». Повертає true, якщо живі субтитри було успішно увімкнено, інакше false.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Застаріла дія для живих субтитрів. Для нових ярликів надавайте перевагу «Керувати живими субтитрами». Повертає true, якщо живі субтитри було успішно перемкнуто, інакше false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Застаріла дія запису. Для нових ярликів надавайте перевагу «Керувати записом». Повертає true, якщо запит на запис виконано успішно; інакше — false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Застаріла дія запису. Для нових ярликів надавайте перевагу «Керувати записом». Повертає true, якщо запит на зупинку виконано успішно; інакше — false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Застаріла дія запису екрана. Для нових ярликів надавайте перевагу «Керувати записом екрана». Повертає true, якщо запит на запис екрана виконано успішно; інакше — false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Застаріла дія запису екрана. Для нових ярликів надавайте перевагу «Керувати записом екрана». Повертає true, якщо запит на зупинку виконано успішно; інакше — false.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Сталася незначна помилка.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Субтитри в реальному часі";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Живі субтитри (застаріла версія)";
 
 /* Translated with LLM */
 "Loading…" = "Завантаження…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Зробити запис у режимі ${requestedMode}";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Почати новий запис або зупинити поточний.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Створити новий голосовий меморандум або зупинити поточний.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Метадані";
 
 /* Translated with LLM */
+"Metadata Path" = "Шлях метаданих";
+
+/* Translated with LLM */
 "Microphone" = "Мікрофон";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "Змішаний";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Мікшер і об’єднувач";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Формат аудіо мікшера";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "Аудіо MPEG-4";
 
 /* Translated with LLM */
-"mute" = "вимкнути звук";
+"mute" = "Вимкнути звук";
+
+/* Translated with LLM */
+"Mute" = "Вимкнути звук";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Вимкнути звук ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Вимкнути звук поточних дзвінків";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Вимкнути звук зазначеного каналу у всіх поточних дзвінках.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Вимикає або вмикає звук вказаного каналу для всіх існуючих викликів. Повертає true, якщо запит було успішно надіслано демону, інакше — false.";
 
 /* Translated with LLM */
 "My Favourite" = "Моє обране";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Ім’я з псевдонімом";
+
+/* Translated with LLM */
+"Network Code" = "Мережевий код";
 
 /* Translated with LLM */
 "Network Storage" = "Мережеве сховище";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Порожньо";
 
 /* Translated with LLM */
-"notification" = "сповіщення";
+"notification" = "Сповіщення";
+
+/* Translated with LLM */
+"Notification" = "Сповіщення";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Доступ до сповіщень заборонено";
@@ -2000,7 +2270,7 @@
 "Open" = "Відкрити";
 
 /* Translated with LLM */
-"open" = "відкрити";
+"open" = "Відкрити";
 
 /* Translated with LLM */
 "Open Application" = "Відкрити застосунок";
@@ -2009,7 +2279,7 @@
 "Open Hoverball" = "Відкрити hoverball";
 
 /* Translated with LLM */
-"open hoverball" = "відкрити hoverball";
+"open hoverball" = "Відкрити hoverball";
 
 /* Translated with LLM */
 "Open in Filza" = "Відкрити в Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Відкрити в Картах";
 
 /* Translated with LLM */
+"Open Live Captions" = "Відкрити субтитри в реальному часі";
+
+/* Translated with LLM */
+"open live captions" = "Відкрити субтитри в реальному часі";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Відкрити Troll Recorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Відкриває, закриває або перемикає субтитри в реальному часі. Повертає true, якщо налаштування субтитрів у реальному часі було змінено успішно, інакше — false.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Відкриває, закриває або перемикає плаваючу кнопку запису. Повертає true, якщо налаштування плаваючої кнопки було змінено успішно, інакше — false.";
 
 /* Translated with LLM */
 "Operation Failed" = "Помилка операції";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Призупинити запис";
 
 /* Translated with LLM */
+"pause recording" = "Призупинити запис";
+
+/* Translated with LLM */
 "Paused" = "Призупинено";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Виконати повну синхронізацію «Резервної копії через iCloud» та «Розумного хмарного архіву».";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Виконати повну синхронізацію “Backup with iCloud” та “Smart Cloud Archive”. Повертає true, якщо демон запущено і синхронізація повідомляє про успіх; інакше false.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Виконати повну синхронізацію";
@@ -2105,7 +2390,7 @@
 "Phone" = "Телефон";
 
 /* Translated with LLM */
-"phone" = "телефон";
+"phone" = "Телефон";
 
 /* Translated with LLM */
 "Phone Address" = "Адреса телефону";
@@ -2147,13 +2432,22 @@
 "Play" = "Відтворити";
 
 /* Translated with LLM */
-"play" = "відтворити";
+"play" = "Відтворити";
 
 /* Translated with LLM */
 "Play ${audioFile}" = "Відтворити ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Відтворити аудіофайл у поточному виклику. Повертає true, якщо відтворення розпочато успішно, інакше false. Неприпустимі аудіофайли спричиняють помилку.";
+
+/* Translated with LLM */
 "play audio file" = "відтворити аудіофайл";
+
+/* Translated with LLM */
+"play call audio" = "Відтворити аудіо виклику";
+
+/* Translated with LLM */
+"Play Call Audio" = "Відтворити аудіо виклику";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Попередження при відтворенні запису";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Відтворити звук";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Відтворити вказаний аудіофайл через мікрофон.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Відтворити вказаний озвучений текст через мікрофон.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Відтворення через приймач";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Відтворення через динамік";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Відтворити аудіо uplink";
-
-/* Translated with LLM */
 "play uplink audio" = "відтворити аудіо uplink";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Відтворити озвучення Uplink";
 
 /* Translated with LLM */
 "play voice over" = "відтворити голос за кадром";
@@ -2261,6 +2543,12 @@
 "post notification" = "надіслати сповіщення";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Постобробка та вивід";
+
+/* Translated with LLM */
+"Pre-release Version" = "Передрелізна версія";
+
+/* Translated with LLM */
 "Preparing" = "Підготовка";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Зберігати всі канали";
+
+/* Translated with LLM */
+"Preset Providers" = "Попередньо встановлені постачальники";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Дія при утриманні";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Готово до запису!";
 
 /* Translated with LLM */
+"real-time captions" = "субтитри в реальному часі";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Кодування в реальному часі";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Помилка авторизації: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Запис";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Запис (застарілий)";
 
 /* Translated with LLM */
 "Record All Calls" = "Записувати всі дзвінки";
@@ -2432,7 +2732,7 @@
 "Recording" = "Запис";
 
 /* Translated with LLM */
-"recording" = "запис";
+"recording" = "Запис";
 
 /* Translated with LLM */
 "Recording (Localized)" = "Запис (локалізований)";
@@ -2447,6 +2747,15 @@
 "recording file" = "файл запису";
 
 /* Translated with LLM */
+"Recording Info" = "Інформація про запис";
+
+/* Translated with LLM */
+"recording info" = "Інформація про запис";
+
+/* Translated with LLM */
+"recording information" = "інформація про запис";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Запис перервано";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Налаштування запису";
 
 /* Translated with LLM */
-"recording path" = "шлях запису";
+"recording path" = "Шлях запису";
+
+/* Translated with LLM */
+"Recording Path" = "Шлях запису";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Запис почнеться, коли аудіовходи та аудіовиходи будуть постійно активними.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Перегенерувати все";
 
 /* Translated with LLM */
-"reject" = "відхилити";
+"reject" = "Відхилити";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Автоматично відхиляти всі вхідні дзвінки.";
+"Reject" = "Відхилити";
 
 /* Translated with LLM */
 "reject call" = "відхилити виклик";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Відхиляти вхідні дзвінки";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Ідентифікатори пов’язаних пакетів програм";
+
+/* Translated with LLM */
+"Related Application Count" = "Кількість пов’язаних застосунків";
 
 /* Translated with LLM */
 "Relaunched" = "Перезапущено";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Скинути службу";
 
 /* Translated with LLM */
+"responses" = "відповіді";
+
+/* Translated with LLM */
 "Respring" = "Перезавантаження SpringBoard";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Відновлення";
 
 /* Translated with LLM */
+"Resume" = "Відновити";
+
+/* Translated with LLM */
 "Resume Recording" = "Продовжити запис";
+
+/* Translated with LLM */
+"resume recording" = "Продовжити запис";
 
 /* Translated with LLM */
 "Resume with Warning" = "Продовжити з попередженням";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "зупинка захоплення екрану";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Інформація про запис екрану";
+
+/* Translated with LLM */
+"screen recording info" = "Інформація про запис екрану";
+
+/* Translated with LLM */
 "screen recording off" = "запис екрану вимкнено";
+
+/* Translated with LLM */
+"screen recording status" = "стан запису екрану";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Пошук пристроїв поблизу";
 
 /* Translated with LLM */
-"Search…" = "Пошук…";
-
-/* Translated with LLM */
 "Seconds" = "Секунди";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Надіслати діагностику";
 
 /* Translated with LLM */
+"Sender Address" = "Адреса відправника";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Локалізоване ім’я відправника";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Локалізоване коротке ім’я відправника";
+
+/* Translated with LLM */
 "Sender Name" = "Ім’я відправника";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Телефонна адреса відправника";
+
+/* Translated with LLM */
+"Sender Service Name" = "Назва служби відправника";
 
 /* Translated with LLM */
 "Sender Short Name" = "Коротке ім’я відправника";
@@ -2777,13 +3122,22 @@
 "service active" = "служба активна";
 
 /* Translated with LLM */
+"Service Info" = "Інформація про службу";
+
+/* Translated with LLM */
+"service info" = "Інформація про службу";
+
+/* Translated with LLM */
 "Service is alive" = "Служба активна";
 
 /* Translated with LLM */
 "Service is dead" = "Служба неактивна";
 
 /* Translated with LLM */
-"Service Status" = "Статус служби";
+"service status" = "стан служби";
+
+/* Translated with LLM */
+"service statuses" = "статуси служби";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Вкажіть нову назву для цього запису або залиште порожнім для значення за замовчуванням.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Показувати сповіщення";
 
 /* Translated with LLM */
-"show notification" = "показати сповіщення";
+"show notification" = "Показувати сповіщення";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Показати сповіщення ${requestedMessage}";
@@ -2903,10 +3257,19 @@
 "Space" = "Пробіл";
 
 /* Translated with LLM */
+"speak call voice over" = "відтворити голос за кадром";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Відтворити озвучення дзвінка";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Відтворити вказаний голосовий текст у мікрофон. Повертає true, якщо відтворення розпочато успішно, інакше false. Максимальний час очікування на завершення відтворення — 60 секунд.";
+
+/* Translated with LLM */
 "Speaker" = "Динамік";
 
 /* Translated with LLM */
-"speaker" = "динамік";
+"speaker" = "Динамік";
 
 /* Translated with LLM */
 "speaker off" = "гучномовець вимкнено";
@@ -2924,10 +3287,16 @@
 "spoken audio" = "розмовне аудіо";
 
 /* Translated with LLM */
-"start" = "старт";
+"Stable Version" = "Стабільна версія";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Почати запис екрану (аналогічно функції в Центрі управління).";
+"Standby" = "Очікування";
+
+/* Translated with LLM */
+"start" = "Старт";
+
+/* Translated with LLM */
+"Start" = "Старт";
 
 /* Translated with LLM */
 "Start Call Recording" = "Почати запис дзвінка";
@@ -2937,9 +3306,6 @@
 
 /* Translated with LLM */
 "Start Date" = "Дата початку";
-
-/* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Почати або підготувати запис дзвінка/системного звуку/голосову замітку.";
 
 /* Translated with LLM */
 "Start Recording" = "Почати запис";
@@ -2960,6 +3326,12 @@
 "Start Voice Memo Recording" = "Почати голосову замітку";
 
 /* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Запускає, зупиняє або перемикає системний запис екрану. Повертає true, якщо запит на запис екрану виконано успішно, інакше — false.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Запустити, зупинити, поставити на паузу, відновити або перемкнути запис. Повертає true, якщо запит на запис виконано успішно, інакше — false.";
+
+/* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Запуск служби експорту триває довше, ніж очікувалося. Перевірте мережу та повторіть спробу.";
 
 /* Translated with LLM */
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Триває запис дзвінка у фоновому режимі.";
 
 /* Translated with LLM */
-"stop" = "стоп";
+"stop" = "Зупинити";
 
 /* Translated with LLM */
 "Stop" = "Зупинити";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "Зупинити та зберегти";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Зупинити запис дзвінка/системного звуку/голосової замітки (якщо активний).";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Зупинити запис екрану (якщо активний).";
 
 /* Translated with LLM */
 "Stop Recording" = "Зупинити запис";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Зупинити запис екрану";
 
 /* Translated with LLM */
-"stop screen recording" = "зупинити запис екрану";
+"stop screen recording" = "Зупинити запис екрану";
 
 /* Translated with LLM */
 "Stop Service" = "Зупинити службу";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Запис системного звуку";
 
 /* Translated with LLM */
-"system audio recording" = "запис системного звуку";
+"system audio recording" = "Запис системного звуку";
 
 /* Translated with LLM */
 "System Language" = "Системна мова";
 
 /* Translated with LLM */
 "System Record" = "Системний запис";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Системний запис (застарілий)";
+
+/* Translated with LLM */
+"system record info" = "інформація про системний запис";
+
+/* Translated with LLM */
+"system recording status" = "стан системного запису";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Торкніться __будь-якого краю__, щоб вибрати його як ___активний край___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Виявлено технічну помилку";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Утиліти телефонії";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Тимчасово ігнорувати";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Тимчасова помилка, повторні спроби можуть допомогти.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Шлях тимчасового запису";
+
+/* Translated with LLM */
 "terminate" = "завершити";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Негайно завершити всі активні дзвінки.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Негайно завершити всі активні виклики. Повертає true, якщо запит було успішно надіслано демону, інакше false.";
 
 /* Translated with LLM */
 "terminate call" = "завершити виклик";
@@ -3134,9 +3515,6 @@
 "text to speech" = "текст у мову";
 
 /* Translated with LLM */
-"text-to-speech" = "текст-в-мову";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "Система перервала %@. Ви можете конвертувати запис вручну пізніше.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "Ідентифікатор програми, яка ініціювала дзвінок.";
+
+/* Translated with LLM */
+"The call event to wait for." = "Подія виклику, на яку потрібно дочекатися.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Текстовий файл “%@” порожній.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Максимальний час очікування з’єднання (у секундах).";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Максимальна кількість секунд очікування вибраної події виклику.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "Відсутні метадані місця заповняться при відкритті додатку одразу після запису.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "Дія основної кнопки hoverball (права сторона) без активного дзвінка.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Вибраний аудіофайл є недійсним або не підтримується.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Служба налаштована неправильно.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Оператор зв’язку відправника.";
+
+/* Translated with LLM */
+"The session to inspect." = "Сесія для перевірки.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "Розмір обраного аудіофайлу.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Тип контенту для запису.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Тип запису для керування. «Будь-який запис» застосовується лише до зупинки, паузи, поновлення та перемикання.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Тип запису, який потрібно зупинити.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "Унікальний ідентифікатор дзвінка.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Цей запис із WeChat. Асистент WeChat допоможе вам заповнити імена та примітки контактів WeChat наступного разу.\nСхоже, у вас не ввімкнено “Асистент WeChat”. Бажаєте ввімкнути його зараз?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Цей запис було зроблено з використанням «Кодування в реальному часі». Цей метод запису не створює сирого тимчасового аудіо, яке можна використовувати для відновлення, тому перервані записи неможливо відновити.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Ця версія WeChat (%@) не підтримується. Оновіть додаток.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Тризначні мілісекунди";
 
 /* Translated with LLM */
+"Threshold" = "Поріг";
+
+/* Translated with LLM */
 "Time Sensitive" = "Термінове";
 
 /* Translated with LLM */
 "time sensitive notification" = "сповіщення з обмеженням за часом";
+
+/* Translated with LLM */
+"Timeout" = "Тайм-аут";
 
 /* Translated with LLM */
 "Title" = "Назва";
@@ -3356,7 +3761,10 @@
 "To: %@" = "Для: %@";
 
 /* Translated with LLM */
-"toggle" = "перемкнути";
+"toggle" = "Перемикач";
+
+/* Translated with LLM */
+"Toggle" = "Перемикач";
 
 /* Translated with LLM */
 "Toggle ${requestedMode}" = "Перемкнути ${requestedMode}";
@@ -3368,28 +3776,28 @@
 "Toggle Hoverball" = "Перемкнути Hoverball";
 
 /* Translated with LLM */
-"toggle hoverball" = "перемкнути hoverball";
+"toggle hoverball" = "Перемкнути Hoverball";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Увімкнути/вимкнути Hoverball.";
+"toggle live captions" = "Увімкнути/вимкнути субтитри в реальному часі";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Увімкнути/вимкнути субтитри в реальному часі";
 
 /* Translated with LLM */
 "Toggle Recording" = "Перемкнути запис";
 
 /* Translated with LLM */
-"toggle recording" = "перемкнути запис";
+"toggle recording" = "Перемкнути запис";
 
 /* Translated with LLM */
 "Toggle Screen Recording" = "Перемкнути запис екрана";
 
 /* Translated with LLM */
-"toggle screen recording" = "перемкнути запис екрану";
+"toggle screen recording" = "Перемкнути запис екрана";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Перемкнути запис системного звуку";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Перемкнути системний запис екрана, як у Центрі керування.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Увімкнути/вимкнути запис голосових нотаток";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "відтворення TTS";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Вимкнути «Кодування в реальному часі»";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Вимкніть цю опцію, щоб інші налаштування на цій сторінці застосовувалися до поточної програми.";
@@ -3554,7 +3965,10 @@
 "Unmark" = "Зняти позначку";
 
 /* Translated with LLM */
-"unmute" = "увімкнути звук";
+"unmute" = "Увімкнути звук";
+
+/* Translated with LLM */
+"Unmute" = "Увімкнути звук";
 
 /* Translated with LLM */
 "Unmute ${requestedChannel}" = "Увімкнути звук ${requestedChannel}";
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Увімкнути звук поточних дзвінків";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Увімкнути звук вказаного каналу у всіх дзвінках.";
 
 /* Translated with LLM */
 "Unspecified" = "Не вказано";
@@ -3659,6 +4070,9 @@
 "Utility" = "Утиліта";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Утиліта (застаріла)";
+
+/* Translated with LLM */
 "Variant" = "Варіант";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Журнали мережевого сховища";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Журнали: Реєстратор у реальному часі";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Журнали мовного виводу";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP-контакти завжди записуватимуться та додаватимуться до обраного";
+
+/* Translated with LLM */
+"Voice Chat" = "Голосовий чат";
 
 /* Translated with LLM */
 "Voice Memo" = "Голосова нотатка";
@@ -3761,19 +4181,52 @@
 "wait" = "очікування";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Чекати на дзвінок ${requestedEvent}";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Чекати на дзвінок ${requestedEvent}";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Очікувати ${requestedTimeout} секунд";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Очікувати відповіді та підключення дзвінка";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Чекати на подію виклику. Повертає інформацію про виклик, коли відбувається вибрана подія; інакше нічого не повертає після закінчення тайм-ауту.";
 
 /* Translated with LLM */
-"wait for call" = "очікувати дзвінок";
+"wait for call" = "Очікувати дзвінок";
+
+/* Translated with LLM */
+"Wait for Call" = "Очікувати дзвінок";
+
+/* Translated with LLM */
+"wait for call ended" = "очікування завершення дзвінка";
+
+/* Translated with LLM */
+"wait for call event" = "Очікувати подію виклику";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Очікувати подію виклику";
 
 /* Translated with LLM */
 "Wait for Calls" = "Очікувати дзвінки";
 
 /* Translated with LLM */
+"wait for connected call" = "очікувати підключений дзвінок";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Очікувати підключені дзвінки";
+
+/* Translated with LLM */
+"wait for incoming call" = "очікувати вхідний дзвінок";
+
+/* Translated with LLM */
+"wait for outgoing call" = "очікувати вихідний дзвінок";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Чекати до завершення";
+
+/* Translated with LLM */
+"Waiting For Device" = "Очікування на пристрій";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Увага: ваш розмову записується. Увага: ваш розмову записується.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Якщо WebDAV сервер увімкнено, дозволяти доступ через звичайні браузери (Safari, Chrome, Edge тощо)";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Приймати чи відхиляти вхідні дзвінки.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Чи скасовувати запис під час зупинки. Ігнорується під час запуску або перемикання.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Примусово встановлювати світлий або темний інтерфейс програми.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Примусово встановлювати світлий або темний стиль для hoverball.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Чи вмикати звук мікрофона під час запуску або перемикання запису екрана.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Нескінченно повторювати відтворення аудіо. Якщо увімкнено, дія завершиться відразу після початку відтворення.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Вимикати чи вмикати звук дзвінка.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Відкривати, закривати або перемикати субтитри в реальному часі.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Відкривати, закривати чи перемикати плаваючу кульку.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Чи запускати, зупиняти або перемикати запис екрану.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Чи потрібно почати, зупинити, призупинити, відновити або переключити запис.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Чи чекати на завершення відтворення. Якщо вимкнено, ця дія повернеться одразу після початку відтворення.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Чи чекати на завершення відтворення. Якщо вимкнено, ця дія повернеться одразу після початку відтворення. «Повторювати нескінченно» завжди повертається одразу після початку відтворення.";
+
+/* Translated with LLM */
+"Which channel to control." = "Який канал контролювати.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Який канал вимкнути.";

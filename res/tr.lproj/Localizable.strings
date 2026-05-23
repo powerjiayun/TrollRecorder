@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} kaydı";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} canlı altyazılar";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} ekran kaydı";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} gelen aramalar";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Yardım";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "“Launch Shield” özelliği için bir widget gereklidir.";
 
 /* Translated with LLM */
-"accept" = "kabul et";
+"accept" = "Kabul et";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Gelen tüm çağrıları otomatik olarak kabul et.";
+"Accept" = "Kabul et";
 
 /* Translated with LLM */
 "accept call" = "çağrıyı kabul et";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Gelen Çağrıları Kabul Et";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Gelen tüm çağrıları kabul edin veya reddedin. İstek, arka plan hizmetine başarıyla gönderildiyse true; aksi takdirde false döndürür.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Web Tarayıcısından Erişim";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Kayıtlarınıza ağdaki başka bir cihazdan WebDAV tarayıcısıyla erişin. Sunucu yalnızca uygulama ön plandayken etkindir.";
+
+/* Translated with LLM */
+"actions" = "eylemler";
 
 /* Translated with LLM */
 "activate" = "Etkinleştir";
@@ -110,7 +137,13 @@
 "activate hoverball" = "hoverball’ı etkinleştir";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Kaydedici hoverball’u etkinleştir.";
+"activate live captions" = "canlı altyazıları etkinleştir";
+
+/* Translated with LLM */
+"Active Call Count" = "Aktif Çağrı Sayısı";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Aktif Çağrı Tanımlayıcıları";
 
 /* Translated with LLM */
 "Add" = "Ekle";
@@ -251,7 +284,13 @@
 "Any" = "herhangi bir";
 
 /* Translated with LLM */
+"Any Recording" = "Herhangi Bir Kayıt";
+
+/* Translated with LLM */
 "App Icon" = "Uygulama Simgesi";
+
+/* Translated with LLM */
+"App Intent" = "Uygulama Amacı";
 
 /* Translated with LLM */
 "App Language" = "Uygulama dili";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "TrollRecorder Pro Satın Al";
 
 /* Translated with LLM */
+"Byte Count" = "Bayt Sayısı";
+
+/* Translated with LLM */
 "Calculating…" = "Hesaplanıyor…";
 
 /* Translated with LLM */
 "Call" = "Arama";
 
 /* Translated with LLM */
-"call" = "arama";
+"call" = "Arama";
+
+/* Translated with LLM */
+"call audio" = "çağrı sesi";
 
 /* Translated with LLM */
 "call audio on" = "çağrı sesi açık";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Çağrı ses hattı izleme başarısız oldu. Kayıt hizmetini yeniden başlatmak için bu bildirime dokunun.";
 
 /* Translated with LLM */
-"call connected" = "çağrı bağlandı";
+"Call Automation" = "Çağrı Otomasyonu";
 
 /* Translated with LLM */
-"Call Direction" = "Arama Yönü";
+"Call Automation (Legacy)" = "Çağrı Otomasyonu (Eski)";
+
+/* Translated with LLM */
+"call connected" = "çağrı bağlandı";
 
 /* Translated with LLM */
 "call duration" = "çağrı süresi";
 
 /* Translated with LLM */
+"Call History Identifier" = "Çağrı Geçmişi Tanımlayıcısı";
+
+/* Translated with LLM */
 "Call Identifier" = "Arama Tanımlayıcısı";
+
+/* Translated with LLM */
+"Call Info" = "Çağrı Bilgisi";
+
+/* Translated with LLM */
+"call info" = "Çağrı Bilgisi";
 
 /* Translated with LLM */
 "call information" = "çağrı bilgileri";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Çağrı Kaydı: Diğer Taraf";
 
 /* Translated with LLM */
-"Call State" = "Arama Durumu";
+"Call Sniffer" = "Çağrı Yakalayıcı";
 
 /* Translated with LLM */
 "call status" = "çağrı durumu";
@@ -548,10 +605,16 @@
 "Caution" = "Dikkat";
 
 /* Translated with LLM */
+"Channel" = "Kanal";
+
+/* Translated with LLM */
 "check" = "Kontrol et";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Daemon’un çalışıp çalışmadığını kontrol edin. Eğer değilse, başlatın.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Daemon’un çalışıp çalışmadığını kontrol edin. Çalışmıyorsa başlatın. Kontrolden sonra daemon çalışıyorsa hizmet bilgilerini döndürür; aksi takdirde hiçbir şey döndürmez.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Daemon’un çalışıp çalışmadığını kontrol edin. Çalışmıyorsa başlatın. Kontrolden sonra daemon çalışıyorsa true döndürür; aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "check service" = "servis kontrolü";
@@ -611,6 +674,9 @@
 "close hoverball" = "Hoverball’ı Kapat";
 
 /* Translated with LLM */
+"close live captions" = "canlı altyazıları kapat";
+
+/* Translated with LLM */
 "cloud archive sync" = "bulut arşiv senkronizasyonu";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Kayıtları aktarmadan önce bir Wi‑Fi ağına bağlanın.";
 
 /* Translated with LLM */
-"connected" = "bağlandı";
+"connected" = "Bağlı";
+
+/* Translated with LLM */
+"Connected" = "Bağlı";
+
+/* Translated with LLM */
+"Connected At" = "Bağlanma Zamanı";
 
 /* Translated with LLM */
 "connected call" = "bağlı çağrı";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Kişi İstisnaları";
+
+/* Translated with LLM */
+"Contact Identifier" = "Kişi Tanımlayıcı";
+
+/* Translated with LLM */
+"Contact Label" = "Kişi Etiketi";
 
 /* Translated with LLM */
 "Contact Name" = "Kişi Adı";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Sürekli Oynatma Açık";
+
+/* Translated with LLM */
+"control call audio" = "çağrı sesini kontrol et";
+
+/* Translated with LLM */
+"control call muting" = "Çağrı Sesini Kontrol Et";
+
+/* Translated with LLM */
+"Control Call Muting" = "Çağrı Sesini Kontrol Et";
+
+/* Translated with LLM */
+"control hoverball" = "Hoverball’ı Kontrol Et";
+
+/* Translated with LLM */
+"Control Hoverball" = "Hoverball’ı Kontrol Et";
+
+/* Translated with LLM */
+"Control Live Captions" = "Canlı Altyazıları Kontrol Et";
+
+/* Translated with LLM */
+"control live captions" = "Canlı Altyazıları Kontrol Et";
+
+/* Translated with LLM */
+"control recording" = "Kaydı Kontrol Et";
+
+/* Translated with LLM */
+"Control Recording" = "Kaydı Kontrol Et";
+
+/* Translated with LLM */
+"control screen recording" = "Ekran Kaydını Kontrol Et";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Ekran Kaydını Kontrol Et";
 
 /* Translated with LLM */
 "Conversion Failed" = "Dönüştürme Başarısız";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Hesaptan çıkış yapılamadı: %@";
 
 /* Translated with LLM */
+"Country Code" = "Ülke Kodu";
+
+/* Translated with LLM */
 "Created At" = "Oluşturulma Tarihi";
 
 /* Translated with LLM */
 "Credentials" = "Kimlik Bilgileri";
+
+/* Translated with LLM */
+"Current" = "Güncel";
 
 /* Translated with LLM */
 "current call" = "mevcut çağrı";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "hoverball’ı devre dışı bırak";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Kaydedici hoverball’u devre dışı bırak.";
+"deactivate live captions" = "canlı altyazıları devre dışı bırak";
 
 /* Translated with LLM */
 "Debugging" = "Hata Ayıklama";
@@ -863,10 +980,16 @@
 "Developer Options" = "Geliştirici Seçenekleri";
 
 /* Translated with LLM */
+"Dialing" = "Aranıyor";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Dikte Devre Dışı";
 
 /* Translated with LLM */
 "Digital Video" = "Dijital Video";
+
+/* Translated with LLM */
+"Digits" = "Rakamlar";
 
 /* Translated with LLM */
 "Direction" = "Yön";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Yön Açıklaması";
 
 /* Translated with LLM */
-"directory" = "dizin";
+"directory" = "Dizin";
 
 /* Translated with LLM */
 "Directory" = "Dizin";
@@ -905,7 +1028,7 @@
 "Discard" = "Atın";
 
 /* Translated with LLM */
-"discard" = "At";
+"discard" = "Atın";
 
 /* Translated with LLM */
 "Discard Changes" = "Değişiklikleri Atın";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Kaydı At";
+
+/* Translated with LLM */
+"Disconnected" = "Bağlantı kesildi";
+
+/* Translated with LLM */
+"Disconnected At" = "Bağlantı Kesilme Zamanı";
 
 /* Translated with LLM */
 "Discreet Mode" = "Gizli Mod";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Kaydın kaynak paket adını göster.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Yerel bir bildirim görüntüler.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Yerel bir bildirim görüntüler. Bildirim isteği başarıyla gönderildiyse true, aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "“%@” günlük dosyasını temizlemek istiyor musunuz?";
@@ -1043,7 +1172,7 @@
 "Duration" = "Süre";
 
 /* Translated with LLM */
-"duration" = "süre";
+"duration" = "Süre";
 
 /* Translated with LLM */
 "Duration Before Idle" = "Boşta Kalma Süresi";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Face ID’yi Etkinleştir";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Seviye ölçümünü etkinleştirin ve hoverball katlandığında bir gösterge sunun. Bu seçenek yalnızca “Boştayken Geçiş” seçeneği “Her Zaman Katla” olarak ayarlandığında kullanılabilir.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Ses seviyesi ölçümünü etkinleştirerek “Kayıt” durum panelinde gerçek zamanlı dalga formunu sürün ve hoverball katlandığında bir çubuk göstergesi gösterin.";
 
 /* Translated with LLM */
 "Enable Logging" = "Günlüğü Etkinleştir";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "WebDAV sunucusunun, uygulama arka plana geçtiğinde ve son bağlantı kapatıldığında otomatik olarak kendini askıya almasını ve ardından uygulama ön plana geldiğinde otomatik olarak devam etmesini sağlar.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Geçici dosya boyutunu ve işlem sonrası süreyi azaltmak için kayıt sırasında sesi kodlayın. Bu daha fazla CPU ve pil kullanabilir; kesintiye uğrayan kayıtları kurtarmak daha zor olabilir.";
+
+/* Translated with LLM */
 "Encoding" = "Kodlama";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "ekran kaydını sonlandır";
 
 /* Translated with LLM */
-"Enhance Recording" = "Kaydı Geliştir";
+"Ended" = "Bitti";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Gelişmiş Otomatik Kayıt";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Hoverball’dan Çık";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Canlı Altyazılardan Çık";
+
+/* Translated with LLM */
 "Expand Recursively" = "Özyinelemeli Olarak Genişlet";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "ZIP olarak dışa aktar";
+
+/* Translated with LLM */
+"Export File Name" = "Dışa Aktarma Dosya Adı";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Kayıtları sınırlama olmadan istediğiniz yere aktarın.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Dosya Formatı";
+
+/* Translated with LLM */
+"File Name" = "Dosya Adı";
 
 /* Translated with LLM */
 "File not found." = "Dosya bulunamadı.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "${requestedField} Al";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "${requestedSession} çağrı bilgilerini al";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "${requestedSession} kayıt bilgilerini al";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Doğrudan aramanızda kayıt yaparken gelişmiş kontrol elde edin.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Arama Süresini Al";
 
 /* Translated with LLM */
+"Get Call Info" = "Çağrı Bilgilerini Al";
+
+/* Translated with LLM */
 "Get Call Status" = "Arama Durumunu Al";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Geçerli kayıt yolu bilgisini eski bir metin değeri olarak alın. Yeni kısayollar için “Kayıt Bilgilerini Al” seçeneğini tercih edin.";
 
 /* Translated with LLM */
 "Get In Touch" = "İletişime Geçin";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Kayıt tamamlandıktan sonra bildirim alın.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Birincil çağrı bilgilerini tek bir nesne olarak alın.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Kayıt Süresini Al";
+
+/* Translated with LLM */
+"Get Recording Info" = "Kayıt Bilgilerini Al";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Kayıt bilgilerini tek bir nesne olarak alın.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Kayıt Yollarını Al";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Kayıt Durumunu Al";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Troll Recorder’ın mevcut kayıt süresini alın.";
+"Get Screen Recording Info" = "Ekran Kayıt Bilgilerini Al";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Troll Recorder’ın mevcut kayıt yollarını alın.";
+"Get screen recording information as a single object." = "Ekran kayıt bilgilerini tek bir nesne olarak alın.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Troll Recorder’ın mevcut kayıt durumunu alın.";
+"Get Service Info" = "Hizmet Bilgisi Al";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Cihazın birincil arama süresini alın.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Geçerli kayıt süresini eski bir sayısal değer olarak alın. Yeni kısayollar için “Kayıt Bilgilerini Al” seçeneğini tercih edin.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Cihazın birincil arama durumunu alın.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Geçerli kayıt durumunu eski bir Boolean değeri olarak alır. Seçili durum alanı doğru olduğunda sonuç doğrudur; yanlış olduğunda veya kullanılamadığında yanlış olur. Yeni kısayollar için “Kayıt Bilgilerini Al” seçeneğini tercih edin.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Birincil çağrı süresini eski bir sayısal değer olarak alın. Yeni kısayollar için “Çağrı Bilgilerini Al” seçeneğini tercih edin.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Birincil çağrı durumunu eski bir metin değeri olarak alın. Yeni kısayollar için “Çağrı Bilgilerini Al” seçeneğini tercih edin.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Kilidi Açıldığında Ana Ekrana Git";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Grup Araması";
+
+/* Translated with LLM */
+"handle incoming calls" = "Gelen Çağrıları Yönet";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Gelen Çağrıları Yönet";
 
 /* Translated with LLM */
 "hang up calls" = "aramaları kapat";
@@ -1435,6 +1609,9 @@
 /* No comment provided by engineer. */
 "Hoverball" = "Hoverball";
 
+/* Translated with LLM */
+"Hoverball (Legacy)" = "Hoverball (Eski)";
+
 /* No comment provided by engineer. */
 "Hoverball Plus" = "Hoverball Plus";
 
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Hoverball Stili";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Arama Kaydı";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Etkin bir telefon araması yoksa, belirtilen eylemi gerçekleştirmek için fiziksel ses düğmelerinin her ikisine de basın.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Bu sık sık oluyorsa, “İşlem Sonrası ve Çıktı” ayarlarından “Gerçek Zamanlı Kodlama”yı kapatın.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Filza ile kayıtları değiştirdiyseniz veya herhangi bir dosya sistemi ayrıcalık sorunuyla karşılaştıysanız, bunları buradan düzeltebilirsiniz.";
@@ -1523,7 +1706,7 @@
 "Incoming" = "Gelen";
 
 /* Translated with LLM */
-"incoming" = "gelen";
+"incoming" = "Gelen";
 
 /* Translated with LLM */
 "Incoming Call" = "Gelen Arama";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Arama Geçmişi İnce Ayarını Yükle";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Mikrofona o anda çalınmakta olan herhangi bir yukarı bağlantı sesini veya seslendirmeyi keser. Oynatma kesilmişse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"interrupt call playback" = "çağrı oynatmayı kesme";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "yukarı bağlantı sesini kes";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Yukarı Bağlantı Oynatmayı Kes";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Yukarı Bağlantı Oynatmayı Kes";
+
+/* Translated with LLM */
+"interrupt voice over" = "seslendirmeyi kes";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Geçersiz Kod İmzası";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Mevcut mu";
 
 /* Translated with LLM */
 "Is Favourite" = "Favori mi";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "Duraklatıldı";
 
 /* Translated with LLM */
-"is recording" = "kaydediyor";
+"is recording" = "Kayıt mı";
+
+/* Translated with LLM */
+"Is Recording" = "Kayıt mı";
 
 /* Translated with LLM */
 "Is Running" = "Çalışıyor";
+
+/* Translated with LLM */
+"Is Service Running" = "Servis Çalışıyor mu";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Cihaz Bekliyor";
+
+/* Translated with LLM */
+"ISO Country Code" = "ISO Ülke Kodu";
 
 /* Translated with LLM */
 "Item #%lu" = "Öğe #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Bağlandığında Ekranı Açık Tut";
+
+/* Translated with LLM */
+"Key Event" = "Tuş Olayı";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Klavye Engelleme";
@@ -1616,6 +1835,9 @@
 "Later" = "Daha sonra";
 
 /* Translated with LLM */
+"Latest" = "En son";
+
+/* Translated with LLM */
 "launch" = "başlat";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "ön kenar";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Eski eylem. Herhangi bir çağrının yanıtlanmasını ve bağlanmasını bekleyin. Arayan bir çağrı zaman aşımından önce aramayı durdurursa true döndürür; aksi takdirde false döndürür. Yeni kısayollar için “Aramayı Bekle”yi tercih edin.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Eski çağrı sesi eylemi. Yeni kısayollar için “Çağrı Sesini Kontrol Et” seçeneğini tercih edin. İstek arka plan hizmetine başarıyla gönderildiyse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Eski hoverball eylemi. Yeni kısayollar için “Hoverball’u Kontrol Et” tercih edilir. Hoverball ayarı başarıyla devre dışı bırakılmışsa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Eski hoverball eylemi. Yeni kısayollar için “Hoverball’u Kontrol Et” tercih edilir. Hoverball ayarı başarıyla etkinleştirildiyse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Eski hoverball eylemi. Yeni kısayollar için “Hoverball’u Kontrol Et” tercih edilir. Hoverball ayarı başarıyla değiştirilmişse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Eski gelen arama eylemi. Yeni kısayollar için “Gelen Çağrıları İşle” seçeneğini tercih edin. İstek arka plan hizmetine başarıyla gönderildiyse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Eski Jailbreak";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Eski canlı altyazı eylemi. Yeni kısayollar için “Canlı Altyazıları Kontrol Et” seçeneğini tercih edin. Canlı altyazılar başarıyla devre dışı bırakılmışsa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Eski canlı altyazı eylemi. Yeni kısayollar için “Canlı Altyazıları Kontrol Et” seçeneğini tercih edin. Canlı altyazılar başarıyla etkinleştirilmişse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Eski canlı altyazı eylemi. Yeni kısayollar için “Canlı Altyazıları Kontrol Et” seçeneğini tercih edin. Canlı altyazılar başarıyla değiştirilmişse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Eski kayıt eylemi. Yeni kısayollar için “Kaydı Kontrol Et” seçeneğini tercih edin. Kayıt isteği başarılı olursa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Eski kayıt eylemi. Yeni kısayollar için “Kaydı Kontrol Et” seçeneğini tercih edin. Durdurma isteği başarılı olursa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Eski ekran kaydı eylemi. Yeni kısayollar için “Ekran Kaydını Kontrol Et” seçeneğini tercih edin. Ekran kaydı isteği başarılı olursa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Eski ekran kaydı eylemi. Yeni kısayollar için “Ekran Kaydını Kontrol Et” seçeneğini tercih edin. Durdurma isteği başarılı olursa true, aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Düşük riskli bir hata oluştu.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Canlı Altyazılar";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Canlı Altyazılar (Eski)";
 
 /* Translated with LLM */
 "Loading…" = "Yükleniyor…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "${requestedMode} kaydı yap";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Yeni bir kayıt yapın veya mevcut bir kaydı durdurun.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Yeni bir sesli not oluşturun veya mevcut bir sesli notu durdurun.";
 
 /* Translated with LLM */
@@ -1790,10 +2051,13 @@
 "Metadata" = "Metaveri";
 
 /* Translated with LLM */
+"Metadata Path" = "Meta Veri Yolu";
+
+/* Translated with LLM */
 "Microphone" = "Mikrofon";
 
 /* Translated with LLM */
-"microphone" = "mikrofon";
+"microphone" = "Mikrofon";
 
 /* Translated with LLM */
 "Microphone and speaker are recorded in different channels." = "Mikrofon ve hoparlör farklı kanallarda kaydedilir.";
@@ -1823,9 +2087,6 @@
 "Mixed" = "Karışık";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Karıştırıcı ve Birleştirici";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Karıştırıcı Ses Formatı";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "MPEG-4 Ses";
 
 /* Translated with LLM */
-"mute" = "sessiz";
+"mute" = "Sessiz";
+
+/* Translated with LLM */
+"Mute" = "Sessiz";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "${requestedChannel} Sessiz";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Mevcut Aramaları Sessize Al";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Mevcut tüm aramaların belirtilen kanalını sessize alın.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Mevcut tüm çağrıların belirtilen kanalını sessize alır veya sesini açar. İstek arka plan hizmetine başarıyla gönderildiyse true, aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "My Favourite" = "Benim Favorim";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Takma Adlı Ad";
+
+/* Translated with LLM */
+"Network Code" = "Ağ Kodu";
 
 /* Translated with LLM */
 "Network Storage" = "Ağ Depolama";
@@ -1955,6 +2222,9 @@
 "notification" = "Bildirim";
 
 /* Translated with LLM */
+"Notification" = "Bildirim";
+
+/* Translated with LLM */
 "Notification Permission Denied" = "Bildirim İzni Reddedildi";
 
 /* Translated with LLM */
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Haritalar’da Aç";
 
 /* Translated with LLM */
+"Open Live Captions" = "Canlı Altyazıları Aç";
+
+/* Translated with LLM */
+"open live captions" = "Canlı Altyazıları Aç";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Troll Recorder Aç";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Canlı altyazıları açar, kapatır veya değiştirir. Canlı altyazı ayarı başarıyla değiştirildiyse true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Kaydedici hoverball’ı açar, kapatır veya değiştirir. Hoverball ayarı başarıyla değiştirildiyse true, aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "Operation Failed" = "İşlem Başarısız Oldu";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Kaydı Duraklat";
 
 /* Translated with LLM */
+"pause recording" = "Kaydı Duraklat";
+
+/* Translated with LLM */
 "Paused" = "Duraklatıldı";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "“iCloud ile Yedekleme” ve “Akıllı Bulut Arşivi”nin tam senkronizasyonunu gerçekleştirin.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "“iCloud ile Yedekleme” ve “Akıllı Bulut Arşivi” için tam bir eşitleme gerçekleştirin. Arka plan hizmeti çalışıyorsa ve eşitleme başarılı olduğunu bildiriyorsa true, aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Tam Senkronizasyon Gerçekleştir";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "${audioFile} Oynat";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Geçerli çağrıda bir ses dosyası çalın. Oynatma başarıyla başladıysa true döndürür; aksi takdirde false döndürür. Geçersiz ses dosyaları hata verir.";
+
+/* Translated with LLM */
 "play audio file" = "ses dosyası oynat";
+
+/* Translated with LLM */
+"play call audio" = "Çağrı Sesini Çal";
+
+/* Translated with LLM */
+"Play Call Audio" = "Çağrı Sesini Çal";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Kayıt Çalma Uyarısı";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Ses Çal";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Belirtilen ses dosyasını mikrofona çal.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Belirtilen sesli anlatım metnini mikrofona yayınlayın.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Alıcı Üzerinden Oynat";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Hoparlörden Oynat";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Yukarı Bağlantı Sesini Çal";
-
-/* Translated with LLM */
 "play uplink audio" = "yukarı bağlantı sesini oynat";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Mikrofona Sesli Anlatımı Oynat";
 
 /* Translated with LLM */
 "play voice over" = "seslendirmeyi oynat";
@@ -2261,6 +2543,12 @@
 "post notification" = "bildirim gönder";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Son işleme ve çıktı";
+
+/* Translated with LLM */
+"Pre-release Version" = "Yayın Öncesi Sürüm";
+
+/* Translated with LLM */
 "Preparing" = "Hazırlanıyor";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Tüm Kanalları Koru";
+
+/* Translated with LLM */
+"Preset Providers" = "Ön Ayar Sağlayıcıları";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Basılı Tutma Eylemi";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Kayda hazır!";
 
 /* Translated with LLM */
+"real-time captions" = "gerçek zamanlı altyazılar";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Gerçek Zamanlı Kodlama";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Yetkilendirme hatası alındı: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Kaydet";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Kayıt (Eski)";
 
 /* Translated with LLM */
 "Record All Calls" = "Tüm Çağrıları Kaydet";
@@ -2447,6 +2747,15 @@
 "recording file" = "kayıt dosyası";
 
 /* Translated with LLM */
+"Recording Info" = "Kayıt Bilgisi";
+
+/* Translated with LLM */
+"recording info" = "Kayıt Bilgisi";
+
+/* Translated with LLM */
+"recording information" = "kayıt bilgileri";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Kayıt Kesintiye Uğradı";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Kayıt Seçenekleri";
 
 /* Translated with LLM */
-"recording path" = "kayıt yolu";
+"recording path" = "Kayıt Yolu";
+
+/* Translated with LLM */
+"Recording Path" = "Kayıt Yolu";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Kayıt, hem ses girişleri hem de çıkışları sürekli aktif olduğunda başlar.";
@@ -2510,13 +2822,19 @@
 "reject" = "Reddet";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Tüm gelen aramaları otomatik olarak reddet.";
+"Reject" = "Reddet";
 
 /* Translated with LLM */
 "reject call" = "çağrıyı reddet";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Gelen Aramaları Reddet";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "İlgili Uygulama Paketi Tanımlayıcıları";
+
+/* Translated with LLM */
+"Related Application Count" = "İlgili Uygulama Sayısı";
 
 /* Translated with LLM */
 "Relaunched" = "Yeniden Başlatıldı";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Hizmeti Sıfırla";
 
 /* Translated with LLM */
+"responses" = "yanıtlar";
+
+/* Translated with LLM */
 "Respring" = "SpringBoard’ı Yeniden Başlat";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Geri Yükleniyor";
 
 /* Translated with LLM */
+"Resume" = "Devam Et";
+
+/* Translated with LLM */
 "Resume Recording" = "Kaydı Sürdür";
+
+/* Translated with LLM */
+"resume recording" = "Kaydı Sürdür";
 
 /* Translated with LLM */
 "Resume with Warning" = "Uyarıyla Devam Et";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "ekran yakalamayı durdur";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Ekran Kayıt Bilgisi";
+
+/* Translated with LLM */
+"screen recording info" = "Ekran Kayıt Bilgisi";
+
+/* Translated with LLM */
 "screen recording off" = "ekran kaydı kapalı";
+
+/* Translated with LLM */
+"screen recording status" = "ekran kaydı durumu";
 
 /* Translated with LLM */
 "SCRN: 2025SR1911573" = "Telif Hakkı Kayıt Numarası: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Yakındaki cihazlar aranıyor";
 
 /* Translated with LLM */
-"Search…" = "Ara…";
-
-/* Translated with LLM */
 "Seconds" = "Saniye";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Teşhis Gönder";
 
 /* Translated with LLM */
+"Sender Address" = "Gönderen Adresi";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Gönderenin Yerelleştirilmiş Adı";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Gönderenin Yerelleştirilmiş Kısa Adı";
+
+/* Translated with LLM */
 "Sender Name" = "Gönderen Adı";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Gönderen Telefon Adresi";
+
+/* Translated with LLM */
+"Sender Service Name" = "Gönderen Hizmet Adı";
 
 /* Translated with LLM */
 "Sender Short Name" = "Gönderen Kısa Adı";
@@ -2777,13 +3122,22 @@
 "service active" = "hizmet aktif";
 
 /* Translated with LLM */
+"Service Info" = "Hizmet Bilgisi";
+
+/* Translated with LLM */
+"service info" = "Hizmet Bilgisi";
+
+/* Translated with LLM */
 "Service is alive" = "Hizmet aktif";
 
 /* Translated with LLM */
 "Service is dead" = "Hizmet devre dışı";
 
 /* Translated with LLM */
-"Service Status" = "Hizmet Durumu";
+"service status" = "hizmet durumu";
+
+/* Translated with LLM */
+"service statuses" = "hizmet durumları";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Bu kayıt için yeni bir ad belirleyin veya varsayılanı kullanmak için boş bırakın.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Bildirim Göster";
 
 /* Translated with LLM */
-"show notification" = "bildirim göster";
+"show notification" = "Bildirim Göster";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "${requestedMessage} bildirimini göster";
@@ -2903,10 +3257,19 @@
 "Space" = "Boşluk";
 
 /* Translated with LLM */
+"speak call voice over" = "seslendirmeyi oynat";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Mikrofona Sesli Anlatımı Oynat";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Belirtilen seslendirme metnini mikrofonda oynatır. Oynatma başarıyla başladıysa true, aksi takdirde false döndürür. Oynatmanın bitmesini beklerken maksimum bekleme süresi 60 saniyedir.";
+
+/* Translated with LLM */
 "Speaker" = "Hoparlör";
 
 /* Translated with LLM */
-"speaker" = "hoparlör";
+"speaker" = "Hoparlör";
 
 /* Translated with LLM */
 "speaker off" = "hoparlör kapalı";
@@ -2924,10 +3287,16 @@
 "spoken audio" = "konuşulan ses";
 
 /* Translated with LLM */
+"Stable Version" = "Kararlı Sürüm";
+
+/* Translated with LLM */
+"Standby" = "Bekleme";
+
+/* Translated with LLM */
 "start" = "Başlat";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Kontrol Merkezi’nde yaptığınız gibi bir sistem ekran kaydı başlatın.";
+"Start" = "Başlat";
 
 /* Translated with LLM */
 "Start Call Recording" = "Çağrı Kaydını Başlat";
@@ -2939,13 +3308,10 @@
 "Start Date" = "Başlangıç Tarihi";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Bir çağrı kaydı, sistem ses kaydı başlatın veya hazırlayın ya da bir sesli not oluşturun.";
-
-/* Translated with LLM */
 "Start Recording" = "Kaydı Başlat";
 
 /* Translated with LLM */
-"start recording" = "kaydı başlat";
+"start recording" = "Kaydı Başlat";
 
 /* Translated with LLM */
 "Start Screen Recording" = "Ekran Kaydını Başlat";
@@ -2960,6 +3326,12 @@
 "Start Voice Memo Recording" = "Sesli Not Kaydını Başlat";
 
 /* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Sistem ekran kaydını başlatır, durdurur veya değiştirir. Ekran kayıt isteği başarılı olursa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Bir kaydı başlatır, durdurur, duraklatır, devam ettirir veya değiştirir. Kayıt isteği başarılı olursa true, aksi takdirde false döndürür.";
+
+/* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Dışa aktarma hizmetinin başlatılması beklenenden uzun sürüyor. Lütfen ağı kontrol edin ve tekrar deneyin.";
 
 /* Translated with LLM */
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Bizi izlemeye devam edin. Aramanızı arka planda kaydediyoruz.";
 
 /* Translated with LLM */
-"stop" = "durdur";
+"stop" = "Durdur";
 
 /* Translated with LLM */
 "Stop" = "Durdur";
@@ -2984,16 +3356,10 @@
 "Stop & Save" = "Durdur ve Kaydet";
 
 /* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Varsa bir çağrı kaydını, sistem ses kaydını veya sesli notu durdurun.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Varsa bir sistem ekran kaydını durdurun.";
-
-/* Translated with LLM */
 "Stop Recording" = "Kaydı Durdur";
 
 /* Translated with LLM */
-"stop recording" = "kaydı durdur";
+"stop recording" = "Kaydı Durdur";
 
 /* Translated with LLM */
 "Stop Recording When Disk Exhausted" = "Disk Dolduğunda Kaydı Durdur";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Ekran Kaydını Durdur";
 
 /* Translated with LLM */
-"stop screen recording" = "ekran kaydını durdur";
+"stop screen recording" = "Ekran Kaydını Durdur";
 
 /* Translated with LLM */
 "Stop Service" = "Hizmeti Durdur";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Sistem Ses Kaydı";
 
 /* Translated with LLM */
-"system audio recording" = "sistem ses kaydı";
+"system audio recording" = "Sistem Ses Kaydı";
 
 /* Translated with LLM */
 "System Language" = "Sistem Dili";
 
 /* Translated with LLM */
 "System Record" = "Sistem Kaydı";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Sistem Kaydı (Eski)";
+
+/* Translated with LLM */
+"system record info" = "sistem kayıt bilgisi";
+
+/* Translated with LLM */
+"system recording status" = "sistem kayıt durumu";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "__Herhangi bir kenara__ dokunun  \nbunu ___aktif bir kenar___ olarak seçmek için.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Teknik Hata Tespit Edildi";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Telefon Yardımcı Programları";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Geçici Olarak Yoksay";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Geçici bir hata oluştu, daha fazla deneme düzeltebilir.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Geçici Kayıt Yolu";
+
+/* Translated with LLM */
 "terminate" = "sonlandır";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Tüm aktif çağrıları hemen sonlandır.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Tüm etkin çağrıları hemen sonlandırır. İstek, arka plan hizmetine başarıyla gönderildiyse true; aksi takdirde false döndürür.";
 
 /* Translated with LLM */
 "terminate call" = "çağrıyı sonlandır";
@@ -3134,9 +3515,6 @@
 "text to speech" = "metinden konuşmaya";
 
 /* Translated with LLM */
-"text-to-speech" = "Metinden sese";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "Sistem tarafından %@ kesintiye uğratıldı. Kaydı daha sonra manuel olarak dönüştürebilirsiniz.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "Aramayı başlatan uygulamanın paket tanımlayıcısı.";
+
+/* Translated with LLM */
+"The call event to wait for." = "Beklenecek çağrı olayı.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Metin dosyası “%@” içeriği boş.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Aramaların bağlanması için beklenecek maksimum saniye.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Seçilen çağrı olayı için beklenecek maksimum saniye.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "Kayıttan hemen sonra uygulamayı açarsanız eksik konum meta verileri doldurulacaktır.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "Hiçbir çağrı aktif değilken hoverball’un sağ tarafındaki birincil düğme eylemi.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Seçilen ses dosyası geçersiz veya desteklenmiyor.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Hizmet düzgün yapılandırılmamış.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Gönderenin servis sağlayıcı adı.";
+
+/* Translated with LLM */
+"The session to inspect." = "İncelenecek oturum.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "Seçilen ses dosyasının boyutu.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Kaydedilecek içerik türü.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Kontrol edilecek kayıt türü. Herhangi Bir Kayıt yalnızca durdurma, duraklatma, devam ettirme ve geçiş için geçerlidir.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Durdurulacak kayıt türü.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "Aramanın benzersiz tanımlayıcısı.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Bu kayıt WeChat’ten geliyor ve “WeChat Asistanı” bir sonraki sefere WeChat kişi adlarını ve notlarını doldurmanıza yardımcı olur.\n“WeChat Asistanı” etkin görünmüyor, hemen etkinleştirmek ister misiniz?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Bu kayıt, “Gerçek Zamanlı Kodlama” kullanılarak kaydedildi. Bu kayıt yöntemi, kurtarma için kullanılabilecek ham geçici ses üretmez, bu nedenle kesintiye uğrayan kayıtlar kurtarılamaz.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "WeChat’in bu sürümü (%@) desteklenmiyor. Lütfen en son sürüme yükseltin.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Üç Haneli Milisaniye";
 
 /* Translated with LLM */
+"Threshold" = "Eşik";
+
+/* Translated with LLM */
 "Time Sensitive" = "Zamana Duyarlı";
 
 /* Translated with LLM */
 "time sensitive notification" = "zamana duyarlı bildirim";
+
+/* Translated with LLM */
+"Timeout" = "Zaman Aşımı";
 
 /* Translated with LLM */
 "Title" = "Başlık";
@@ -3359,6 +3764,9 @@
 "toggle" = "Aç/Kapat";
 
 /* Translated with LLM */
+"Toggle" = "Aç/Kapat";
+
+/* Translated with LLM */
 "Toggle ${requestedMode}" = "aç/kapat ${requestedMode}";
 
 /* Translated with LLM */
@@ -3368,28 +3776,28 @@
 "Toggle Hoverball" = "Hoverball’ı Aç/Kapat";
 
 /* Translated with LLM */
-"toggle hoverball" = "hoverball’ı aç/kapat";
+"toggle hoverball" = "Hoverball’ı Aç/Kapat";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Kaydedici hoverball’ı açıp kapatın.";
+"toggle live captions" = "Canlı Altyazıları Değiştir";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Canlı Altyazıları Değiştir";
 
 /* Translated with LLM */
 "Toggle Recording" = "Kaydı Aç/Kapat";
 
 /* Translated with LLM */
-"toggle recording" = "kaydı aç/kapat";
+"toggle recording" = "Kaydı Aç/Kapat";
 
 /* Translated with LLM */
 "Toggle Screen Recording" = "Ekran Kaydını Aç / Kapat";
 
 /* Translated with LLM */
-"toggle screen recording" = "ekran kaydını aç/kapat";
+"toggle screen recording" = "Ekran Kaydını Aç / Kapat";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Sistem Ses Kaydını Aç / Kapat";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Tıpkı Kontrol Merkezi’nde yaptığınız gibi sistem ekran kaydını açıp kapatın.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Sesli Not Kaydını Aç / Kapat";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "tts oynatma";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "“Gerçek Zamanlı Kodlama”yı Kapat";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Bu sayfadaki diğer seçeneklerin geçerli uygulama için etkili olmasını istiyorsanız bu seçeneği kapatın.";
@@ -3557,6 +3968,9 @@
 "unmute" = "Sesi aç";
 
 /* Translated with LLM */
+"Unmute" = "Sesi aç";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "Sesi aç ${requestedChannel}";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Mevcut Çağrıların Sesini Açma";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Mevcut tüm aramaların belirtilen kanalının sesini açma.";
 
 /* Translated with LLM */
 "Unspecified" = "Belirtilmemiş";
@@ -3659,6 +4070,9 @@
 "Utility" = "Yardımcı Program";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Yardımcı Program (Eski)";
+
+/* Translated with LLM */
 "Variant" = "Varyant";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Günlükleri Görüntüle: Ağ Depolama";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Günlükleri Görüntüle: Gerçek Zamanlı Kaydedici";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Günlükleri Görüntüle: Konuşma İfadesi";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP kişiler her zaman kaydedilecek ve favorilere eklenecektir.";
+
+/* Translated with LLM */
+"Voice Chat" = "Sesli Sohbet";
 
 /* Translated with LLM */
 "Voice Memo" = "Sesli Not";
@@ -3761,19 +4181,52 @@
 "wait" = "Bekle";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "${requestedEvent} çağrısını bekle";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "${requestedEvent} çağrısını bekle";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Bekle ${requestedTimeout} saniye";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Herhangi bir aramanın cevaplanıp bağlanmasını bekleyin.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Bir çağrı olayını bekleyin. Seçilen olay gerçekleştiğinde çağrı bilgilerini döndürür; aksi takdirde zaman aşımı sona erdiğinde hiçbir şey döndürmez.";
 
 /* Translated with LLM */
-"wait for call" = "çağrıyı bekle";
+"wait for call" = "Çağrıyı Bekle";
+
+/* Translated with LLM */
+"Wait for Call" = "Çağrıyı Bekle";
+
+/* Translated with LLM */
+"wait for call ended" = "çağrı bitene kadar bekle";
+
+/* Translated with LLM */
+"wait for call event" = "Çağrı Olayını Bekle";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Çağrı Olayını Bekle";
 
 /* Translated with LLM */
 "Wait for Calls" = "Çağrıları Bekleyin";
 
 /* Translated with LLM */
+"wait for connected call" = "bağlı çağrıyı bekle";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Bağlı Aramaları Bekle";
+
+/* Translated with LLM */
+"wait for incoming call" = "gelen aramayı bekle";
+
+/* Translated with LLM */
+"wait for outgoing call" = "giden aramayı bekle";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Bitene Kadar Bekle";
+
+/* Translated with LLM */
+"Waiting For Device" = "Cihaz Bekleniyor";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Uyarı, görüşmeniz şu anda kaydediliyor. Uyarı, görüşmeniz şu anda kaydediliyor.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "WebDAV sunucusu etkinleştirildiğinde, Safari, Chrome, Edge vb. gibi yaygın bir web tarayıcısından ziyaret etmenize izin verilip verilmeyeceği.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Gelen aramaların kabul edilip edilmeyeceği veya reddedilip reddedilmeyeceği.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Durdurulduğunda kaydın atılıp atılmayacağı. Başlarken veya geçiş yaparken yok sayılır.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Uygulamanın açık veya koyu kullanıcı arayüzü kullanmasını zorla.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Hoverball’ın açık veya koyu stil kullanmasını zorla.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Ekran kaydını başlatırken veya değiştirirken mikrofon sesinin dahil edilip edilmeyeceği.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Sesin sonsuza kadar tekrar oynatılıp oynatılmayacağı. Etkinleştirilirse, bu eylem çalmaya başladıktan hemen sonra geri döner.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Sesli aramanın sessize alınıp alınmayacağı.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Canlı altyazıların açılıp kapatılacağı veya değiştirileceği.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Hoverball’ın açılıp açılmayacağı, kapatılıp kapatılmayacağı veya değiştirilip değiştirilmeyeceği.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Ekran kaydını başlatma, durdurma veya değiştirme.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Kaydı başlatma, durdurma, duraklatma, devam ettirme veya değiştirme.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Oynatma bitene kadar beklenip beklenmeyeceği. Devre dışı bırakılırsa, bu eylem oynatma başladıktan hemen sonra geri döner.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Oynatma bitene kadar beklenip beklenmeyeceği. Devre dışı bırakılırsa, bu eylem oynatma başladıktan hemen sonra döner. Sonsuza Kadar Tekrarla her zaman oynatma başladıktan hemen sonra döner.";
+
+/* Translated with LLM */
+"Which channel to control." = "Hangi kanalın kontrol edileceği.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Hangi kanal sesinin kapatılacağı.";

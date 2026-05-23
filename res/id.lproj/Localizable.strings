@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} perekaman";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} teks langsung";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} perekaman layar";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} panggilan masuk";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Bantuan";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "Widget diperlukan untuk fitur “Launch Shield”.";
 
 /* Translated with LLM */
-"accept" = "menerima";
+"accept" = "Menerima";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Menerima semua panggilan masuk secara otomatis.";
+"Accept" = "Menerima";
 
 /* Translated with LLM */
 "accept call" = "menerima panggilan";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Menerima Panggilan Masuk";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Menerima atau menolak semua panggilan masuk. Mengembalikan nilai true jika permintaan berhasil dikirim ke daemon; jika tidak, false.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Akses dari Peramban Web";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Akses rekaman Anda dari browser WebDAV dari perangkat lain dalam jaringan. Server hanya aktif saat aplikasi berada di latar depan.";
+
+/* Translated with LLM */
+"actions" = "tindakan";
 
 /* Translated with LLM */
 "activate" = "aktifkan";
@@ -110,7 +137,13 @@
 "activate hoverball" = "aktifkan hoverball";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Aktifkan hoverball perekam.";
+"activate live captions" = "aktifkan teks langsung";
+
+/* Translated with LLM */
+"Active Call Count" = "Jumlah Panggilan Aktif";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Pengidentifikasi Panggilan Aktif";
 
 /* Translated with LLM */
 "Add" = "Tambah";
@@ -251,7 +284,13 @@
 "Any" = "Siapa pun";
 
 /* Translated with LLM */
+"Any Recording" = "Rekaman Apa Pun";
+
+/* Translated with LLM */
 "App Icon" = "Ikon Aplikasi";
+
+/* Translated with LLM */
+"App Intent" = "Inten Aplikasi";
 
 /* Translated with LLM */
 "App Language" = "Bahasa Aplikasi";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "arsip";
+"archive" = "Arsip";
 
 /* Translated with LLM */
 "Archive" = "Arsip";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "Beli TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "Jumlah Byte";
+
+/* Translated with LLM */
 "Calculating…" = "Menghitung…";
 
 /* Translated with LLM */
@@ -477,6 +519,9 @@
 
 /* Translated with LLM */
 "call" = "Panggilan";
+
+/* Translated with LLM */
+"call audio" = "audio panggilan";
 
 /* Translated with LLM */
 "call audio on" = "aktifkan audio panggilan";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Pemantauan jalur audio panggilan gagal. Ketuk notifikasi ini untuk memulai ulang layanan perekaman.";
 
 /* Translated with LLM */
-"call connected" = "panggilan tersambung";
+"Call Automation" = "Otomatisasi Panggilan";
 
 /* Translated with LLM */
-"Call Direction" = "Arah Panggilan";
+"Call Automation (Legacy)" = "Otomatisasi Panggilan (Warisan)";
+
+/* Translated with LLM */
+"call connected" = "panggilan tersambung";
 
 /* Translated with LLM */
 "call duration" = "durasi panggilan";
 
 /* Translated with LLM */
+"Call History Identifier" = "Pengidentifikasi Riwayat Panggilan";
+
+/* Translated with LLM */
 "Call Identifier" = "Pengenal Panggilan";
+
+/* Translated with LLM */
+"Call Info" = "Info Panggilan";
+
+/* Translated with LLM */
+"call info" = "Info Panggilan";
 
 /* Translated with LLM */
 "call information" = "informasi panggilan";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Rekaman Panggilan: Sisi Lain";
 
 /* Translated with LLM */
-"Call State" = "Status Panggilan";
+"Call Sniffer" = "Penyadap Panggilan";
 
 /* Translated with LLM */
 "call status" = "status panggilan";
@@ -548,10 +605,16 @@
 "Caution" = "Perhatian";
 
 /* Translated with LLM */
+"Channel" = "Saluran";
+
+/* Translated with LLM */
 "check" = "periksa";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Periksa apakah daemon sedang berjalan. Jika tidak, luncurkan.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Periksa apakah daemon sedang berjalan. Jika tidak, jalankan. Mengembalikan informasi layanan jika daemon berjalan setelah pemeriksaan; jika tidak, tidak mengembalikan apa pun.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Periksa apakah daemon sedang berjalan. Jika tidak, luncurkan. Mengembalikan nilai true jika daemon berjalan setelah pemeriksaan; jika tidak, false.";
 
 /* Translated with LLM */
 "check service" = "periksa layanan";
@@ -611,6 +674,9 @@
 "close hoverball" = "tutup hoverball";
 
 /* Translated with LLM */
+"close live captions" = "tutup teks langsung";
+
+/* Translated with LLM */
 "cloud archive sync" = "sinkronisasi arsip cloud";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Sambungkan ke jaringan Wi‑Fi sebelum mentransfer rekaman.";
 
 /* Translated with LLM */
-"connected" = "terhubung";
+"connected" = "Terhubung";
+
+/* Translated with LLM */
+"Connected" = "Terhubung";
+
+/* Translated with LLM */
+"Connected At" = "Terhubung Pada";
 
 /* Translated with LLM */
 "connected call" = "panggilan tersambung";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Pengecualian Kontak";
+
+/* Translated with LLM */
+"Contact Identifier" = "Pengenal Kontak";
+
+/* Translated with LLM */
+"Contact Label" = "Label Kontak";
 
 /* Translated with LLM */
 "Contact Name" = "Nama Kontak";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Pemutaran Berkelanjutan Aktif";
+
+/* Translated with LLM */
+"control call audio" = "kontrol audio panggilan";
+
+/* Translated with LLM */
+"control call muting" = "Kontrol Pembisuan Panggilan";
+
+/* Translated with LLM */
+"Control Call Muting" = "Kontrol Pembisuan Panggilan";
+
+/* Translated with LLM */
+"control hoverball" = "Kontrol Bola Melayang";
+
+/* Translated with LLM */
+"Control Hoverball" = "Kontrol Bola Melayang";
+
+/* Translated with LLM */
+"Control Live Captions" = "Kontrol Teks Langsung";
+
+/* Translated with LLM */
+"control live captions" = "Kontrol Teks Langsung";
+
+/* Translated with LLM */
+"control recording" = "Kontrol Perekaman";
+
+/* Translated with LLM */
+"Control Recording" = "Kontrol Perekaman";
+
+/* Translated with LLM */
+"control screen recording" = "Kontrol Perekaman Layar";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Kontrol Perekaman Layar";
 
 /* Translated with LLM */
 "Conversion Failed" = "Konversi Gagal";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Tidak dapat keluar dari akun: %@";
 
 /* Translated with LLM */
+"Country Code" = "Kode Negara";
+
+/* Translated with LLM */
 "Created At" = "Dibuat Pada";
 
 /* Translated with LLM */
 "Credentials" = "Kredensial";
+
+/* Translated with LLM */
+"Current" = "Saat ini";
 
 /* Translated with LLM */
 "current call" = "panggilan saat ini";
@@ -809,7 +926,7 @@
 "Day of Week String" = "String Hari dalam Seminggu";
 
 /* Translated with LLM */
-"deactivate" = "nonaktifkan";
+"deactivate" = "Nonaktifkan";
 
 /* Translated with LLM */
 "Deactivate" = "Nonaktifkan";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "nonaktifkan hoverball";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Nonaktifkan hoverball perekam.";
+"deactivate live captions" = "nonaktifkan teks langsung";
 
 /* No comment provided by engineer. */
 "Debugging" = "Debugging";
@@ -863,10 +980,16 @@
 "Developer Options" = "Opsi Pengembang";
 
 /* Translated with LLM */
+"Dialing" = "Memanggil";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Dikte Dinonaktifkan";
 
 /* Translated with LLM */
 "Digital Video" = "Video Digital";
+
+/* Translated with LLM */
+"Digits" = "Digit";
 
 /* Translated with LLM */
 "Direction" = "Arah";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Deskripsi Arah";
 
 /* Translated with LLM */
-"directory" = "direktori";
+"directory" = "Direktori";
 
 /* Translated with LLM */
 "Directory" = "Direktori";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Buang Rekaman";
+
+/* Translated with LLM */
+"Disconnected" = "Terputus";
+
+/* Translated with LLM */
+"Disconnected At" = "Terputus Pada";
 
 /* Translated with LLM */
 "Discreet Mode" = "Mode Diskreet";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Menampilkan nama bundel sumber rekaman.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Menampilkan notifikasi lokal.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Menampilkan notifikasi lokal. Mengembalikan true jika permintaan notifikasi berhasil dikirim; jika tidak, false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Apakah Anda ingin menghapus file log “%@” ini?";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Aktifkan Face ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Aktifkan pengukuran level dan tampilkan indikator saat hoverball dilipat. Opsi ini hanya tersedia jika “Transisi Saat Idle” diatur ke “Selalu Lipat”.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Aktifkan pengukuran level untuk menggerakkan bentuk gelombang waktu nyata pada panel status “Rekaman” dan menampilkan indikator batang saat hoverball dilipat.";
 
 /* Translated with LLM */
 "Enable Logging" = "Aktifkan Pencatatan";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Memungkinkan server WebDAV untuk secara otomatis menangguhkan dirinya sendiri saat aplikasi masuk ke latar belakang dan koneksi terakhir ditutup, lalu melanjutkannya kembali saat aplikasi kembali ke latar depan.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Enkode audio saat merekam untuk mengurangi ukuran file sementara dan waktu pasca-pemrosesan. Ini dapat menggunakan lebih banyak CPU dan baterai, dan rekaman yang terputus mungkin lebih sulit dipulihkan.";
+
+/* Translated with LLM */
 "Encoding" = "Pengkodean";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "akhiri perekaman layar";
 
 /* Translated with LLM */
-"Enhance Recording" = "Tingkatkan Perekaman";
+"Ended" = "Berakhir";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Perekaman Otomatis yang Disempurnakan";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Keluar dari Hoverball";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Keluar dari Teks Langsung";
+
+/* Translated with LLM */
 "Expand Recursively" = "Perluas Secara Rekursif";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Ekspor sebagai ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Nama File Ekspor";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Ekspor rekaman ke mana pun yang Anda inginkan tanpa batasan.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Format File";
+
+/* Translated with LLM */
+"File Name" = "Nama File";
 
 /* Translated with LLM */
 "File not found." = "File tidak ditemukan.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Dapatkan ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Dapatkan info panggilan ${requestedSession}";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Dapatkan info rekaman ${requestedSession}";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Dapatkan kontrol lanjutan saat merekam langsung dalam panggilan Anda.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Dapatkan Durasi Panggilan";
 
 /* Translated with LLM */
+"Get Call Info" = "Dapatkan Info Panggilan";
+
+/* Translated with LLM */
 "Get Call Status" = "Dapatkan Status Panggilan";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Dapatkan informasi jalur perekaman saat ini sebagai nilai teks lama. Pilih “Dapatkan Info Perekaman” untuk pintasan baru.";
 
 /* Translated with LLM */
 "Get In Touch" = "Hubungi Kami";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Dapatkan notifikasi setelah perekaman selesai.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Dapatkan informasi panggilan utama sebagai satu objek.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Dapatkan Durasi Perekaman";
+
+/* Translated with LLM */
+"Get Recording Info" = "Dapatkan Info Perekaman";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Dapatkan informasi rekaman sebagai satu objek.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Dapatkan Jalur Perekaman";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Dapatkan Status Perekaman";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Dapatkan durasi perekaman saat ini dari TrollRecorder.";
+"Get Screen Recording Info" = "Dapatkan Info Perekaman Layar";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Dapatkan jalur perekaman saat ini dari TrollRecorder.";
+"Get screen recording information as a single object." = "Dapatkan informasi perekaman layar sebagai satu objek.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Dapatkan status perekaman saat ini dari TrollRecorder.";
+"Get Service Info" = "Dapatkan Info Layanan";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Dapatkan durasi panggilan utama perangkat.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Dapatkan durasi perekaman saat ini sebagai nilai numerik lama. Pilih “Dapatkan Info Perekaman” untuk pintasan baru.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Dapatkan status panggilan utama perangkat.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Dapatkan status perekaman saat ini sebagai nilai Boolean lama. Hasilnya benar jika bidang status yang dipilih benar; salah jika salah atau tidak tersedia. Pilih “Dapatkan Info Perekaman” untuk pintasan baru.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Dapatkan durasi panggilan utama sebagai nilai numerik lama. Pilih “Dapatkan Info Panggilan” untuk pintasan baru.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Dapatkan status panggilan utama sebagai nilai teks lama. Pilih “Dapatkan Info Panggilan” untuk pintasan baru.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Pulang Saat Tidak Terkunci";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Panggilan Grup";
+
+/* Translated with LLM */
+"handle incoming calls" = "Menangani Panggilan Masuk";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Menangani Panggilan Masuk";
 
 /* Translated with LLM */
 "hang up calls" = "menutup panggilan";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "Bola Melayang";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "Bola Melayang (Warisan)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "Bola Melayang Plus";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Gaya Hoverball";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Perekaman Panggilan";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Jika tidak ada panggilan telepon aktif, tekan kedua tombol volume fisik untuk melakukan tindakan tertentu.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Jika ini sering terjadi, nonaktifkan “Real-time Encoding” di pengaturan “Post-processing & Output”.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Jika Anda memodifikasi rekaman dengan Filza atau mengalami masalah hak istimewa sistem file, Anda dapat memperbaikinya di sini.";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Instal Tweak Riwayat Panggilan";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Menginterupsi audio uplink atau sulih suara yang sedang diputar ke mikrofon. Mengembalikan true jika pemutaran terputus; jika tidak, false.";
+
+/* Translated with LLM */
+"interrupt call playback" = "menginterupsi pemutaran panggilan";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "menginterupsi audio uplink";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Menginterupsi Pemutaran Uplink";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Menginterupsi Pemutaran Uplink";
+
+/* Translated with LLM */
+"interrupt voice over" = "menginterupsi suara latar";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Tanda Tangan Kode Tidak Valid";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Tersedia";
 
 /* Translated with LLM */
 "Is Favourite" = "Apakah Favorit";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "Sedang Dijeda";
 
 /* Translated with LLM */
-"is recording" = "sedang merekam";
+"is recording" = "Sedang Merekam";
+
+/* Translated with LLM */
+"Is Recording" = "Sedang Merekam";
 
 /* Translated with LLM */
 "Is Running" = "Sedang Berjalan";
+
+/* Translated with LLM */
+"Is Service Running" = "Apakah Layanan Berjalan";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Sedang Menunggu Perangkat";
+
+/* Translated with LLM */
+"ISO Country Code" = "Kode Negara ISO";
 
 /* No comment provided by engineer. */
 "Item #%lu" = "Item #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Jaga Layar Tetap Menyala Saat Tersambung";
+
+/* Translated with LLM */
+"Key Event" = "Kejadian Tombol";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Penghindaran Keyboard";
@@ -1616,6 +1835,9 @@
 "Later" = "Nanti";
 
 /* Translated with LLM */
+"Latest" = "Terbaru";
+
+/* Translated with LLM */
 "launch" = "luncurkan";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "tepi depan";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Tindakan lama. Menunggu hingga panggilan dijawab dan tersambung. Menghasilkan true jika panggilan yang sedang memanggil berhenti memanggil sebelum batas waktu; jika tidak, menghasilkan false. Gunakan “Tunggu Peristiwa Panggilan” untuk pintasan baru.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Tindakan audio panggilan lama. Pilih “Kontrol Pembisuan Panggilan” untuk pintasan baru. Mengembalikan true jika permintaan berhasil dikirim ke daemon; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Aksi hoverball lawas. Pilih “Kontrol Hoverball” untuk pintasan baru. Mengembalikan true jika pengaturan hoverball berhasil dinonaktifkan; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Aksi hoverball lawas. Pilih “Kontrol Hoverball” untuk pintasan baru. Mengembalikan true jika pengaturan hoverball berhasil diaktifkan; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Aksi hoverball lawas. Pilih “Kontrol Hoverball” untuk pintasan baru. Mengembalikan true jika pengaturan hoverball berhasil dialihkan; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Tindakan panggilan masuk lama. Pilih “Tangani Panggilan Masuk” untuk pintasan baru. Mengembalikan true jika permintaan berhasil dikirim ke daemon; jika tidak, false.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Jailbreak Lawas";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Aksi teks langsung lama. Pilih “Kontrol Teks Langsung” untuk pintasan baru. Mengembalikan nilai benar jika teks langsung berhasil dinonaktifkan; jika tidak, salah.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Aksi teks langsung lama. Pilih “Kontrol Teks Langsung” untuk pintasan baru. Mengembalikan nilai benar jika teks langsung berhasil diaktifkan; jika tidak, salah.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Aksi teks langsung lama. Pilih “Kontrol Teks Langsung” untuk pintasan baru. Mengembalikan nilai benar jika teks langsung berhasil dialihkan; jika tidak, salah.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Tindakan perekaman lawas. Pilih “Kontrol Perekaman” untuk pintasan baru. Mengembalikan true jika permintaan perekaman berhasil; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Tindakan perekaman lawas. Pilih “Kontrol Perekaman” untuk pintasan baru. Mengembalikan true jika permintaan berhenti berhasil; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Tindakan perekaman layar lawas. Pilih “Kontrol Perekaman Layar” untuk pintasan baru. Mengembalikan true jika permintaan perekaman layar berhasil; jika tidak, false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Tindakan perekaman layar lawas. Pilih “Kontrol Perekaman Layar” untuk pintasan baru. Mengembalikan true jika permintaan penghentian berhasil; jika tidak, false.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Terjadi kesalahan yang tidak terlalu serius.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Teks Langsung";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Teks Langsung (Warisan)";
 
 /* Translated with LLM */
 "Loading…" = "Memuat…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Buat rekaman ${requestedMode}";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Buat rekaman baru, atau hentikan rekaman yang sudah ada.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Buat memo suara baru, atau hentikan memo suara yang sudah ada.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Metadata";
 
 /* Translated with LLM */
+"Metadata Path" = "Jalur Metadata";
+
+/* Translated with LLM */
 "Microphone" = "Mikrofon";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "Campuran";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Mixer & Penggabung";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Format Audio Mixer";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "Audio MPEG-4";
 
 /* Translated with LLM */
-"mute" = "bisu";
+"mute" = "Bisu";
+
+/* Translated with LLM */
+"Mute" = "Bisu";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Bisukan ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Bisukan Panggilan yang Ada";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Bisukan saluran tertentu dari semua panggilan yang ada.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Membisukan atau membunyikan saluran tertentu dari semua panggilan yang ada. Mengembalikan true jika permintaan berhasil dikirim ke daemon; jika tidak, false.";
 
 /* Translated with LLM */
 "My Favourite" = "Favorit Saya";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Nama dengan Alias";
+
+/* Translated with LLM */
+"Network Code" = "Kode Jaringan";
 
 /* Translated with LLM */
 "Network Storage" = "Penyimpanan Jaringan";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Tidak Ada Apa pun di Dalamnya";
 
 /* Translated with LLM */
-"notification" = "pemberitahuan";
+"notification" = "Pemberitahuan";
+
+/* Translated with LLM */
+"Notification" = "Pemberitahuan";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Izin Pemberitahuan Ditolak";
@@ -2000,7 +2270,7 @@
 "Open" = "Buka";
 
 /* Translated with LLM */
-"open" = "buka";
+"open" = "Buka";
 
 /* Translated with LLM */
 "Open Application" = "Buka Aplikasi";
@@ -2009,7 +2279,7 @@
 "Open Hoverball" = "Buka Hoverball";
 
 /* Translated with LLM */
-"open hoverball" = "buka hoverball";
+"open hoverball" = "Buka Hoverball";
 
 /* Translated with LLM */
 "Open in Filza" = "Buka di Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Buka di Peta";
 
 /* Translated with LLM */
+"Open Live Captions" = "Buka Teks Langsung";
+
+/* Translated with LLM */
+"open live captions" = "Buka Teks Langsung";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Buka TrollRecorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Membuka, menutup, atau mengalihkan teks langsung. Mengembalikan true jika pengaturan teks langsung berhasil diubah; jika tidak, false.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Membuka, menutup, atau mengalihkan bola melayang perekam. Mengembalikan true jika pengaturan bola melayang berhasil diubah; jika tidak, false.";
 
 /* Translated with LLM */
 "Operation Failed" = "Operasi Gagal";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Jeda Perekaman";
 
 /* Translated with LLM */
+"pause recording" = "Jeda Perekaman";
+
+/* Translated with LLM */
 "Paused" = "Dijeda";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Lakukan sinkronisasi penuh dari “Backup with iCloud” dan “Smart Cloud Archive”.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Melakukan sinkronisasi penuh dari “Backup with iCloud” dan “Smart Cloud Archive”. Mengembalikan true jika daemon berjalan dan sinkronisasi melaporkan keberhasilan; jika tidak, false.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Lakukan Sinkronisasi Penuh";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "Putar ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Memutar file audio ke dalam panggilan yang sedang berlangsung. Mengembalikan true jika pemutaran berhasil dimulai; jika tidak, false. File audio yang tidak valid akan menimbulkan kesalahan.";
+
+/* Translated with LLM */
 "play audio file" = "putar file audio";
+
+/* Translated with LLM */
+"play call audio" = "Putar Audio Panggilan";
+
+/* Translated with LLM */
+"Play Call Audio" = "Putar Audio Panggilan";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Peringatan Putar Rekaman";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Putar Suara";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Putar file audio yang ditentukan ke mikrofon.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Memainkan teks sulih suara yang ditentukan ke mikrofon.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Putar Melalui Penerima";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Putar Melalui Speaker";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Putar Audio Uplink";
-
-/* Translated with LLM */
 "play uplink audio" = "putar audio uplink";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Putar Sulih Suara Uplink";
 
 /* Translated with LLM */
 "play voice over" = "memutar sulih suara";
@@ -2261,6 +2543,12 @@
 "post notification" = "kirim pemberitahuan";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Pascaproses & Output";
+
+/* Translated with LLM */
+"Pre-release Version" = "Versi Pra-rilis";
+
+/* Translated with LLM */
 "Preparing" = "Mempersiapkan";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Pertahankan Semua Saluran";
+
+/* Translated with LLM */
+"Preset Providers" = "Penyedia Prasetel";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Aksi Tekan & Tahan";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Siap merekam!";
 
 /* Translated with LLM */
+"real-time captions" = "teks langsung waktu nyata";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Encoding Waktu Nyata";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Kesalahan otorisasi yang diterima: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Rekam";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Rekam (Warisan)";
 
 /* Translated with LLM */
 "Record All Calls" = "Rekam Semua Panggilan";
@@ -2432,7 +2732,7 @@
 "Recording" = "Merekam";
 
 /* Translated with LLM */
-"recording" = "merekam";
+"recording" = "Merekam";
 
 /* Translated with LLM */
 "Recording (Localized)" = "Rekaman (Lokal)";
@@ -2447,6 +2747,15 @@
 "recording file" = "file rekaman";
 
 /* Translated with LLM */
+"Recording Info" = "Info Perekaman";
+
+/* Translated with LLM */
+"recording info" = "Info Perekaman";
+
+/* Translated with LLM */
+"recording information" = "informasi perekaman";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Perekaman Terputus";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Opsi Perekaman";
 
 /* Translated with LLM */
-"recording path" = "jalur perekaman";
+"recording path" = "Jalur Perekaman";
+
+/* Translated with LLM */
+"Recording Path" = "Jalur Perekaman";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Perekaman dimulai ketika input dan output audio terus-menerus aktif.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Regenerasi Semua";
 
 /* Translated with LLM */
-"reject" = "menolak";
+"reject" = "Menolak";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Menolak semua panggilan masuk secara otomatis.";
+"Reject" = "Menolak";
 
 /* Translated with LLM */
 "reject call" = "menolak panggilan";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Menolak Panggilan Masuk";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Pengidentifikasi Bundel Aplikasi Terkait";
+
+/* Translated with LLM */
+"Related Application Count" = "Jumlah Aplikasi Terkait";
 
 /* Translated with LLM */
 "Relaunched" = "Dimulai Ulang";
@@ -2569,6 +2887,9 @@
 /* Translated with LLM */
 "Reset Service" = "Setel Ulang Layanan";
 
+/* Translated with LLM */
+"responses" = "tanggapan";
+
 /* No comment provided by engineer. */
 "Respring" = "Respring";
 
@@ -2597,7 +2918,13 @@
 "Restoring" = "Memulihkan";
 
 /* Translated with LLM */
+"Resume" = "Lanjutkan";
+
+/* Translated with LLM */
 "Resume Recording" = "Lanjutkan Perekaman";
+
+/* Translated with LLM */
+"resume recording" = "Lanjutkan Perekaman";
 
 /* Translated with LLM */
 "Resume with Warning" = "Lanjutkan dengan Peringatan";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "hentikan tangkapan layar";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Info Perekaman Layar";
+
+/* Translated with LLM */
+"screen recording info" = "Info Perekaman Layar";
+
+/* Translated with LLM */
 "screen recording off" = "perekaman layar mati";
+
+/* Translated with LLM */
+"screen recording status" = "status perekaman layar";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Mencari perangkat di sekitar";
 
 /* Translated with LLM */
-"Search…" = "Cari…";
-
-/* Translated with LLM */
 "Seconds" = "Detik";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Kirim Diagnostik";
 
 /* Translated with LLM */
+"Sender Address" = "Alamat Pengirim";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Nama Pengirim yang Dilokalkan";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Nama Pendek Pengirim yang Dilokalkan";
+
+/* Translated with LLM */
 "Sender Name" = "Nama Pengirim";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Alamat Telepon Pengirim";
+
+/* Translated with LLM */
+"Sender Service Name" = "Nama Layanan Pengirim";
 
 /* Translated with LLM */
 "Sender Short Name" = "Nama Singkat Pengirim";
@@ -2777,13 +3122,22 @@
 "service active" = "layanan aktif";
 
 /* Translated with LLM */
+"Service Info" = "Info Layanan";
+
+/* Translated with LLM */
+"service info" = "Info Layanan";
+
+/* Translated with LLM */
 "Service is alive" = "Layanan aktif";
 
 /* Translated with LLM */
 "Service is dead" = "Layanan mati";
 
 /* Translated with LLM */
-"Service Status" = "Status Layanan";
+"service status" = "status layanan";
+
+/* Translated with LLM */
+"service statuses" = "status layanan";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Tetapkan nama baru untuk rekaman ini, atau biarkan kosong untuk menggunakan nama bawaan.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Tampilkan Pemberitahuan";
 
 /* Translated with LLM */
-"show notification" = "tampilkan pemberitahuan";
+"show notification" = "Tampilkan Pemberitahuan";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Tampilkan notifikasi ${requestedMessage}";
@@ -2869,8 +3223,8 @@
 /* No comment provided by engineer. */
 "Simulator" = "Simulator";
 
-/* No comment provided by engineer. */
-"Simulator (Sandbox)" = "Simulator (Sandbox)";
+/* Translated with LLM */
+"Simulator (Sandbox)" = "Simulator (Kotak Pasir)";
 
 /* Translated with LLM */
 "Single Line" = "Satu Baris";
@@ -2903,10 +3257,19 @@
 "Space" = "Ruang";
 
 /* Translated with LLM */
+"speak call voice over" = "memutar sulih suara panggilan";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Putar Sulih Suara Uplink";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Memutar teks sulih suara ke dalam panggilan yang sedang berlangsung. Mengembalikan nilai true jika pemutaran berhasil dimulai; jika tidak, false. Saat menunggu pemutaran selesai, waktu tunggu maksimum adalah 60 detik.";
+
+/* Translated with LLM */
 "Speaker" = "Pengeras suara";
 
 /* Translated with LLM */
-"speaker" = "pengeras suara";
+"speaker" = "Pengeras suara";
 
 /* Translated with LLM */
 "speaker off" = "pengeras suara mati";
@@ -2924,10 +3287,16 @@
 "spoken audio" = "audio ucapan";
 
 /* Translated with LLM */
-"start" = "mulai";
+"Stable Version" = "Versi Stabil";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Mulai perekaman layar sistem seperti yang Anda lakukan di Pusat Kontrol.";
+"Standby" = "Siaga";
+
+/* Translated with LLM */
+"start" = "Mulai";
+
+/* Translated with LLM */
+"Start" = "Mulai";
 
 /* Translated with LLM */
 "Start Call Recording" = "Mulai Perekaman Panggilan";
@@ -2939,9 +3308,6 @@
 "Start Date" = "Tanggal Mulai";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Mulai atau persiapkan perekaman panggilan, perekaman audio sistem, atau buat memo suara.";
-
-/* Translated with LLM */
 "Start Recording" = "Mulai Merekam";
 
 /* Translated with LLM */
@@ -2951,13 +3317,19 @@
 "Start Screen Recording" = "Mulai Perekaman Layar";
 
 /* Translated with LLM */
-"start screen recording" = "mulai perekaman layar";
+"start screen recording" = "Mulai Perekaman Layar";
 
 /* Translated with LLM */
 "Start System Audio Recording" = "Mulai Perekaman Audio Sistem";
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "Mulai Perekaman Memo Suara";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Memulai, menghentikan, atau mengalihkan perekaman layar sistem. Mengembalikan nilai true jika permintaan perekaman layar berhasil; jika tidak, false.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Memulai, menghentikan, menjeda, melanjutkan, atau mengalihkan rekaman. Mengembalikan nilai true jika permintaan perekaman berhasil; jika tidak, false.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Memulai layanan ekspor membutuhkan waktu lebih lama dari yang diharapkan. Silakan periksa jaringan dan coba lagi.";
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Tetap disini. Kami merekam panggilan Anda di latar belakang.";
 
 /* Translated with LLM */
-"stop" = "berhenti";
+"stop" = "Berhenti";
 
 /* Translated with LLM */
 "Stop" = "Berhenti";
@@ -2984,16 +3356,10 @@
 "Stop & Save" = "Berhenti & Simpan";
 
 /* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Menghentikan rekaman panggilan, rekaman audio sistem, atau memo suara jika ada.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Menghentikan perekaman layar sistem jika ada.";
-
-/* Translated with LLM */
 "Stop Recording" = "Berhenti Merekam";
 
 /* Translated with LLM */
-"stop recording" = "berhenti merekam";
+"stop recording" = "Berhenti Merekam";
 
 /* Translated with LLM */
 "Stop Recording When Disk Exhausted" = "Berhenti Merekam Saat Disk Habis";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Hentikan Perekaman Layar";
 
 /* Translated with LLM */
-"stop screen recording" = "hentikan perekaman layar";
+"stop screen recording" = "Hentikan Perekaman Layar";
 
 /* Translated with LLM */
 "Stop Service" = "Hentikan Layanan";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Perekaman Audio Sistem";
 
 /* Translated with LLM */
-"system audio recording" = "perekaman audio sistem";
+"system audio recording" = "Perekaman Audio Sistem";
 
 /* Translated with LLM */
 "System Language" = "Bahasa Sistem";
 
 /* Translated with LLM */
 "System Record" = "Rekaman Sistem";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Rekaman Sistem (Lama)";
+
+/* Translated with LLM */
+"system record info" = "info rekaman sistem";
+
+/* Translated with LLM */
+"system recording status" = "status perekaman sistem";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Ketuk __sembarang tepi__  \nuntuk memilihnya sebagai ___tepi aktif___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Kesalahan Teknis Terdeteksi";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Utilitas Telepon";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Abaikan Sementara";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Terjadi kesalahan sementara, mungkin dapat diperbaiki dengan mencoba lagi.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Jalur Perekaman Sementara";
+
+/* Translated with LLM */
 "terminate" = "mengakhiri";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Segera akhiri semua panggilan aktif.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Menghentikan semua panggilan aktif dengan segera. Mengembalikan nilai true jika permintaan berhasil dikirim ke daemon; jika tidak, false.";
 
 /* Translated with LLM */
 "terminate call" = "mengakhiri panggilan";
@@ -3134,9 +3515,6 @@
 "text to speech" = "teks ke ucapan";
 
 /* Translated with LLM */
-"text-to-speech" = "teks ke ucapan";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "%@ telah diinterupsi oleh sistem. Anda dapat mengonversi rekaman secara manual nanti.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "Pengenal bundel dari aplikasi yang memulai panggilan.";
+
+/* Translated with LLM */
+"The call event to wait for." = "Acara panggilan yang harus ditunggu.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Isi file teks “%@” kosong.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Detik maksimum untuk menunggu panggilan tersambung.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Detik maksimum untuk menunggu acara panggilan yang dipilih.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "Metadata lokasi yang hilang akan diisi jika Anda membuka aplikasi tepat setelah perekaman.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "Tindakan tombol utama di sisi kanan hoverball ketika tidak ada panggilan yang aktif.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "File audio yang dipilih tidak valid atau tidak didukung.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Layanan tidak dikonfigurasi dengan benar.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Nama operator layanan pengirim.";
+
+/* Translated with LLM */
+"The session to inspect." = "Sesi untuk diperiksa.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "Ukuran file audio yang dipilih.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Jenis konten yang akan direkam.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Jenis perekaman yang akan dikontrol. Perekaman apa pun hanya berlaku untuk menghentikan, menjeda, melanjutkan, dan beralih.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Jenis perekaman yang akan dihentikan.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "Pengidentifikasi unik panggilan.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Rekaman ini berasal dari WeChat, dan “WeChat Assistant” membantu Anda mengisi nama kontak dan komentar WeChat lain kali.\nAnda sepertinya belum mengaktifkan “WeChat Assistant”, apakah Anda ingin mengaktifkannya sekarang?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Rekaman ini direkam menggunakan “Real-time Encoding”. Metode perekaman ini tidak menghasilkan audio sementara mentah yang dapat digunakan untuk pemulihan, sehingga rekaman yang terputus tidak dapat dipulihkan.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Versi WeChat (%@) ini tidak didukung. Harap tingkatkan ke versi terbaru.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Milidetik Tiga Digit";
 
 /* Translated with LLM */
+"Threshold" = "Ambang Batas";
+
+/* Translated with LLM */
 "Time Sensitive" = "Sensitif terhadap Waktu";
 
 /* Translated with LLM */
 "time sensitive notification" = "notifikasi sensitif waktu";
+
+/* Translated with LLM */
+"Timeout" = "Waktu habis";
 
 /* Translated with LLM */
 "Title" = "Judul";
@@ -3356,7 +3761,10 @@
 "To: %@" = "Kepada: %@";
 
 /* Translated with LLM */
-"toggle" = "alihkan";
+"toggle" = "Alihkan";
+
+/* Translated with LLM */
+"Toggle" = "Alihkan";
 
 /* Translated with LLM */
 "Toggle ${requestedMode}" = "Alihkan ${requestedMode}";
@@ -3368,10 +3776,13 @@
 "Toggle Hoverball" = "Alihkan Bola Melayang";
 
 /* Translated with LLM */
-"toggle hoverball" = "alihkan bola melayang";
+"toggle hoverball" = "Alihkan Bola Melayang";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Alihkan ON/OFF bola melayang perekam.";
+"toggle live captions" = "Alihkan Teks Langsung";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Alihkan Teks Langsung";
 
 /* Translated with LLM */
 "Toggle Recording" = "Alihkan Perekaman";
@@ -3383,13 +3794,10 @@
 "Toggle Screen Recording" = "Alihkan Perekaman Layar";
 
 /* Translated with LLM */
-"toggle screen recording" = "alihkan perekaman layar";
+"toggle screen recording" = "Alihkan Perekaman Layar";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Alihkan Perekaman Audio Sistem";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Alihkan perekaman layar sistem seperti yang Anda lakukan di Pusat Kontrol.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Alihkan Perekaman Memo Suara";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "pemutaran tts";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Matikan “Pengkodean Real-time”";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Matikan opsi ini agar opsi lain di halaman ini berlaku untuk aplikasi saat ini.";
@@ -3554,7 +3965,10 @@
 "Unmark" = "Hapus Tanda";
 
 /* Translated with LLM */
-"unmute" = "bunyikan";
+"unmute" = "Bunyikan";
+
+/* Translated with LLM */
+"Unmute" = "Bunyikan";
 
 /* Translated with LLM */
 "Unmute ${requestedChannel}" = "Bunyikan ${requestedChannel}";
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Bunyikan Panggilan yang Ada";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Aktifkan suara saluran tertentu dari semua panggilan yang ada.";
 
 /* Translated with LLM */
 "Unspecified" = "Tidak ditentukan";
@@ -3659,6 +4070,9 @@
 "Utility" = "Utilitas";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Utilitas (Warisan)";
+
+/* Translated with LLM */
 "Variant" = "Varian";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Lihat Log: Penyimpanan Jaringan";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Lihat Log: Perekam Waktu Nyata";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Lihat Log: Ucapan Suara";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "Kontak VIP akan selalu direkam dan ditambahkan ke favorit.";
+
+/* Translated with LLM */
+"Voice Chat" = "Obrolan Suara";
 
 /* Translated with LLM */
 "Voice Memo" = "Memo Suara";
@@ -3761,19 +4181,52 @@
 "wait" = "tunggu";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Tunggu panggilan ${requestedEvent}";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Tunggu panggilan ${requestedEvent}";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Tunggu ${requestedTimeout} detik";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Tunggu hingga panggilan dijawab dan tersambung.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Menunggu peristiwa panggilan. Mengembalikan informasi panggilan saat peristiwa yang dipilih terjadi; jika tidak, tidak mengembalikan apa pun saat waktu habis.";
 
 /* Translated with LLM */
-"wait for call" = "tunggu panggilan";
+"wait for call" = "Tunggu Panggilan";
+
+/* Translated with LLM */
+"Wait for Call" = "Tunggu Panggilan";
+
+/* Translated with LLM */
+"wait for call ended" = "menunggu panggilan berakhir";
+
+/* Translated with LLM */
+"wait for call event" = "Tunggu Peristiwa Panggilan";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Tunggu Peristiwa Panggilan";
 
 /* Translated with LLM */
 "Wait for Calls" = "Tunggu Panggilan";
 
 /* Translated with LLM */
+"wait for connected call" = "menunggu panggilan tersambung";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Tunggu Panggilan Tersambung";
+
+/* Translated with LLM */
+"wait for incoming call" = "menunggu panggilan masuk";
+
+/* Translated with LLM */
+"wait for outgoing call" = "menunggu panggilan keluar";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Tunggu Sampai Selesai";
+
+/* Translated with LLM */
+"Waiting For Device" = "Menunggu Perangkat";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Peringatan, panggilan Anda sedang direkam sekarang. Peringatan, panggilan Anda sedang direkam sekarang.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Saat server WebDAV diaktifkan, apakah akan mengizinkan Anda mengakses dari peramban web umum seperti Safari, Chrome, Edge, dll.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Apakah akan menerima atau menolak panggilan masuk.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Apakah akan membuang rekaman saat berhenti. Diabaikan saat memulai atau beralih.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Apakah akan memaksa aplikasi untuk menggunakan antarmuka pengguna terang atau gelap.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Apakah akan memaksa hoverball untuk menggunakan gaya terang atau gelap?";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Apakah akan menyertakan audio mikrofon saat memulai atau mengaktifkan perekaman layar.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Apakah akan mengulang pemutaran audio tanpa batas. Jika diaktifkan, tindakan ini akan kembali segera setelah mulai diputar.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Apakah akan membisukan atau mengaktifkan audio panggilan.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Apakah akan membuka, menutup, atau mengalihkan teks langsung.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Apakah akan membuka, menutup, atau mengalihkan hoverball.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Apakah akan memulai, menghentikan, atau mengalihkan perekaman layar.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Apakah akan memulai, menghentikan, menjeda, melanjutkan, atau mengalihkan perekaman.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Apakah akan menunggu hingga pemutaran selesai. Jika dinonaktifkan, tindakan ini akan kembali segera setelah pemutaran dimulai.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Apakah akan menunggu hingga pemutaran selesai. Jika dinonaktifkan, tindakan ini akan kembali segera setelah pemutaran dimulai. Ulangi Tanpa Batas selalu kembali segera setelah pemutaran dimulai.";
+
+/* Translated with LLM */
+"Which channel to control." = "Saluran mana yang akan dikontrol.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Saluran mana yang akan dibisukan.";

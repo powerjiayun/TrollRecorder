@@ -1,4 +1,25 @@
 /* No comment provided by engineer. */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* No comment provided by engineer. */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} recording";
+
+/* No comment provided by engineer. */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* No comment provided by engineer. */
+"${requestedAction} live captions" = "${requestedAction} live captions";
+
+/* No comment provided by engineer. */
+"${requestedAction} screen recording" = "${requestedAction} screen recording";
+
+/* No comment provided by engineer. */
+"${requestedResponse} incoming calls" = "${requestedResponse} incoming calls";
+
+/* No comment provided by engineer. */
+"%@ Help" = "%@ Help";
+
+/* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
 /* No comment provided by engineer. */
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "A widget is required for the “Launch Shield” feature.";
 
 /* No comment provided by engineer. */
-"accept" = "accept";
+"accept" = "Accept";
 
 /* No comment provided by engineer. */
-"Accept all incoming calls automatically." = "Accept all incoming calls automatically.";
+"Accept" = "Accept";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "accept call" = "accept call";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Accept Incoming Calls";
 
 /* No comment provided by engineer. */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false.";
+
+/* No comment provided by engineer. */
 "Access From Web Browser" = "Access From Web Browser";
 
 /* No comment provided by engineer. */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground.";
+
+/* No comment provided by engineer. */
+"actions" = "actions";
 
 /* No comment provided by engineer. */
 "activate" = "activate";
@@ -109,8 +136,14 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "activate hoverball" = "activate hoverball";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"activate live captions" = "activate live captions";
+
+/* App Intent session information actions. */
+"Active Call Count" = "Active Call Count";
+
 /* No comment provided by engineer. */
-"Activate the recorder hoverball." = "Activate the recorder hoverball.";
+"Active Call Identifiers" = "Active Call Identifiers";
 
 /* No comment provided by engineer. */
 "Add" = "Add";
@@ -251,7 +284,13 @@
 "Any" = "Any";
 
 /* No comment provided by engineer. */
+"Any Recording" = "Any Recording";
+
+/* No comment provided by engineer. */
 "App Icon" = "App Icon";
+
+/* No comment provided by engineer. */
+"App Intent" = "App Intent";
 
 /* No comment provided by engineer. */
 "App Language" = "App Language";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* No comment provided by engineer. */
-"archive" = "archive";
+"archive" = "Archive";
 
 /* No comment provided by engineer. */
 "Archive" = "Archive";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "Buy TrollRecorder Pro";
 
 /* No comment provided by engineer. */
+"Byte Count" = "Byte Count";
+
+/* No comment provided by engineer. */
 "Calculating…" = "Calculating…";
 
 /* No comment provided by engineer. */
 "Call" = "Call";
 
 /* No comment provided by engineer. */
-"call" = "call";
+"call" = "Call";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"call audio" = "call audio";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call audio on" = "call audio on";
@@ -487,17 +532,29 @@
 /* No comment provided by engineer. */
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Call audio pipeline monitoring failed. Tap this notification to restart the recording service.";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"call connected" = "call connected";
+/* App Intent call automation actions. */
+"Call Automation" = "Call Automation";
 
 /* No comment provided by engineer. */
-"Call Direction" = "Call Direction";
+"Call Automation (Legacy)" = "Call Automation (Legacy)";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"call connected" = "call connected";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call duration" = "call duration";
 
 /* No comment provided by engineer. */
+"Call History Identifier" = "Call History Identifier";
+
+/* No comment provided by engineer. */
 "Call Identifier" = "Call Identifier";
+
+/* No comment provided by engineer. */
+"Call Info" = "Call Info";
+
+/* No comment provided by engineer. */
+"call info" = "Call Info";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call information" = "call information";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Call Recording: Other Side";
 
 /* No comment provided by engineer. */
-"Call State" = "Call State";
+"Call Sniffer" = "Call Sniffer";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "call status" = "call status";
@@ -548,10 +605,16 @@
 "Caution" = "Caution";
 
 /* No comment provided by engineer. */
+"Channel" = "Channel";
+
+/* No comment provided by engineer. */
 "check" = "check";
 
 /* No comment provided by engineer. */
-"Check if the daemon is running. If not, launch it." = "Check if the daemon is running. If not, launch it.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing.";
+
+/* No comment provided by engineer. */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false.";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "check service" = "check service";
@@ -611,6 +674,9 @@
 "close hoverball" = "close hoverball";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"close live captions" = "close live captions";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "cloud archive sync" = "cloud archive sync";
 
 /* No comment provided by engineer. */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Connect to a Wi‑Fi network before transferring recordings.";
 
 /* No comment provided by engineer. */
-"connected" = "connected";
+"connected" = "Connected";
+
+/* No comment provided by engineer. */
+"Connected" = "Connected";
+
+/* No comment provided by engineer. */
+"Connected At" = "Connected At";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "connected call" = "connected call";
@@ -663,6 +735,12 @@
 
 /* No comment provided by engineer. */
 "Contact Exceptions" = "Contact Exceptions";
+
+/* No comment provided by engineer. */
+"Contact Identifier" = "Contact Identifier";
+
+/* No comment provided by engineer. */
+"Contact Label" = "Contact Label";
 
 /* No comment provided by engineer. */
 "Contact Name" = "Contact Name";
@@ -708,6 +786,39 @@
 
 /* No comment provided by engineer. */
 "Continuous Playback On" = "Continuous Playback On";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"control call audio" = "control call muting";
+
+/* No comment provided by engineer. */
+"Control Call Muting" = "Control Call Muting";
+
+/* No comment provided by engineer. */
+"control call muting" = "Control Call Muting";
+
+/* No comment provided by engineer. */
+"Control Hoverball" = "Control Hoverball";
+
+/* No comment provided by engineer. */
+"control hoverball" = "Control Hoverball";
+
+/* No comment provided by engineer. */
+"Control Live Captions" = "Control Live Captions";
+
+/* No comment provided by engineer. */
+"control live captions" = "Control Live Captions";
+
+/* No comment provided by engineer. */
+"Control Recording" = "Control Recording";
+
+/* No comment provided by engineer. */
+"control recording" = "Control Recording";
+
+/* No comment provided by engineer. */
+"Control Screen Recording" = "Control Screen Recording";
+
+/* No comment provided by engineer. */
+"control screen recording" = "Control Screen Recording";
 
 /* No comment provided by engineer. */
 "Conversion Failed" = "Conversion Failed";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Could not sign out account: %@";
 
 /* No comment provided by engineer. */
+"Country Code" = "Country Code";
+
+/* No comment provided by engineer. */
 "Created At" = "Created At";
 
 /* No comment provided by engineer. */
 "Credentials" = "Credentials";
+
+/* No comment provided by engineer. */
+"Current" = "Current";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "current call" = "current call";
@@ -809,7 +926,7 @@
 "Day of Week String" = "Day of Week String";
 
 /* No comment provided by engineer. */
-"deactivate" = "deactivate";
+"deactivate" = "Deactivate";
 
 /* No comment provided by engineer. */
 "Deactivate" = "Deactivate";
@@ -820,8 +937,8 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "deactivate hoverball" = "deactivate hoverball";
 
-/* No comment provided by engineer. */
-"Deactivate the recorder hoverball." = "Deactivate the recorder hoverball.";
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"deactivate live captions" = "deactivate live captions";
 
 /* No comment provided by engineer. */
 "Debugging" = "Debugging";
@@ -863,10 +980,16 @@
 "Developer Options" = "Developer Options";
 
 /* No comment provided by engineer. */
+"Dialing" = "Dialing";
+
+/* No comment provided by engineer. */
 "Dictation Disabled" = "Dictation Disabled";
 
 /* No comment provided by engineer. */
 "Digital Video" = "Digital Video";
+
+/* No comment provided by engineer. */
+"Digits" = "Digits";
 
 /* No comment provided by engineer. */
 "Direction" = "Direction";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Direction Description";
 
 /* No comment provided by engineer. */
-"directory" = "directory";
+"directory" = "Directory";
 
 /* No comment provided by engineer. */
 "Directory" = "Directory";
@@ -905,7 +1028,7 @@
 "Discard" = "Discard";
 
 /* No comment provided by engineer. */
-"discard" = "discard";
+"discard" = "Discard";
 
 /* No comment provided by engineer. */
 "Discard Changes" = "Discard Changes";
@@ -913,8 +1036,14 @@
 /* No comment provided by engineer. */
 "Discard Recording" = "Discard Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"discard recording" = "discard recording";
+/* No comment provided by engineer. */
+"discard recording" = "Discard Recording";
+
+/* No comment provided by engineer. */
+"Disconnected" = "Disconnected";
+
+/* No comment provided by engineer. */
+"Disconnected At" = "Disconnected At";
 
 /* No comment provided by engineer. */
 "Discreet Mode" = "Discreet Mode";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Display the source bundle name of the recording.";
 
 /* No comment provided by engineer. */
-"Displays a local notification." = "Displays a local notification.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Displays a local notification. Returns true if the notification request was sent successfully; otherwise false.";
 
 /* No comment provided by engineer. */
 "Do you want to clear this log file “%@”?" = "Do you want to clear this log file “%@”?";
@@ -1043,7 +1172,7 @@
 "Duration" = "Duration";
 
 /* No comment provided by engineer. */
-"duration" = "duration";
+"duration" = "Duration";
 
 /* No comment provided by engineer. */
 "Duration Before Idle" = "Duration Before Idle";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Enable Face ID";
 
 /* No comment provided by engineer. */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded.";
 
 /* No comment provided by engineer. */
 "Enable Logging" = "Enable Logging";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground.";
 
 /* No comment provided by engineer. */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover.";
+
+/* No comment provided by engineer. */
 "Encoding" = "Encoding";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "end screen recording";
 
 /* No comment provided by engineer. */
-"Enhance Recording" = "Enhance Recording";
+"Ended" = "Ended";
 
 /* No comment provided by engineer. */
 "Enhanced Automatic Recording" = "Enhanced Automatic Recording";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Exit Hoverball";
 
 /* No comment provided by engineer. */
+"Exit Live Captions" = "Exit Live Captions";
+
+/* No comment provided by engineer. */
 "Expand Recursively" = "Expand Recursively";
 
 /* No comment provided by engineer. */
@@ -1179,6 +1314,9 @@
 
 /* No comment provided by engineer. */
 "Export as ZIP" = "Export as ZIP";
+
+/* No comment provided by engineer. */
+"Export File Name" = "Export File Name";
 
 /* No comment provided by engineer. */
 "Export recordings to anywhere you want without limitations." = "Export recordings to anywhere you want without limitations.";
@@ -1254,6 +1392,9 @@
 
 /* No comment provided by engineer. */
 "File Format" = "File Format";
+
+/* No comment provided by engineer. */
+"File Name" = "File Name";
 
 /* No comment provided by engineer. */
 "File not found." = "File not found.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Get ${requestedField}";
 
 /* No comment provided by engineer. */
+"Get ${requestedSession} call info" = "Get ${requestedSession} call info";
+
+/* No comment provided by engineer. */
+"Get ${requestedSession} recording info" = "Get ${requestedSession} recording info";
+
+/* No comment provided by engineer. */
 "Get advanced control when recording right in your call." = "Get advanced control when recording right in your call.";
 
 /* No comment provided by engineer. */
 "Get Call Duration" = "Get Call Duration";
 
 /* No comment provided by engineer. */
+"Get Call Info" = "Get Call Info";
+
+/* No comment provided by engineer. */
 "Get Call Status" = "Get Call Status";
+
+/* Legacy App Intent descriptions. */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts.";
 
 /* No comment provided by engineer. */
 "Get In Touch" = "Get In Touch";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Get notifications after record complete.";
 
 /* No comment provided by engineer. */
+"Get primary call information as a single object." = "Get primary call information as a single object.";
+
+/* No comment provided by engineer. */
 "Get Recording Duration" = "Get Recording Duration";
+
+/* No comment provided by engineer. */
+"Get Recording Info" = "Get Recording Info";
+
+/* No comment provided by engineer. */
+"Get recording information as a single object." = "Get recording information as a single object.";
 
 /* No comment provided by engineer. */
 "Get Recording Paths" = "Get Recording Paths";
@@ -1378,20 +1540,26 @@
 /* No comment provided by engineer. */
 "Get Recording Status" = "Get Recording Status";
 
-/* No comment provided by engineer. */
-"Get the current recording duration of the Troll Recorder." = "Get the current recording duration of the Troll Recorder.";
+/* App Intent screen recording information actions. */
+"Get Screen Recording Info" = "Get Screen Recording Info";
 
 /* No comment provided by engineer. */
-"Get the current recording paths of the Troll Recorder." = "Get the current recording paths of the Troll Recorder.";
+"Get screen recording information as a single object." = "Get screen recording information as a single object.";
+
+/* App Intent service information actions. */
+"Get Service Info" = "Get Service Info";
 
 /* No comment provided by engineer. */
-"Get the current recording status of the Troll Recorder." = "Get the current recording status of the Troll Recorder.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts.";
 
 /* No comment provided by engineer. */
-"Get the primary call duration of the device." = "Get the primary call duration of the device.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts.";
 
 /* No comment provided by engineer. */
-"Get the primary call status of the device." = "Get the primary call status of the device.";
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts.";
+
+/* No comment provided by engineer. */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts.";
 
 /* No comment provided by engineer. */
 "Go Home When Unlocked" = "Go Home When Unlocked";
@@ -1401,6 +1569,12 @@
 
 /* No comment provided by engineer. */
 "Group Call" = "Group Call";
+
+/* No comment provided by engineer. */
+"handle incoming calls" = "Handle Incoming Calls";
+
+/* No comment provided by engineer. */
+"Handle Incoming Calls" = "Handle Incoming Calls";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "hang up calls" = "hang up calls";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "Hoverball";
 
 /* No comment provided by engineer. */
+"Hoverball (Legacy)" = "Hoverball (Legacy)";
+
+/* No comment provided by engineer. */
 "Hoverball Plus" = "Hoverball Plus";
 
 /* No comment provided by engineer. */
@@ -1445,7 +1622,10 @@
 "Hoverball Style" = "Hoverball Style";
 
 /* No comment provided by engineer. */
-"hud" = "hud";
+"hud" = "HUD";
+
+/* No comment provided by engineer. */
+"HUD" = "HUD";
 
 /* No comment provided by engineer. */
 "HUD_CALL_RECORDING" = "Call Recording";
@@ -1482,6 +1662,9 @@
 
 /* No comment provided by engineer. */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "If there’s no active phone call, press both of the physical volume buttons to perform specified action.";
+
+/* No comment provided by engineer. */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings.";
 
 /* No comment provided by engineer. */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here.";
@@ -1523,13 +1706,13 @@
 "Incoming" = "Incoming";
 
 /* No comment provided by engineer. */
-"incoming" = "incoming";
+"incoming" = "Incoming";
 
 /* No comment provided by engineer. */
 "Incoming Call" = "Incoming Call";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"incoming call" = "incoming call";
+/* No comment provided by engineer. */
+"incoming call" = "Incoming Call";
 
 /* No comment provided by engineer. */
 "Incoming Call Answered" = "Incoming Call Answered";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Install Call History Tweak";
 
 /* No comment provided by engineer. */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false.";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"interrupt call playback" = "interrupt call playback";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"interrupt uplink audio" = "interrupt uplink audio";
+
+/* No comment provided by engineer. */
+"Interrupt Uplink Playback" = "Interrupt Uplink Playback";
+
+/* No comment provided by engineer. */
+"interrupt uplink playback" = "Interrupt Uplink Playback";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"interrupt voice over" = "interrupt voice over";
+
+/* No comment provided by engineer. */
 "Invalid Code Signature" = "Invalid Code Signature";
 
 /* No comment provided by engineer. */
@@ -1563,6 +1764,9 @@
 
 /* No comment provided by engineer. */
 "iPhone" = "iPhone";
+
+/* No comment provided by engineer. */
+"Is Available" = "Is Available";
 
 /* No comment provided by engineer. */
 "Is Favourite" = "Is Favourite";
@@ -1579,11 +1783,23 @@
 /* No comment provided by engineer. */
 "Is Paused" = "Is Paused";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"is recording" = "is recording";
+/* No comment provided by engineer. */
+"is recording" = "Is Recording";
+
+/* No comment provided by engineer. */
+"Is Recording" = "Is Recording";
 
 /* No comment provided by engineer. */
 "Is Running" = "Is Running";
+
+/* No comment provided by engineer. */
+"Is Service Running" = "Is Service Running";
+
+/* No comment provided by engineer. */
+"Is Waiting For Device" = "Is Waiting For Device";
+
+/* No comment provided by engineer. */
+"ISO Country Code" = "ISO Country Code";
 
 /* No comment provided by engineer. */
 "Item #%lu" = "Item #%lu";
@@ -1596,6 +1812,9 @@
 
 /* No comment provided by engineer. */
 "Keep Screen On When Connected" = "Keep Screen On When Connected";
+
+/* No comment provided by engineer. */
+"Key Event" = "Key Event";
 
 /* No comment provided by engineer. */
 "Keyboard Avoidance" = "Keyboard Avoidance";
@@ -1616,6 +1835,9 @@
 "Later" = "Later";
 
 /* No comment provided by engineer. */
+"Latest" = "Latest";
+
+/* No comment provided by engineer. */
 "launch" = "launch";
 
 /* No comment provided by engineer. */
@@ -1634,7 +1856,46 @@
 "leading edge" = "leading edge";
 
 /* No comment provided by engineer. */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts.";
+
+/* No comment provided by engineer. */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false.";
+
+/* No comment provided by engineer. */
 "Legacy Jailbreak" = "Legacy Jailbreak";
+
+/* No comment provided by engineer. */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false.";
+
+/* No comment provided by engineer. */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false.";
 
 /* No comment provided by engineer. */
 "Less serious error occurred." = "Less serious error occurred.";
@@ -1659,6 +1920,9 @@
 
 /* No comment provided by engineer. */
 "Live Captions" = "Live Captions";
+
+/* No comment provided by engineer. */
+"Live Captions (Legacy)" = "Live Captions (Legacy)";
 
 /* No comment provided by engineer. */
 "Loading…" = "Loading…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Make a ${requestedMode} recording";
 
 /* No comment provided by engineer. */
-"Make a new recording, or stop an existing one." = "Make a new recording, or stop an existing one.";
-
-/* No comment provided by engineer. */
 "Make a new voice memo, or stop an existing one." = "Make a new voice memo, or stop an existing one.";
 
 /* No comment provided by engineer. */
@@ -1790,10 +2051,13 @@
 "Metadata" = "Metadata";
 
 /* No comment provided by engineer. */
+"Metadata Path" = "Metadata Path";
+
+/* No comment provided by engineer. */
 "Microphone" = "Microphone";
 
 /* No comment provided by engineer. */
-"microphone" = "microphone";
+"microphone" = "Microphone";
 
 /* No comment provided by engineer. */
 "Microphone and speaker are recorded in different channels." = "Microphone and speaker are recorded in different channels.";
@@ -1823,9 +2087,6 @@
 "Mixed" = "Mixed";
 
 /* No comment provided by engineer. */
-"Mixer & Combiner" = "Mixer & Combiner";
-
-/* No comment provided by engineer. */
 "Mixer Audio Format" = "Mixer Audio Format";
 
 /* No comment provided by engineer. */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "MPEG-4 Audio";
 
 /* No comment provided by engineer. */
-"mute" = "mute";
+"mute" = "Mute";
+
+/* No comment provided by engineer. */
+"Mute" = "Mute";
 
 /* No comment provided by engineer. */
 "Mute ${requestedChannel}" = "Mute ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Mute Existing Calls";
 
 /* No comment provided by engineer. */
-"Mute specified channel of all existing calls." = "Mute specified channel of all existing calls.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false.";
 
 /* No comment provided by engineer. */
 "My Favourite" = "My Favourite";
@@ -1881,6 +2145,9 @@
 
 /* No comment provided by engineer. */
 "Name with Alias" = "Name with Alias";
+
+/* No comment provided by engineer. */
+"Network Code" = "Network Code";
 
 /* No comment provided by engineer. */
 "Network Storage" = "Network Storage";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Nothing Inside";
 
 /* No comment provided by engineer. */
-"notification" = "notification";
+"notification" = "Notification";
+
+/* No comment provided by engineer. */
+"Notification" = "Notification";
 
 /* No comment provided by engineer. */
 "Notification Permission Denied" = "Notification Permission Denied";
@@ -2000,7 +2270,7 @@
 "Open" = "Open";
 
 /* No comment provided by engineer. */
-"open" = "open";
+"open" = "Open";
 
 /* No comment provided by engineer. */
 "Open Application" = "Open Application";
@@ -2008,8 +2278,8 @@
 /* No comment provided by engineer. */
 "Open Hoverball" = "Open Hoverball";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"open hoverball" = "open hoverball";
+/* No comment provided by engineer. */
+"open hoverball" = "Open Hoverball";
 
 /* No comment provided by engineer. */
 "Open in Filza" = "Open in Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Open in Maps";
 
 /* No comment provided by engineer. */
+"Open Live Captions" = "Open Live Captions";
+
+/* No comment provided by engineer. */
+"open live captions" = "Open Live Captions";
+
+/* No comment provided by engineer. */
 "Open Troll Recorder" = "Open Troll Recorder";
+
+/* No comment provided by engineer. */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false.";
+
+/* No comment provided by engineer. */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false.";
 
 /* No comment provided by engineer. */
 "Operation Failed" = "Operation Failed";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Pause Recording";
 
 /* No comment provided by engineer. */
+"pause recording" = "Pause Recording";
+
+/* No comment provided by engineer. */
 "Paused" = "Paused";
 
 /* No comment provided by engineer. */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false.";
 
 /* No comment provided by engineer. */
 "Perform Full Synchronization" = "Perform Full Synchronization";
@@ -2105,7 +2390,7 @@
 "Phone" = "Phone";
 
 /* No comment provided by engineer. */
-"phone" = "phone";
+"phone" = "Phone";
 
 /* No comment provided by engineer. */
 "Phone Address" = "Phone Address";
@@ -2147,13 +2432,22 @@
 "Play" = "Play";
 
 /* No comment provided by engineer. */
-"play" = "play";
+"play" = "Play";
 
 /* No comment provided by engineer. */
 "Play ${audioFile}" = "Play ${audioFile}";
 
+/* No comment provided by engineer. */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error.";
+
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "play audio file" = "play audio file";
+
+/* No comment provided by engineer. */
+"Play Call Audio" = "Play Call Audio";
+
+/* No comment provided by engineer. */
+"play call audio" = "Play Call Audio";
 
 /* No comment provided by engineer. */
 "Play Recording Warning" = "Play Recording Warning";
@@ -2162,28 +2456,16 @@
 "Play Sound" = "Play Sound";
 
 /* No comment provided by engineer. */
-"Play specified audio file to the microphone." = "Play specified audio file to the microphone.";
-
-/* No comment provided by engineer. */
-"Play specified voice-over text to the microphone." = "Play specified voice-over text to the microphone.";
-
-/* No comment provided by engineer. */
 "Play Through Receiver" = "Play Through Receiver";
 
 /* No comment provided by engineer. */
 "Play Through Speaker" = "Play Through Speaker";
 
-/* No comment provided by engineer. */
-"Play Uplink Audio" = "Play Uplink Audio";
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"play uplink audio" = "play call audio";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"play uplink audio" = "play uplink audio";
-
-/* No comment provided by engineer. */
-"Play Uplink Voice-Over" = "Play Uplink Voice-Over";
-
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"play voice over" = "play voice over";
+"play voice over" = "speak call voice over";
 
 /* No comment provided by engineer. */
 "Play/Pause" = "Play/Pause";
@@ -2261,6 +2543,12 @@
 "post notification" = "post notification";
 
 /* No comment provided by engineer. */
+"Post-processing & Output" = "Post-processing & Output";
+
+/* No comment provided by engineer. */
+"Pre-release Version" = "Pre-release Version";
+
+/* No comment provided by engineer. */
 "Preparing" = "Preparing";
 
 /* No comment provided by engineer. */
@@ -2268,6 +2556,9 @@
 
 /* No comment provided by engineer. */
 "Preserve All Channels" = "Preserve All Channels";
+
+/* No comment provided by engineer. */
+"Preset Providers" = "Preset Providers";
 
 /* No comment provided by engineer. */
 "Press & Hold Action" = "Press & Hold Action";
@@ -2383,6 +2674,12 @@
 /* No comment provided by engineer. */
 "Ready to record!" = "Ready to record!";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"real-time captions" = "real-time captions";
+
+/* No comment provided by engineer. */
+"Real-time Encoding" = "Real-time Encoding";
+
 /* No comment provided by engineer. */
 "Received authorization error: %@" = "Received authorization error: %@";
 
@@ -2400,6 +2697,9 @@
 
 /* No comment provided by engineer. */
 "Record" = "Record";
+
+/* No comment provided by engineer. */
+"Record (Legacy)" = "Record (Legacy)";
 
 /* No comment provided by engineer. */
 "Record All Calls" = "Record All Calls";
@@ -2432,7 +2732,7 @@
 "Recording" = "Recording";
 
 /* No comment provided by engineer. */
-"recording" = "recording";
+"recording" = "Recording";
 
 /* No comment provided by engineer. */
 "Recording (Localized)" = "Recording (Localized)";
@@ -2447,6 +2747,15 @@
 "recording file" = "recording file";
 
 /* No comment provided by engineer. */
+"Recording Info" = "Recording Info";
+
+/* No comment provided by engineer. */
+"recording info" = "Recording Info";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"recording information" = "recording information";
+
+/* No comment provided by engineer. */
 "Recording Interrupted" = "Recording Interrupted";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
@@ -2458,8 +2767,11 @@
 /* No comment provided by engineer. */
 "Recording Options" = "Recording Options";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"recording path" = "recording path";
+/* No comment provided by engineer. */
+"recording path" = "Recording Path";
+
+/* No comment provided by engineer. */
+"Recording Path" = "Recording Path";
 
 /* No comment provided by engineer. */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Recording starts when both the audio inputs and outputs are continuously active.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Regenerate All";
 
 /* No comment provided by engineer. */
-"reject" = "reject";
+"reject" = "Reject";
 
 /* No comment provided by engineer. */
-"Reject all incoming calls automatically." = "Reject all incoming calls automatically.";
+"Reject" = "Reject";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "reject call" = "reject call";
 
 /* No comment provided by engineer. */
 "Reject Incoming Calls" = "Reject Incoming Calls";
+
+/* No comment provided by engineer. */
+"Related Application Bundle Identifiers" = "Related Application Bundle Identifiers";
+
+/* No comment provided by engineer. */
+"Related Application Count" = "Related Application Count";
 
 /* No comment provided by engineer. */
 "Relaunched" = "Relaunched";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Reset Service";
 
 /* No comment provided by engineer. */
+"responses" = "responses";
+
+/* No comment provided by engineer. */
 "Respring" = "Respring";
 
 /* No comment provided by engineer. */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Restoring";
 
 /* No comment provided by engineer. */
+"Resume" = "Resume";
+
+/* No comment provided by engineer. */
 "Resume Recording" = "Resume Recording";
+
+/* No comment provided by engineer. */
+"resume recording" = "Resume Recording";
 
 /* No comment provided by engineer. */
 "Resume with Warning" = "Resume with Warning";
@@ -2668,8 +2995,17 @@
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "screen capture stop" = "screen capture stop";
 
+/* No comment provided by engineer. */
+"Screen Recording Info" = "Screen Recording Info";
+
+/* No comment provided by engineer. */
+"screen recording info" = "Screen Recording Info";
+
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "screen recording off" = "screen recording off";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"screen recording status" = "screen recording status";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Searching for nearby devices";
 
 /* No comment provided by engineer. */
-"Search…" = "Search…";
-
-/* No comment provided by engineer. */
 "Seconds" = "Seconds";
 
 /* No comment provided by engineer. */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Send Diagnostic";
 
 /* No comment provided by engineer. */
+"Sender Address" = "Sender Address";
+
+/* No comment provided by engineer. */
+"Sender Localized Name" = "Sender Localized Name";
+
+/* No comment provided by engineer. */
+"Sender Localized Short Name" = "Sender Localized Short Name";
+
+/* No comment provided by engineer. */
 "Sender Name" = "Sender Name";
 
 /* No comment provided by engineer. */
 "Sender Phone Address" = "Sender Phone Address";
+
+/* No comment provided by engineer. */
+"Sender Service Name" = "Sender Service Name";
 
 /* No comment provided by engineer. */
 "Sender Short Name" = "Sender Short Name";
@@ -2777,13 +3122,22 @@
 "service active" = "service active";
 
 /* No comment provided by engineer. */
+"Service Info" = "Service Info";
+
+/* No comment provided by engineer. */
+"service info" = "Service Info";
+
+/* No comment provided by engineer. */
 "Service is alive" = "Service is alive";
 
 /* No comment provided by engineer. */
 "Service is dead" = "Service is dead";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"service status" = "service status";
+
 /* No comment provided by engineer. */
-"Service Status" = "Service Status";
+"service statuses" = "service statuses";
 
 /* No comment provided by engineer. */
 "Set a new name for this recording, or leave blank to use default." = "Set a new name for this recording, or leave blank to use default.";
@@ -2821,8 +3175,8 @@
 /* No comment provided by engineer. */
 "Show Notification" = "Show Notification";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"show notification" = "show notification";
+/* No comment provided by engineer. */
+"show notification" = "Show Notification";
 
 /* No comment provided by engineer. */
 "Show notification ${requestedMessage}" = "Show notification ${requestedMessage}";
@@ -2902,11 +3256,20 @@
 /* No comment provided by engineer. */
 "Space" = "Space";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"speak call voice over" = "speak call voice over";
+
+/* No comment provided by engineer. */
+"Speak Call Voice-Over" = "Speak Call Voice-Over";
+
+/* No comment provided by engineer. */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds.";
+
 /* No comment provided by engineer. */
 "Speaker" = "Speaker";
 
 /* No comment provided by engineer. */
-"speaker" = "speaker";
+"speaker" = "Speaker";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "speaker off" = "speaker off";
@@ -2924,10 +3287,16 @@
 "spoken audio" = "spoken audio";
 
 /* No comment provided by engineer. */
-"start" = "start";
+"Stable Version" = "Stable Version";
 
 /* No comment provided by engineer. */
-"Start a system screen recording just like what you do in the Control Center." = "Start a system screen recording just like what you do in the Control Center.";
+"Standby" = "Standby";
+
+/* No comment provided by engineer. */
+"start" = "Start";
+
+/* No comment provided by engineer. */
+"Start" = "Start";
 
 /* No comment provided by engineer. */
 "Start Call Recording" = "Start Call Recording";
@@ -2939,25 +3308,28 @@
 "Start Date" = "Start Date";
 
 /* No comment provided by engineer. */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Start or prepare for a call recording, system audio recording, or create an voice memo.";
-
-/* No comment provided by engineer. */
 "Start Recording" = "Start Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"start recording" = "start recording";
+/* No comment provided by engineer. */
+"start recording" = "Start Recording";
 
 /* No comment provided by engineer. */
 "Start Screen Recording" = "Start Screen Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"start screen recording" = "start screen recording";
+/* No comment provided by engineer. */
+"start screen recording" = "Start Screen Recording";
 
 /* No comment provided by engineer. */
 "Start System Audio Recording" = "Start System Audio Recording";
 
 /* No comment provided by engineer. */
 "Start Voice Memo Recording" = "Start Voice Memo Recording";
+
+/* No comment provided by engineer. */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false.";
+
+/* No comment provided by engineer. */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false.";
 
 /* No comment provided by engineer. */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Starting the export service is taking longer than expected. Please check the network and try again.";
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Stay tuned. We’re recording your call in the background.";
 
 /* No comment provided by engineer. */
-"stop" = "stop";
+"stop" = "Stop";
 
 /* No comment provided by engineer. */
 "Stop" = "Stop";
@@ -2984,16 +3356,10 @@
 "Stop & Save" = "Stop & Save";
 
 /* No comment provided by engineer. */
-"Stop a call recording, system audio recording or voice memo if exists." = "Stop a call recording, system audio recording or voice memo if exists.";
-
-/* No comment provided by engineer. */
-"Stop a system screen recording if exists." = "Stop a system screen recording if exists.";
-
-/* No comment provided by engineer. */
 "Stop Recording" = "Stop Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"stop recording" = "stop recording";
+/* No comment provided by engineer. */
+"stop recording" = "Stop Recording";
 
 /* No comment provided by engineer. */
 "Stop Recording When Disk Exhausted" = "Stop Recording When Disk Exhausted";
@@ -3001,8 +3367,8 @@
 /* No comment provided by engineer. */
 "Stop Screen Recording" = "Stop Screen Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"stop screen recording" = "stop screen recording";
+/* No comment provided by engineer. */
+"stop screen recording" = "Stop Screen Recording";
 
 /* No comment provided by engineer. */
 "Stop Service" = "Stop Service";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "System Audio Recording";
 
 /* No comment provided by engineer. */
-"system audio recording" = "system audio recording";
+"system audio recording" = "System Audio Recording";
 
 /* No comment provided by engineer. */
 "System Language" = "System Language";
 
 /* No comment provided by engineer. */
 "System Record" = "System Record";
+
+/* No comment provided by engineer. */
+"System Record (Legacy)" = "System Record (Legacy)";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"system record info" = "system record info";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"system recording status" = "system recording status";
 
 /* No comment provided by engineer. */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Tap __any edge__  \nto select it as an ___active edge___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Technical Error Detected";
 
 /* No comment provided by engineer. */
+"Telephony Utilities" = "Telephony Utilities";
+
+/* No comment provided by engineer. */
 "Temporarily Ignore" = "Temporarily Ignore";
 
 /* No comment provided by engineer. */
 "Temporary error occurred, more retries might fix." = "Temporary error occurred, more retries might fix.";
 
 /* No comment provided by engineer. */
+"Temporary Recording Path" = "Temporary Recording Path";
+
+/* No comment provided by engineer. */
 "terminate" = "terminate";
 
 /* No comment provided by engineer. */
-"Terminate all active calls immediately." = "Terminate all active calls immediately.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false.";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "terminate call" = "terminate call";
@@ -3134,9 +3515,6 @@
 "text to speech" = "text to speech";
 
 /* No comment provided by engineer. */
-"text-to-speech" = "text-to-speech";
-
-/* No comment provided by engineer. */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "The %@ has been interrupted by the system. You may convert the recording manually later.";
 
 /* No comment provided by engineer. */
@@ -3150,6 +3528,9 @@
 
 /* No comment provided by engineer. */
 "The bundle identifier of the application that initiated the call." = "The bundle identifier of the application that initiated the call.";
+
+/* No comment provided by engineer. */
+"The call event to wait for." = "The call event to wait for.";
 
 /* No comment provided by engineer. */
 "The content of text file “%@” is empty." = "The content of text file “%@” is empty.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "The maximum seconds to wait for calls to be connected.";
 
 /* No comment provided by engineer. */
+"The maximum seconds to wait for the selected call event." = "The maximum seconds to wait for the selected call event.";
+
+/* No comment provided by engineer. */
 "The missing location metadata will be populated if you open the application right after the recording." = "The missing location metadata will be populated if you open the application right after the recording.";
 
 /* No comment provided by engineer. */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "The primary button action at the right side of the hoverball when no call is active.";
 
 /* No comment provided by engineer. */
+"The selected audio file is invalid or unsupported." = "The selected audio file is invalid or unsupported.";
+
+/* No comment provided by engineer. */
 "The service is not properly configured." = "The service is not properly configured.";
 
 /* No comment provided by engineer. */
 "The service operator name of the sender." = "The service operator name of the sender.";
+
+/* No comment provided by engineer. */
+"The session to inspect." = "The session to inspect.";
 
 /* No comment provided by engineer. */
 "The size of selected audio file." = "The size of selected audio file.";
@@ -3249,6 +3639,12 @@
 
 /* No comment provided by engineer. */
 "The type of content to be recorded." = "The type of content to be recorded.";
+
+/* No comment provided by engineer. */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle.";
+
+/* No comment provided by engineer. */
+"The type of recording to stop." = "The type of recording to stop.";
 
 /* No comment provided by engineer. */
 "The unique identifier of the call." = "The unique identifier of the call.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?";
 
 /* No comment provided by engineer. */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered.";
+
+/* No comment provided by engineer. */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "This version of WeChat (%@) is not supported. Please upgrade to the latest version.";
 
 /* No comment provided by engineer. */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Three-digit Milliseconds";
 
 /* No comment provided by engineer. */
+"Threshold" = "Threshold";
+
+/* No comment provided by engineer. */
 "Time Sensitive" = "Time Sensitive";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "time sensitive notification" = "time sensitive notification";
+
+/* No comment provided by engineer. */
+"Timeout" = "Timeout";
 
 /* No comment provided by engineer. */
 "Title" = "Title";
@@ -3356,7 +3761,10 @@
 "To: %@" = "To: %@";
 
 /* No comment provided by engineer. */
-"toggle" = "toggle";
+"toggle" = "Toggle";
+
+/* No comment provided by engineer. */
+"Toggle" = "Toggle";
 
 /* No comment provided by engineer. */
 "Toggle ${requestedMode}" = "Toggle ${requestedMode}";
@@ -3367,29 +3775,29 @@
 /* No comment provided by engineer. */
 "Toggle Hoverball" = "Toggle Hoverball";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"toggle hoverball" = "toggle hoverball";
+/* No comment provided by engineer. */
+"toggle hoverball" = "Toggle Hoverball";
 
 /* No comment provided by engineer. */
-"Toggle ON/OFF the recorder hoverball." = "Toggle ON/OFF the recorder hoverball.";
+"Toggle Live Captions" = "Toggle Live Captions";
+
+/* No comment provided by engineer. */
+"toggle live captions" = "Toggle Live Captions";
 
 /* No comment provided by engineer. */
 "Toggle Recording" = "Toggle Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"toggle recording" = "toggle recording";
+/* No comment provided by engineer. */
+"toggle recording" = "Toggle Recording";
 
 /* No comment provided by engineer. */
 "Toggle Screen Recording" = "Toggle Screen Recording";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"toggle screen recording" = "toggle screen recording";
+/* No comment provided by engineer. */
+"toggle screen recording" = "Toggle Screen Recording";
 
 /* No comment provided by engineer. */
 "Toggle System Audio Recording" = "Toggle System Audio Recording";
-
-/* No comment provided by engineer. */
-"Toggle system screen recording just like what you do in the Control Center." = "Toggle system screen recording just like what you do in the Control Center.";
 
 /* No comment provided by engineer. */
 "Toggle Voice Memo Recording" = "Toggle Voice Memo Recording";
@@ -3447,6 +3855,9 @@
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
 "tts playback" = "tts playback";
+
+/* No comment provided by engineer. */
+"Turn Off “Real-time Encoding”" = "Turn Off “Real-time Encoding”";
 
 /* No comment provided by engineer. */
 "Turn this option off to make the other options on this page take effect for the current application." = "Turn this option off to make the other options on this page take effect for the current application.";
@@ -3554,7 +3965,10 @@
 "Unmark" = "Unmark";
 
 /* No comment provided by engineer. */
-"unmute" = "unmute";
+"unmute" = "Unmute";
+
+/* No comment provided by engineer. */
+"Unmute" = "Unmute";
 
 /* No comment provided by engineer. */
 "Unmute ${requestedChannel}" = "Unmute ${requestedChannel}";
@@ -3564,9 +3978,6 @@
 
 /* No comment provided by engineer. */
 "Unmute Existing Calls" = "Unmute Existing Calls";
-
-/* No comment provided by engineer. */
-"Unmute specified channel of all existing calls." = "Unmute specified channel of all existing calls.";
 
 /* No comment provided by engineer. */
 "Unspecified" = "Unspecified";
@@ -3659,6 +4070,9 @@
 "Utility" = "Utility";
 
 /* No comment provided by engineer. */
+"Utility (Legacy)" = "Utility (Legacy)";
+
+/* No comment provided by engineer. */
 "Variant" = "Variant";
 
 /* No comment provided by engineer. */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "View Logs: Network Storage";
 
 /* No comment provided by engineer. */
+"View Logs: Real-time Recorder" = "View Logs: Real-time Recorder";
+
+/* No comment provided by engineer. */
 "View Logs: Speech Utterance" = "View Logs: Speech Utterance";
 
 /* No comment provided by engineer. */
@@ -3729,6 +4146,9 @@
 
 /* No comment provided by engineer. */
 "VIP contacts will always be recorded and added to the favourites." = "VIP contacts will always be recorded and added to the favourites.";
+
+/* No comment provided by engineer. */
+"Voice Chat" = "Voice Chat";
 
 /* No comment provided by engineer. */
 "Voice Memo" = "Voice Memo";
@@ -3761,19 +4181,52 @@
 "wait" = "wait";
 
 /* No comment provided by engineer. */
+"Wait for ${requestedEvent} call" = "Wait for ${requestedEvent} call event";
+
+/* No comment provided by engineer. */
+"Wait for ${requestedEvent} call event" = "Wait for ${requestedEvent} call event";
+
+/* No comment provided by engineer. */
 "Wait for ${requestedTimeout} seconds" = "Wait for ${requestedTimeout} seconds";
 
 /* No comment provided by engineer. */
-"Wait for any calls to be answered and connected." = "Wait for any calls to be answered and connected.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires.";
+
+/* No comment provided by engineer. */
+"wait for call" = "Wait for Call Event";
+
+/* No comment provided by engineer. */
+"Wait for Call" = "Wait for Call Event";
 
 /* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"wait for call" = "wait for call";
+"wait for call ended" = "wait for call ended";
+
+/* No comment provided by engineer. */
+"Wait for Call Event" = "Wait for Call Event";
+
+/* No comment provided by engineer. */
+"wait for call event" = "Wait for Call Event";
 
 /* No comment provided by engineer. */
 "Wait for Calls" = "Wait for Calls";
 
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for connected call" = "wait for connected call";
+
 /* No comment provided by engineer. */
 "Wait for Connected Calls" = "Wait for Connected Calls";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for incoming call" = "wait for incoming call";
+
+/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
+"wait for outgoing call" = "wait for outgoing call";
+
+/* No comment provided by engineer. */
+"Wait Until Finished" = "Wait Until Finished";
+
+/* No comment provided by engineer. */
+"Waiting For Device" = "Waiting For Device";
 
 /* No comment provided by engineer. */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Warning, your call is being recorded now. Warning, your call is being recorded now.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc.";
 
 /* No comment provided by engineer. */
+"Whether to accept or reject incoming calls." = "Whether to accept or reject incoming calls.";
+
+/* No comment provided by engineer. */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Whether to discard the recording when stopping. Ignored when starting or toggling.";
+
+/* No comment provided by engineer. */
 "Whether to force the application to use the light or the dark user interface." = "Whether to force the application to use the light or the dark user interface.";
 
 /* No comment provided by engineer. */
 "Whether to force the hoverball to use the light or the dark style." = "Whether to force the hoverball to use the light or the dark style.";
 
 /* No comment provided by engineer. */
+"Whether to include microphone audio when starting or toggling screen recording." = "Whether to include microphone audio when starting or toggling screen recording.";
+
+/* No comment provided by engineer. */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing.";
+
+/* No comment provided by engineer. */
+"Whether to mute or unmute call audio." = "Whether to mute or unmute call audio.";
+
+/* No comment provided by engineer. */
+"Whether to open, close, or toggle live captions." = "Whether to open, close, or toggle live captions.";
+
+/* No comment provided by engineer. */
+"Whether to open, close, or toggle the hoverball." = "Whether to open, close, or toggle the hoverball.";
+
+/* No comment provided by engineer. */
+"Whether to start, stop, or toggle screen recording." = "Whether to start, stop, or toggle screen recording.";
+
+/* No comment provided by engineer. */
+"Whether to start, stop, pause, resume, or toggle recording." = "Whether to start, stop, pause, resume, or toggle recording.";
+
+/* No comment provided by engineer. */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts.";
+
+/* No comment provided by engineer. */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts.";
+
+/* No comment provided by engineer. */
+"Which channel to control." = "Which channel to control.";
 
 /* No comment provided by engineer. */
 "Which channel to mute." = "Which channel to mute.";

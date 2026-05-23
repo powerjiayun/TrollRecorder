@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} opname";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} live-ondertiteling";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} schermopname";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} inkomende oproepen";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Help";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "Er is een widget vereist voor de functie “Launch Shield”.";
 
 /* Translated with LLM */
-"accept" = "accepteren";
+"accept" = "Accepteren";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Accepteer alle inkomende oproepen automatisch.";
+"Accept" = "Accepteren";
 
 /* Translated with LLM */
 "accept call" = "oproep accepteren";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Inkomende gesprekken accepteren";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Accepteer of weiger alle inkomende oproepen. Geeft ’true’ terug als het verzoek succesvol naar de daemon is verzonden; anders ’false’.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Toegang via webbrowser";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Krijg toegang tot je opnames via een WebDAV-browser vanaf een ander apparaat in het netwerk. De server is alleen actief wanneer de applicatie op de voorgrond staat.";
+
+/* Translated with LLM */
+"actions" = "acties";
 
 /* Translated with LLM */
 "activate" = "activeren";
@@ -110,7 +137,13 @@
 "activate hoverball" = "hoverball activeren";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Activeer de recorder-zweefbal.";
+"activate live captions" = "live-ondertiteling activeren";
+
+/* Translated with LLM */
+"Active Call Count" = "Aantal actieve oproepen";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Actieve oproep-ID’s";
 
 /* Translated with LLM */
 "Add" = "Toevoegen";
@@ -251,7 +284,13 @@
 "Any" = "Elke";
 
 /* Translated with LLM */
+"Any Recording" = "Elke opname";
+
+/* Translated with LLM */
 "App Icon" = "App-pictogram";
+
+/* Translated with LLM */
+"App Intent" = "App-intentie";
 
 /* Translated with LLM */
 "App Language" = "App Taal";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "archief";
+"archive" = "Archief";
 
 /* Translated with LLM */
 "Archive" = "Archief";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "TrollRecorder Pro kopen";
 
 /* Translated with LLM */
+"Byte Count" = "Aantal bytes";
+
+/* Translated with LLM */
 "Calculating…" = "Berekenen…";
 
 /* Translated with LLM */
@@ -477,6 +519,9 @@
 
 /* Translated with LLM */
 "call" = "Bel";
+
+/* Translated with LLM */
+"call audio" = "gespreksaudio";
 
 /* Translated with LLM */
 "call audio on" = "call audio aan";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Bewaking van de gespreksaudiopijplijn is mislukt. Tik op deze melding om de opnameservice opnieuw te starten.";
 
 /* Translated with LLM */
-"call connected" = "oproep verbonden";
+"Call Automation" = "Gespreksautomatisering";
 
 /* Translated with LLM */
-"Call Direction" = "Belrichting";
+"Call Automation (Legacy)" = "Gespreksautomatisering (verouderd)";
+
+/* Translated with LLM */
+"call connected" = "oproep verbonden";
 
 /* Translated with LLM */
 "call duration" = "gespreksduur";
 
 /* Translated with LLM */
+"Call History Identifier" = "Identificatiecode oproepgeschiedenis";
+
+/* Translated with LLM */
 "Call Identifier" = "Gespreks-ID";
+
+/* Translated with LLM */
+"Call Info" = "Belinfo";
+
+/* Translated with LLM */
+"call info" = "Belinfo";
 
 /* Translated with LLM */
 "call information" = "oproepinformatie";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Gespreksopname: Andere kant";
 
 /* Translated with LLM */
-"Call State" = "Belstatus";
+"Call Sniffer" = "Oproep Sniffer";
 
 /* Translated with LLM */
 "call status" = "belstatus";
@@ -548,10 +605,16 @@
 "Caution" = "Let op";
 
 /* Translated with LLM */
+"Channel" = "Kanaal";
+
+/* Translated with LLM */
 "check" = "controleren";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Controleer of de daemon actief is. Zo niet, start hem dan.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Controleer of de daemon draait. Zo niet, start hem dan. Geeft service-informatie terug als de daemon na de controle draait; anders wordt er niets teruggegeven.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Controleer of de daemon draait. Zo niet, start hem dan. Geeft true terug als de daemon na de controle draait; anders false.";
 
 /* Translated with LLM */
 "check service" = "service controleren";
@@ -611,6 +674,9 @@
 "close hoverball" = "hoverball sluiten";
 
 /* Translated with LLM */
+"close live captions" = "live-ondertiteling sluiten";
+
+/* Translated with LLM */
 "cloud archive sync" = "cloudarchief synchronisatie";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Maak verbinding met een Wi-Fi-netwerk voordat u opnamen overdraagt.";
 
 /* Translated with LLM */
-"connected" = "verbonden";
+"connected" = "Verbonden";
+
+/* Translated with LLM */
+"Connected" = "Verbonden";
+
+/* Translated with LLM */
+"Connected At" = "Verbonden op";
 
 /* Translated with LLM */
 "connected call" = "verbonden gesprek";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Contactuitzonderingen";
+
+/* Translated with LLM */
+"Contact Identifier" = "Contact-ID";
+
+/* Translated with LLM */
+"Contact Label" = "Contactlabel";
 
 /* Translated with LLM */
 "Contact Name" = "Contactnaam";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Continue afspelen aan";
+
+/* Translated with LLM */
+"control call audio" = "gespreksaudio regelen";
+
+/* Translated with LLM */
+"control call muting" = "Gespreksaudio regelen";
+
+/* Translated with LLM */
+"Control Call Muting" = "Gespreksaudio regelen";
+
+/* Translated with LLM */
+"control hoverball" = "Zweefbal bedienen";
+
+/* Translated with LLM */
+"Control Hoverball" = "Zweefbal bedienen";
+
+/* Translated with LLM */
+"Control Live Captions" = "Live-ondertiteling beheren";
+
+/* Translated with LLM */
+"control live captions" = "Live-ondertiteling beheren";
+
+/* Translated with LLM */
+"control recording" = "Opname bedienen";
+
+/* Translated with LLM */
+"Control Recording" = "Opname bedienen";
+
+/* Translated with LLM */
+"control screen recording" = "Schermopname bedienen";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Schermopname bedienen";
 
 /* Translated with LLM */
 "Conversion Failed" = "Conversie mislukt";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Kan account niet afmelden: %@";
 
 /* Translated with LLM */
+"Country Code" = "Landcode";
+
+/* Translated with LLM */
 "Created At" = "Aangemaakt op";
 
 /* Translated with LLM */
 "Credentials" = "Inloggegevens";
+
+/* Translated with LLM */
+"Current" = "Huidige";
 
 /* Translated with LLM */
 "current call" = "huidige oproep";
@@ -809,7 +926,7 @@
 "Day of Week String" = "Dag van de week";
 
 /* Translated with LLM */
-"deactivate" = "deactiveren";
+"deactivate" = "Deactiveer";
 
 /* Translated with LLM */
 "Deactivate" = "Deactiveer";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "hoverball deactiveren";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Deactiveer de recorder-zweefbal.";
+"deactivate live captions" = "live-ondertiteling uitschakelen";
 
 /* Translated with LLM */
 "Debugging" = "Debuggen";
@@ -863,10 +980,16 @@
 "Developer Options" = "Opties voor ontwikkelaars";
 
 /* Translated with LLM */
+"Dialing" = "Bellen";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Dicteren uitgeschakeld";
 
 /* Translated with LLM */
 "Digital Video" = "Digitale video";
+
+/* Translated with LLM */
+"Digits" = "Cijfers";
 
 /* Translated with LLM */
 "Direction" = "Richting";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "Opname verwijderen";
+
+/* Translated with LLM */
+"Disconnected" = "Verbinding verbroken";
+
+/* Translated with LLM */
+"Disconnected At" = "Verbinding verbroken op";
 
 /* Translated with LLM */
 "Discreet Mode" = "Discrete modus";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "De naam van de bronbundel van de opname weergeven.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Geeft een lokale melding weer.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Geeft een lokale melding weer. Geeft true terug als het notificatieverzoek met succes is verzonden; anders false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Wilt u dit logbestand “%@” wissen?";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Face ID inschakelen";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Schakel niveaumeting in en toon een indicator wanneer de hoverball is ingeklapt. Deze optie is alleen beschikbaar wanneer “Overgang bij inactiviteit” is ingesteld op “Altijd inkappen”.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Schakel niveaumeting in om de real-time golfvorm op het statuspaneel ‘Opname’ aan te sturen en een balkindicator weer te geven wanneer de hoverball is ingeklapt.";
 
 /* Translated with LLM */
 "Enable Logging" = "Loggen inschakelen";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Schakelt in dat de WebDAV-server zichzelf automatisch onderbreekt wanneer de app naar de achtergrond gaat en de laatste verbinding wordt gesloten, en zichzelf hervat wanneer de app weer naar de voorgrond komt.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Codeer audio tijdens het opnemen om de tijdelijke bestandsgrootte en nabewerkingstijd te verminderen. Dit kan meer CPU en batterij gebruiken, en onderbroken opnames kunnen moeilijker te herstellen zijn.";
+
+/* Translated with LLM */
 "Encoding" = "Codering";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "schermopname beëindigen";
 
 /* Translated with LLM */
-"Enhance Recording" = "Opname verbeteren";
+"Ended" = "Beëindigd";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Verbeterde automatische opname";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Hoverball verlaten";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Live-ondertiteling afsluiten";
+
+/* Translated with LLM */
 "Expand Recursively" = "Recursief uitbreiden";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Exporteren als ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Exportbestandsnaam";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Exporteer opnames naar waar je maar wilt, zonder beperkingen.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Bestandsformaat";
+
+/* Translated with LLM */
+"File Name" = "Bestandsnaam";
 
 /* Translated with LLM */
 "File not found." = "Bestand niet gevonden.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Haal ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Krijg ${requestedSession} oproepinfo";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Krijg ${requestedSession} opname-info";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Krijg geavanceerde controle tijdens het opnemen in je gesprek.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Gespreksduur ophalen";
 
 /* Translated with LLM */
+"Get Call Info" = "Belinfo ophalen";
+
+/* Translated with LLM */
 "Get Call Status" = "Belstatus ophalen";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Haal de huidige opnamepadinformatie op als een verouderde tekstwaarde. Gebruik bij voorkeur “Opname-info ophalen” voor nieuwe snelkoppelingen.";
 
 /* Translated with LLM */
 "Get In Touch" = "Neem contact op";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Ontvang meldingen nadat de opname is voltooid.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Verkrijg primaire oproepinformatie als een enkel object.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Opnameduur ophalen";
+
+/* Translated with LLM */
+"Get Recording Info" = "Opname-informatie ophalen";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Verkrijg opname-informatie als een enkel object.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Opnamepaden ophalen";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Opnamestatus ophalen";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Verkrijg de huidige opnameduur van de Troll Recorder.";
+"Get Screen Recording Info" = "Schermopname-info ophalen";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Verkrijg de huidige opnamepaden van de Troll Recorder.";
+"Get screen recording information as a single object." = "Verkrijg schermopname-informatie als een enkel object.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Verkrijg de huidige opnamestatus van de Troll Recorder.";
+"Get Service Info" = "Service-info opvragen";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Verkrijg de primaire gespreksduur van het apparaat.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Haal de huidige opnameduur op als een verouderde numerieke waarde. Gebruik bij voorkeur “Opname-info ophalen” voor nieuwe snelkoppelingen.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Verkrijg de primaire belstatus van het apparaat.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Haal de huidige opnamestatus op als een verouderde Booleaanse waarde. Het resultaat is waar wanneer het geselecteerde statusveld waar is; onwaar wanneer het onwaar of niet beschikbaar is. Gebruik bij voorkeur ’Opname-info ophalen’ voor nieuwe snelkoppelingen.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Haal de primaire gespreksduur op als een verouderde numerieke waarde. Gebruik bij voorkeur “Gespreksinfo ophalen” voor nieuwe snelkoppelingen.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Haal de primaire belstatus op als een verouderde tekstwaarde. Gebruik bij voorkeur “Gespreksinfo ophalen” voor nieuwe snelkoppelingen.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Naar beginscherm bij ontgrendeling";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Groepsoproep";
+
+/* Translated with LLM */
+"handle incoming calls" = "Inkomende gesprekken afhandelen";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Inkomende gesprekken afhandelen";
 
 /* Translated with LLM */
 "hang up calls" = "gesprekken ophangen";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "Zweefbal";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "Zweefbal (Verouderd)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "Zweefbal Plus";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Hoverball-stijl";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Gespreksopname";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Als er geen actief telefoongesprek is, druk dan op beide fysieke volumeknoppen om de opgegeven actie uit te voeren.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Als dit vaak gebeurt, schakel dan “Real-time codering” uit in de instellingen voor “Naverwerking en uitvoer”.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Als je opnames hebt aangepast met Filza of problemen hebt ondervonden met bestandssysteemrechten, kun je ze hier oplossen.";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Belgeschiedenistweak installeren";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Onderbreek alle uplink-audio of voice-over die momenteel naar de microfoon wordt afgespeeld. Geeft ’true’ terug als het afspelen werd onderbroken; anders ’false’.";
+
+/* Translated with LLM */
+"interrupt call playback" = "gesprek afspelen onderbreken";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "uplink audio onderbreken";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Uplink afspelen onderbreken";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Uplink afspelen onderbreken";
+
+/* Translated with LLM */
+"interrupt voice over" = "stem onderbreken";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Ongeldige codehandtekening";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Is beschikbaar";
 
 /* Translated with LLM */
 "Is Favourite" = "Is favoriet";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "Is onderbroken";
 
 /* Translated with LLM */
-"is recording" = "neemt op";
+"is recording" = "Neemt op";
+
+/* Translated with LLM */
+"Is Recording" = "Neemt op";
 
 /* Translated with LLM */
 "Is Running" = "Is actief";
+
+/* Translated with LLM */
+"Is Service Running" = "Is de service actief?";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Wacht op apparaat";
+
+/* Translated with LLM */
+"ISO Country Code" = "ISO-landcode";
 
 /* No comment provided by engineer. */
 "Item #%lu" = "Item #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Scherm ingeschakeld houden bij verbinding";
+
+/* Translated with LLM */
+"Key Event" = "Toetsgebeurtenis";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Toetsenbord vermijden";
@@ -1616,6 +1835,9 @@
 "Later" = "Later";
 
 /* Translated with LLM */
+"Latest" = "Nieuwste";
+
+/* Translated with LLM */
 "launch" = "gestart";
 
 /* Translated with LLM */
@@ -1633,8 +1855,47 @@
 /* Translated with LLM */
 "leading edge" = "voorrand";
 
+/* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Verouderde actie. Wacht tot oproepen worden beantwoord en verbonden. Geeft ’true’ terug als een bellende oproep stopt met bellen vóór de time‑out; anders ’false’. Gebruik bij voorkeur “Wacht op gesprek” voor nieuwe snelkoppelingen.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Verouderde oproepaudio-actie. Gebruik bij voorkeur “Controleer oproepaudio” voor nieuwe snelkoppelingen. Retourneert ‘waar’ als het verzoek met succes naar de daemon is verzonden; anders ‘onwaar’.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Verouderde hoverball-actie. Gebruik bij voorkeur “Control Hoverball” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als de hoverball-instelling met succes is uitgeschakeld; anders ‘false’.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Verouderde hoverball-actie. Gebruik bij voorkeur “Control Hoverball” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als de hoverball-instelling met succes is ingeschakeld; anders ‘false’.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Verouderde hoverball-actie. Gebruik bij voorkeur “Control Hoverball” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als de hoverball-instelling met succes is omgeschakeld; anders ‘false’.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Verouderde actie voor inkomende gesprekken. Gebruik bij voorkeur “Inkomende gesprekken afhandelen” voor nieuwe snelkoppelingen. Retourneert ‘waar’ als het verzoek met succes naar de daemon is verzonden; anders ‘onwaar’.";
+
 /* No comment provided by engineer. */
 "Legacy Jailbreak" = "Legacy Jailbreak";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Verouderde live-ondertitelingactie. Gebruik bij voorkeur “Live-ondertiteling beheren” voor nieuwe snelkoppelingen. Geeft ‘waar’ terug als live-ondertiteling succesvol is uitgeschakeld; anders ‘onwaar’.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Verouderde live-ondertitelingactie. Gebruik bij voorkeur “Live-ondertiteling beheren” voor nieuwe snelkoppelingen. Geeft ‘waar’ terug als live-ondertiteling succesvol is ingeschakeld; anders ‘onwaar’.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Verouderde live-ondertitelingactie. Gebruik bij voorkeur “Live-ondertiteling beheren” voor nieuwe snelkoppelingen. Geeft ‘waar’ terug als live-ondertiteling succesvol is omgeschakeld; anders ‘onwaar’.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Verouderde opnameactie. Gebruik bij voorkeur “Opname regelen” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als het opnameverzoek is gelukt; anders ‘false’.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Verouderde opnameactie. Gebruik bij voorkeur “Opname regelen” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als het stopverzoek is gelukt; anders ‘false’.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Verouderde schermopnameactie. Gebruik bij voorkeur “Schermopname regelen” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als het schermopnameverzoek is gelukt; anders ‘false’.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Verouderde schermopnameactie. Gebruik bij voorkeur “Schermopname regelen” voor nieuwe snelkoppelingen. Geeft ‘true’ terug als het stopverzoek is gelukt; anders ‘false’.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "Er is een minder ernstige fout opgetreden.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Live-ondertiteling";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Live-ondertiteling (verouderd)";
 
 /* Translated with LLM */
 "Loading…" = "Laden…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Maak een ${requestedMode} opname";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Maak een nieuwe opname of stop een bestaande.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Maak een nieuwe spraakmemo of stop een bestaande.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Metagegevens";
 
 /* Translated with LLM */
+"Metadata Path" = "Metagegevenspad";
+
+/* Translated with LLM */
 "Microphone" = "Microfoon";
 
 /* Translated with LLM */
@@ -1822,9 +2086,6 @@
 /* Translated with LLM */
 "Mixed" = "Gemengd";
 
-/* No comment provided by engineer. */
-"Mixer & Combiner" = "Mixer & Combiner";
-
 /* Translated with LLM */
 "Mixer Audio Format" = "Audioformaat mixer";
 
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "MPEG-4-audio";
 
 /* Translated with LLM */
-"mute" = "dempen";
+"mute" = "Dempen";
+
+/* Translated with LLM */
+"Mute" = "Dempen";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Dempen ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Bestaande gesprekken dempen";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Dempen van het opgegeven kanaal van alle bestaande gesprekken.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Dempen of dempen opheffen van het opgegeven kanaal van alle bestaande oproepen. Geeft ’true’ terug als het verzoek succesvol naar de daemon is verzonden; anders ’false’.";
 
 /* Translated with LLM */
 "My Favourite" = "Mijn favoriet";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Naam met alias";
+
+/* Translated with LLM */
+"Network Code" = "Netwerkcode";
 
 /* Translated with LLM */
 "Network Storage" = "Netwerkopslag";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Niets erin";
 
 /* Translated with LLM */
-"notification" = "melding";
+"notification" = "Melding";
+
+/* Translated with LLM */
+"Notification" = "Melding";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Meldingstoestemming geweigerd";
@@ -2000,7 +2270,7 @@
 "Open" = "Openen";
 
 /* Translated with LLM */
-"open" = "openen";
+"open" = "Openen";
 
 /* Translated with LLM */
 "Open Application" = "Applicatie openen";
@@ -2008,8 +2278,8 @@
 /* Translated with LLM */
 "Open Hoverball" = "Open Zweefbal";
 
-/* Shortcut search keyword, not user-visible. Prefer searchable phrasing over literal translation. */
-"open hoverball" = "open zweefbal";
+/* Translated with LLM */
+"open hoverball" = "Open Zweefbal";
 
 /* Translated with LLM */
 "Open in Filza" = "Openen in Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Openen in Kaarten";
 
 /* Translated with LLM */
+"Open Live Captions" = "Live-ondertiteling openen";
+
+/* Translated with LLM */
+"open live captions" = "Live-ondertiteling openen";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Open TrollRecorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Live-ondertiteling openen, sluiten of omschakelen. Geeft ’true’ terug als de instelling voor live-ondertiteling met succes is gewijzigd; anders ’false’.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Open, sluit of wissel de recorder zweefbal. Geeft ’true’ terug als de instelling van de zweefbal met succes is gewijzigd; anders ’false’.";
 
 /* Translated with LLM */
 "Operation Failed" = "Bewerking mislukt";
@@ -2038,8 +2320,8 @@
 /* Translated with LLM */
 "Options" = "Opties";
 
-/* No comment provided by engineer. */
-"Orbit" = "Orbit";
+/* Translated with LLM */
+"Orbit" = "Baan";
 
 /* Translated with LLM */
 "Orbit view enabled" = "Baanweergave ingeschakeld";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Opname onderbreken";
 
 /* Translated with LLM */
+"pause recording" = "Opname onderbreken";
+
+/* Translated with LLM */
 "Paused" = "Gepauzeerd";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Voer een volledige synchronisatie uit van “Back-up met iCloud” en “Smart Cloud Archive”.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Voer een volledige synchronisatie uit van “Back-up met iCloud” en “Smart Cloud Archive”. Geeft ‘true’ terug als de daemon draait en de synchronisatie succesvol is; anders ‘false’.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Volledige synchronisatie uitvoeren";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "Speel ${audioFile} af";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Speelt een audiobestand af in de huidige oproep. Geeft ’true’ terug als het afspelen succesvol is gestart; anders ’false’. Ongeldige audiobestanden veroorzaken een fout.";
+
+/* Translated with LLM */
 "play audio file" = "audiobestand afspelen";
+
+/* Translated with LLM */
+"play call audio" = "Gespreksaudio afspelen";
+
+/* Translated with LLM */
+"Play Call Audio" = "Gespreksaudio afspelen";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Waarschuwing opname afspelen";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Geluid afspelen";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Speel het opgegeven audiobestand af naar de microfoon.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Speel de opgegeven voice-overtekst af naar de microfoon.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Afspelen via ontvanger";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Afspelen via luidspreker";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Uplink Audio afspelen";
-
-/* Translated with LLM */
 "play uplink audio" = "uplink audio afspelen";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Uplink Voice-Over afspelen";
 
 /* Translated with LLM */
 "play voice over" = "voice-over afspelen";
@@ -2261,6 +2543,12 @@
 "post notification" = "melding plaatsen";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Nabewerking & uitvoer";
+
+/* Translated with LLM */
+"Pre-release Version" = "Pre-releaseversie";
+
+/* Translated with LLM */
 "Preparing" = "Voorbereiden";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Alle kanalen behouden";
+
+/* Translated with LLM */
+"Preset Providers" = "Vooraf ingestelde aanbieders";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Ingedrukt houden actie";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Klaar om op te nemen!";
 
 /* Translated with LLM */
+"real-time captions" = "live-ondertiteling in realtime";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Real-time coderen";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Autorisatiefout ontvangen: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Opnemen";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Opname (verouderd)";
 
 /* Translated with LLM */
 "Record All Calls" = "Alle gesprekken opnemen";
@@ -2447,6 +2747,15 @@
 "recording file" = "opnamebestand";
 
 /* Translated with LLM */
+"Recording Info" = "Opname-informatie";
+
+/* Translated with LLM */
+"recording info" = "Opname-informatie";
+
+/* Translated with LLM */
+"recording information" = "opname-informatie";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Opname onderbroken";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Opnameopties";
 
 /* Translated with LLM */
-"recording path" = "opnamepad";
+"recording path" = "Opnamepad";
+
+/* Translated with LLM */
+"Recording Path" = "Opnamepad";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "De opname begint wanneer zowel de audio-ingangen als -uitgangen continu actief zijn.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Alles regenereren";
 
 /* Translated with LLM */
-"reject" = "weiger";
+"reject" = "Weiger";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Alle inkomende oproepen automatisch weigeren.";
+"Reject" = "Weiger";
 
 /* Translated with LLM */
 "reject call" = "oproep weigeren";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Inkomende gesprekken weigeren";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Bijbehorende bundel-ID’s van toepassingen";
+
+/* Translated with LLM */
+"Related Application Count" = "Aantal gerelateerde toepassingen";
 
 /* Translated with LLM */
 "Relaunched" = "Opnieuw gestart";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Service resetten";
 
 /* Translated with LLM */
+"responses" = "reacties";
+
+/* Translated with LLM */
 "Respring" = "Herstarten";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Herstellen";
 
 /* Translated with LLM */
+"Resume" = "Hervat";
+
+/* Translated with LLM */
 "Resume Recording" = "Opname hervatten";
+
+/* Translated with LLM */
+"resume recording" = "Opname hervatten";
 
 /* Translated with LLM */
 "Resume with Warning" = "Hervatten met waarschuwing";
@@ -2620,8 +2947,8 @@
 /* Translated with LLM */
 "Ring & Vibrate" = "Bellen & Trillen";
 
-/* No comment provided by engineer. */
-"Root" = "Root";
+/* Translated with LLM */
+"Root" = "Hoofdmap";
 
 /* Translated with LLM */
 "Root directory is empty." = "De hoofdmap is leeg.";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "schermopname stop";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Schermopname-info";
+
+/* Translated with LLM */
+"screen recording info" = "Schermopname-info";
+
+/* Translated with LLM */
 "screen recording off" = "schermopname uit";
+
+/* Translated with LLM */
+"screen recording status" = "schermopnamestatus";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Zoeken naar apparaten in de buurt";
 
 /* Translated with LLM */
-"Search…" = "Zoeken…";
-
-/* Translated with LLM */
 "Seconds" = "Seconden";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Diagnostische gegevens verzenden";
 
 /* Translated with LLM */
+"Sender Address" = "Adres afzender";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Gelokaliseerde naam afzender";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Verkorte gelokaliseerde naam afzender";
+
+/* Translated with LLM */
 "Sender Name" = "Naam afzender";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Telefoonnummer afzender";
+
+/* Translated with LLM */
+"Sender Service Name" = "Naam afzenderservice";
 
 /* Translated with LLM */
 "Sender Short Name" = "Korte afzendernaam";
@@ -2777,13 +3122,22 @@
 "service active" = "service actief";
 
 /* Translated with LLM */
+"Service Info" = "Service-info";
+
+/* Translated with LLM */
+"service info" = "Service-info";
+
+/* Translated with LLM */
 "Service is alive" = "Service is actief";
 
 /* Translated with LLM */
 "Service is dead" = "Service is gestopt";
 
 /* Translated with LLM */
-"Service Status" = "Servicestatus";
+"service status" = "servicestatus";
+
+/* Translated with LLM */
+"service statuses" = "servicestatussen";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Stel een nieuwe naam in voor deze opname, of laat leeg om de standaardnaam te gebruiken.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Melding tonen";
 
 /* Translated with LLM */
-"show notification" = "melding tonen";
+"show notification" = "Melding tonen";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Toon melding ${requestedMessage}";
@@ -2903,6 +3257,15 @@
 "Space" = "Ruimte";
 
 /* Translated with LLM */
+"speak call voice over" = "voice-over afspelen";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Uplink Voice-Over afspelen";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Spreek voice-over tekst in het huidige gesprek. Geeft ’true’ terug als het afspelen succesvol is gestart; anders ’false’. Bij wachten tot het afspelen is voltooid, is de maximale wachttijd 60 seconden.";
+
+/* Translated with LLM */
 "Speaker" = "Luidspreker";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "gesproken audio";
 
 /* Translated with LLM */
-"start" = "starten";
+"Stable Version" = "Stabiele versie";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Start een systeemschermopname, net zoals je dat doet in het Bedieningspaneel.";
+"Standby" = "Stand-by";
+
+/* Translated with LLM */
+"start" = "Starten";
+
+/* Translated with LLM */
+"Start" = "Starten";
 
 /* Translated with LLM */
 "Start Call Recording" = "Gespreksopname starten";
@@ -2939,9 +3308,6 @@
 "Start Date" = "Startdatum";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Start of bereid een gespreksopname, systeemaudio-opname of spraakmemo voor.";
-
-/* Translated with LLM */
 "Start Recording" = "Opname starten";
 
 /* Translated with LLM */
@@ -2951,13 +3317,19 @@
 "Start Screen Recording" = "Schermopname starten";
 
 /* Translated with LLM */
-"start screen recording" = "schermopname starten";
+"start screen recording" = "Schermopname starten";
 
 /* Translated with LLM */
 "Start System Audio Recording" = "Systeemaudio-opname starten";
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "Spraakmemo-opname starten";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Systeemschermopname starten, stoppen of omschakelen. Geeft ’true’ terug als het schermopnameverzoek is gelukt; anders ’false’.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Een opname starten, stoppen, pauzeren, hervatten of omschakelen. Geeft ’true’ terug als het opnameverzoek is gelukt; anders ’false’.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Het starten van de exportservice duurt langer dan verwacht. Controleer het netwerk en probeer het opnieuw.";
@@ -2971,10 +3343,10 @@
 /* Translated with LLM */
 "Stay tuned. We’re recording your call in the background." = "Blijf op de hoogte. We nemen uw gesprek op de achtergrond op.";
 
-/* No comment provided by engineer. */
-"stop" = "stop";
+/* Translated with LLM */
+"stop" = "Stop";
 
-/* No comment provided by engineer. */
+/* Translated with LLM */
 "Stop" = "Stop";
 
 /* Translated with LLM */
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "Stoppen en opslaan";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Stop een gespreksopname, systeemaudio-opname of spraakmemo als deze bestaat.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Stop een bestaande systeemschermopname.";
 
 /* Translated with LLM */
 "Stop Recording" = "Opname stoppen";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Schermopname stoppen";
 
 /* Translated with LLM */
-"stop screen recording" = "schermopname stoppen";
+"stop screen recording" = "Schermopname stoppen";
 
 /* Translated with LLM */
 "Stop Service" = "Service stoppen";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Systeemaudio-opname";
 
 /* Translated with LLM */
-"system audio recording" = "systeemaudio-opname";
+"system audio recording" = "Systeemaudio-opname";
 
 /* Translated with LLM */
 "System Language" = "Systeemtaal";
 
 /* Translated with LLM */
 "System Record" = "Systeemopname";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Systeemopname (verouderd)";
+
+/* Translated with LLM */
+"system record info" = "systeemopname-info";
+
+/* Translated with LLM */
+"system recording status" = "systeemopnamestatus";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Tik op __een willekeurige rand__  \nom deze te selecteren als een ___actieve rand___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Technische fout gedetecteerd";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Telefoonhulpprogramma’s";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Tijdelijk negeren";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "Er is een tijdelijke fout opgetreden; meer pogingen kunnen het probleem mogelijk verhelpen.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Tijdelijk opnamepad";
+
+/* Translated with LLM */
 "terminate" = "beëindigen";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Beëindig onmiddellijk alle actieve gesprekken.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Beëindig alle actieve oproepen onmiddellijk. Geeft ’true’ terug als het verzoek succesvol naar de daemon is verzonden; anders ’false’.";
 
 /* Translated with LLM */
 "terminate call" = "gesprek beëindigen";
@@ -3134,9 +3515,6 @@
 "text to speech" = "tekst naar spraak";
 
 /* Translated with LLM */
-"text-to-speech" = "tekst-naar-spraak";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "De %@ is onderbroken door het systeem. U kunt de opname later handmatig converteren.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "De bundel-ID van de applicatie die de oproep heeft gestart.";
+
+/* Translated with LLM */
+"The call event to wait for." = "De te wachten gespreksgebeurtenis.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "De inhoud van tekstbestand “%@” is leeg.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Het maximale aantal seconden om te wachten tot gesprekken worden verbonden.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Het maximale aantal seconden om te wachten op de geselecteerde oproepgebeurtenis.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "De ontbrekende locatiemetagegevens worden ingevuld als je de applicatie direct na de opname opent.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "De primaire knopactie aan de rechterkant van de hoverball wanneer er geen gesprek actief is.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Het geselecteerde audiobestand is ongeldig of wordt niet ondersteund.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "De service is niet correct geconfigureerd.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "De naam van de serviceoperator van de afzender.";
+
+/* Translated with LLM */
+"The session to inspect." = "De te inspecteren sessie.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "De grootte van het geselecteerde audiobestand.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Het type inhoud dat moet worden opgenomen.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Het type opname dat moet worden geregeld. ’Elke opname’ is alleen van toepassing op stoppen, pauzeren, hervatten en schakelen.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Het type opname dat moet worden gestopt.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "De unieke identificatiecode van de oproep.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Deze opname is afkomstig van WeChat en “WeChat Assistant” helpt je de volgende keer WeChat-contactnamen en -opmerkingen in te vullen.\nHet lijkt erop dat je “WeChat Assistant” niet hebt ingeschakeld. Wil je het nu inschakelen?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Deze opname is opgenomen met “Real-time codering”. Deze opnamemethode produceert geen ruwe tijdelijke audio die kan worden gebruikt voor herstel, dus onderbroken opnames kunnen niet worden hersteld.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Deze versie van WeChat (%@) wordt niet ondersteund. Upgrade naar de nieuwste versie.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Milliseconden van drie cijfers";
 
 /* Translated with LLM */
+"Threshold" = "Drempel";
+
+/* Translated with LLM */
 "Time Sensitive" = "Tijdgevoelig";
 
 /* Translated with LLM */
 "time sensitive notification" = "tijdgevoelige melding";
+
+/* Translated with LLM */
+"Timeout" = "Time-out";
 
 /* Translated with LLM */
 "Title" = "Titel";
@@ -3356,7 +3761,10 @@
 "To: %@" = "Aan: %@";
 
 /* Translated with LLM */
-"toggle" = "schakelen";
+"toggle" = "Schakelen";
+
+/* Translated with LLM */
+"Toggle" = "Schakelen";
 
 /* Translated with LLM */
 "Toggle ${requestedMode}" = "Schakel ${requestedMode} in/uit";
@@ -3368,10 +3776,13 @@
 "Toggle Hoverball" = "Zweefbal in-/uitschakelen";
 
 /* Translated with LLM */
-"toggle hoverball" = "hoverball in-/uitschakelen";
+"toggle hoverball" = "Zweefbal in-/uitschakelen";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Zweefbal van de recorder in-/uitschakelen.";
+"toggle live captions" = "Live-ondertiteling in-/uitschakelen";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Live-ondertiteling in-/uitschakelen";
 
 /* Translated with LLM */
 "Toggle Recording" = "Opname in-/uitschakelen";
@@ -3383,13 +3794,10 @@
 "Toggle Screen Recording" = "Schermopname in-/uitschakelen";
 
 /* Translated with LLM */
-"toggle screen recording" = "schermopname in-/uitschakelen";
+"toggle screen recording" = "Schermopname in-/uitschakelen";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Systeemaudio-opname in-/uitschakelen";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Schakel de systeemschermopname in of uit, net zoals je dat doet in het Bedieningspaneel.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Spraakmemo-opname in-/uitschakelen";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "tts afspelen";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Schakel “Real-time codering” uit";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Schakel deze optie uit om de andere opties op deze pagina van kracht te laten worden voor de huidige toepassing.";
@@ -3554,7 +3965,10 @@
 "Unmark" = "Demarkeren";
 
 /* Translated with LLM */
-"unmute" = "dempen opheffen";
+"unmute" = "Dempen opheffen";
+
+/* Translated with LLM */
+"Unmute" = "Dempen opheffen";
 
 /* Translated with LLM */
 "Unmute ${requestedChannel}" = "Dempen ${requestedChannel}";
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Bestaande gesprekken dempen";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Dempen van het opgegeven kanaal van alle bestaande gesprekken opheffen.";
 
 /* Translated with LLM */
 "Unspecified" = "Ongespecificeerd";
@@ -3658,6 +4069,9 @@
 /* Translated with LLM */
 "Utility" = "Hulpprogramma";
 
+/* Translated with LLM */
+"Utility (Legacy)" = "Hulpprogramma (Verouderd)";
+
 /* No comment provided by engineer. */
 "Variant" = "Variant";
 
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Logboeken bekijken: Netwerkopslag";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Logs bekijken: Real-time recorder";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Logboeken bekijken: Spraakuiting";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP-contacten worden altijd opgenomen en toegevoegd aan de favorieten.";
+
+/* Translated with LLM */
+"Voice Chat" = "Stemchat";
 
 /* Translated with LLM */
 "Voice Memo" = "Spraakmemo";
@@ -3761,19 +4181,52 @@
 "wait" = "wacht";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Wacht op ${requestedEvent} oproep";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Wacht op ${requestedEvent} oproepgebeurtenis";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Wacht ${requestedTimeout} seconden";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Wacht tot alle oproepen worden beantwoord en verbonden.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Wacht op een oproepgebeurtenis. Geeft oproepinformatie terug wanneer de geselecteerde gebeurtenis plaatsvindt; anders wordt niets teruggegeven wanneer de time-out verloopt.";
 
 /* Translated with LLM */
-"wait for call" = "wachten op oproep";
+"wait for call" = "Wachten op oproep";
+
+/* Translated with LLM */
+"Wait for Call" = "Wachten op oproep";
+
+/* Translated with LLM */
+"wait for call ended" = "wacht op gesprek beëindigd";
+
+/* Translated with LLM */
+"wait for call event" = "Wachten op oproepgebeurtenis";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Wachten op oproepgebeurtenis";
 
 /* Translated with LLM */
 "Wait for Calls" = "Wachten op gesprekken";
 
 /* Translated with LLM */
+"wait for connected call" = "wachten op verbonden gesprek";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Wachten op verbonden gesprekken";
+
+/* Translated with LLM */
+"wait for incoming call" = "wachten op inkomend gesprek";
+
+/* Translated with LLM */
+"wait for outgoing call" = "wachten op uitgaand gesprek";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Wacht tot voltooid";
+
+/* Translated with LLM */
+"Waiting For Device" = "Wacht op apparaat";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Waarschuwing, uw gesprek wordt nu opgenomen. Waarschuwing, uw gesprek wordt nu opgenomen.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Wanneer de WebDAV-server is ingeschakeld, of je deze mag bezoeken vanuit een gewone webbrowser zoals Safari, Chrome, Edge, enz.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Of inkomende oproepen moeten worden geaccepteerd of geweigerd.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Of de opname moet worden verwijderd bij het stoppen. Genegeerd bij starten of wisselen.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Of de toepassing de lichte of de donkere gebruikersinterface moet gebruiken.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Of de hoverball de lichte of de donkere stijl moet gebruiken.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Of microfoonaudio moet worden opgenomen bij het starten of omschakelen van schermopname.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Of de audio oneindig herhaald moet worden. Indien ingeschakeld, keert deze actie onmiddellijk terug nadat het afspelen is gestart.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Of het gespreksgeluid moet worden gedempt of gedempt.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Of u live bijschriften wilt openen, sluiten of omschakelen.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Of de hoverball moet worden geopend, gesloten of omgeschakeld.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Of u de schermopname wilt starten, stoppen of omschakelen.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Of u de opname wilt starten, stoppen, pauzeren, hervatten of omschakelen.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Of er gewacht moet worden tot het afspelen is voltooid. Indien uitgeschakeld, keert deze actie onmiddellijk terug nadat het afspelen is gestart.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Of er gewacht moet worden tot het afspelen is voltooid. Indien uitgeschakeld, keert deze actie onmiddellijk terug nadat het afspelen is gestart. ’Oneindig herhalen’ keert altijd onmiddellijk terug nadat het afspelen is gestart.";
+
+/* Translated with LLM */
+"Which channel to control." = "Welk kanaal moet worden bediend.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Welk kanaal moet worden gedempt.";

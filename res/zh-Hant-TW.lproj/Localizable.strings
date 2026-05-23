@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} 錄音";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} 懸浮球";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} 即時字幕";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} 螢幕錄製";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} 來電";
+
+/* Translated with LLM */
+"%@ Help" = "%@ 說明";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -89,7 +110,7 @@
 "accept" = "接聽";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "自動接聽所有來電。";
+"Accept" = "接聽";
 
 /* Translated with LLM */
 "accept call" = "接聽通話";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "接聽來電";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "接受或拒絕所有來電。若請求成功傳送至背景服務，則回傳 true；否則回傳 false。";
+
+/* Translated with LLM */
 "Access From Web Browser" = "從瀏覽器訪問";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "從網路中的另一台設備的 WebDAV 客戶端中存取你的錄音。僅當應用程式處於前景時服務才可用。";
+
+/* Translated with LLM */
+"actions" = "動作";
 
 /* Translated with LLM */
 "activate" = "啟用";
@@ -110,7 +137,13 @@
 "activate hoverball" = "啟動懸浮球";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "啓動服務，並打開錄音懸浮球。";
+"activate live captions" = "啟動即時字幕";
+
+/* Translated with LLM */
+"Active Call Count" = "活躍通話數量";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "活躍通話識別碼";
 
 /* Translated with LLM */
 "Add" = "添加";
@@ -251,10 +284,16 @@
 "Any" = "不限";
 
 /* Translated with LLM */
-"App Icon" = "應用程式圖標";
+"Any Recording" = "任何錄音";
 
 /* Translated with LLM */
-"App Language" = "應用程式語言";
+"App Icon" = "App 圖標";
+
+/* Translated with LLM */
+"App Intent" = "App 意圖";
+
+/* Translated with LLM */
+"App Language" = "App 語言";
 
 /* Translated with LLM */
 "Appearance" = "顯示與外觀";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "購買 TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "位元組計數";
+
+/* Translated with LLM */
 "Calculating…" = "計算中…";
 
 /* Translated with LLM */
@@ -477,6 +519,9 @@
 
 /* Translated with LLM */
 "call" = "通話";
+
+/* Translated with LLM */
+"call audio" = "通話音訊";
 
 /* Translated with LLM */
 "call audio on" = "通話音訊開啟";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "通話音訊管道監控失敗。點按此通知以重新啟動錄音服務。";
 
 /* Translated with LLM */
-"call connected" = "通話已接通";
+"Call Automation" = "通話自動化";
 
 /* Translated with LLM */
-"Call Direction" = "通話方向";
+"Call Automation (Legacy)" = "通話自動化（舊版）";
+
+/* Translated with LLM */
+"call connected" = "通話已接通";
 
 /* Translated with LLM */
 "call duration" = "通話時長";
 
 /* Translated with LLM */
+"Call History Identifier" = "通話記錄識別碼";
+
+/* Translated with LLM */
 "Call Identifier" = "通話標識符";
+
+/* Translated with LLM */
+"Call Info" = "通話資訊";
+
+/* Translated with LLM */
+"call info" = "通話資訊";
 
 /* Translated with LLM */
 "call information" = "通話資訊";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "通話錄音：對方字幕";
 
 /* Translated with LLM */
-"Call State" = "通話狀態";
+"Call Sniffer" = "通話嗅探器";
 
 /* Translated with LLM */
 "call status" = "通話狀態";
@@ -548,10 +605,16 @@
 "Caution" = "注意";
 
 /* Translated with LLM */
+"Channel" = "頻道";
+
+/* Translated with LLM */
 "check" = "檢查";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "檢查守護進程是否正在運行。如果沒有則啓動它。";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "檢查守護程序是否正在執行。如果沒有，則啟動它。若檢查後守護程序正在執行，則回傳服務資訊；否則不回傳任何內容。";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "檢查守護程序是否正在執行。如果沒有，則啟動它。若檢查後守護程序正在執行，則回傳 true；否則回傳 false。";
 
 /* Translated with LLM */
 "check service" = "檢查服務";
@@ -611,6 +674,9 @@
 "close hoverball" = "關閉懸浮球";
 
 /* Translated with LLM */
+"close live captions" = "關閉即時字幕";
+
+/* Translated with LLM */
 "cloud archive sync" = "雲端存檔同步";
 
 /* Translated with LLM */
@@ -650,6 +716,12 @@
 "connected" = "已連接";
 
 /* Translated with LLM */
+"Connected" = "已連接";
+
+/* Translated with LLM */
+"Connected At" = "連線時間";
+
+/* Translated with LLM */
 "connected call" = "已接通的通話";
 
 /* Translated with LLM */
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "聯絡人例外";
+
+/* Translated with LLM */
+"Contact Identifier" = "聯絡人識別碼";
+
+/* Translated with LLM */
+"Contact Label" = "聯絡人標籤";
 
 /* Translated with LLM */
 "Contact Name" = "聯繫人名稱";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "連續播放已啟用";
+
+/* Translated with LLM */
+"control call audio" = "控制通話音訊";
+
+/* Translated with LLM */
+"control call muting" = "控制通話靜音";
+
+/* Translated with LLM */
+"Control Call Muting" = "控制通話靜音";
+
+/* Translated with LLM */
+"control hoverball" = "控制懸浮球";
+
+/* Translated with LLM */
+"Control Hoverball" = "控制懸浮球";
+
+/* Translated with LLM */
+"Control Live Captions" = "控制即時字幕";
+
+/* Translated with LLM */
+"control live captions" = "控制即時字幕";
+
+/* Translated with LLM */
+"control recording" = "控制錄製";
+
+/* Translated with LLM */
+"Control Recording" = "控制錄製";
+
+/* Translated with LLM */
+"control screen recording" = "控制螢幕錄製";
+
+/* Translated with LLM */
+"Control Screen Recording" = "控制螢幕錄製";
 
 /* Translated with LLM */
 "Conversion Failed" = "轉換失敗";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "無法登出帳戶：%@";
 
 /* Translated with LLM */
+"Country Code" = "國碼";
+
+/* Translated with LLM */
 "Created At" = "創建於";
 
 /* Translated with LLM */
 "Credentials" = "憑據";
+
+/* Translated with LLM */
+"Current" = "目前";
 
 /* Translated with LLM */
 "current call" = "目前通話";
@@ -812,7 +929,7 @@
 "Deactivate" = "反激活";
 
 /* Translated with LLM */
-"deactivate" = "停用";
+"deactivate" = "反激活";
 
 /* Translated with LLM */
 "Deactivate & Sign Out" = "反激活並退出登錄";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "停用懸浮球";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "關閉錄音懸浮球。";
+"deactivate live captions" = "停用即時字幕";
 
 /* Translated with LLM */
 "Debugging" = "除錯";
@@ -863,10 +980,16 @@
 "Developer Options" = "開發者選項";
 
 /* Translated with LLM */
+"Dialing" = "撥號中";
+
+/* Translated with LLM */
 "Dictation Disabled" = "聽寫已關閉";
 
 /* Translated with LLM */
 "Digital Video" = "數位影片";
+
+/* Translated with LLM */
+"Digits" = "數字";
 
 /* Translated with LLM */
 "Direction" = "通話方向";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "丟棄錄音";
+
+/* Translated with LLM */
+"Disconnected" = "已斷線";
+
+/* Translated with LLM */
+"Disconnected At" = "斷線時間";
 
 /* Translated with LLM */
 "Discreet Mode" = "隱秘模式";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "顯示錄音的來源，即通話時所使用的應用程式名稱。";
 
 /* Translated with LLM */
-"Displays a local notification." = "顯示本地通知。";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "顯示本機通知。若通知請求成功傳送，則回傳 true；否則回傳 false。";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "你確定要清空日誌文件「%@」嗎？";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "啓用面容 ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "啟用電平計量，並在懸浮球折疊時顯示指示器。此選項僅在「閒置效果」設為「始終折疊」時可用。";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "啟用電平測量，以驅動「錄製中」狀態面板上的即時波形，並在懸浮球折疊時顯示長條指示器。";
 
 /* Translated with LLM */
 "Enable Logging" = "啓用日誌";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "當應用程式進入背景且最後一個連線關閉時，自動暫停 WebDAV 伺服器。當應用程式回到前景時恢復服務。";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "錄製時直接編碼音訊，以減少暫存檔案大小和後處理時間。啟用後可能增加 CPU 和電量消耗；如果錄製被中斷，恢復難度可能更高。";
+
+/* Translated with LLM */
 "Encoding" = "編碼";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "結束螢幕錄製";
 
 /* Translated with LLM */
-"Enhance Recording" = "增強錄音";
+"Ended" = "已結束";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "增強自動錄音";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "關閉懸浮球";
 
 /* Translated with LLM */
+"Exit Live Captions" = "退出即時字幕";
+
+/* Translated with LLM */
 "Expand Recursively" = "遞歸展開";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "匯出為 ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "匯出檔案名稱";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "將錄音導出到任何你想要的地方，不受限制。";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "文件格式";
+
+/* Translated with LLM */
+"File Name" = "檔案名稱";
 
 /* Translated with LLM */
 "File not found." = "找不到檔案。";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "獲取${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "取得 ${requestedSession} 通話資訊";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "取得 ${requestedSession} 錄製資訊";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "在通話中打開控制面板即可控制錄製參數。";
 
 /* Translated with LLM */
 "Get Call Duration" = "獲取通話時長";
 
 /* Translated with LLM */
+"Get Call Info" = "取得通話資訊";
+
+/* Translated with LLM */
 "Get Call Status" = "獲取通話狀態";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "以舊版文字值取得目前錄製路徑資訊。新的捷徑建議使用「Get Recording Info」。";
 
 /* Translated with LLM */
 "Get In Touch" = "保持聯繫";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "錄音完成後可推送通知提醒。";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "以單一物件取得主要通話資訊。";
+
+/* Translated with LLM */
 "Get Recording Duration" = "獲取錄音持續時間";
+
+/* Translated with LLM */
+"Get Recording Info" = "取得錄製資訊";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "以單一物件取得錄製資訊。";
 
 /* Translated with LLM */
 "Get Recording Paths" = "獲取錄音路徑";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "獲取錄音狀態";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "獲取巨魔錄音機當前的錄音時長。";
+"Get Screen Recording Info" = "取得螢幕錄製資訊";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "獲取巨魔錄音機當前的錄音路徑。";
+"Get screen recording information as a single object." = "以單一物件取得螢幕錄製資訊。";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "獲取巨魔錄音機當前的錄音狀態。";
+"Get Service Info" = "取得服務資訊";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "獲取裝置主要通話的時長。";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "以舊版數值取得目前錄音持續時間。新的捷徑建議使用「Get Recording Info」。";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "獲取裝置的主要通話狀態。";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "以舊版布林值取得目前的錄音狀態。當選取的狀態欄位為「真」時，結果為「真」；當其為「假」或無法取得時，結果為「假」。新的捷徑建議使用「取得錄製資訊」。";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "以舊版數值取得主要通話持續時間。新的捷徑建議使用「Get Call Info」。";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "以舊版文字值取得主要通話狀態。新的捷徑建議使用「Get Call Info」。";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "解鎖後回到桌面";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "群組通話";
+
+/* Translated with LLM */
+"handle incoming calls" = "處理來電";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "處理來電";
 
 /* Translated with LLM */
 "hang up calls" = "掛斷通話";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "懸浮球";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "懸浮球（舊版）";
+
+/* Translated with LLM */
 "Hoverball Plus" = "懸浮球 +";
 
 /* Translated with LLM */
@@ -1446,6 +1623,9 @@
 
 /* Translated with LLM */
 "hud" = "抬頭顯示器";
+
+/* Translated with LLM */
+"HUD" = "抬頭顯示器";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "通話錄音";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "當沒有活躍通話時，同時按下兩個音量鍵執行指定的動作。";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "如果這種情況經常發生，請關閉「後處理與輸出」設定中的「即時編碼」。";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "如果您使用 Filza 修改了錄音或遇到任何檔案系統權限問題，您可以在此處修復它們。";
@@ -1523,7 +1706,7 @@
 "Incoming" = "來電";
 
 /* Translated with LLM */
-"incoming" = "呼入";
+"incoming" = "來電";
 
 /* Translated with LLM */
 "Incoming Call" = "來電";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "安裝通話記錄插件";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "中斷目前正在向麥克風播放的任何上行音訊或旁白。若播放已中斷則回傳「真」，否則回傳「假」。";
+
+/* Translated with LLM */
+"interrupt call playback" = "中斷通話播放";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "中斷上行音訊";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "中斷上行播放";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "中斷上行播放";
+
+/* Translated with LLM */
+"interrupt voice over" = "中斷語音播報";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "無效的代碼簽名";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "是否可用";
 
 /* Translated with LLM */
 "Is Favourite" = "是否收藏";
@@ -1583,7 +1787,19 @@
 "is recording" = "正在錄製";
 
 /* Translated with LLM */
+"Is Recording" = "正在錄製";
+
+/* Translated with LLM */
 "Is Running" = "是否正在運行";
+
+/* Translated with LLM */
+"Is Service Running" = "服務是否正在執行";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "是否正在等待裝置";
+
+/* Translated with LLM */
+"ISO Country Code" = "ISO 國家代碼";
 
 /* Translated with LLM */
 "Item #%lu" = "項 #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "連接時保持螢幕常亮";
+
+/* Translated with LLM */
+"Key Event" = "按鍵事件";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "鍵盤避讓";
@@ -1616,6 +1835,9 @@
 "Later" = "以後再說";
 
 /* Translated with LLM */
+"Latest" = "最新";
+
+/* Translated with LLM */
 "launch" = "啓動";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "左邊";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "舊版動作。等待任何來電被接聽並連線。如果撥號中的通話在逾時前停止撥號，則回傳 true；否則回傳 false。新的捷徑建議使用「等待通話」。";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "舊版通話音訊動作。新的捷徑建議使用「控制通話靜音」。若請求已成功傳送至背景服務程式則傳回 true，否則傳回 false。";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "舊版懸浮球動作。新的快捷指令建議使用「控制懸浮球」。若成功停用懸浮球設定則回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "舊版懸浮球動作。新的快捷指令建議使用「控制懸浮球」。若成功啟用懸浮球設定則回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "舊版懸浮球動作。新的快捷指令建議使用「控制懸浮球」。若成功切換懸浮球設定則回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "舊版來電動作。新的捷徑建議使用「處理來電」。若請求已成功傳送至背景服務程式則傳回 true，否則傳回 false。";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "傳統越獄";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "舊版即時字幕動作。新的捷徑建議使用「控制即時字幕」。成功停用即時字幕時回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "舊版即時字幕動作。新的捷徑建議使用「控制即時字幕」。成功啟用即時字幕時回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "舊版即時字幕動作。新的捷徑建議使用「控制即時字幕」。成功切換即時字幕時回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "舊版錄音動作。新的捷徑建議使用「控制錄音」。若錄音請求成功則回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "舊版錄音動作。新的捷徑建議使用「控制錄音」。若停止請求成功則回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "舊版螢幕錄製動作。新的捷徑建議使用「控制螢幕錄製」。若螢幕錄製請求成功則回傳 true，否則回傳 false。";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "舊版螢幕錄製動作。新的捷徑建議使用「控制螢幕錄製」。若停止請求成功則回傳 true，否則回傳 false。";
 
 /* Translated with LLM */
 "Less serious error occurred." = "發生了不太嚴重的錯誤。";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "即時字幕";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "即時字幕（舊版）";
 
 /* Translated with LLM */
 "Loading…" = "載入中…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "錄製一個 ${requestedMode} 錄音";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "開始一次新的錄音，或停止一個正在進行的錄製。";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "開始一次新的語音備忘錄，或停止一個正在進行的錄製。";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "元數據";
 
 /* Translated with LLM */
+"Metadata Path" = "元資料路徑";
+
+/* Translated with LLM */
 "Microphone" = "麥克風";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "混合";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "混音器與合併器";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "音頻格式";
 
 /* Translated with LLM */
@@ -1856,6 +2117,9 @@
 "mute" = "靜音";
 
 /* Translated with LLM */
+"Mute" = "靜音";
+
+/* Translated with LLM */
 "Mute ${requestedChannel}" = "靜音${requestedChannel}";
 
 /* Translated with LLM */
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "靜音現有通話";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "靜音所有通話的指定通道。";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "將所有現有通話的指定頻道靜音或解除靜音。若請求成功傳送至背景服務程式，則傳回 true；否則傳回 false。";
 
 /* Translated with LLM */
 "My Favourite" = "已收藏";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "帶別名的名稱";
+
+/* Translated with LLM */
+"Network Code" = "網路代碼";
 
 /* Translated with LLM */
 "Network Storage" = "網路儲存";
@@ -1955,6 +2222,9 @@
 "notification" = "通知";
 
 /* Translated with LLM */
+"Notification" = "通知";
+
+/* Translated with LLM */
 "Notification Permission Denied" = "推送通知被拒絕訪問";
 
 /* Translated with LLM */
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "在地圖中打開";
 
 /* Translated with LLM */
+"Open Live Captions" = "開啟即時字幕";
+
+/* Translated with LLM */
+"open live captions" = "開啟即時字幕";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "打開巨魔錄音機";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "開啟、關閉或切換即時字幕。如果即時字幕設定已成功變更，則回傳 true；否則回傳 false。";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "開啟、關閉或切換錄音器的懸浮球。如果懸浮球設定已成功變更，則回傳 true；否則回傳 false。";
 
 /* Translated with LLM */
 "Operation Failed" = "操作失敗";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "暫停錄音";
 
 /* Translated with LLM */
+"pause recording" = "暫停錄音";
+
+/* Translated with LLM */
 "Paused" = "暫停";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "執行「使用 iCloud 備份」和「智慧雲歸檔」的完全同步。";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "執行「Backup with iCloud」和「Smart Cloud Archive」的完全同步。若背景服務正在執行且同步報告成功，則回傳 true；否則回傳 false。";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "執行完全同步";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "播放 ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "將音訊檔案播放到目前的通話中。若播放成功開始則回傳 true，否則回傳 false。無效的音訊檔案會擲出錯誤。";
+
+/* Translated with LLM */
 "play audio file" = "播放音訊檔案";
+
+/* Translated with LLM */
+"play call audio" = "播放通話音訊";
+
+/* Translated with LLM */
+"Play Call Audio" = "播放通話音訊";
 
 /* Translated with LLM */
 "Play Recording Warning" = "播放錄音警告";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "播放聲音";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "向麥克風播放指定的音頻檔案。";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "向麥克風播報指定的文本內容。";
-
-/* Translated with LLM */
 "Play Through Receiver" = "透過聽筒播放";
 
 /* Translated with LLM */
 "Play Through Speaker" = "透過揚聲器播放";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "播放上行音頻";
-
-/* Translated with LLM */
 "play uplink audio" = "播放上行音訊";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "通話語音播報";
 
 /* Translated with LLM */
 "play voice over" = "播放語音旁白";
@@ -2261,6 +2543,12 @@
 "post notification" = "發布通知";
 
 /* Translated with LLM */
+"Post-processing & Output" = "後處理與輸出";
+
+/* Translated with LLM */
+"Pre-release Version" = "預先發行版本";
+
+/* Translated with LLM */
 "Preparing" = "準備中";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "保留所有通道";
+
+/* Translated with LLM */
+"Preset Providers" = "預設提供者";
 
 /* Translated with LLM */
 "Press & Hold Action" = "長按動作";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "準備錄音！";
 
 /* Translated with LLM */
+"real-time captions" = "即時字幕";
+
+/* Translated with LLM */
+"Real-time Encoding" = "即時編碼";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "收到授權錯誤：%@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "錄製";
+
+/* Translated with LLM */
+"Record (Legacy)" = "錄製（舊版）";
 
 /* Translated with LLM */
 "Record All Calls" = "錄製所有通話";
@@ -2432,7 +2732,7 @@
 "Recording" = "錄制中";
 
 /* Translated with LLM */
-"recording" = "錄音";
+"recording" = "錄制中";
 
 /* Translated with LLM */
 "Recording (Localized)" = "錄音";
@@ -2445,6 +2745,15 @@
 
 /* Translated with LLM */
 "recording file" = "錄音檔案";
+
+/* Translated with LLM */
+"Recording Info" = "錄製資訊";
+
+/* Translated with LLM */
+"recording info" = "錄製資訊";
+
+/* Translated with LLM */
+"recording information" = "錄製資訊";
 
 /* Translated with LLM */
 "Recording Interrupted" = "錄音被中斷";
@@ -2460,6 +2769,9 @@
 
 /* Translated with LLM */
 "recording path" = "錄音路徑";
+
+/* Translated with LLM */
+"Recording Path" = "錄音路徑";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "當音頻輸入和輸出都處於持續活躍狀態時，錄音開始。如果你需要自動錄製來自微信等不支援 CallKit 的應用中的通話，請保持此選項開啟。";
@@ -2510,13 +2822,19 @@
 "reject" = "拒絕";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "自動拒接所有來電。";
+"Reject" = "拒絕";
 
 /* Translated with LLM */
 "reject call" = "拒接來電";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "拒接來電";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "相關應用程式套件識別碼";
+
+/* Translated with LLM */
+"Related Application Count" = "相關應用程式數量";
 
 /* Translated with LLM */
 "Relaunched" = "妙手已回春";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "重置服務";
 
 /* Translated with LLM */
+"responses" = "回應";
+
+/* Translated with LLM */
 "Respring" = "重新載入桌面";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "恢復中";
 
 /* Translated with LLM */
+"Resume" = "繼續";
+
+/* Translated with LLM */
 "Resume Recording" = "繼續錄音";
+
+/* Translated with LLM */
+"resume recording" = "繼續錄音";
 
 /* Translated with LLM */
 "Resume with Warning" = "繼續並警告";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "停止螢幕截圖";
 
 /* Translated with LLM */
+"Screen Recording Info" = "螢幕錄製資訊";
+
+/* Translated with LLM */
+"screen recording info" = "螢幕錄製資訊";
+
+/* Translated with LLM */
 "screen recording off" = "關閉螢幕錄製";
+
+/* Translated with LLM */
+"screen recording status" = "螢幕錄製狀態";
 
 /* Translated with LLM */
 "SCRN: 2025SR1911573" = "軟體著作權登記號碼：2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "正在搜尋附近的裝置";
 
 /* Translated with LLM */
-"Search…" = "搜尋...";
-
-/* Translated with LLM */
 "Seconds" = "秒數";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "傳送診斷信息";
 
 /* Translated with LLM */
+"Sender Address" = "寄件者地址";
+
+/* Translated with LLM */
+"Sender Localized Name" = "寄件者本地化名稱";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "寄件者本地化簡稱";
+
+/* Translated with LLM */
 "Sender Name" = "號卡名稱";
 
 /* Translated with LLM */
 "Sender Phone Address" = "號卡電話號碼";
+
+/* Translated with LLM */
+"Sender Service Name" = "寄件者服務名稱";
 
 /* Translated with LLM */
 "Sender Short Name" = "號卡別名";
@@ -2777,13 +3122,22 @@
 "service active" = "服務啟用中";
 
 /* Translated with LLM */
+"Service Info" = "服務資訊";
+
+/* Translated with LLM */
+"service info" = "服務資訊";
+
+/* Translated with LLM */
 "Service is alive" = "服務正常運行";
 
 /* Translated with LLM */
 "Service is dead" = "服務已停止";
 
 /* Translated with LLM */
-"Service Status" = "服務狀態";
+"service status" = "服務狀態";
+
+/* Translated with LLM */
+"service statuses" = "服務狀態";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "為這段錄音設定一個新的名稱，或者留空使用預設名稱。";
@@ -2903,6 +3257,15 @@
 "Space" = "空格";
 
 /* Translated with LLM */
+"speak call voice over" = "播放語音旁白";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "通話語音播報";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "將指定的語音旁白文字播放到麥克風。若播放成功開始則回傳 true，否則回傳 false。等待播放完成時，最長等待時間為 60 秒。";
+
+/* Translated with LLM */
 "Speaker" = "揚聲器";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "語音音訊";
 
 /* Translated with LLM */
+"Stable Version" = "穩定版本";
+
+/* Translated with LLM */
+"Standby" = "待命";
+
+/* Translated with LLM */
 "start" = "開始";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "開始系統螢幕錄製，就像您在控制中心一樣。";
+"Start" = "開始";
 
 /* Translated with LLM */
 "Start Call Recording" = "開始通話錄音";
@@ -2937,9 +3306,6 @@
 
 /* Translated with LLM */
 "Start Date" = "起始日期";
-
-/* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "開始或準備通話錄音、系統錄音或建立語音備忘錄。";
 
 /* Translated with LLM */
 "Start Recording" = "開始錄音";
@@ -2958,6 +3324,12 @@
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "開始語音備忘錄錄音";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "開始、停止或切換系統螢幕錄製。如果螢幕錄製請求成功，則傳回 true；否則傳回 false。";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "開始、停止、暫停、繼續或切換錄製。如果錄製請求成功，則傳回 true；否則傳回 false。";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "啟動匯出服務的時間比預期長。請檢查網路連線後再試一次。";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "結束並保存";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "停止通話錄音、系統錄音或語音備忘錄（如果存在）。";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "如果存在系統螢幕錄製，請停止。";
 
 /* Translated with LLM */
 "Stop Recording" = "停止錄音";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "錄制系統音頻";
 
 /* Translated with LLM */
-"system audio recording" = "系統音頻錄制";
+"system audio recording" = "錄制系統音頻";
 
 /* Translated with LLM */
 "System Language" = "系統語言";
 
 /* Translated with LLM */
 "System Record" = "系統記錄";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "系統錄製（舊版）";
+
+/* Translated with LLM */
+"system record info" = "系統錄製資訊";
+
+/* Translated with LLM */
+"system recording status" = "系統錄製狀態";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "輕按並選中 __任一邊緣__，  \n使其進入 ___活躍狀態___。";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "偵測到技術錯誤";
 
 /* Translated with LLM */
+"Telephony Utilities" = "電話公用程式";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "暫時忽略";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "發生了暫時性錯誤，多試幾次可能可以解決。";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "暫存錄音路徑";
+
+/* Translated with LLM */
 "terminate" = "終止";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "立即掛斷所有正在進行的通話。";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "立即終止所有作用中的通話。若請求成功傳送至背景服務，則回傳 true；否則回傳 false。";
 
 /* Translated with LLM */
 "terminate call" = "結束通話";
@@ -3134,9 +3515,6 @@
 "text to speech" = "文字轉語音";
 
 /* Translated with LLM */
-"text-to-speech" = "文本轉語音";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "%@ 已被系統中斷。你可以稍後手動轉換錄音。";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "發起通話的 App 標識符。";
+
+/* Translated with LLM */
+"The call event to wait for." = "要等待的通話事件。";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "文本文件「%@」的內容為空。";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "等待接通電話的最長秒數。";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "等待所選通話事件的最長秒數。";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "如果你在錄音結束後的一段時間內打開應用程式，缺失的位置元資料將被填入。";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "當沒有活躍通話時，輕按懸浮球右側的主按鈕時，所執行的操作。";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "選取的音訊檔案無效或不受支援。";
+
+/* Translated with LLM */
 "The service is not properly configured." = "服務配置不正確。";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "運營商的名稱。";
+
+/* Translated with LLM */
+"The session to inspect." = "要檢查的對話。";
 
 /* Translated with LLM */
 "The size of selected audio file." = "選定音頻檔案的大小。";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "需要錄製的內容類型。";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "要控制的錄音類型。「任何錄音」僅適用於停止、暫停、繼續和切換。";
+
+/* Translated with LLM */
+"The type of recording to stop." = "要停止的錄音類型。";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "通話的唯一標識符。";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "當前錄音來自微信，我們的微信通話助理可以幫助你在下次錄音時填充微信聯繫人姓名和備注。\n你似乎沒有啓用微信通話助理，你想立即啓用嗎？";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "此錄音是使用「即時編碼」方式錄製的。這種錄音方式不會產生可用於復原的原始暫存音訊，因此中斷的錄音無法復原。";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "微信通話助理不支持當前版本的微信（%@）。請升級到最新版本。";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "毫秒數";
 
 /* Translated with LLM */
+"Threshold" = "臨界值";
+
+/* Translated with LLM */
 "Time Sensitive" = "即時通知";
 
 /* Translated with LLM */
 "time sensitive notification" = "即時通知";
+
+/* Translated with LLM */
+"Timeout" = "超時";
 
 /* Translated with LLM */
 "Title" = "標題";
@@ -3359,6 +3764,9 @@
 "toggle" = "切換";
 
 /* Translated with LLM */
+"Toggle" = "切換";
+
+/* Translated with LLM */
 "Toggle ${requestedMode}" = "啟停${requestedMode}";
 
 /* Translated with LLM */
@@ -3371,7 +3779,10 @@
 "toggle hoverball" = "切換懸浮球";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "切換錄音懸浮球的開關。";
+"toggle live captions" = "切換即時字幕";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "切換即時字幕";
 
 /* Translated with LLM */
 "Toggle Recording" = "啓停錄音";
@@ -3387,9 +3798,6 @@
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "啓停系統音頻錄製";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "切換系統螢幕錄製，就像您在控制中心所做的那樣。";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "啓停語音備忘錄";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "TTS 播放";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "關閉「即時編碼」";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "關閉此選項，使此頁面上的其他選項對當前應用程式生效。";
@@ -3557,6 +3968,9 @@
 "unmute" = "取消靜音";
 
 /* Translated with LLM */
+"Unmute" = "取消靜音";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "取消靜音 ${requestedChannel}";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "取消靜音現有通話";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "取消靜音所有通話的指定通道。";
 
 /* Translated with LLM */
 "Unspecified" = "未指定";
@@ -3659,6 +4070,9 @@
 "Utility" = "實用工具";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "公用程式（舊版）";
+
+/* Translated with LLM */
 "Variant" = "變體";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "檢視日誌：網路儲存";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "檢視記錄：即時錄音器";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "語音播報";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP 聯絡人將始終被錄音並加入最愛。";
+
+/* Translated with LLM */
+"Voice Chat" = "語音聊天";
 
 /* Translated with LLM */
 "Voice Memo" = "語音備忘錄";
@@ -3761,19 +4181,52 @@
 "wait" = "等待";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "等待 ${requestedEvent} 來電";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "等待 ${requestedEvent} 來電";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "等待 ${requestedTimeout} 秒";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "等待任意通話被接聽並接通。";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "等待通話事件。當所選事件發生時，回傳通話資訊；否則逾時時不傳回任何內容。";
 
 /* Translated with LLM */
 "wait for call" = "等待通話";
 
 /* Translated with LLM */
+"Wait for Call" = "等待通話";
+
+/* Translated with LLM */
+"wait for call ended" = "等待通話結束";
+
+/* Translated with LLM */
+"wait for call event" = "等待通話事件";
+
+/* Translated with LLM */
+"Wait for Call Event" = "等待通話事件";
+
+/* Translated with LLM */
 "Wait for Calls" = "等待通話";
 
 /* Translated with LLM */
+"wait for connected call" = "等待通話接通";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "等待通話接通";
+
+/* Translated with LLM */
+"wait for incoming call" = "等待來電";
+
+/* Translated with LLM */
+"wait for outgoing call" = "等待撥出通話";
+
+/* Translated with LLM */
+"Wait Until Finished" = "等待播放完成";
+
+/* Translated with LLM */
+"Waiting For Device" = "正在等待裝置";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "警告，您的通話正在被錄音。警告，您的通話正在被錄音。";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "啓用 WebDAV 服務器後，是否允許你從 Safari、Chrome、Edge 等常見的網絡瀏覽器訪問。";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "是否接聽或拒接來電。";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "停止時是否要丟棄錄音。開始或切換時會忽略此項。";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "是否強制應用程式使用淺色或深色使用者介面。";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "是否強制懸浮球使用淺色或深色樣式。";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "開始或切換螢幕錄影時，是否包含麥克風音訊。";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "是否無限重複播放音頻。如果啟用，此操作將在開始播放後立即返回。";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "是否將通話音訊靜音或取消靜音。";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "是否開啟、關閉或切換即時字幕。";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "是否開啟、關閉或切換懸浮球。";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "是否開始、停止或切換螢幕錄製。";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "是否開始、停止、暫停、繼續或切換錄音。";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "是否等待播放完成。關閉後，此動作會在播放開始後立即返回。";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "是否等待播放完成。若停用，此動作會在播放開始後立即返回。「無限重複」始終會在播放開始後立即返回。";
+
+/* Translated with LLM */
+"Which channel to control." = "要控制的通話頻道。";
 
 /* Translated with LLM */
 "Which channel to mute." = "需要靜音的頻道。";

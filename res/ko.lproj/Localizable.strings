@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} 녹음";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} 호버볼";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} 라이브 캡션";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} 화면 녹화";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} 수신 전화";
+
+/* Translated with LLM */
+"%@ Help" = "%@ 도움말";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -89,7 +110,7 @@
 "accept" = "응답";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "모든 수신 통화에 자동으로 응답합니다.";
+"Accept" = "응답";
 
 /* Translated with LLM */
 "accept call" = "전화 수락";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "수신 통화 응답";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "수신되는 모든 전화를 수락하거나 거부합니다. 요청이 데몬에 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "웹 브라우저에서 접근";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "네트워크에 있는 다른 기기의 WebDAV 브라우저를 통해 녹음에 접근합니다. 서버는 응용 프로그램이 포그라운드에 있을 때만 활성화됩니다.";
+
+/* Translated with LLM */
+"actions" = "작업";
 
 /* Translated with LLM */
 "activate" = "활성화";
@@ -110,7 +137,13 @@
 "activate hoverball" = "호버볼 활성화";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "녹음기 호버볼을 활성화합니다.";
+"activate live captions" = "실시간 캡션 활성화";
+
+/* Translated with LLM */
+"Active Call Count" = "활성 통화 수";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "활성 통화 식별자";
 
 /* Translated with LLM */
 "Add" = "추가";
@@ -251,7 +284,13 @@
 "Any" = "제한 없음";
 
 /* Translated with LLM */
+"Any Recording" = "모든 녹음";
+
+/* Translated with LLM */
 "App Icon" = "앱 아이콘";
+
+/* Translated with LLM */
+"App Intent" = "앱 인텐트";
 
 /* Translated with LLM */
 "App Language" = "앱 언어";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "TrollRecorder Pro 구매";
 
 /* Translated with LLM */
+"Byte Count" = "바이트 수";
+
+/* Translated with LLM */
 "Calculating…" = "계산 중...";
 
 /* Translated with LLM */
@@ -477,6 +519,9 @@
 
 /* Translated with LLM */
 "call" = "통화";
+
+/* Translated with LLM */
+"call audio" = "통화 오디오";
 
 /* Translated with LLM */
 "call audio on" = "통화 오디오 켜기";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "통화 오디오 파이프라인 모니터링에 실패했습니다. 녹음 서비스를 다시 시작하려면 이 알림을 탭하세요.";
 
 /* Translated with LLM */
-"call connected" = "통화 연결됨";
+"Call Automation" = "통화 자동화";
 
 /* Translated with LLM */
-"Call Direction" = "통화 방향";
+"Call Automation (Legacy)" = "통화 자동화(레거시)";
+
+/* Translated with LLM */
+"call connected" = "통화 연결됨";
 
 /* Translated with LLM */
 "call duration" = "통화 시간";
 
 /* Translated with LLM */
+"Call History Identifier" = "통화 기록 식별자";
+
+/* Translated with LLM */
 "Call Identifier" = "통화 식별자";
+
+/* Translated with LLM */
+"Call Info" = "통화 정보";
+
+/* Translated with LLM */
+"call info" = "통화 정보";
 
 /* Translated with LLM */
 "call information" = "통화 정보";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "통화 녹음: 상대방";
 
 /* Translated with LLM */
-"Call State" = "통화 상태";
+"Call Sniffer" = "통화 스니퍼";
 
 /* Translated with LLM */
 "call status" = "통화 상태";
@@ -548,10 +605,16 @@
 "Caution" = "주의";
 
 /* Translated with LLM */
+"Channel" = "채널";
+
+/* Translated with LLM */
 "check" = "확인";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "데몬이 실행 중인지 확인하세요. 그렇지 않으면 실행하세요.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "데몬이 실행 중인지 확인합니다. 실행 중이 아니라면 실행합니다. 확인 후 데몬이 실행 중이면 서비스 정보를 반환하고, 그렇지 않으면 아무것도 반환하지 않습니다.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "데몬이 실행 중인지 확인합니다. 실행 중이 아니라면 실행합니다. 확인 후 데몬이 실행 중이면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "check service" = "서비스 확인";
@@ -611,6 +674,9 @@
 "close hoverball" = "호버볼 닫기";
 
 /* Translated with LLM */
+"close live captions" = "실시간 캡션 닫기";
+
+/* Translated with LLM */
 "cloud archive sync" = "클라우드 아카이브 동기화";
 
 /* Translated with LLM */
@@ -650,6 +716,12 @@
 "connected" = "연결됨";
 
 /* Translated with LLM */
+"Connected" = "연결됨";
+
+/* Translated with LLM */
+"Connected At" = "연결 시간";
+
+/* Translated with LLM */
 "connected call" = "연결된 통화";
 
 /* Translated with LLM */
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "연락처 예외";
+
+/* Translated with LLM */
+"Contact Identifier" = "연락처 식별자";
+
+/* Translated with LLM */
+"Contact Label" = "연락처 레이블";
 
 /* Translated with LLM */
 "Contact Name" = "연락처 이름";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "연속 재생 켜기";
+
+/* Translated with LLM */
+"control call audio" = "통화 오디오 제어";
+
+/* Translated with LLM */
+"control call muting" = "통화 음소거 제어";
+
+/* Translated with LLM */
+"Control Call Muting" = "통화 음소거 제어";
+
+/* Translated with LLM */
+"control hoverball" = "호버볼 제어";
+
+/* Translated with LLM */
+"Control Hoverball" = "호버볼 제어";
+
+/* Translated with LLM */
+"Control Live Captions" = "실시간 캡션 제어";
+
+/* Translated with LLM */
+"control live captions" = "실시간 캡션 제어";
+
+/* Translated with LLM */
+"control recording" = "녹음 제어";
+
+/* Translated with LLM */
+"Control Recording" = "녹음 제어";
+
+/* Translated with LLM */
+"control screen recording" = "화면 녹화 제어";
+
+/* Translated with LLM */
+"Control Screen Recording" = "화면 녹화 제어";
 
 /* Translated with LLM */
 "Conversion Failed" = "변환 실패";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "계정에서 로그아웃할 수 없습니다: %@";
 
 /* Translated with LLM */
+"Country Code" = "국가 코드";
+
+/* Translated with LLM */
 "Created At" = "생성일";
 
 /* Translated with LLM */
 "Credentials" = "인증서";
+
+/* Translated with LLM */
+"Current" = "현재";
 
 /* Translated with LLM */
 "current call" = "현재 통화";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "호버볼 비활성화";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "녹음기 호버볼을 비활성화합니다.";
+"deactivate live captions" = "실시간 캡션 비활성화";
 
 /* Translated with LLM */
 "Debugging" = "디버깅";
@@ -863,10 +980,16 @@
 "Developer Options" = "개발자 옵션";
 
 /* Translated with LLM */
+"Dialing" = "전화 걸기";
+
+/* Translated with LLM */
 "Dictation Disabled" = "받아쓰기 비활성화됨";
 
 /* Translated with LLM */
 "Digital Video" = "디지털 동영상";
+
+/* Translated with LLM */
+"Digits" = "숫자";
 
 /* Translated with LLM */
 "Direction" = "통화 방향";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "녹음 취소";
+
+/* Translated with LLM */
+"Disconnected" = "연결 해제됨";
+
+/* Translated with LLM */
+"Disconnected At" = "연결 해제 시간";
 
 /* Translated with LLM */
 "Discreet Mode" = "비밀 모드";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "녹음의 소스 번들 이름을 표시합니다.";
 
 /* Translated with LLM */
-"Displays a local notification." = "로컬 알림을 표시합니다.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "로컬 알림을 표시합니다. 알림 요청이 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "“%@” 로그 파일을 지우시겠습니까?";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Face ID 활성화";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "레벨 측정을 활성화하고 호버볼이 축소될 때 표시기를 표시합니다. 이 옵션은 ”유휴 효과”가 ”항상 축소”로 설정된 경우에만 사용할 수 있습니다.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "레벨 미터링을 활성화하여 ’녹음 중’ 상태 패널에서 실시간 파형을 구동하고 호버볼이 접혀 있을 때 막대 표시기를 표시합니다.";
 
 /* Translated with LLM */
 "Enable Logging" = "로깅 활성화";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "응용 프로그램이 백그라운드로 전환되고 마지막 연결이 닫힐 때 WebDAV 서버가 자동으로 일시 중지되었다가 응용 프로그램이 포그라운드로 돌아올 때 자체적으로 재개합니다.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "녹음 중에 오디오를 인코딩하여 임시 파일 크기와 후처리 시간을 줄입니다. CPU와 배터리 사용량이 늘 수 있으며, 중단된 녹음은 복구하기 어려울 수 있습니다.";
+
+/* Translated with LLM */
 "Encoding" = "인코딩";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "화면 녹화 종료";
 
 /* Translated with LLM */
-"Enhance Recording" = "녹음 향상";
+"Ended" = "종료됨";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "향상된 자동 녹음";
@@ -1171,6 +1303,9 @@
 /* Translated with LLM */
 "Exit Hoverball" = "호버볼 닫기";
 
+/* Translated with LLM */
+"Exit Live Captions" = "실시간 캡션 종료";
+
 /* ObjectTableViewController */
 "Expand Recursively" = "재귀적으로 확장";
 
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "ZIP으로 내보내기";
+
+/* Translated with LLM */
+"Export File Name" = "내보내기 파일 이름";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "어디든지 녹음을 내보내고 저장할 수 있습니다.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "파일 포맷";
+
+/* Translated with LLM */
+"File Name" = "파일 이름";
 
 /* Translated with LLM */
 "File not found." = "파일을 찾을 수 없습니다.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "${requestedField} 가져오기";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "${requestedSession} 통화 정보 가져오기";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "${requestedSession} 녹화 정보 가져오기";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "통화 중 녹음하면서 바로 고급 제어 기능을 사용할 수 있습니다.";
 
 /* Translated with LLM */
 "Get Call Duration" = "통화 시간 확인";
 
 /* Translated with LLM */
+"Get Call Info" = "통화 정보 가져오기";
+
+/* Translated with LLM */
 "Get Call Status" = "통화 상태 확인";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "현재 녹음 경로 정보를 레거시 텍스트 값으로 가져옵니다. 새로운 단축어의 경우 “녹음 정보 가져오기”를 사용하는 것이 좋습니다.";
 
 /* Translated with LLM */
 "Get In Touch" = "연락 확인";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "녹음이 완료되면 알림을 받습니다.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "기본 통화 정보를 단일 개체로 가져옵니다.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "녹음 기간 확인";
+
+/* Translated with LLM */
+"Get Recording Info" = "녹화 정보 가져오기";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "단일 개체로 녹화 정보를 가져옵니다.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "녹음 경로 확인";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "녹음 상태 확인";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "TrollRecorder의 현재 녹음 기간을 확인합니다.";
+"Get Screen Recording Info" = "화면 녹화 정보 가져오기";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "TrollRecorder의 현재 녹음 경로를 확인합니다.";
+"Get screen recording information as a single object." = "화면 녹화 정보를 단일 개체로 가져옵니다.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "TrollRecorder의 현재 녹음 상태를 확인합니다.";
+"Get Service Info" = "서비스 정보 가져오기";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "기본 통화 시간을 확인합니다";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "현재 녹음 기간을 레거시 숫자 값으로 가져옵니다. 새로운 단축어의 경우 “녹음 정보 가져오기”를 사용하는 것이 좋습니다.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "기본 통화 상태를 확인합니다.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "현재 녹음 상태를 레거시 부울 값으로 가져옵니다. 선택한 상태 필드가 참(true)이면 결과는 참(true)이고, 거짓(false)이거나 사용할 수 없으면 거짓(false)입니다. 새로운 단축어의 경우 “녹음 정보 가져오기”를 사용하는 것이 좋습니다.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "기본 통화 시간을 레거시 숫자 값으로 가져옵니다. 새로운 단축어의 경우 “통화 정보 가져오기”를 사용하는 것이 좋습니다.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "기본 통화 상태를 레거시 텍스트 값으로 가져옵니다. 새로운 단축어의 경우 “통화 정보 가져오기”를 사용하는 것이 좋습니다.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "잠금 해제 시 홈으로 이동";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "그룹 통화";
+
+/* Translated with LLM */
+"handle incoming calls" = "수신 통화 처리";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "수신 통화 처리";
 
 /* Translated with LLM */
 "hang up calls" = "통화 끊기";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "호버볼";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "호버볼(레거시)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "호버볼 +";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "호버볼 스타일";
 
-/* No comment provided by engineer. */
+/* Translated with LLM */
 "hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "통화 녹음";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "활성 전화 통화가 없으면 물리적 볼륨 버튼을 모두 눌러 지정된 작업을 수행할 수 있습니다.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "이런 현상이 자주 발생한다면 “후처리 및 출력” 설정에서 “실시간 인코딩”을 꺼 주세요.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Filza로 녹음을 수정했거나 파일 시스템 권한 문제가 발생한 경우, 여기에서 해결할 수 있습니다.";
@@ -1529,7 +1712,7 @@
 "Incoming Call" = "수신 통화";
 
 /* Translated with LLM */
-"incoming call" = "수신 전화";
+"incoming call" = "수신 통화";
 
 /* Translated with LLM */
 "Incoming Call Answered" = "수신 통화 응답";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "통화 기록 트윅 설치";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "현재 마이크로 재생 중인 모든 업링크 오디오 또는 보이스오버를 중단합니다. 재생이 중단되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"interrupt call playback" = "통화 재생 중단";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "업링크 오디오 중단";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "업링크 재생 중단";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "업링크 재생 중단";
+
+/* Translated with LLM */
+"interrupt voice over" = "음성 오버 중단";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "잘못된 코드 서명";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "사용 가능 여부";
 
 /* Translated with LLM */
 "Is Favourite" = "즐겨찾기 여부";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "일시 정지 여부";
 
 /* Translated with LLM */
-"is recording" = "녹음 중";
+"is recording" = "녹화 중 여부";
+
+/* Translated with LLM */
+"Is Recording" = "녹화 중 여부";
 
 /* Translated with LLM */
 "Is Running" = "실행 중 여부";
+
+/* Translated with LLM */
+"Is Service Running" = "서비스 실행 중";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "장치 대기 여부";
+
+/* Translated with LLM */
+"ISO Country Code" = "ISO 국가 코드";
 
 /* Translated with LLM */
 "Item #%lu" = "항목 #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "연결 시 화면 켜짐 유지";
+
+/* Translated with LLM */
+"Key Event" = "키 이벤트";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "키보드 회피";
@@ -1616,6 +1835,9 @@
 "Later" = "나중에";
 
 /* Translated with LLM */
+"Latest" = "최신";
+
+/* Translated with LLM */
 "launch" = "실행";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "왼쪽 가장자리";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "레거시 동작. 모든 통화가 응답되고 연결될 때까지 기다립니다. 시간 초과 전에 발신 통화가 중단되면 true를 반환하고, 그렇지 않으면 false를 반환합니다. 새 단축어에는 “통화 대기”를 사용하세요.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "레거시 통화 오디오 동작입니다. 새로운 단축키에는 “통화 오디오 제어”를 사용하세요. 요청이 데몬에 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "레거시 호버볼 동작입니다. 새 단축키에는 ’호버볼 제어’를 사용하세요. 호버볼 설정이 성공적으로 비활성화되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "레거시 호버볼 동작입니다. 새 단축키에는 ‘호버볼 제어’를 사용하세요. 호버볼 설정이 성공적으로 활성화되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "레거시 호버볼 동작입니다. 새 단축키에는 ‘호버볼 제어’를 사용하세요. 호버볼 설정이 성공적으로 전환되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "레거시 수신 전화 동작입니다. 새로운 단축키에는 “수신 전화 처리”를 사용하세요. 요청이 데몬에 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "레거시 탈옥";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "레거시 실시간 캡션 동작입니다. 새로운 단축키에는 ’실시간 캡션 제어’를 사용하세요. 실시간 캡션이 성공적으로 비활성화되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "레거시 실시간 캡션 동작입니다. 새로운 단축키에는 ’실시간 캡션 제어’를 사용하세요. 실시간 캡션이 성공적으로 활성화되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "레거시 실시간 캡션 동작입니다. 새로운 단축키에는 ‘실시간 캡션 제어’를 사용하세요. 실시간 캡션이 성공적으로 전환되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "레거시 녹화 동작입니다. 새로운 단축키에는 ’녹화 제어’를 사용하세요. 녹화 요청이 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "레거시 녹화 동작입니다. 새로운 단축키에는 ’녹화 제어’를 사용하세요. 중지 요청이 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "레거시 화면 녹화 동작입니다. 새로운 단축키에는 ‘화면 녹화 제어’를 사용하세요. 화면 녹화 요청이 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "레거시 화면 녹화 동작입니다. 새로운 단축키에는 ‘화면 녹화 제어’를 사용하세요. 중지 요청이 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "덜 심각한 오류가 발생했습니다.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "실시간 캡션";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "실시간 캡션(레거시)";
 
 /* Translated with LLM */
 "Loading…" = "로딩 중…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "${requestedMode} 녹음하기";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "새로운 녹음을 하거나 기존 녹음을 중지합니다.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "새로운 음성 메모를 만들거나 기존 음성 메모를 중지합니다.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "메타데이터";
 
 /* Translated with LLM */
+"Metadata Path" = "메타데이터 경로";
+
+/* Translated with LLM */
 "Microphone" = "마이크";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "혼합";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "믹서 및 결합기";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "오디오 포맷";
 
 /* Translated with LLM */
@@ -1856,6 +2117,9 @@
 "mute" = "음소거";
 
 /* Translated with LLM */
+"Mute" = "음소거";
+
+/* Translated with LLM */
 "Mute ${requestedChannel}" = "${requestedChannel} 음소거";
 
 /* Translated with LLM */
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "기존 통화 음소거";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "모든 기존 통화의 지정된 채널을 음소거합니다.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "모든 기존 통화의 지정된 채널을 음소거하거나 음소거 해제합니다. 요청이 데몬에 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "My Favourite" = "즐겨찾기";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "별명이 있는 이름";
+
+/* Translated with LLM */
+"Network Code" = "네트워크 코드";
 
 /* Translated with LLM */
 "Network Storage" = "네트워크 스토리지";
@@ -1955,6 +2222,9 @@
 "notification" = "알림";
 
 /* Translated with LLM */
+"Notification" = "알림";
+
+/* Translated with LLM */
 "Notification Permission Denied" = "알림 권한 거부됨";
 
 /* Translated with LLM */
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "지도에서 열기";
 
 /* Translated with LLM */
+"Open Live Captions" = "실시간 캡션 열기";
+
+/* Translated with LLM */
+"open live captions" = "실시간 캡션 열기";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "TrollRecorder 열기";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "실시간 자막을 열거나 닫거나 전환합니다. 실시간 자막 설정이 성공적으로 변경되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "레코더 호버볼을 열거나 닫거나 전환합니다. 호버볼 설정이 성공적으로 변경되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "Operation Failed" = "작업 실패";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "녹음 일시 정지";
 
 /* Translated with LLM */
+"pause recording" = "녹음 일시 정지";
+
+/* Translated with LLM */
 "Paused" = "일시 정지됨";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "“iCloud로 백업”과 “지능형 클라우드 아카이브”의 전체 동기화를 수행합니다.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "“iCloud로 백업” 및 “스마트 클라우드 보관함”의 전체 동기화를 수행합니다. 데몬이 실행 중이고 동기화가 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "전체 동기화 수행";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "${audioFile} 재생";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "현재 통화에 오디오 파일을 재생합니다. 재생이 성공적으로 시작되면 true를 반환하고, 그렇지 않으면 false를 반환합니다. 잘못된 오디오 파일은 오류를 발생시킵니다.";
+
+/* Translated with LLM */
 "play audio file" = "오디오 파일 재생";
+
+/* Translated with LLM */
+"play call audio" = "통화 오디오 재생";
+
+/* Translated with LLM */
+"Play Call Audio" = "통화 오디오 재생";
 
 /* Translated with LLM */
 "Play Recording Warning" = "녹음 경고 재생";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "사운드 재생";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "지정된 오디오 파일을 마이크로 재생합니다.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "지정된 VoiceOver 텍스트를 마이크로 재생합니다.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "리시버로 재생";
 
 /* Translated with LLM */
 "Play Through Speaker" = "스피커로 재생";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "업링크 오디오 재생";
-
-/* Translated with LLM */
 "play uplink audio" = "업링크 오디오 재생";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "업링크 VoiceOver 재생";
 
 /* Translated with LLM */
 "play voice over" = "음성 재생";
@@ -2261,6 +2543,12 @@
 "post notification" = "알림 게시";
 
 /* Translated with LLM */
+"Post-processing & Output" = "후처리 및 출력";
+
+/* Translated with LLM */
+"Pre-release Version" = "사전 출시 버전";
+
+/* Translated with LLM */
 "Preparing" = "준비 중";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "모든 채널 보존";
+
+/* Translated with LLM */
+"Preset Providers" = "프리셋 제공업체";
 
 /* Translated with LLM */
 "Press & Hold Action" = "길게 누르기 동작";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "녹음 준비 완료!";
 
 /* Translated with LLM */
+"real-time captions" = "실시간 캡션";
+
+/* Translated with LLM */
+"Real-time Encoding" = "실시간 인코딩";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "인증 오류 발생: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "녹음";
+
+/* Translated with LLM */
+"Record (Legacy)" = "레코드(레거시)";
 
 /* Translated with LLM */
 "Record All Calls" = "모든 통화 녹음";
@@ -2432,7 +2732,7 @@
 "Recording" = "녹음 중";
 
 /* Translated with LLM */
-"recording" = "녹음";
+"recording" = "녹음 중";
 
 /* Translated with LLM */
 "Recording (Localized)" = "녹음 (현지화)";
@@ -2445,6 +2745,15 @@
 
 /* Translated with LLM */
 "recording file" = "녹음 파일";
+
+/* Translated with LLM */
+"Recording Info" = "녹음 정보";
+
+/* Translated with LLM */
+"recording info" = "녹음 정보";
+
+/* Translated with LLM */
+"recording information" = "녹음 정보";
 
 /* Translated with LLM */
 "Recording Interrupted" = "녹음이 중단됨";
@@ -2460,6 +2769,9 @@
 
 /* Translated with LLM */
 "recording path" = "녹음 경로";
+
+/* Translated with LLM */
+"Recording Path" = "녹음 경로";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "오디오 입력과 출력이 모두 지속적으로 활성화되면 녹음이 시작됩니다.";
@@ -2510,13 +2822,19 @@
 "reject" = "거절";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "모든 수신 통화를 자동으로 거절합니다.";
+"Reject" = "거절";
 
 /* Translated with LLM */
 "reject call" = "전화 거절";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "수신 통화 거절";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "관련 애플리케이션 번들 식별자";
+
+/* Translated with LLM */
+"Related Application Count" = "관련 애플리케이션 수";
 
 /* Translated with LLM */
 "Relaunched" = "재실행됨";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "서비스 재설정";
 
 /* Translated with LLM */
+"responses" = "응답";
+
+/* Translated with LLM */
 "Respring" = "리스프링";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "복원 중";
 
 /* Translated with LLM */
+"Resume" = "재개";
+
+/* Translated with LLM */
 "Resume Recording" = "녹음 재개";
+
+/* Translated with LLM */
+"resume recording" = "녹음 재개";
 
 /* Translated with LLM */
 "Resume with Warning" = "경고와 함께 재개";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "화면 캡처 중지";
 
 /* Translated with LLM */
+"Screen Recording Info" = "화면 녹화 정보";
+
+/* Translated with LLM */
+"screen recording info" = "화면 녹화 정보";
+
+/* Translated with LLM */
 "screen recording off" = "화면 녹화 끄기";
+
+/* Translated with LLM */
+"screen recording status" = "화면 녹화 상태";
 
 /* Translated with LLM */
 "SCRN: 2025SR1911573" = "소프트웨어 저작권 등록 번호: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "주변 기기 검색 중";
 
 /* Translated with LLM */
-"Search…" = "검색…";
-
-/* Translated with LLM */
 "Seconds" = "초";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "진단 보내기";
 
 /* Translated with LLM */
+"Sender Address" = "발신자 주소";
+
+/* Translated with LLM */
+"Sender Localized Name" = "발신자 현지화 이름";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "발신자 현지화 짧은 이름";
+
+/* Translated with LLM */
 "Sender Name" = "발신자 이름";
 
 /* Translated with LLM */
 "Sender Phone Address" = "발신자 전화번호";
+
+/* Translated with LLM */
+"Sender Service Name" = "발신자 서비스 이름";
 
 /* Translated with LLM */
 "Sender Short Name" = "발신자 카드 별명";
@@ -2777,13 +3122,22 @@
 "service active" = "서비스 활성화";
 
 /* Translated with LLM */
+"Service Info" = "서비스 정보";
+
+/* Translated with LLM */
+"service info" = "서비스 정보";
+
+/* Translated with LLM */
 "Service is alive" = "서비스 정상 실행 중";
 
 /* Translated with LLM */
 "Service is dead" = "서비스 중단됨";
 
 /* Translated with LLM */
-"Service Status" = "서비스 상태";
+"service status" = "서비스 상태";
+
+/* Translated with LLM */
+"service statuses" = "서비스 상태";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "이 녹음의 새 이름을 설정하거나 기본값을 사용하려면 비워두세요.";
@@ -2903,6 +3257,15 @@
 "Space" = "공백";
 
 /* Translated with LLM */
+"speak call voice over" = "통화 음성 재생";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "통화 음성 해설";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "현재 통화에 보이스오버 텍스트를 말합니다. 재생이 성공적으로 시작되면 true를 반환하고, 그렇지 않으면 false를 반환합니다. 재생이 완료될 때까지 기다리는 경우 최대 대기 시간은 60초입니다.";
+
+/* Translated with LLM */
 "Speaker" = "스피커";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "음성 오디오";
 
 /* Translated with LLM */
+"Stable Version" = "안정 버전";
+
+/* Translated with LLM */
+"Standby" = "대기";
+
+/* Translated with LLM */
 "start" = "시작";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "제어 센터에서와 마찬가지로 시스템 화면 녹화를 시작합니다.";
+"Start" = "시작";
 
 /* Translated with LLM */
 "Start Call Recording" = "통화 녹음 시작";
@@ -2937,9 +3306,6 @@
 
 /* Translated with LLM */
 "Start Date" = "시작일";
-
-/* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "통화 녹음, 시스템 오디오 녹음을 시작하거나 음성 메모를 만듭니다.";
 
 /* Translated with LLM */
 "Start Recording" = "녹음 시작";
@@ -2958,6 +3324,12 @@
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "음성 메모 녹음 시작";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "시스템 화면 녹화를 시작, 중지 또는 전환합니다. 화면 녹화 요청이 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "녹음을 시작, 중지, 일시정지, 재개 또는 전환합니다. 녹음 요청이 성공하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "내보내기 서비스를 시작하는 데 예상보다 시간이 오래 걸립니다. 네트워크를 확인한 후 다시 시도하세요.";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "중지 및 저장";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "통화 녹음, 시스템 오디오 녹음 또는 음성 메모가 있는 경우 중지합니다.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "진행 중인 화면 녹화를 중지합니다.";
 
 /* Translated with LLM */
 "Stop Recording" = "녹음 중지";
@@ -3080,6 +3446,15 @@
 "System Record" = "시스템 녹화";
 
 /* Translated with LLM */
+"System Record (Legacy)" = "시스템 녹화(레거시)";
+
+/* Translated with LLM */
+"system record info" = "시스템 녹화 정보";
+
+/* Translated with LLM */
+"system recording status" = "시스템 녹화 상태";
+
+/* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "__아무 가장자리나__ 탭하여 \n___활성 가장자리로___ 선택하세요.";
 
 /* Translated with LLM */
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "기술적 오류 감지됨";
 
 /* Translated with LLM */
+"Telephony Utilities" = "전화 통신 유틸리티";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "당분간 무시";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "일시적인 오류가 발생했습니다. 다시 시도하면 문제가 해결될 수 있습니다.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "임시 녹음 경로";
+
+/* Translated with LLM */
 "terminate" = "종료";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "현재 진행 중인 모든 통화를 즉시 끊습니다.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "모든 활성 통화를 즉시 종료합니다. 요청이 데몬에 성공적으로 전송되면 true를 반환하고, 그렇지 않으면 false를 반환합니다.";
 
 /* Translated with LLM */
 "terminate call" = "통화 종료";
@@ -3134,9 +3515,6 @@
 "text to speech" = "텍스트 음성 변환";
 
 /* Translated with LLM */
-"text-to-speech" = "텍스트 음성 변환";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "녹음이 시스템에 의해 중단되었습니다. 나중에 녹음을 수동으로 변환할 수 있습니다.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "통화를 시작한 응용 프로그램 식별자입니다.";
+
+/* Translated with LLM */
+"The call event to wait for." = "대기할 통화 이벤트입니다.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "텍스트 파일 “%@”의 내용이 비어 있습니다.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "통화가 연결될 때까지 기다리는 최대 시간(초)입니다.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "선택한 통화 이벤트를 기다리는 최대 시간(초)입니다.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "녹음 후 일정 시간 안에 응용 프로그램을 열면 누락된 위치 메타데이터가 채워집니다.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "활성 통화가 없을 때 호버볼 오른쪽에 있는 기본 버튼을 탭하면 수행되는 동작입니다.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "선택한 오디오 파일이 유효하지 않거나 지원되지 않습니다.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "서비스가 올바르게 구성되지 않았습니다.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "이동통신사 이름입니다.";
+
+/* Translated with LLM */
+"The session to inspect." = "검사할 세션입니다.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "선택한 오디오 파일의 크기입니다.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "녹음될 콘텐츠의 유형입니다.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "제어할 녹화 유형입니다. 모든 녹화는 중지, 일시 중지, 재개 및 전환에만 적용됩니다.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "중지할 녹화 유형입니다.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "통화의 고유 식별자입니다.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "이 녹음은 WeChat에서 가져온 것이며 “WeChat 도우미”는 다음에 WeChat 연락처 이름과 댓글을 입력하는 데 도움이 됩니다.\n“WeChat 도우미”가 활성화되어 있지 않은 것 같습니다. 즉시 활성화하시겠습니까?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "이 녹음은 “실시간 인코딩”을 사용하여 녹음되었습니다. 이 녹음 방식은 복구에 사용할 수 있는 원시 임시 오디오를 생성하지 않으므로 중단된 녹음은 복구할 수 없습니다.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "이 버전의 WeChat(%@)은 지원되지 않습니다. 최신 버전으로 업그레이드하세요.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "세 자리 밀리초";
 
 /* Translated with LLM */
+"Threshold" = "임계값";
+
+/* Translated with LLM */
 "Time Sensitive" = "즉시 알림";
 
 /* Translated with LLM */
 "time sensitive notification" = "시간 민감 알림";
+
+/* Translated with LLM */
+"Timeout" = "시간 초과";
 
 /* Translated with LLM */
 "Title" = "제목";
@@ -3359,6 +3764,9 @@
 "toggle" = "토글";
 
 /* Translated with LLM */
+"Toggle" = "토글";
+
+/* Translated with LLM */
 "Toggle ${requestedMode}" = "${requestedMode} 토글";
 
 /* Translated with LLM */
@@ -3371,13 +3779,16 @@
 "toggle hoverball" = "호버볼 켜기/끄기";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "녹음기 호버볼을 켜거나 끕니다.";
+"toggle live captions" = "실시간 캡션 전환";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "실시간 캡션 전환";
 
 /* Translated with LLM */
 "Toggle Recording" = "녹음 시작/중지";
 
 /* Translated with LLM */
-"toggle recording" = "녹음 토글";
+"toggle recording" = "녹음 시작/중지";
 
 /* Translated with LLM */
 "Toggle Screen Recording" = "화면 녹화 시작/중지";
@@ -3387,9 +3798,6 @@
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "시스템 오디오 녹음 시작/중지";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "제어 센터에서 하는 것처럼 시스템 화면 녹화를 시작하거나 중지합니다.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "음성 메모 녹음 시작/중지";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "TTS 재생";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "“실시간 인코딩” 끄기";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "이 옵션을 끄면 현재 응용 프로그램에 이 페이지의 다른 옵션이 적용됩니다.";
@@ -3557,6 +3968,9 @@
 "unmute" = "음소거 해제";
 
 /* Translated with LLM */
+"Unmute" = "음소거 해제";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "${requestedChannel} 음소거 해제";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "기존 통화 음소거 해제";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "모든 기존 통화의 지정된 채널을 음소거 해제합니다.";
 
 /* Translated with LLM */
 "Unspecified" = "미지정";
@@ -3659,6 +4070,9 @@
 "Utility" = "유틸리티";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "유틸리티(레거시)";
+
+/* Translated with LLM */
 "Variant" = "변조";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "네트워크 스토리지";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "로그 보기: 실시간 레코더";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "로그 보기: 음성 발화";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP 연락처는 항상 녹음되고 즐겨찾기에 추가됩니다.";
+
+/* Translated with LLM */
+"Voice Chat" = "음성 채팅";
 
 /* Translated with LLM */
 "Voice Memo" = "음성 메모";
@@ -3761,19 +4181,52 @@
 "wait" = "대기";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "${requestedEvent} 통화를 기다립니다.";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "${requestedEvent} 통화를 기다립니다.";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "${requestedTimeout}초 동안 대기";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "전화가 응답되고 연결될 때까지 기다리세요.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "통화 이벤트를 기다립니다. 선택한 이벤트가 발생하면 통화 정보를 반환하고, 시간 초과가 만료되면 아무것도 반환하지 않습니다.";
 
 /* Translated with LLM */
 "wait for call" = "통화 대기";
 
 /* Translated with LLM */
+"Wait for Call" = "통화 대기";
+
+/* Translated with LLM */
+"wait for call ended" = "통화 종료 대기";
+
+/* Translated with LLM */
+"wait for call event" = "통화 이벤트 대기";
+
+/* Translated with LLM */
+"Wait for Call Event" = "통화 이벤트 대기";
+
+/* Translated with LLM */
 "Wait for Calls" = "전화 대기";
 
 /* Translated with LLM */
+"wait for connected call" = "통화 연결 대기";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "연결 대기 중";
+
+/* Translated with LLM */
+"wait for incoming call" = "수신 전화 대기";
+
+/* Translated with LLM */
+"wait for outgoing call" = "발신 전화 대기";
+
+/* Translated with LLM */
+"Wait Until Finished" = "완료될 때까지 기다리기";
+
+/* Translated with LLM */
+"Waiting For Device" = "장치 대기 중";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "경고! 통화가 녹음되고 있습니다. 경고! 통화가 녹음되고 있습니다.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "WebDAV 서버가 활성화되면 Safari, Chrome, Edge 등 일반적인 웹 브라우저에서도 접속을 허용할지 여부입니다.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "수신 전화를 수락할지 거부할지 여부입니다.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "중지 시 녹음을 삭제할지 여부입니다. 시작 또는 전환 시에는 무시됩니다.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "응용 프로그램이 밝은 사용자 인터페이스를 사용할지, 어두운 사용자 인터페이스를 사용할지 여부를 결정합니다.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "호버볼이 밝은 스타일을 사용 할지, 어두운 스타일을 사용 할지 여부를 결정합니다.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "화면 녹화를 시작하거나 전환할 때 마이크 오디오를 포함할지 여부입니다.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "오디오를 무한 반복할지 여부입니다. 활성화하면 이 작업은 재생 시작 후 즉시 반환됩니다.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "통화 오디오를 음소거 또는 음소거 해제할지 여부.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "실시간 자막을 열거나 닫거나 전환할지 여부.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "호버볼을 열거나 닫거나 토글할지 여부입니다.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "화면 녹화를 시작, 중지 또는 전환할지 여부.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "녹화를 시작, 중지, 일시 중지, 재개 또는 전환할지 여부입니다.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "재생이 완료될 때까지 기다릴지 여부입니다. 비활성화하면 재생이 시작된 후 이 동작이 즉시 반환됩니다.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "재생이 완료될 때까지 기다릴지 여부입니다. 비활성화하면 이 동작은 재생이 시작되면 즉시 반환됩니다. 무한 반복은 항상 재생이 시작되면 즉시 반환됩니다.";
+
+/* Translated with LLM */
+"Which channel to control." = "제어할 채널";
 
 /* Translated with LLM */
 "Which channel to mute." = "음소거가 필요한 채널입니다.";

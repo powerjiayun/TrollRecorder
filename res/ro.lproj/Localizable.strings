@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} înregistrare";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} subtitrări live";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} înregistrarea ecranului";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} apeluri primite";
+
+/* Translated with LLM */
+"%@ Help" = "%@ Ajutor";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -86,10 +107,10 @@
 "A widget is required for the “Launch Shield” feature." = "Un widget este necesar pentru funcția „Launch Shield”.";
 
 /* Translated with LLM */
-"accept" = "acceptați";
+"accept" = "Acceptați";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "Acceptați automat toate apelurile primite.";
+"Accept" = "Acceptați";
 
 /* Translated with LLM */
 "accept call" = "acceptați apelul";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "Acceptați apelurile primite";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Acceptă sau respinge toate apelurile primite. Returnează true dacă solicitarea a fost trimisă cu succes către daemon; altfel false.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "Acces din browserul web";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "Accesați înregistrările dintr-un browser WebDAV de pe un alt dispozitiv din rețea. Serverul este activ numai atunci când aplicația este în prim-plan.";
+
+/* Translated with LLM */
+"actions" = "acțiuni";
 
 /* Translated with LLM */
 "activate" = "activați";
@@ -110,7 +137,13 @@
 "activate hoverball" = "activați hoverball";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "Activează hoverball-ul recorderului.";
+"activate live captions" = "activați subtitrările live";
+
+/* Translated with LLM */
+"Active Call Count" = "Număr de apeluri active";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "Identificatori de apel activi";
 
 /* Translated with LLM */
 "Add" = "Adaugă";
@@ -251,7 +284,13 @@
 "Any" = "Oricare";
 
 /* Translated with LLM */
+"Any Recording" = "Orice înregistrare";
+
+/* Translated with LLM */
 "App Icon" = "Pictograma aplicației";
+
+/* Translated with LLM */
+"App Intent" = "Intenția aplicației";
 
 /* Translated with LLM */
 "App Language" = "Limba aplicației";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "arhivă";
+"archive" = "Arhivă";
 
 /* Translated with LLM */
 "Archive" = "Arhivă";
@@ -470,13 +509,19 @@
 "Buy TrollRecorder Pro" = "Cumpărați TrollRecorder Pro";
 
 /* Translated with LLM */
+"Byte Count" = "Număr de octeți";
+
+/* Translated with LLM */
 "Calculating…" = "Se calculează…";
 
 /* Translated with LLM */
 "Call" = "Apel";
 
 /* Translated with LLM */
-"call" = "apel";
+"call" = "Apel";
+
+/* Translated with LLM */
+"call audio" = "apel audio";
 
 /* Translated with LLM */
 "call audio on" = "apel audio activat";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "Monitorizarea conductei audio a apelului a eșuat. Atingeți această notificare pentru a reporni serviciul de înregistrare.";
 
 /* Translated with LLM */
-"call connected" = "apel conectat";
+"Call Automation" = "Automatizarea apelurilor";
 
 /* Translated with LLM */
-"Call Direction" = "Direcția apelului";
+"Call Automation (Legacy)" = "Automatizarea apelurilor (Moștenit)";
+
+/* Translated with LLM */
+"call connected" = "apel conectat";
 
 /* Translated with LLM */
 "call duration" = "durata apelului";
 
 /* Translated with LLM */
+"Call History Identifier" = "Identificatorul istoricului apelurilor";
+
+/* Translated with LLM */
 "Call Identifier" = "Identificator de apel";
+
+/* Translated with LLM */
+"Call Info" = "Info apel";
+
+/* Translated with LLM */
+"call info" = "Info apel";
 
 /* Translated with LLM */
 "call information" = "informații despre apel";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "Înregistrarea apelurilor: Cealaltă parte";
 
 /* Translated with LLM */
-"Call State" = "Stare apel";
+"Call Sniffer" = "Sniffer de apeluri";
 
 /* Translated with LLM */
 "call status" = "starea apelului";
@@ -548,10 +605,16 @@
 "Caution" = "Atenție";
 
 /* Translated with LLM */
+"Channel" = "Canal";
+
+/* Translated with LLM */
 "check" = "verificare";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "Verificați dacă daemonul rulează. Dacă nu, lansați-l.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "Verifică dacă daemonul rulează. Dacă nu, îl lansează. Returnează informații despre serviciu dacă daemonul rulează după verificare; în caz contrar, nu returnează nimic.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "Verifică dacă daemonul rulează. Dacă nu, îl lansează. Returnează true dacă daemonul rulează după verificare; în caz contrar, false.";
 
 /* Translated with LLM */
 "check service" = "verificare serviciu";
@@ -611,6 +674,9 @@
 "close hoverball" = "închide hoverball";
 
 /* Translated with LLM */
+"close live captions" = "Închideți subtitrările live";
+
+/* Translated with LLM */
 "cloud archive sync" = "sincronizare arhivă cloud";
 
 /* Translated with LLM */
@@ -647,7 +713,13 @@
 "Connect to a Wi‑Fi network before transferring recordings." = "Conectați-vă la o rețea Wi-Fi înainte de a transfera înregistrările.";
 
 /* Translated with LLM */
-"connected" = "conectat";
+"connected" = "Conectat";
+
+/* Translated with LLM */
+"Connected" = "Conectat";
+
+/* Translated with LLM */
+"Connected At" = "Conectat la";
 
 /* Translated with LLM */
 "connected call" = "apel conectat";
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "Excepții de contact";
+
+/* Translated with LLM */
+"Contact Identifier" = "Identificator de contact";
+
+/* Translated with LLM */
+"Contact Label" = "Etichetă de contact";
 
 /* Translated with LLM */
 "Contact Name" = "Nume de contact";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "Redare continuă activată";
+
+/* Translated with LLM */
+"control call audio" = "control apel audio";
+
+/* Translated with LLM */
+"control call muting" = "Controlați apelul audio";
+
+/* Translated with LLM */
+"Control Call Muting" = "Controlați apelul audio";
+
+/* Translated with LLM */
+"control hoverball" = "Control Hoverball";
+
+/* Translated with LLM */
+"Control Hoverball" = "Control Hoverball";
+
+/* Translated with LLM */
+"Control Live Captions" = "Controlați Subtitrări live";
+
+/* Translated with LLM */
+"control live captions" = "Controlați Subtitrări live";
+
+/* Translated with LLM */
+"control recording" = "Controlare înregistrare";
+
+/* Translated with LLM */
+"Control Recording" = "Controlare înregistrare";
+
+/* Translated with LLM */
+"control screen recording" = "Controlare înregistrare ecran";
+
+/* Translated with LLM */
+"Control Screen Recording" = "Controlare înregistrare ecran";
 
 /* Translated with LLM */
 "Conversion Failed" = "Conversia a eșuat";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "Nu s-a putut deconecta contul: %@";
 
 /* Translated with LLM */
+"Country Code" = "Codul țării";
+
+/* Translated with LLM */
 "Created At" = "Creat la";
 
 /* Translated with LLM */
 "Credentials" = "Acreditări";
+
+/* Translated with LLM */
+"Current" = "Curent";
 
 /* Translated with LLM */
 "current call" = "apel curent";
@@ -809,7 +926,7 @@
 "Day of Week String" = "Șirul zilei săptămânii";
 
 /* Translated with LLM */
-"deactivate" = "dezactivați";
+"deactivate" = "Dezactivare";
 
 /* Translated with LLM */
 "Deactivate" = "Dezactivare";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "dezactivați hoverball";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "Dezactivează hoverball-ul recorderului.";
+"deactivate live captions" = "dezactivați subtitrările live";
 
 /* Translated with LLM */
 "Debugging" = "Depanare";
@@ -863,10 +980,16 @@
 "Developer Options" = "Opțiuni pentru dezvoltatori";
 
 /* Translated with LLM */
+"Dialing" = "Formare";
+
+/* Translated with LLM */
 "Dictation Disabled" = "Dictare dezactivată";
 
 /* Translated with LLM */
 "Digital Video" = "Video digital";
+
+/* Translated with LLM */
+"Digits" = "Cifre";
 
 /* Translated with LLM */
 "Direction" = "Direcție";
@@ -878,7 +1001,7 @@
 "Direction Description" = "Descrierea direcției";
 
 /* Translated with LLM */
-"directory" = "director";
+"directory" = "Director";
 
 /* Translated with LLM */
 "Directory" = "Director";
@@ -914,7 +1037,13 @@
 "Discard Recording" = "Renunță la înregistrare";
 
 /* Translated with LLM */
-"discard recording" = "renunță la înregistrare";
+"discard recording" = "Renunță la înregistrare";
+
+/* Translated with LLM */
+"Disconnected" = "Deconectat";
+
+/* Translated with LLM */
+"Disconnected At" = "Deconectat la";
 
 /* Translated with LLM */
 "Discreet Mode" = "Mod Discret";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "Afișează numele pachetului sursă al înregistrării.";
 
 /* Translated with LLM */
-"Displays a local notification." = "Afișează o notificare locală.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "Afișează o notificare locală. Returnează true dacă solicitarea de notificare a fost trimisă cu succes; altfel false.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "Doriți să ștergeți acest fișier jurnal „%@”?";
@@ -1043,7 +1172,7 @@
 "Duration" = "Durată";
 
 /* Translated with LLM */
-"duration" = "durată";
+"duration" = "Durată";
 
 /* Translated with LLM */
 "Duration Before Idle" = "Durata înainte de inactivitate";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Activează Face ID";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "Activați măsurarea nivelului și afișați un indicator atunci când hoverball-ul este pliat. Această opțiune este disponibilă numai atunci când „Tranziție în repaus” este setată la „Întotdeauna pliat”.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "Activați măsurarea nivelului pentru a conduce forma de undă în timp real pe panoul de stare „Înregistrare” și prezentați un indicator de bară atunci când hoverball-ul este pliat.";
 
 /* Translated with LLM */
 "Enable Logging" = "Activează înregistrarea";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "Permite serverului WebDAV să se suspende automat când aplicația trece în fundal și ultima conexiune este închisă, apoi să se reia când aplicația revine în prim-plan.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "Codificați audio în timpul înregistrării pentru a reduce dimensiunea fișierelor temporare și timpul de post-procesare. Aceasta poate folosi mai mult CPU și baterie, iar înregistrările întrerupte pot fi mai greu de recuperat.";
+
+/* Translated with LLM */
 "Encoding" = "Codificare";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "sfârșit înregistrare ecran";
 
 /* Translated with LLM */
-"Enhance Recording" = "Îmbunătățirea înregistrării";
+"Ended" = "Încheiat";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "Înregistrare automată îmbunătățită";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "Ieșire Hoverball";
 
 /* Translated with LLM */
+"Exit Live Captions" = "Ieșire din Subtitrări live";
+
+/* Translated with LLM */
 "Expand Recursively" = "Extindeți recursiv";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "Exportați ca ZIP";
+
+/* Translated with LLM */
+"Export File Name" = "Numele fișierului de export";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "Exportați înregistrările oriunde doriți, fără limitări.";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "Format fișier";
+
+/* Translated with LLM */
+"File Name" = "Nume fișier";
 
 /* Translated with LLM */
 "File not found." = "Fișierul nu a fost găsit.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "Obțineți ${requestedField}";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "Obțineți informații despre apelul ${requestedSession}";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "Obțineți informații despre înregistrarea ${requestedSession}";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "Obțineți control avansat asupra înregistrării chiar în timpul apelului.";
 
 /* Translated with LLM */
 "Get Call Duration" = "Obțineți durata apelului";
 
 /* Translated with LLM */
+"Get Call Info" = "Obțineți informații despre apel";
+
+/* Translated with LLM */
 "Get Call Status" = "Obțineți starea apelului";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "Obțineți informații despre calea de înregistrare curentă ca o valoare text moștenită. Preferați „Get Recording Info” pentru noile comenzi rapide.";
 
 /* Translated with LLM */
 "Get In Touch" = "Contactați-ne";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "Primiți notificări după finalizarea înregistrării.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "Obțineți informațiile despre apelul principal ca un singur obiect.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "Obțineți durata înregistrării";
+
+/* Translated with LLM */
+"Get Recording Info" = "Obține informații despre înregistrare";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "Obțineți informațiile de înregistrare ca un singur obiect.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "Obține căile de înregistrare";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "Obține starea înregistrării";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "Obțineți durata curentă de înregistrare a Troll Recorder.";
+"Get Screen Recording Info" = "Obține informații despre înregistrarea ecranului";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "Obțineți căile de înregistrare curente ale Troll Recorder.";
+"Get screen recording information as a single object." = "Obțineți informații despre înregistrarea ecranului ca un singur obiect.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "Obțineți starea curentă de înregistrare a Troll Recorder.";
+"Get Service Info" = "Obțineți informații despre serviciu";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "Obțineți durata apelului principal al dispozitivului.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "Obțineți durata curentă a înregistrării ca o valoare numerică moștenită. Preferați „Get Recording Info” pentru noile comenzi rapide.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "Obțineți starea apelului principal al dispozitivului.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "Obține starea curentă a înregistrării ca o valoare booleană moștenită. Rezultatul este „adevărat” atunci când câmpul de stare selectat este „adevărat”; „fals” atunci când este „fals” sau indisponibil. Pentru comenzi rapide noi, preferați „Obține informații despre înregistrare”.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "Obțineți durata apelului principal ca o valoare numerică moștenită. Preferați „Get Call Info” pentru noile comenzi rapide.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "Obțineți starea apelului principal ca o valoare text moștenită. Preferați „Get Call Info” pentru noile comenzi rapide.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "Accesați ecranul de pornire când este deblocat";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "Apel de grup";
+
+/* Translated with LLM */
+"handle incoming calls" = "Gestionați apelurile primite";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "Gestionați apelurile primite";
 
 /* Translated with LLM */
 "hang up calls" = "închideți apelurile";
@@ -1435,6 +1609,9 @@
 /* Translated with LLM */
 "Hoverball" = "Bilă plutitoare";
 
+/* Translated with LLM */
+"Hoverball (Legacy)" = "Hoverball (Moștenire)";
+
 /* No comment provided by engineer. */
 "Hoverball Plus" = "Hoverball Plus";
 
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "Stil Hoverball";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "Înregistrarea apelurilor";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "Dacă nu există niciun apel telefonic activ, apăsați ambele butoane fizice de volum pentru a efectua acțiunea specificată.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "Dacă acest lucru se întâmplă frecvent, dezactivați „Codificare în timp real” în setările „Post-procesare și ieșire”.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Dacă ați modificat înregistrările cu Filza sau ați întâmpinat probleme legate de privilegiile sistemului de fișiere, le puteți rezolva aici.";
@@ -1529,7 +1712,7 @@
 "Incoming Call" = "Apel primit";
 
 /* Translated with LLM */
-"incoming call" = "apel primit";
+"incoming call" = "Apel primit";
 
 /* Translated with LLM */
 "Incoming Call Answered" = "Apel primit răspuns";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "Instalează modificarea pentru istoricul apelurilor";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "Întrerupe orice semnal audio uplink sau voice-over redat în prezent la microfon. Returnează true dacă redarea a fost întreruptă; altfel, false.";
+
+/* Translated with LLM */
+"interrupt call playback" = "întrerupe redarea apelului";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "întrerupe audio uplink";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "Întrerupe redarea Uplink";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "Întrerupe redarea Uplink";
+
+/* Translated with LLM */
+"interrupt voice over" = "întrerupe voice over";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "Semnătură de cod nevalidă";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "Este disponibil";
 
 /* Translated with LLM */
 "Is Favourite" = "Este favorit";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "Este în pauză";
 
 /* Translated with LLM */
-"is recording" = "înregistrează";
+"is recording" = "Înregistrează";
+
+/* Translated with LLM */
+"Is Recording" = "Înregistrează";
 
 /* Translated with LLM */
 "Is Running" = "Rulează";
+
+/* Translated with LLM */
+"Is Service Running" = "Serviciul funcționează";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "Este în așteptare pentru dispozitiv";
+
+/* Translated with LLM */
+"ISO Country Code" = "Codul ISO al țării";
 
 /* Translated with LLM */
 "Item #%lu" = "Elementul #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "Menține ecranul pornit când este conectat";
+
+/* Translated with LLM */
+"Key Event" = "Eveniment-cheie";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "Evitarea tastaturii";
@@ -1616,6 +1835,9 @@
 "Later" = "Mai târziu";
 
 /* Translated with LLM */
+"Latest" = "Cele mai recente";
+
+/* Translated with LLM */
 "launch" = "lansare";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "marginea din față";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "Acțiune anterioară. Așteaptă ca orice apel să fie răspuns și conectat. Returnează „adevărat” dacă un apel în curs de formare încetează să sune înainte de expirarea timpului; altfel returnează „fals”. Pentru comenzi rapide noi, preferați „Așteaptă apelul”.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Acțiune audio de apel moștenită. Preferați „Control Call Muting” pentru comenzile rapide noi. Returnează true dacă solicitarea a fost trimisă cu succes către daemon; altfel false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "Acțiune hoverball moștenită. Preferați „Control Hoverball” pentru comenzile rapide noi. Returnează true dacă setarea hoverball a fost dezactivată cu succes; altfel false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "Acțiune hoverball moștenită. Preferați „Control Hoverball” pentru comenzile rapide noi. Returnează true dacă setarea hoverball a fost activată cu succes; altfel false.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "Acțiune hoverball moștenită. Preferați „Control Hoverball” pentru comenzile rapide noi. Returnează true dacă setarea hoverball a fost activată cu succes; altfel false.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "Acțiune de apel primit moștenită. Preferați „Handle Incoming Calls” pentru comenzile rapide noi. Returnează true dacă solicitarea a fost trimisă cu succes către daemon; altfel false.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "Jailbreak Moștenit";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "Acțiune moștenită pentru subtitrări live. Pentru comenzi rapide noi, preferați „Control Live Captions”. Returnează „adevărat” dacă subtitrările live au fost dezactivate cu succes; altfel returnează „fals”.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "Acțiune moștenită pentru subtitrări live. Pentru comenzi rapide noi, preferați „Control Live Captions”. Returnează „adevărat” dacă subtitrările live au fost activate cu succes; altfel returnează „fals”.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "Acțiune moștenită pentru subtitrări live. Pentru comenzi rapide noi, preferați „Control Live Captions”. Returnează „adevărat” dacă subtitrările live au fost comutate cu succes; altfel returnează „fals”.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "Acțiune de înregistrare moștenită. Preferați „Control Recording” pentru comenzile rapide noi. Returnează true dacă cererea de înregistrare a reușit; altfel false.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Acțiune de înregistrare moștenită. Preferați „Control Recording” pentru comenzile rapide noi. Returnează true dacă solicitarea de oprire a reușit; altfel false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "Acțiune moștenită de înregistrare a ecranului. Preferați „Control Screen Recording” pentru comenzile rapide noi. Returnează true dacă cererea de înregistrare a ecranului a reușit; altfel false.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "Acțiune moștenită de înregistrare a ecranului. Preferați „Control Screen Recording” pentru comenzile rapide noi. Returnează true dacă cererea de oprire a reușit; altfel false.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "A apărut o eroare mai puțin gravă.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "Subtitrări live";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "Subtitrări live (Moștenit)";
 
 /* Translated with LLM */
 "Loading…" = "Se încarcă…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "Faceți o înregistrare ${requestedMode}";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "Efectuați o înregistrare nouă sau opriți una existentă.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "Creați un memo vocal nou sau opriți unul existent.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "Metadate";
 
 /* Translated with LLM */
+"Metadata Path" = "Calea metadatelor";
+
+/* Translated with LLM */
 "Microphone" = "Microfon";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "Mixt";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "Mixer și Combinator";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "Format audio mixer";
 
 /* Translated with LLM */
@@ -1853,7 +2114,10 @@
 "MPEG-4 Audio" = "Audio MPEG-4";
 
 /* Translated with LLM */
-"mute" = "mut";
+"mute" = "Mut";
+
+/* Translated with LLM */
+"Mute" = "Mut";
 
 /* Translated with LLM */
 "Mute ${requestedChannel}" = "Dezactivează sunetul pentru ${requestedChannel}";
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "Atenuează apelurile existente";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "Atenuează canalul specificat din toate apelurile existente.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "Activează sau dezactivează sunetul canalului specificat al tuturor apelurilor existente. Returnează true dacă solicitarea a fost trimisă cu succes către daemon; în caz contrar, false.";
 
 /* Translated with LLM */
 "My Favourite" = "Favoritul meu";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "Nume cu Alias";
+
+/* Translated with LLM */
+"Network Code" = "Codul rețelei";
 
 /* Translated with LLM */
 "Network Storage" = "Stocare în rețea";
@@ -1952,7 +2219,10 @@
 "Nothing Inside" = "Nimic înăuntru";
 
 /* Translated with LLM */
-"notification" = "notificare";
+"notification" = "Notificare";
+
+/* Translated with LLM */
+"Notification" = "Notificare";
 
 /* Translated with LLM */
 "Notification Permission Denied" = "Permisiunea de notificare refuzată";
@@ -2009,7 +2279,7 @@
 "Open Hoverball" = "Deschideți Hoverball";
 
 /* Translated with LLM */
-"open hoverball" = "deschide hoverball";
+"open hoverball" = "Deschideți Hoverball";
 
 /* Translated with LLM */
 "Open in Filza" = "Deschideți în Filza";
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "Deschide în Hărți";
 
 /* Translated with LLM */
+"Open Live Captions" = "Deschideți Subtitrări live";
+
+/* Translated with LLM */
+"open live captions" = "Deschideți Subtitrări live";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "Deschideți Troll Recorder";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "Deschide, închide sau comută subtitrările live. Returnează true dacă setarea subtitrărilor live a fost modificată cu succes; altfel false.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "Deschide, închide sau comută bila plutitoare a înregistratorului. Returnează true dacă setarea bilei plutitoare a fost modificată cu succes; altfel false.";
 
 /* Translated with LLM */
 "Operation Failed" = "Operațiune eșuată";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "Pauză înregistrare";
 
 /* Translated with LLM */
+"pause recording" = "Pauză înregistrare";
+
+/* Translated with LLM */
 "Paused" = "Pauzat";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "Efectuați o sincronizare completă a „Backup with iCloud” și „Smart Cloud Archive”.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "Efectuează o sincronizare completă a „Backup with iCloud” și „Smart Cloud Archive”. Returnează true dacă daemonul rulează și sincronizarea raportează succes; în caz contrar, false.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "Efectuați sincronizarea completă";
@@ -2105,7 +2390,7 @@
 "Phone" = "Telefon";
 
 /* Translated with LLM */
-"phone" = "telefon";
+"phone" = "Telefon";
 
 /* Translated with LLM */
 "Phone Address" = "Adresă de telefon";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "Redare ${audioFile}";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "Redă un fișier audio în apelul curent. Returnează true dacă redarea a început cu succes; în caz contrar, false. Fișierele audio invalide generează o eroare.";
+
+/* Translated with LLM */
 "play audio file" = "redare fișier audio";
+
+/* Translated with LLM */
+"play call audio" = "Redare audio apel";
+
+/* Translated with LLM */
+"Play Call Audio" = "Redare audio apel";
 
 /* Translated with LLM */
 "Play Recording Warning" = "Avertisment la redarea înregistrării";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "Redare sunet";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "Redă fișierul audio specificat la microfon.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "Redați textul vocal specificat la microfon.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "Redare prin receptor";
 
 /* Translated with LLM */
 "Play Through Speaker" = "Redare prin difuzor";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "Redare audio Uplink";
-
-/* Translated with LLM */
 "play uplink audio" = "redare audio uplink";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "Redare Uplink Voice-Over";
 
 /* Translated with LLM */
 "play voice over" = "redare voice-over";
@@ -2261,6 +2543,12 @@
 "post notification" = "postare notificare";
 
 /* Translated with LLM */
+"Post-processing & Output" = "Postprocesare și ieșire";
+
+/* Translated with LLM */
+"Pre-release Version" = "Versiunea de pre-lansare";
+
+/* Translated with LLM */
 "Preparing" = "Se pregătește";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "Păstrează toate canalele";
+
+/* Translated with LLM */
+"Preset Providers" = "Furnizori de presetări";
 
 /* Translated with LLM */
 "Press & Hold Action" = "Acțiunea Apăsare și Menținere";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "Gata de înregistrare!";
 
 /* Translated with LLM */
+"real-time captions" = "subtitrări în timp real";
+
+/* Translated with LLM */
+"Real-time Encoding" = "Codificare în timp real";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "Eroare de autorizare primită: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "Înregistrare";
+
+/* Translated with LLM */
+"Record (Legacy)" = "Înregistrare (Moștenit)";
 
 /* Translated with LLM */
 "Record All Calls" = "Înregistrați toate apelurile";
@@ -2447,6 +2747,15 @@
 "recording file" = "fișier de înregistrare";
 
 /* Translated with LLM */
+"Recording Info" = "Informații despre înregistrare";
+
+/* Translated with LLM */
+"recording info" = "Informații despre înregistrare";
+
+/* Translated with LLM */
+"recording information" = "informații despre înregistrare";
+
+/* Translated with LLM */
 "Recording Interrupted" = "Înregistrare întreruptă";
 
 /* Translated with LLM */
@@ -2459,7 +2768,10 @@
 "Recording Options" = "Opțiuni de înregistrare";
 
 /* Translated with LLM */
-"recording path" = "calea de înregistrare";
+"recording path" = "Cale de înregistrare";
+
+/* Translated with LLM */
+"Recording Path" = "Cale de înregistrare";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "Înregistrarea începe atunci când atât intrările, cât și ieșirile audio sunt active continuu.";
@@ -2507,16 +2819,22 @@
 "Regenerate All" = "Regenerare totală";
 
 /* Translated with LLM */
-"reject" = "respinge";
+"reject" = "Respinge";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "Respingeți automat toate apelurile primite.";
+"Reject" = "Respinge";
 
 /* Translated with LLM */
 "reject call" = "respinge apelul";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "Respingeți apelurile primite";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "Identificatori de pachete de aplicații conexe";
+
+/* Translated with LLM */
+"Related Application Count" = "Număr de aplicații conexe";
 
 /* Translated with LLM */
 "Relaunched" = "Relansat";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "Resetare serviciu";
 
 /* Translated with LLM */
+"responses" = "răspunsuri";
+
+/* Translated with LLM */
 "Respring" = "Respingere";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "Restaurare";
 
 /* Translated with LLM */
+"Resume" = "Reluare";
+
+/* Translated with LLM */
 "Resume Recording" = "Reluare înregistrare";
+
+/* Translated with LLM */
+"resume recording" = "Reluare înregistrare";
 
 /* Translated with LLM */
 "Resume with Warning" = "Reluare cu avertisment";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "oprire captură ecran";
 
 /* Translated with LLM */
+"Screen Recording Info" = "Informații înregistrare ecran";
+
+/* Translated with LLM */
+"screen recording info" = "Informații înregistrare ecran";
+
+/* Translated with LLM */
 "screen recording off" = "înregistrare ecran oprită";
+
+/* Translated with LLM */
+"screen recording status" = "starea înregistrării ecranului";
 
 /* No comment provided by engineer. */
 "SCRN: 2025SR1911573" = "SCRN: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "Se caută dispozitive din apropiere";
 
 /* Translated with LLM */
-"Search…" = "Căutare…";
-
-/* Translated with LLM */
 "Seconds" = "Secunde";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "Trimiteți diagnosticul";
 
 /* Translated with LLM */
+"Sender Address" = "Adresa expeditorului";
+
+/* Translated with LLM */
+"Sender Localized Name" = "Numele localizat al expeditorului";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "Numele scurt localizat al expeditorului";
+
+/* Translated with LLM */
 "Sender Name" = "Numele expeditorului";
 
 /* Translated with LLM */
 "Sender Phone Address" = "Adresa telefonică a expeditorului";
+
+/* Translated with LLM */
+"Sender Service Name" = "Nume serviciu expeditor";
 
 /* Translated with LLM */
 "Sender Short Name" = "Numele scurt al expeditorului";
@@ -2777,13 +3122,22 @@
 "service active" = "serviciu activ";
 
 /* Translated with LLM */
+"Service Info" = "Informații despre serviciu";
+
+/* Translated with LLM */
+"service info" = "Informații despre serviciu";
+
+/* Translated with LLM */
 "Service is alive" = "Serviciul este activ";
 
 /* Translated with LLM */
 "Service is dead" = "Serviciul nu mai funcționează";
 
 /* Translated with LLM */
-"Service Status" = "Starea serviciului";
+"service status" = "starea serviciului";
+
+/* Translated with LLM */
+"service statuses" = "stări ale serviciului";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "Setați un nume nou pentru această înregistrare sau lăsați gol pentru a utiliza numele implicit.";
@@ -2822,7 +3176,7 @@
 "Show Notification" = "Afișare notificare";
 
 /* Translated with LLM */
-"show notification" = "afișare notificare";
+"show notification" = "Afișare notificare";
 
 /* Translated with LLM */
 "Show notification ${requestedMessage}" = "Afișați notificarea ${requestedMessage}";
@@ -2903,6 +3257,15 @@
 "Space" = "Spațiu";
 
 /* Translated with LLM */
+"speak call voice over" = "redare voice-over";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "Redare Uplink Voice-Over";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "Redă textul vocal specificat la microfon. Returnează „adevărat” dacă redarea a început cu succes; altfel, „fals”. Când așteptați finalizarea redării, timpul maxim de așteptare este de 60 de secunde.";
+
+/* Translated with LLM */
 "Speaker" = "Difuzor";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "audio vorbit";
 
 /* Translated with LLM */
-"start" = "pornire";
+"Stable Version" = "Versiune stabilă";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "Începeți o înregistrare a ecranului sistemului, la fel cum faceți în Centrul de Control.";
+"Standby" = "În așteptare";
+
+/* Translated with LLM */
+"start" = "Pornire";
+
+/* Translated with LLM */
+"Start" = "Pornire";
 
 /* Translated with LLM */
 "Start Call Recording" = "Începeți înregistrarea apelurilor";
@@ -2939,9 +3308,6 @@
 "Start Date" = "Data de începere";
 
 /* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "Începeți sau pregătiți înregistrarea unui apel, înregistrarea audio a sistemului sau creați un memo vocal.";
-
-/* Translated with LLM */
 "Start Recording" = "Începeți înregistrarea";
 
 /* Translated with LLM */
@@ -2951,13 +3317,19 @@
 "Start Screen Recording" = "Începeți înregistrarea ecranului";
 
 /* Translated with LLM */
-"start screen recording" = "începeți înregistrarea ecranului";
+"start screen recording" = "Începeți înregistrarea ecranului";
 
 /* Translated with LLM */
 "Start System Audio Recording" = "Începeți înregistrarea audio a sistemului";
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "Începeți înregistrarea Voice Memo";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "Pornește, oprește sau comută înregistrarea ecranului sistemului. Returnează true dacă cererea de înregistrare a ecranului a reușit; altfel, false.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "Pornește, oprește, întrerupe, reia sau comută o înregistrare. Returnează true dacă solicitarea de înregistrare a reușit; altfel, false.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "Pornirea serviciului de export durează mai mult decât era de așteptat. Vă rugăm să verificați rețeaua și să încercați din nou.";
@@ -2972,7 +3344,7 @@
 "Stay tuned. We’re recording your call in the background." = "Rămâneți pe recepție. Înregistrăm apelul dvs. în fundal.";
 
 /* Translated with LLM */
-"stop" = "oprire";
+"stop" = "Oprire";
 
 /* Translated with LLM */
 "Stop" = "Oprire";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "Oprește și salvează";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "Oprește o înregistrare a unui apel, o înregistrare audio a sistemului sau un memo vocal, dacă există.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "Oprește o înregistrare a ecranului sistemului, dacă există.";
 
 /* Translated with LLM */
 "Stop Recording" = "Opriți înregistrarea";
@@ -3002,7 +3368,7 @@
 "Stop Screen Recording" = "Opriți înregistrarea ecranului";
 
 /* Translated with LLM */
-"stop screen recording" = "opriți înregistrarea ecranului";
+"stop screen recording" = "Opriți înregistrarea ecranului";
 
 /* Translated with LLM */
 "Stop Service" = "Opriți serviciul";
@@ -3071,13 +3437,22 @@
 "System Audio Recording" = "Înregistrare audio sistem";
 
 /* Translated with LLM */
-"system audio recording" = "înregistrare audio sistem";
+"system audio recording" = "Înregistrare audio sistem";
 
 /* Translated with LLM */
 "System Language" = "Limba sistemului";
 
 /* Translated with LLM */
 "System Record" = "Înregistrare sistem";
+
+/* Translated with LLM */
+"System Record (Legacy)" = "Înregistrare sistem (Moștenit)";
+
+/* Translated with LLM */
+"system record info" = "informații înregistrare sistem";
+
+/* Translated with LLM */
+"system recording status" = "starea înregistrării sistemului";
 
 /* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "Atingeți __orice margine__  \npentru a o selecta ca ___margine activă___.";
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "Eroare tehnică detectată";
 
 /* Translated with LLM */
+"Telephony Utilities" = "Utilități de telefonie";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "Ignoră temporar";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "A apărut o eroare temporară, mai multe încercări ar putea rezolva problema.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "Cale de înregistrare temporară";
+
+/* Translated with LLM */
 "terminate" = "termină";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "Închideți imediat toate apelurile active.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "Încetează imediat toate apelurile active. Returnează true dacă solicitarea a fost trimisă cu succes către daemon; altfel false.";
 
 /* Translated with LLM */
 "terminate call" = "terminați apelul";
@@ -3134,9 +3515,6 @@
 "text to speech" = "text la voce";
 
 /* Translated with LLM */
-"text-to-speech" = "text-la-voce";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "Înregistrarea %@ a fost întreruptă de sistem. Puteți converti înregistrarea manual mai târziu.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "Identificatorul pachetului aplicației care a inițiat apelul.";
+
+/* Translated with LLM */
+"The call event to wait for." = "Evenimentul de apel care trebuie așteptat.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "Conținutul fișierului text „%@” este gol.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "Numărul maxim de secunde de așteptare pentru conectarea apelurilor.";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "Numărul maxim de secunde de așteptat pentru evenimentul de apel selectat.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "Metadatele de locație lipsă vor fi completate dacă deschideți aplicația imediat după înregistrare.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "Acțiunea butonului principal din partea dreaptă a hoverball-ului atunci când niciun apel nu este activ.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "Fișierul audio selectat este invalid sau nu este acceptat.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "Serviciul nu este configurat corespunzător.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "Numele operatorului de servicii al expeditorului.";
+
+/* Translated with LLM */
+"The session to inspect." = "Sesiunea de inspectat.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "Dimensiunea fișierului audio selectat.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "Tipul de conținut care urmează să fie înregistrat.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "Tipul de înregistrare de controlat. „Orice înregistrare” se aplică doar la oprire, pauză, reluare și comutare.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "Tipul de înregistrare care trebuie oprit.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "Identificatorul unic al apelului.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "Această înregistrare este de la WeChat, iar „Asistentul WeChat” te ajută să completezi numele și observațiile contactelor WeChat data viitoare.\nSe pare că nu ai activat „Asistentul WeChat”, dorești să îl activezi imediat?";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "Această înregistrare a fost înregistrată utilizând „Codificare în timp real”. Această metodă de înregistrare nu produce audio temporar brut care poate fi utilizat pentru recuperare, astfel încât înregistrările întrerupte nu pot fi recuperate.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "Această versiune de WeChat (%@) nu este acceptată. Vă rugăm să faceți upgrade la cea mai recentă versiune.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "Milisecunde cu trei cifre";
 
 /* Translated with LLM */
+"Threshold" = "Prag";
+
+/* Translated with LLM */
 "Time Sensitive" = "Sensibil la timp";
 
 /* Translated with LLM */
 "time sensitive notification" = "notificare sensibilă la timp";
+
+/* Translated with LLM */
+"Timeout" = "Timeout";
 
 /* Translated with LLM */
 "Title" = "Titlu";
@@ -3356,7 +3761,10 @@
 "To: %@" = "Către: %@";
 
 /* Translated with LLM */
-"toggle" = "comutare";
+"toggle" = "Comutare";
+
+/* Translated with LLM */
+"Toggle" = "Comutare";
 
 /* Translated with LLM */
 "Toggle ${requestedMode}" = "Comută ${requestedMode}";
@@ -3368,10 +3776,13 @@
 "Toggle Hoverball" = "Comutare Hoverball";
 
 /* Translated with LLM */
-"toggle hoverball" = "comutare hoverball";
+"toggle hoverball" = "Comutare Hoverball";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "Activează/dezactivează bila plutitoare a înregistratorului.";
+"toggle live captions" = "Comutare Subtitrări live";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "Comutare Subtitrări live";
 
 /* Translated with LLM */
 "Toggle Recording" = "Comutare înregistrare";
@@ -3383,13 +3794,10 @@
 "Toggle Screen Recording" = "Comutare înregistrare ecran";
 
 /* Translated with LLM */
-"toggle screen recording" = "comutare înregistrare ecran";
+"toggle screen recording" = "Comutare înregistrare ecran";
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "Comutare înregistrare audio sistem";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "Comutați înregistrarea ecranului sistemului, la fel cum faceți în Centrul de Control.";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "Comutare înregistrare Voice Memo";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "redare TTS";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "Dezactivați „Codificare în timp real”";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "Dezactivați această opțiune pentru ca celelalte opțiuni de pe această pagină să aibă efect pentru aplicația curentă.";
@@ -3554,7 +3965,10 @@
 "Unmark" = "Elimină marcarea";
 
 /* Translated with LLM */
-"unmute" = "decupează sunetul";
+"unmute" = "Decupează sunetul";
+
+/* Translated with LLM */
+"Unmute" = "Decupează sunetul";
 
 /* Translated with LLM */
 "Unmute ${requestedChannel}" = "Activează sunetul pentru ${requestedChannel}";
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "Dezactivează apelurile existente";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "Dezactivează canalul specificat din toate apelurile existente.";
 
 /* Translated with LLM */
 "Unspecified" = "Nespecificat";
@@ -3659,6 +4070,9 @@
 "Utility" = "Utilitate";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "Utilitate (Moștenit)";
+
+/* Translated with LLM */
 "Variant" = "Variantă";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "Vizualizare jurnale: Stocare în rețea";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "Vizualizare jurnale: Înregistrator în timp real";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "Vizualizare jurnale: Enunț vocal";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "Contactele VIP vor fi întotdeauna înregistrate și adăugate la favorite.";
+
+/* Translated with LLM */
+"Voice Chat" = "Chat vocal";
 
 /* Translated with LLM */
 "Voice Memo" = "Memo vocal";
@@ -3761,19 +4181,52 @@
 "wait" = "așteptare";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "Așteaptă apelul ${requestedEvent}";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "Așteaptă apelul ${requestedEvent}";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "Așteptați ${requestedTimeout} secunde";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "Așteptați ca orice apel să fie preluat și conectat.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "Așteaptă un eveniment de apel. Returnează informații despre apel atunci când are loc evenimentul selectat; în caz contrar, nu returnează nimic atunci când expiră timpul de așteptare.";
 
 /* Translated with LLM */
-"wait for call" = "așteptare apel";
+"wait for call" = "Așteptare apel";
+
+/* Translated with LLM */
+"Wait for Call" = "Așteptare apel";
+
+/* Translated with LLM */
+"wait for call ended" = "așteaptă terminarea apelului";
+
+/* Translated with LLM */
+"wait for call event" = "Așteaptă evenimentul de apel";
+
+/* Translated with LLM */
+"Wait for Call Event" = "Așteaptă evenimentul de apel";
 
 /* Translated with LLM */
 "Wait for Calls" = "Așteptare apeluri";
 
 /* Translated with LLM */
+"wait for connected call" = "așteaptă apelul conectat";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "Așteaptă apelurile conectate";
+
+/* Translated with LLM */
+"wait for incoming call" = "așteaptă apelul primit";
+
+/* Translated with LLM */
+"wait for outgoing call" = "așteaptă apelul de ieșire";
+
+/* Translated with LLM */
+"Wait Until Finished" = "Așteaptă până la finalizare";
+
+/* Translated with LLM */
+"Waiting For Device" = "În așteptare pentru dispozitiv";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "Atenție, apelul dvs. este înregistrat acum. Atenție, apelul dvs. este înregistrat acum.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "Când serverul WebDAV este activat, permiteți-vă să accesați dintr-un browser web obișnuit precum Safari, Chrome, Edge etc.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "Dacă să acceptați sau să respingeți apelurile primite.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "Dacă să se renunțe la înregistrare la oprire. Ignorat la pornire sau la comutare.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "Dacă să forțezi aplicația să utilizeze interfața de utilizator deschisă sau întunecată.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "Dacă să forțezi hoverball-ul să folosească stilul deschis sau întunecat.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "Dacă să includeți audio de la microfon atunci când porniți sau comutați înregistrarea ecranului.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "Dacă să se repete la infinit redarea audio. Dacă este activată, această acțiune va reveni imediat după ce începe redarea.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "Dacă să reduceți sau să restabiliți sunetul apelului.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "Dacă să deschideți, să închideți sau să comutați subtitrările live.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "Dacă să deschideți, să închideți sau să comutați hoverball-ul.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "Dacă să pornești, să oprești sau să comuți înregistrarea ecranului.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "Dacă să pornești, oprești, întrerupi, reiei sau comuți înregistrarea.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "Dacă să aștepte până la finalizarea redării. Dacă este dezactivată, această acțiune va reveni imediat după începerea redării.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "Dacă să așteptați până la terminarea redării. Dacă este dezactivată, această acțiune va reveni imediat după începerea redării. „Repeat Infinitely” revine întotdeauna imediat după începerea redării.";
+
+/* Translated with LLM */
+"Which channel to control." = "Ce canal să controlezi.";
 
 /* Translated with LLM */
 "Which channel to mute." = "Care canal să fie dezactivat.";

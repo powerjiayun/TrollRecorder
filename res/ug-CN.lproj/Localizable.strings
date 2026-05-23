@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} خاتىرىلەش";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} hoverball";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} ھەقىقىي تەگلىك";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} ئېكران خاتىرىلەش";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} كىرگۈزۈلگەن قوڭغۇراقلار";
+
+/* Translated with LLM */
+"%@ Help" = "%@ ياردەم";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -89,7 +110,7 @@
 "accept" = "جاۋاب بېرىش";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "بارلىق كىرگەن تېلېفونلارغا ئاپتوماتىك جاۋاب بېرىش.";
+"Accept" = "جاۋاب بېرىش";
 
 /* Translated with LLM */
 "accept call" = "تېلېفوننى قوبۇل قىلىش";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "كىرگەن تېلېفونلارغا جاۋاب بېرىش";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "بارلىق كىرگۈزۈلگەن قوڭغۇراقلارنى قوبۇل قىلىش ياكى رەت قىلىش. ئەگەر تەلەپ دېمونغا مۇۋەپپەقىيەتلىك ئەۋەتىلگەن بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
 "Access From Web Browser" = "تور كۆرگۈچتىن زىيارەت قىلىش";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "تور ئىچىدىكى باشقا ئۈسكۈنىلەردىن WebDAV كىلاينتى ئارقىلىق ئۈنئالغۇلىرىڭىزنى زىيارەت قىلىڭ. پەقەت پروگرامما ئالدى سۇپىدا تۇرغاندىلا مۇلازىمېتىر ئاكتىپ ھالەتتە بولىدۇ.";
+
+/* Translated with LLM */
+"actions" = "ھەرىكەتلەر";
 
 /* Translated with LLM */
 "activate" = "ئاكتىپلاش";
@@ -110,7 +137,13 @@
 "activate hoverball" = "لەيلىمە توپنى قوزغىتىش";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "مۇلازىمەتنى قوزغىتىپ، ئۈنئالغۇ لەيلىمە توپنى ئېچىڭ.";
+"activate live captions" = "نەق مەيدان تارما يېزىقنى قوزغىتىڭ";
+
+/* Translated with LLM */
+"Active Call Count" = "ئاكتىپ چاقىرىق سانى";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "ئاكتىپ چاقىرىق كىملىكى";
 
 /* Translated with LLM */
 "Add" = "قوشۇش";
@@ -251,7 +284,13 @@
 "Any" = "چەكلىمە يوق";
 
 /* Translated with LLM */
+"Any Recording" = "ھەر قانداق ئۈن يازمىسى";
+
+/* Translated with LLM */
 "App Icon" = "پروگرامما سىنبەلگىسى";
+
+/* Translated with LLM */
+"App Intent" = "ئەپ نىيىتى";
 
 /* Translated with LLM */
 "App Language" = "كۆرۈنمە يۈز تىلى";
@@ -275,7 +314,7 @@
 "App Store" = "App Store";
 
 /* Translated with LLM */
-"archive" = "ئارخىپ";
+"archive" = "ئارخىپلاش";
 
 /* Translated with LLM */
 "Archive" = "ئارخىپلاش";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "TrollRecorder Pro نى سېتىۋېلىڭ";
 
 /* Translated with LLM */
+"Byte Count" = "بايت سانى";
+
+/* Translated with LLM */
 "Calculating…" = "ھېسابلاۋاتىدۇ…";
 
 /* Translated with LLM */
@@ -477,6 +519,9 @@
 
 /* Translated with LLM */
 "call" = "تېلېفون";
+
+/* Translated with LLM */
+"call audio" = "چاقىرىش ئاۋازى";
 
 /* Translated with LLM */
 "call audio on" = "قوشۇمچە ئاۋازنى يېقىش";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "تېلېفون ئاۋاز لىنىيىسىنى كۆزىتىش مەغلۇپ بولدى. ئۇقتۇرۇشنى چېكىپ، خاتىرىلەش مۇلازىمىتىنى قايتا باشلاڭ.";
 
 /* Translated with LLM */
-"call connected" = "تېلېفون ئۇلاندى";
+"Call Automation" = "تېلېفون ئاپتوماتلاشتۇرۇش";
 
 /* Translated with LLM */
-"Call Direction" = "تېلېفون يۆنىلىشى";
+"Call Automation (Legacy)" = "چاقىرىش ئاپتوماتلاشتۇرۇش (كونا)";
+
+/* Translated with LLM */
+"call connected" = "تېلېفون ئۇلاندى";
 
 /* Translated with LLM */
 "call duration" = "چاقىرىش ۋاقتى";
 
 /* Translated with LLM */
+"Call History Identifier" = "چوڭ تېلېفون خاتىرىسى ئىدېنتىفىكاتورى";
+
+/* Translated with LLM */
 "Call Identifier" = "تېلېفون كىملىكى";
+
+/* Translated with LLM */
+"Call Info" = "چاقىرىش ئۇچۇرى";
+
+/* Translated with LLM */
+"call info" = "چاقىرىش ئۇچۇرى";
 
 /* Translated with LLM */
 "call information" = "چاغلىق ئۇچۇرى";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "تېلېفون خاتىرىسى: باشقا تەرەپ";
 
 /* Translated with LLM */
-"Call State" = "تېلېفون ھالىتى";
+"Call Sniffer" = "چوڭقۇر تەكشۈرۈش";
 
 /* Translated with LLM */
 "call status" = "چاقىرىش ھالىتى";
@@ -548,10 +605,16 @@
 "Caution" = "دىققەت";
 
 /* Translated with LLM */
+"Channel" = "قانال";
+
+/* Translated with LLM */
 "check" = "تەكشۈرۈش";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "نازارەتچى پروگراممىنىڭ ئىجرا بولۇۋاتقانلىقىنى تەكشۈرۈش. ئىجرا بولمىسا، قوزغىتىش.";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "نازارەتچى پروگراممنىڭ ئىجرا بولۇۋاتقانلىقىنى تەكشۈرۈڭ. ئەگەر ئىجرا بولمىسا، ئۇنى قوزغىتىڭ. تەكشۈرۈشتىن كېيىن نازارەتچى پروگرامما ئىجرا بولۇۋاتقان بولسا، مۇلازىمەت ئۇچۇرىنى قايتۇرىدۇ؛ بولمىسا ھېچنېمىنى قايتۇرمايدۇ.";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "نازارەتچى پروگراممنىڭ ئىجرا بولۇۋاتقانلىقىنى تەكشۈرۈڭ. ئەگەر ئىجرا بولمىسا، ئۇنى قوزغىتىڭ. تەكشۈرۈشتىن كېيىن نازارەتچى پروگرامما ئىجرا بولۇۋاتقان بولسا، «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "check service" = "مۇلازىمەتنى تەكشۈرۈش";
@@ -611,6 +674,9 @@
 "close hoverball" = "لەيلىمە توپنى تاقاش";
 
 /* Translated with LLM */
+"close live captions" = "نەق مەيدان تارما يېزىقنى تاقاش";
+
+/* Translated with LLM */
 "cloud archive sync" = "بۇلۇت ئارخىپ سىنخىرونلاش";
 
 /* Translated with LLM */
@@ -650,6 +716,12 @@
 "connected" = "ئۇلاندى";
 
 /* Translated with LLM */
+"Connected" = "ئۇلاندى";
+
+/* Translated with LLM */
+"Connected At" = "ئۇلانغان ۋاقىت";
+
+/* Translated with LLM */
 "connected call" = "ئۇلانغان تېلېفون";
 
 /* Translated with LLM */
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "ئالاقەداش مۇستەسنالىقلىرى";
+
+/* Translated with LLM */
+"Contact Identifier" = "ئالاقەداش ئىدېنتىفىكاتورى";
+
+/* Translated with LLM */
+"Contact Label" = "ئالاقەداش بەلگىسى";
 
 /* Translated with LLM */
 "Contact Name" = "ئالاقەداش ئىسمى";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "داۋاملىق ئاڭلىتىش يېقىلدى";
+
+/* Translated with LLM */
+"control call audio" = "چاقىرىش ئۈن-سىگنالىنى كونترول قىلىش";
+
+/* Translated with LLM */
+"control call muting" = "چاقىرىش ئۈن-سىگنالىنى كونترول قىلىش";
+
+/* Translated with LLM */
+"Control Call Muting" = "چاقىرىش ئۈن-سىگنالىنى كونترول قىلىش";
+
+/* Translated with LLM */
+"control hoverball" = "لەيلىمە توپنى كونترول قىلىش";
+
+/* Translated with LLM */
+"Control Hoverball" = "لەيلىمە توپنى كونترول قىلىش";
+
+/* Translated with LLM */
+"Control Live Captions" = "نەق مەيدان تارما يېزىقنى كونترول قىلىش";
+
+/* Translated with LLM */
+"control live captions" = "نەق مەيدان تارما يېزىقنى كونترول قىلىش";
+
+/* Translated with LLM */
+"control recording" = "ئۈنئالغۇنى كونترول قىلىش";
+
+/* Translated with LLM */
+"Control Recording" = "ئۈنئالغۇنى كونترول قىلىش";
+
+/* Translated with LLM */
+"control screen recording" = "ئېكران ئۈنئالغۇسىنى كونترول قىلىش";
+
+/* Translated with LLM */
+"Control Screen Recording" = "ئېكران ئۈنئالغۇسىنى كونترول قىلىش";
 
 /* Translated with LLM */
 "Conversion Failed" = "ئايلاندۇرۇش مەغلۇپ بولدى";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "ھېساباتتىن چىقالمىدى: %@";
 
 /* Translated with LLM */
+"Country Code" = "دۆلەت كودى";
+
+/* Translated with LLM */
 "Created At" = "قۇرۇلغان ۋاقىت";
 
 /* Translated with LLM */
 "Credentials" = "كىملىك دەلىللىرى";
+
+/* Translated with LLM */
+"Current" = "نۆۋەتتىكى";
 
 /* Translated with LLM */
 "current call" = "نۆۋەتتىكى چاقىرىش";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "لەيلىمە توپنى ئاكتىپسىزلەشتۈرۈش";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "ئۈنگە ئېلىش لەيلىمە توپىنى ئۆچۈرۈش.";
+"deactivate live captions" = "نەق مەيدان تارما يېزىقنى ئۆچۈرۈڭ";
 
 /* Translated with LLM */
 "Debugging" = "تەڭشەش";
@@ -863,10 +980,16 @@
 "Developer Options" = "ئاچقۇچىلار تاللانمىسى";
 
 /* Translated with LLM */
+"Dialing" = "تېلېفون چاقىرىۋاتىدۇ";
+
+/* Translated with LLM */
 "Dictation Disabled" = "ئىملانى ئېنىقلاش چەكلەنگەن";
 
 /* Translated with LLM */
 "Digital Video" = "رەقەملىك سىن";
+
+/* Translated with LLM */
+"Digits" = "رەقەملەر";
 
 /* Translated with LLM */
 "Direction" = "تېلېفون يۆنىلىشى";
@@ -917,10 +1040,16 @@
 "discard recording" = "ئۈن خاتىرىسىنى تاشلىۋېتىش";
 
 /* Translated with LLM */
+"Disconnected" = "ئۈزۈلدى";
+
+/* Translated with LLM */
+"Disconnected At" = "ئۈزۈلگەن ۋاقىت";
+
+/* Translated with LLM */
 "Discreet Mode" = "يوشۇرۇن ھالەت";
 
-/* TODO */
-"Discreet Mode Disabled" = "Discreet Mode Disabled";
+/* Translated with LLM */
+"Discreet Mode Disabled" = "ئاستا ھالەت چەكلەندى";
 
 /* Translated with LLM */
 "Discreet Mode Enabled" = "ئاستا ھالەت قوزغىتىلدى";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "ئۈن خاتىرىسىنىڭ مەنبەسىنى، يەنى تېلېفون قىلغاندا ئىشلىتىلگەن پروگرامما ئىسمىنى كۆرسىتىش.";
 
 /* Translated with LLM */
-"Displays a local notification." = "يەرلىك ئۇقتۇرۇشنى كۆرسىتىش.";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "يەرلىك ئۇقتۇرۇشنى كۆرسىتىدۇ. ئەگەر ئۇقتۇرۇش تەلىپى مۇۋەپپەقىيەتلىك ئەۋەتىلگەن بولسا «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "خاتىرە ھۆججىتى “%@” نى تازىلىماقچىمۇ؟";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Face ID نى قوزغىتىش";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "دەرىجە ئۆلچەشنى قوزغىتىش ۋە لەيلىمە توپ قاتلانغاندا كۆرسەتكۈچ كۆرسىتىش. بۇ تاللانما پەقەت «بىكار تۇرغاندا» «ھەمىشە قاتلاش» غا بەلگىلەنگەندىلا ئىشلىتىلىدۇ.";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "ئاۋاز سەۋىيەسىنى ئۆلچەشنى قوزغىتىش، «خاتىرىلەۋاتىدۇ» ھالىتى تاختىسىدىكى ھەقىقىي ۋاقىت دولقۇن شەكلىنى ھەرىكەتلەندۈرۈش ۋە لەيلەپ تۇرغۇچى توپ قاتلانغاندا ستون كۆرسەتكۈچىنى كۆرسىتىش ئۈچۈن.";
 
 /* Translated with LLM */
 "Enable Logging" = "خاتىرىلەشنى قوزغىتىش";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "پروگرامما ئارقا سۇپىغا يۆتكەلگەندە ۋە ئاخىرقى باغلىنىش ئۈزۈلگەندە WebDAV مۇلازىمېتىرى ئۆزلۈكىدىن توختايدۇ، پروگرامما ئالدى سۇپىغا قايتقاندا ئەسلىگە كېلىدۇ.";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "خاتىرىلەش جەريانىدا ئاۋازنى كودلاپ، ۋاقىتلىق ھۆججەت چوڭلۇقى ۋە كېيىنكى بىر تەرەپ قىلىش ۋاقتىنى ئازايتىدۇ. بۇ CPU ۋە باتارېيەنى كۆپرەك ئىشلىتىشى مۇمكىن؛ ئۈزۈلۈپ قالغان خاتىرىلەرنى ئەسلىگە كەلتۈرۈش تېخىمۇ قىيىن بولۇشى مۇمكىن.";
+
+/* Translated with LLM */
 "Encoding" = "كودلاش";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "ئېكران ئۈنئالغۇسىنى ئاخىرلاشتۇرۇش";
 
 /* Translated with LLM */
-"Enhance Recording" = "ئۈن يازمىنى كۈچەيتىش";
+"Ended" = "ئاخىرلاشتى";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "كۈچەيتىلگەن ئاپتوماتىك ئۈن يازما";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "لەيلىمە توپنى تاقاش";
 
 /* Translated with LLM */
+"Exit Live Captions" = "نەق مەيدان تارما يېزىقتىن چىقىش";
+
+/* Translated with LLM */
 "Expand Recursively" = "چوڭقۇرلۇق بويىچە كېڭەيتىش";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "ZIP قىلىپ ئېكسپورت قىلىش";
+
+/* Translated with LLM */
+"Export File Name" = "ھۆججەت نامىنى ئەكسپورت قىلىش";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "ئۈن يازمىڭىزنى خالىغان يەرگە چەكلىمىسىز ئېكسپورت قىلىڭ.";
@@ -1207,8 +1345,8 @@
 /* Translated with LLM */
 "FaceTime Exclusion List" = "FaceTime چىقىرىۋېتىش تىزىملىكى";
 
-/* TODO */
-"FaceTime VIP" = "FaceTime VIP";
+/* Translated with LLM */
+"FaceTime VIP" = "FaceTime مۇھىم كىشىلەر";
 
 /* Translated with LLM */
 "Face ID" = "يۈز ID";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "ھۆججەت فورماتى";
+
+/* Translated with LLM */
+"File Name" = "ھۆججەت نامى";
 
 /* Translated with LLM */
 "File not found." = "ھۆججەت تېپىلمىدى.";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "${requestedField} نى ئېلىش";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "${requestedSession} چاقىرىق ئۇچۇرىنى ئېلىش";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "${requestedSession} خاتىرىلەش ئۇچۇرىنى ئېلىش";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "چاقىرىشتا كونترول تاختىسىنى ئېچىپ خاتىرىلەش پارامېتىرلىرىنى باشقۇرغىلى بولىدۇ.";
 
 /* Translated with LLM */
 "Get Call Duration" = "چاقىرىش ۋاقتىنى ئېلىش";
 
 /* Translated with LLM */
+"Get Call Info" = "چاقىرىش ئۇچۇرىنى ئېلىش";
+
+/* Translated with LLM */
 "Get Call Status" = "چاقىرىش ھالىتىنى ئېلىش";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "نۆۋەتتىكى ئۈن يازما يول ئۇچۇرىنى كونا نۇسخا تېكىست قىممىتى سۈپىتىدە ئېلىش. يېڭى قىسقا يوللار ئۈچۈن «ئۈن يازما ئۇچۇرىنى ئېلىش» نى تاللاڭ.";
 
 /* Translated with LLM */
 "Get In Touch" = "ئالاقىلىشىش";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "ئۈن خاتىرىلەش تاماملانغاندىن كېيىن ئۇقتۇرۇش يوللىغىلى بولىدۇ.";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "ئاساسىي چاقىرىش ئۇچۇرىنى بىر ئوبيېكت سۈپىتىدە ئېلىش.";
+
+/* Translated with LLM */
 "Get Recording Duration" = "ئۈن يازما ۋاقتىنى ئېلىش";
+
+/* Translated with LLM */
+"Get Recording Info" = "ئۈن يازما ئۇچۇرىنى ئېلىش";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "ئۈن يازما ئۇچۇرىنى بىر تەك ئوبيېكت قىلىپ ئېلىش.";
 
 /* Translated with LLM */
 "Get Recording Paths" = "ئۈن يازما يولىنى ئېلىش";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "ئۈن يازما ھالىتىنى ئېلىش";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "تىرول ئۈن خاتىرىلىگۈچنىڭ نۆۋەتتىكى ئۈن يازما ۋاقتىنى ئېلىش.";
+"Get Screen Recording Info" = "ئېكران يازمىسى ئۇچۇرىنى ئېلىش";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "تىرول ئۈن خاتىرىلىگۈچنىڭ نۆۋەتتىكى ئۈن يازما يوللىرىنى ئېلىش.";
+"Get screen recording information as a single object." = "ئېكران يازمىسى ئۇچۇرىنى بىر تەك ئوبيېكت قىلىپ ئېلىش.";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "تىرول ئۈن خاتىرىلىگۈچنىڭ نۆۋەتتىكى ئۈن يازما ھالىتىنى ئېلىش.";
+"Get Service Info" = "مۇلازىمەت ئۇچۇرىنى ئېلىش";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "ئاساسىي چاقىرىشنىڭ ۋاقتىنى ئېلىش.";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "نۆۋەتتىكى ئۈن يازما ۋاقىت ئۇزۇنلۇقىنى كونا نۇسخا سانلىق قىممەت سۈپىتىدە ئېلىش. يېڭى قىسقا يوللار ئۈچۈن «ئۈن يازما ئۇچۇرىنى ئېلىش» نى تاللاڭ.";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "ئاساسىي چاقىرىشنىڭ ھالىتىنى ئېلىش.";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "ئۈن يازما ھالىتىنى كونا نۇسخا بۇل قىممىتى شەكلىدە ئېلىش. تاللانغان ھالەت مەيدانى «ھەقىقىي» بولغاندا نەتىجە «ھەقىقىي» بولىدۇ؛ «يالغان» ياكى ئىشلەتكىلى بولمىغاندا نەتىجە «يالغان» بولىدۇ. يېڭى قىسقا يوللار ئۈچۈن «ئۈن يازما ئۇچۇرىنى ئېلىش» نى تەۋسىيە قىلىمىز.";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "ئاساسىي چاقىرىش ۋاقىت ئۇزۇنلۇقىنى كونا نۇسخا سانلىق قىممەت سۈپىتىدە ئېلىش. يېڭى قىسقا يوللار ئۈچۈن «چاقىرىش ئۇچۇرىنى ئېلىش» نى تاللاڭ.";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "ئاساسىي چاقىرىش ھالىتىنى كونا نۇسخا تېكىست قىممەت سۈپىتىدە ئېلىش. يېڭى قىسقا يوللار ئۈچۈن «چاقىرىش ئۇچۇرىنى ئېلىش» نى تاللاڭ.";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "قۇلۇپسىزلانغاندا باش بېتىگە قايتىش";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "گۇرۇپپا چاقىرىش";
+
+/* Translated with LLM */
+"handle incoming calls" = "كىرگەن تېلېفونلارنى بىر تەرەپ قىلىش";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "كىرگەن تېلېفونلارنى بىر تەرەپ قىلىش";
 
 /* Translated with LLM */
 "hang up calls" = "چاقىرىشلارنى ئۈزۈش";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "لەيلىمە توپ";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "لەيلىمە توپ (كونا)";
+
+/* Translated with LLM */
 "Hoverball Plus" = "لەيلىمە توپ +";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "كۆرۈنۈش ئۇسلۇبى";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "تېلېفوننى ئۈنگە ئېلىش";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "ئاكتىپ تېلېفون چاقىرىشى بولمىغاندا، كۆرسىتىلگەن ھەرىكەتنى ئىجرا قىلىش ئۈچۈن ئىككى ئاۋاز كۇنۇپكىسىنى تەڭ بېسىڭ.";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "ئەگەر بۇ ئەھۋال دائىم كۆرۈلسە، «پىششىقلاپ ئىشلەش ۋە چىقىرىش» تەڭشەك بېتىدىكى «ھەقىقىي ۋاقىتلىق كودلاش» نى ئۆچۈرۈڭ.";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "ئەگەر سىز Filza بىلەن خاتىرىلەرنى ئۆزگەرتتىڭىز ياكى ھۆججەت سىستېمىسى ھوقۇق مەسىلىلىرىگە يول قويدىڭىز، ئۇلارنى بۇ يەردە تۈزىيەلەيسىز.";
@@ -1529,7 +1712,7 @@
 "Incoming Call" = "كىرگەن تېلېفون";
 
 /* Translated with LLM */
-"incoming call" = "كىرىش چاقىرىش";
+"incoming call" = "كىرگەن تېلېفون";
 
 /* Translated with LLM */
 "Incoming Call Answered" = "كىرىش چاقىرىش جاۋاب بېرىلگەندە";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "چاقىرىش تارىخى قىستۇرمىسىنى قاچىلاش";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "مىكروفونغا ئېلىپ بېرىلىۋاتقان يۇقىرىقى ئاۋاز ياكى ئاۋازلىق چۈشەندۈرۈشنى توختىتىدۇ. ئەگەر ئاۋاز توختىتىلغان بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"interrupt call playback" = "چاغلىق ئاۋازنى توختىتىش";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "يۇقىرىغا ئاۋازنى توختىتىش";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "يۇقىرىقى ئاۋازنى توختىتىش";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "يۇقىرىقى ئاۋازنى توختىتىش";
+
+/* Translated with LLM */
+"interrupt voice over" = "ئاۋازلىق چۈشەندۈرۈشنى توختىتىش";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "ئىناۋەتسىز كود ئىمزاسى";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "ئىشلەتكىلى بولامدۇ";
 
 /* Translated with LLM */
 "Is Favourite" = "ساقلانغانمۇ";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "توختىتىلغانمۇ";
 
 /* Translated with LLM */
-"is recording" = "ئۈن يازما";
+"is recording" = "ئۈن يازمىدا";
+
+/* Translated with LLM */
+"Is Recording" = "ئۈن يازمىدا";
 
 /* Translated with LLM */
 "Is Running" = "خاتىرىلىنىۋاتامدۇ";
+
+/* Translated with LLM */
+"Is Service Running" = "مۇلازىمەت ئىشلەۋاتامدۇ؟";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "ئۈسكۈنە كۈتۈۋاتامدۇ";
+
+/* Translated with LLM */
+"ISO Country Code" = "ISO دۆلەت كودى";
 
 /* Translated with LLM */
 "Item #%lu" = "تۈر #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "باغلانغاندا ئېكران ئوچۇق تۇرسۇن";
+
+/* Translated with LLM */
+"Key Event" = "كۇنۇپكا ۋەقەسى";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "كۇنۇپكا تاختىسىدىن قېچىش";
@@ -1616,6 +1835,9 @@
 "Later" = "كېيىنچە";
 
 /* Translated with LLM */
+"Latest" = "ئەڭ يېڭى";
+
+/* Translated with LLM */
 "launch" = "قوزغىتىش";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "سول تەرەپ";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "كونا ھەرىكەت. ھەر قانداق چاقىرىشنىڭ جاۋاب بېرىلىپ باغلىنىشىنى كۈتۈڭ. ئەگەر تېلېفون قىلىۋاتقان چاقىرىش ۋاقىت چېكىدىن ئىلگىرى تېلېفون قىلىشنى توختاتسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ. يېڭى قىسقا يوللار ئۈچۈن «چاقىرىشنى كۈتۈش» نى تاللاڭ.";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "كونا چاقىرىش ئۈن-سىستېمىسى ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن “Control Call Muting” نى تاللاڭ. ئەگەر تەلەپ دېمونغا مۇۋەپپەقىيەتلىك ئەۋەتىلگەن بولسا «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "كونا لەيلىمە توپ ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «لەيلىمە توپنى كونترول قىلىش» نى تەۋسىيە قىلىمىز. ئەگەر لەيلىمە توپ تەڭشىكى مۇۋەپپەقىيەتلىك چەكلەنگەن بولسا، «راست» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "كونا لەيلىمە توپ ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «لەيلىمە توپنى كونترول قىلىش» نى تەۋسىيە قىلىمىز. ئەگەر لەيلىمە توپ تەڭشىكى مۇۋەپپەقىيەتلىك قوزغىتىلغان بولسا، «راست» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "كونا لەيلىمە توپ ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «لەيلىمە توپنى كونترول قىلىش» نى تەۋسىيە قىلىمىز. ئەگەر لەيلىمە توپ تەڭشىكى مۇۋەپپەقىيەتلىك ئالماشتۇرۇلغان بولسا، «راست» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "كونا كىرىش چاقىرىق ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن “Handle Incoming Calls” نى تاللاڭ. ئەگەر تەلەپ دېمونغا مۇۋەپپەقىيەتلىك ئەۋەتىلگەن بولسا «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ.";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "كونا قۇلۇپسىزلاش";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "نەق مەيدان تارما يېزىقنىڭ كونا ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن “نەق مەيدان تارما يېزىقنى كونترول قىلىش” نى تەۋسىيە قىلىمىز. ئەگەر نەق مەيدان تارما يېزىق مۇۋەپپەقىيەتلىك چەكلەنگەن بولسا، «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "نەق مەيدان تارما يېزىقنىڭ كونا ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن “نەق مەيدان تارما يېزىقنى كونترول قىلىش” نى تەۋسىيە قىلىمىز. ئەگەر نەق مەيدان تارما يېزىق مۇۋەپپەقىيەتلىك قوزغىتىلغان بولسا، «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "نەق مەيدان تارما يېزىقنىڭ كونا ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن “نەق مەيدان تارما يېزىقنى كونترول قىلىش” نى تەۋسىيە قىلىمىز. ئەگەر نەق مەيدان تارما يېزىق مۇۋەپپەقىيەتلىك ئالماشتۇرۇلغان بولسا، «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "كونا نۇسخىدىكى ئۈن خاتىرىلەش ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «ئۈن خاتىرىلەشنى كونترول قىلىش» نى تاللاڭ. ئەگەر ئۈن خاتىرىلەش تەلىپى مۇۋەپپەقىيەتلىك بولسا «ھە» قايتۇرىدۇ؛ بولمىسا «ياق» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "كونا نۇسخىدىكى ئۈن خاتىرىلەش ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «ئۈن خاتىرىلەشنى كونترول قىلىش» نى تاللاڭ. ئەگەر توختىتىش تەلىپى مۇۋەپپەقىيەتلىك بولسا «ھە» قايتۇرىدۇ؛ بولمىسا «ياق» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "كونا نۇسخىدىكى ئېكران ئۈنئالغۇسى ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «ئېكران ئۈنئالغۇسىنى كونترول قىلىش» نى تاللاڭ. ئەگەر ئېكران ئۈنئالغۇسى تەلىپى مۇۋەپپەقىيەتلىك بولسا «ھە» قايتۇرىدۇ؛ بولمىسا «ياق» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "كونا نۇسخىدىكى ئېكران ئۈنئالغۇسى ھەرىكىتى. يېڭى قىسقا يوللار ئۈچۈن «ئېكران ئۈنئالغۇسىنى كونترول قىلىش» نى تاللاڭ. ئەگەر توختىتىش تەلىپى مۇۋەپپەقىيەتلىك بولسا «ھە» قايتۇرىدۇ؛ بولمىسا «ياق» قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "Less serious error occurred." = "ئانچە ئېغىر بولمىغان خاتالىق يۈز بەردى.";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "نەق مەيدان تارما يېزىق";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "نەق مەيدان تارما يېزىق (كونا نۇسخا)";
 
 /* Translated with LLM */
 "Loading…" = "يۈكلەۋاتىدۇ…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "${requestedMode} ئۈن يازما قىلىش";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "يېڭى ئۈن يازما باشلاش ياكى مەۋجۇت بىرنى توختىتىش.";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "يېڭى ئاۋاز خاتىرىسى باشلاش ياكى مەۋجۇت بىرنى توختىتىش.";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "مېتا ئۇچۇرلار";
 
 /* Translated with LLM */
+"Metadata Path" = "مېتا سانلىق مەلۇمات يولى";
+
+/* Translated with LLM */
 "Microphone" = "مىكروفون";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "ئارىلاش";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "ئاۋاز ئارىلاشتۇرغۇچ ۋە بىرلەشتۈرگۈچ";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "ئارىلاشتۇرغۇچ ئاۋاز فورماتى";
 
 /* Translated with LLM */
@@ -1856,6 +2117,9 @@
 "mute" = "ئۈنسىز";
 
 /* Translated with LLM */
+"Mute" = "ئۈنسىز";
+
+/* Translated with LLM */
 "Mute ${requestedChannel}" = "${requestedChannel} نى ئۈنسىز قىلىش";
 
 /* Translated with LLM */
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "مەۋجۇت چاقىرىشلارنى ئۈنسىز قىلىش";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "بارلىق مەۋجۇت چاقىرىشلارنىڭ بەلگىلەنگەن قانىلىنى ئۈنسىز قىلىش.";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "بارلىق مەۋجۇت چاقىرىقلارنىڭ بەلگىلەنگەن كانالىنى ئاۋازسىز قىلىش ياكى ئاۋازسىز ھالىتىنى ئەمەلدىن قالدۇرۇش. ئەگەر تەلەپ دېمونغا مۇۋەپپەقىيەتلىك ئەۋەتىلگەن بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "My Favourite" = "ساقلانغان";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "تەخەللۇس بىلەن ئىسىم";
+
+/* Translated with LLM */
+"Network Code" = "تور كودى";
 
 /* Translated with LLM */
 "Network Storage" = "تور ساقلىغۇچ";
@@ -1955,6 +2222,9 @@
 "notification" = "ئۇقتۇرۇش";
 
 /* Translated with LLM */
+"Notification" = "ئۇقتۇرۇش";
+
+/* Translated with LLM */
 "Notification Permission Denied" = "ئۇقتۇرۇش ئىشلىتىش ھوقۇقى رەت قىلىندى";
 
 /* Translated with LLM */
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "خەرىتىدە ئېچىش";
 
 /* Translated with LLM */
+"Open Live Captions" = "نەق مەيدان تارما يېزىقنى ئېچىڭ";
+
+/* Translated with LLM */
+"open live captions" = "نەق مەيدان تارما يېزىقنى ئېچىڭ";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "ترول ئۈنئالغۇنى ئېچىش";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "نەق مەيدان تارما يېزىقنى ئېچىش، تاقاش ياكى ئالماشتۇرۇش. ئەگەر نەق مەيدان تارما يېزىق تەڭشىكى مۇۋەپپەقىيەتلىك ئۆزگەرتىلگەن بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "يازغۇچ لەيلىمە توپىنى ئېچىش، تاقاش ياكى ئالماشتۇرۇش. ئەگەر لەيلىمە توپ تەڭشىكى مۇۋەپپەقىيەتلىك ئۆزگەرتىلگەن بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "Operation Failed" = "مەشغۇلات مەغلۇپ بولدى";
@@ -2032,8 +2314,8 @@
 /* Translated with LLM */
 "Operator Name" = "ئوپېراتور ئىسمى";
 
-/* TODO */
-"Optic ID" = "Optic ID";
+/* Translated with LLM */
+"Optic ID" = "ئۆپتىك ID";
 
 /* Translated with LLM */
 "Options" = "تاللانما";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "ئۈنئېلىشنى توختىتىش";
 
 /* Translated with LLM */
+"pause recording" = "ئۈنئېلىشنى توختىتىش";
+
+/* Translated with LLM */
 "Paused" = "توختىتىلدى";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "“iCloud بىلەن زاپاسلاش” ۋە “ئەقىللىق بۇلۇت ئارخىپى” نىڭ تولۇق قەدەمداشلىشىنى ئورۇنلاڭ.";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "“iCloud بىلەن زاپاسلاش” ۋە “ئەقىللىق بۇلۇت ئارخىپى” نىڭ تولۇق قەدەمداشلاشىنى ئورۇنلاڭ. ئەگەر داېمون ئىجرا بولۇۋاتقان ۋە قەدەمداشلاش مۇۋەپپەقىيەتلىك دوكلات قىلغان بولسا، true قايتۇرىدۇ؛ بولمىسا false قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "تولۇق قەدەمداشلاش";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "${audioFile} نى قويۇش";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "بەلگىلەنگەن ئاۋاز ھۆججىتىنى مىكروفونغا قويۇش. ئەگەر قويۇش مۇۋەپپەقىيەتلىك باشلانغان بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ. ئىناۋەتسىز ئاۋاز ھۆججەتلىرى خاتالىق چىقىرىدۇ.";
+
+/* Translated with LLM */
 "play audio file" = "ئاۋاز خاتىرىسىنى قويۇش";
+
+/* Translated with LLM */
+"play call audio" = "يۇقارقى ئاۋازنى قويۇش";
+
+/* Translated with LLM */
+"Play Call Audio" = "يۇقارقى ئاۋازنى قويۇش";
 
 /* Translated with LLM */
 "Play Recording Warning" = "ئۈن-خاتىرە ئاگاھلاندۇرۇشى قويۇش";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "ئاۋاز قويۇش";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "مىكروفونغا بەلگىلەنگەن ئاۋاز ھۆججىتىنى قويۇڭ.";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "مىكروفونغا بەلگىلەنگەن ئاۋازلىق تېكىستنى قويۇڭ.";
-
-/* Translated with LLM */
 "Play Through Receiver" = "قوبۇللىغۇچ ئارقىلىق ئاڭلات";
 
 /* Translated with LLM */
 "Play Through Speaker" = "قارا قۇلاق ئارقىلىق ئاڭلات";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "يۇقارقى ئاۋازنى قويۇش";
-
-/* Translated with LLM */
 "play uplink audio" = "يۇقارقى ئاۋازنى قويۇش";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "يۇقىرى باغلىنىشلىق ئاۋازلىق خاتىرىنى قويۇڭ";
 
 /* Translated with LLM */
 "play voice over" = "ئاۋازلىق تېكىستنى قويۇش";
@@ -2261,6 +2543,12 @@
 "post notification" = "ئۇقتۇرۇش يوللاش";
 
 /* Translated with LLM */
+"Post-processing & Output" = "كېيىنكى بىر تەرەپ قىلىش ۋە چىقىرىش";
+
+/* Translated with LLM */
+"Pre-release Version" = "ئالدىن تارقىتىلغان نەشرى";
+
+/* Translated with LLM */
 "Preparing" = "تەييارلىنىۋاتىدۇ";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "بارلىق قاناللارنى ساقلاش";
+
+/* Translated with LLM */
+"Preset Providers" = "ئالدىن بېكىتىلگەن تەمىنلەش مەنبەلىرى";
 
 /* Translated with LLM */
 "Press & Hold Action" = "بېسىپ تۇرۇش ھەرىكىتى";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "خاتىرىلەشكە تەييار!";
 
 /* Translated with LLM */
+"real-time captions" = "نەق مەيدان تارما يېزىق";
+
+/* Translated with LLM */
+"Real-time Encoding" = "ھەقىقىي ۋاقىتلىق كودلاش";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "ھوقۇق دەلىللەش خاتالىقى كەلدى: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "خاتىرىلەش";
+
+/* Translated with LLM */
+"Record (Legacy)" = "خاتىرىلەش (كونا نۇسخا)";
 
 /* Translated with LLM */
 "Record All Calls" = "بارلىق چوڭقۇر سۆزلىشىشلەرنى خاتىرىلەش";
@@ -2447,6 +2747,15 @@
 "recording file" = "خاتىرىلەش ھۆججىتى";
 
 /* Translated with LLM */
+"Recording Info" = "ئۈن يازما ئۇچۇرى";
+
+/* Translated with LLM */
+"recording info" = "ئۈن يازما ئۇچۇرى";
+
+/* Translated with LLM */
+"recording information" = "ئۈن يازما ئۇچۇرى";
+
+/* Translated with LLM */
 "Recording Interrupted" = "خاتىرىلەش توختىتىلدى";
 
 /* Translated with LLM */
@@ -2460,6 +2769,9 @@
 
 /* Translated with LLM */
 "recording path" = "ئۈن يازما يولى";
+
+/* Translated with LLM */
+"Recording Path" = "ئۈن يازما يولى";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "ئاۋاز كىرگۈزۈش ۋە چىقىرىشنىڭ ئىككىلىسى داۋاملىق ئاكتىپ ھالەتتە بولغاندا، ئۈن يازمىسى باشلىنىدۇ.";
@@ -2510,13 +2822,19 @@
 "reject" = "رەت قىلىش";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "بارلىق كىرگەن تېلېفونلارنى ئاپتوماتىك رەت قىلىش.";
+"Reject" = "رەت قىلىش";
 
 /* Translated with LLM */
 "reject call" = "قوڭغۇراقنى رەت قىلىش";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "كىرىش چاقىرىقىنى رەت قىلىش";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "مۇناسىۋەتلىك ئەپ باغلىما كىملىكى";
+
+/* Translated with LLM */
+"Related Application Count" = "مۇناسىۋەتلىك ئەپ سانى";
 
 /* Translated with LLM */
 "Relaunched" = "قايتا قوزغالدى";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "مۇلازىمەتنى قايتا تەڭشەش";
 
 /* Translated with LLM */
+"responses" = "ئىنكاسلار";
+
+/* Translated with LLM */
 "Respring" = "سىستېمىنى قايتا يۈكلەش";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "ئەسلىگە كەلتۈرۈۋاتىدۇ";
 
 /* Translated with LLM */
+"Resume" = "داۋاملاشتۇرۇش";
+
+/* Translated with LLM */
 "Resume Recording" = "ئۈنئالغۇنى داۋاملاشتۇرۇش";
+
+/* Translated with LLM */
+"resume recording" = "ئۈنئالغۇنى داۋاملاشتۇرۇش";
 
 /* Translated with LLM */
 "Resume with Warning" = "ئاگاھلاندۇرۇش بىلەن داۋاملاشتۇرۇش";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "ئېكران ئۈنئالغۇسىنى توختىتىش";
 
 /* Translated with LLM */
+"Screen Recording Info" = "ئېكران يازمىسى ئۇچۇرى";
+
+/* Translated with LLM */
+"screen recording info" = "ئېكران يازمىسى ئۇچۇرى";
+
+/* Translated with LLM */
 "screen recording off" = "ئېكران ئۈنئالغۇسىنى توختىتىش";
+
+/* Translated with LLM */
+"screen recording status" = "ئېكران يازمىسى ھالىتى";
 
 /* Translated with LLM */
 "SCRN: 2025SR1911573" = "يۇمشاق دېتال نەشر ھوقۇقى تىزىملىتىش نومۇرى: 2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "يېقىندىكى ئۈسكۈنىلەرنى ئىزدەۋاتىدۇ";
 
 /* Translated with LLM */
-"Search…" = "ئىزدەش…";
-
-/* Translated with LLM */
 "Seconds" = "سېكۇنت";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "دىئاگنوز ئەۋەت";
 
 /* Translated with LLM */
+"Sender Address" = "ئەۋەتكۈچى ئادرېسى";
+
+/* Translated with LLM */
+"Sender Localized Name" = "ئەۋەتكۈچىنىڭ يەرلىك نامى";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "ئەۋەتكۈچىنىڭ قىسقا يەرلىك نامى";
+
+/* Translated with LLM */
 "Sender Name" = "سىم كارتا ئاتى";
 
 /* Translated with LLM */
 "Sender Phone Address" = "سىم كارتا تېلېفون نومۇرى";
+
+/* Translated with LLM */
+"Sender Service Name" = "ئەۋەتكۈچى مۇلازىمەت نامى";
 
 /* Translated with LLM */
 "Sender Short Name" = "سىم كارتا قىسقا ئاتى";
@@ -2777,13 +3122,22 @@
 "service active" = "مۇلازىمەت ئاكتىپ";
 
 /* Translated with LLM */
+"Service Info" = "مۇلازىمەت ئۇچۇرى";
+
+/* Translated with LLM */
+"service info" = "مۇلازىمەت ئۇچۇرى";
+
+/* Translated with LLM */
 "Service is alive" = "مۇلازىمەت نورمال ئىشلەۋاتىدۇ";
 
 /* Translated with LLM */
 "Service is dead" = "مۇلازىمەت توختىتىلدى";
 
 /* Translated with LLM */
-"Service Status" = "مۇلازىمەت ھالىتى";
+"service status" = "مۇلازىمەت ھالىتى";
+
+/* Translated with LLM */
+"service statuses" = "مۇلازىمەت ھالىتى";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "بۇ ئۈنئالغۇغا يېڭى بىر ئات بېكىتىڭ ياكى كۆڭۈلدىكى ئاتنى ئىشلىتىش ئۈچۈن بوش قالدۇرۇڭ.";
@@ -2903,6 +3257,15 @@
 "Space" = "بوشلۇق";
 
 /* Translated with LLM */
+"speak call voice over" = "ئاۋازلىق تېكىستنى قويۇش";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "يۇقىرى باغلىنىشلىق ئاۋازلىق خاتىرىنى قويۇڭ";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "مىكروفونغا بەلگىلەنگەن ئاۋازلىق تېكىستنى قويۇڭ. ئەگەر قويۇش مۇۋەپپەقىيەتلىك باشلانغان بولسا «ھەقىقىي» نى قايتۇرىدۇ؛ بولمىسا «يالغان» نى قايتۇرىدۇ. قويۇشنىڭ ئاخىرلىشىشىنى كۈتكەندە، ئەڭ ئۇزۇن كۈتۈش ۋاقتى 60 سېكۇنت.";
+
+/* Translated with LLM */
 "Speaker" = "ياڭراتقۇ";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "سۆزلەنگەن ئاۋاز";
 
 /* Translated with LLM */
+"Stable Version" = "مۇقىم نەشرى";
+
+/* Translated with LLM */
+"Standby" = "ئەسلىگە كەلتۈرۈش";
+
+/* Translated with LLM */
 "start" = "باشلاش";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "سىستېما ئېكران خاتىرىسىنى كونترول مەركىزىدە قىلغاندەك باشلاڭ.";
+"Start" = "باشلاش";
 
 /* Translated with LLM */
 "Start Call Recording" = "چاقىرىش ئۈنئالغۇسىنى باشلاش";
@@ -2937,9 +3306,6 @@
 
 /* Translated with LLM */
 "Start Date" = "باشلىنىش ۋاقتى";
-
-/* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "تېلېفون ئۈنئالغۇسى، سىستېما ئۈنئالغۇسىنى باشلاش ياكى تەييارلىق قىلىش، ياكى ئاۋاز خاتىرىسى قۇرۇش.";
 
 /* Translated with LLM */
 "Start Recording" = "ئۈنئالغۇنى باشلاش";
@@ -2958,6 +3324,12 @@
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "ئاۋاز خاتىرىسى ئۈنئالغۇسىنى باشلاش";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "سىستېما ئېكران ئۈنئالغۇسىنى باشلاش، توختىتىش ياكى ئالماشتۇرۇش. ئەگەر ئېكران ئۈنئالغۇسى تەلىپى مۇۋەپپەقىيەتلىك بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "ئۈنئالغۇنى باشلاش، توختىتىش، توختىتىپ تۇرۇش، داۋاملاشتۇرۇش ياكى ئالماشتۇرۇش. ئەگەر ئۈنئالغۇ تەلىپى مۇۋەپپەقىيەتلىك بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "ئېكسپورت مۇلازىمىتىنى قوزغىتىش كۈتۈلگەندىن ئۇزۇنراق ۋاقىت ئالىدۇ. تور باغلىنىشىنى تەكشۈرۈپ قايتا سىناڭ.";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "توختىتىش ۋە ساقلاش";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "مەۋجۇت بولسا، تېلېفون ئۈنئالغۇسى، سىستېما ئۈنئالغۇسى ياكى ئاۋاز خاتىرىسىنى توختىتىش.";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "مەۋجۇت بولسا سىستېما ئېكران ئۈنئالغۇسىنى توختىتىش.";
 
 /* Translated with LLM */
 "Stop Recording" = "ئۈنئالغۇنى توختىتىش";
@@ -3080,6 +3446,15 @@
 "System Record" = "سىستېما خاتىرىسى";
 
 /* Translated with LLM */
+"System Record (Legacy)" = "سىستېما خاتىرىلەش (كونا)";
+
+/* Translated with LLM */
+"system record info" = "سىستېما يازمىسى ئۇچۇرى";
+
+/* Translated with LLM */
+"system recording status" = "سىستېما يازمىسى ھالىتى";
+
+/* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "__ھەر قانداق گىرۋەكنى__ بېسىڭ  \nئۇنى ___ئاكتىپ گىرۋەك___ قىلىپ تاللاش ئۈچۈن";
 
 /* Translated with LLM */
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "تېخنىكىلىق خاتالىق بايقالدى";
 
 /* Translated with LLM */
+"Telephony Utilities" = "تېلېفون يۈرۈشلەر";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "ۋاقىتلىق پەرۋا قىلماسلىق";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "ۋاقىتلىق خاتالىق كۆرۈلدى، قايتا سىنىسىڭىز بەلكىم ھەل بولۇشى مۇمكىن.";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "ۋاقىتلىق ئۈن يازما يولى";
+
+/* Translated with LLM */
 "terminate" = "ئاخىرلاشتۇرۇش";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "بارلىق ئاكتىپ چاقىرىشلارنى دەرھال ئاخىرلاشتۇرۇش.";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "بارلىق ئاكتىپ چاقىرىشلارنى دەرھال ئاخىرلاشتۇرۇش. ئەگەر تەلەپ دېمونغا مۇۋەپپەقىيەتلىك ئەۋەتىلگەن بولسا «ھەقىقىي» قايتۇرىدۇ؛ بولمىسا «يالغان» قايتۇرىدۇ.";
 
 /* Translated with LLM */
 "terminate call" = "چاقىرىشنى ئاخىرلاشتۇرۇش";
@@ -3134,9 +3515,6 @@
 "text to speech" = "تېكىستتىن ئاۋازغا";
 
 /* Translated with LLM */
-"text-to-speech" = "تېكىستنى ئاۋازغا ئايلاندۇرۇش";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "سىستېما %@ نى توختاتتى. ئۇنىڭدىن كېيىن ئۆزىڭىز قولدا ئاۋاز خاتىرىسىنى ئايلاندۇرالايسىز.";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "چاقىرىقنى باشلىغان ئەپنىڭ بوغچا كىملىكى.";
+
+/* Translated with LLM */
+"The call event to wait for." = "قايتا كۈتۈشكە تېگىشلىك تېلېفون ۋەقەسى.";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "«%@» تېكىست ھۆججىتىنىڭ مەزمۇنى قۇرۇق.";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "چاغلىشىشنى كۈتۈش ئۈچۈن ئەڭ كۆپ ۋاقىت (سېكۇنت).";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "تاللانغان چاقىرىش ۋەقەسىنى كۈتۈش ئۈچۈن ئەڭ كۆپ سېكۇنت.";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "ئەگەر سىز خاتىرىلەشتىن كېيىن دەرھال پروگراممىنى ئاچسىڭىز، كەم بولغان ئورۇن مېتا سانلىق مەلۇماتى تولدۇرۇلىدۇ.";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "چاقىرىق ئاكتىپ بولمىغان ۋاقىتتا، لەيلىمە شارچىنىڭ ئوڭ تەرىپىدىكى ئاساسىي كۇنۇپكا ھەرىكىتى.";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "تاللانغان ئاۋاز ھۆججىتى ئىناۋەتسىز ياكى قوللىمايدۇ.";
+
+/* Translated with LLM */
 "The service is not properly configured." = "مۇلازىمەت توغرا تەڭشەنمىگەن.";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "ئەۋەتكۈچىنىڭ مۇلازىمەت ئوپېراتورى ئىسمى.";
+
+/* Translated with LLM */
+"The session to inspect." = "تەكشۈرۈش ئۈچۈن سېشىن.";
 
 /* Translated with LLM */
 "The size of selected audio file." = "تاللانغان ئۈن ھۆججىتىنىڭ چوڭلۇقى.";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "خاتىرىلىنىدىغان مەزمۇن تۈرى.";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "كونترول قىلىدىغان خاتىرىلەش تۈرى. ھەر قانداق خاتىرىلەش پەقەت توختىتىش، ۋاقىتلىق توختىتىش، داۋاملاشتۇرۇش ۋە ئالماشتۇرۇشقا تەتبۇلۇشى مۇمكىن.";
+
+/* Translated with LLM */
+"The type of recording to stop." = "توختىتىدىغان خاتىرىلەش تۈرى.";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "تېلېفوننىڭ ئۆزگىچە كىملىكى.";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "بۇ خاتىرى WeChatتىن كەلگەن، “WeChat ياردەمچىسى” كېلەر قېتىم WeChat ئالاقىلىشىش ئىسمى ۋە ئەسكەرتىشلىرىنى تولدۇرۇشقا ياردەم بېرىدۇ.\nسىز “WeChat ياردەمچىسى”نى قوزغىمىغاندەك قىلىسىز، ئۇنى دەرھال قوزغاشنى خالامسىز؟";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "بۇ خاتىرىلەش «ھەقىقىي ۋاقىتلىق كودلاش» ئارقىلىق خاتىرىلەنگەن. بۇ خاتىرىلەش ئۇسۇلى قايتا تىكلەشكە بولىدىغان خام ۋاقىتلىق ئاۋاز ھاسىل قىلمايدۇ، شۇڭا ئۈزۈلۈپ قالغان خاتىرىلەرنى قايتا تىكلەش مۇمكىن ئەمەس.";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "بۇ ۋېچات نۇسخىسى (%@) قوللىنىلمايدۇ. ئەڭ يېڭى نۇسخىغا يېڭىلاڭ.";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "ئۈچ خانىلىق مىللىسېكۇنت";
 
 /* Translated with LLM */
+"Threshold" = "چېكى";
+
+/* Translated with LLM */
 "Time Sensitive" = "ۋاقىت سەزگۈرلۈكى";
 
 /* Translated with LLM */
 "time sensitive notification" = "ۋاقىت ھەسسىياتلىق ئۇقتۇرۇش";
+
+/* Translated with LLM */
+"Timeout" = "ۋاقىت چەكلىمىسى";
 
 /* Translated with LLM */
 "Title" = "ماۋزۇ";
@@ -3358,8 +3763,11 @@
 /* Translated with LLM */
 "toggle" = "ئالماشتۇرۇش";
 
-/* TODO */
-"Toggle ${requestedMode}" = "Toggle ${requestedMode}";
+/* Translated with LLM */
+"Toggle" = "ئالماشتۇرۇش";
+
+/* Translated with LLM */
+"Toggle ${requestedMode}" = "${requestedMode} نى قوزغىتىش-توختىتىش";
 
 /* Translated with LLM */
 "Toggle Call Recording" = "تېلېفون خاتىرىلەشنى قوزغىتىش-توختىتىش";
@@ -3371,7 +3779,10 @@
 "toggle hoverball" = "لەيلىمە توپنى ئالماشتۇرۇش";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "يازغۇچنىڭ لەيلىمە توپىنى يېنىپ-ئۆچۈرۈش.";
+"toggle live captions" = "نەق مەيدان تارما يېزىقنى ئالماشتۇرۇش";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "نەق مەيدان تارما يېزىقنى ئالماشتۇرۇش";
 
 /* Translated with LLM */
 "Toggle Recording" = "ئۈن خاتىرىلەشنى قوزغىتىش-توختىتىش";
@@ -3389,9 +3800,6 @@
 "Toggle System Audio Recording" = "سىستېما ئاۋاز خاتىرىلەشنى قوزغىتىش-توختىتىش";
 
 /* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "سىستېما ئېكران خاتىرىسىنى كونترول مەركىزىدە قىلغاندەك قوزغىتىڭ-توختىتىڭ.";
-
-/* Translated with LLM */
 "Toggle Voice Memo Recording" = "ئاۋاز خاتىرىسىنى قوزغىتىش-توختىتىش";
 
 /* Translated with LLM */
@@ -3403,7 +3811,7 @@
 /* Translated with LLM */
 "Total size is %@, path is %@" = "Total size is %1$@, path is %2$@";
 
-/* TODO */
+/* Translated with LLM */
 "Touch ID" = "Touch ID";
 
 /* Translated with LLM */
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "TTS ئاۋاز قويۇش";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "«ھەقىقىي ۋاقىت كودلاش»نى ئۆچۈرۈش";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "بۇ تاللاشنى ئۆچۈرۈڭ، بۇ بەتتىكى باشقا تاللاشلار ھازىرقى ئەپكە تەسىر كۆرسەتسۇن.";
@@ -3557,6 +3968,9 @@
 "unmute" = "ئۈنسىزلەشنى بىكار قىلىش";
 
 /* Translated with LLM */
+"Unmute" = "ئۈنسىزلەشنى بىكار قىلىش";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "${requestedChannel} نىڭ ئۈنسىزلىكىنى بىكار قىلىش";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "مەۋجۇت چاقىرىشنىڭ ئۈنسىزلىكىنى بىكار قىلىش";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "بارلىق مەۋجۇت چاقىرىشلارنىڭ بەلگىلەنگەن قانىلىنىڭ ئۈنسىزلىكىنى بىكار قىلىش.";
 
 /* Translated with LLM */
 "Unspecified" = "بەلگىلەنمىگەن";
@@ -3659,6 +4070,9 @@
 "Utility" = "قورال";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "ياردەمچى قورال (كونا)";
+
+/* Translated with LLM */
 "Variant" = "ئۆزگىرىش";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "خاتىرىلەرنى كۆرۈش: تور ساقلىغۇچ";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "خاتىرىلەرنى كۆرۈش: رېئال ۋاقىت ئۈنئالغۇ";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "ئاۋازلىق ئېلان";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP ئالاقىداشلار ھەمىشە ئۈنگە ئېلىنىپ ساقلانغانلارغا قوشۇلىدۇ.";
+
+/* Translated with LLM */
+"Voice Chat" = "ئاۋازلىق سۆھبەت";
 
 /* Translated with LLM */
 "Voice Memo" = "ئاۋاز خاتىرىسى";
@@ -3761,19 +4181,52 @@
 "wait" = "كۈتۈش";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "${requestedEvent} چاقىرىقىنى كۈتۈڭ";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "${requestedEvent} چاقىرىقىنى كۈتۈڭ";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "${requestedTimeout} سېكۇنت كۈتۈش";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "ھەر قانداق چاقىرىقنىڭ جاۋاب بېرىلىپ باغلىنىشىنى كۈتۈڭ.";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "تېلېفون ۋەقەسىنى كۈتۈڭ. تاللانغان ۋەقە يۈز بەرگەندە تېلېفون ئۇچۇرىنى قايتۇرىدۇ؛ ۋاقىت توشقاندا ھېچنېمىنى قايتۇرمايدۇ.";
 
 /* Translated with LLM */
 "wait for call" = "چاقىرىشنى كۈتۈش";
 
 /* Translated with LLM */
+"Wait for Call" = "چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
+"wait for call ended" = "چاغلىق تاماملانغانغا قەدەر كۈتۈڭ";
+
+/* Translated with LLM */
+"wait for call event" = "چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
+"Wait for Call Event" = "چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
 "Wait for Calls" = "چاقىرىشنى كۈتۈش";
 
 /* Translated with LLM */
+"wait for connected call" = "باغلانغان چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "باغلانغان چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
+"wait for incoming call" = "كىرگۈزۈلگەن چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
+"wait for outgoing call" = "چىققان چاقىرىشنى كۈتۈش";
+
+/* Translated with LLM */
+"Wait Until Finished" = "ئاخىرلاشقانغا قەدەر كۈتۈڭ";
+
+/* Translated with LLM */
+"Waiting For Device" = "ئۈسكۈنە كۈتۈۋاتىدۇ";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "ئاگاھلاندۇرۇش، سىزنىڭ چاقىرىشىڭىز ھازىر ئۈنگە ئېلىنىۋاتىدۇ. ئاگاھلاندۇرۇش، سىزنىڭ چاقىرىشىڭىز ھازىر ئۈنگە ئېلىنىۋاتىدۇ.";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "WebDAV مۇلازىمېتىرى قوزغىتىلغاندا، Safari، Chrome، Edge قاتارلىق ئادەتتىكى تور كۆرگۈچلەردىن زىيارەت قىلىشقا يول قويۇش ياكى قويۇشماسلىق.";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "كىرگۈزۈلگەن قوڭغۇراقلارنى قوبۇل قىلىش ياكى رەت قىلىش.";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "توختىغاندا ئۈن خاتىرىسىنى تاشلىۋېتىش ياكى تاشلىۋەتمەسلىك. باشلىغاندا ياكى ئالماشتۇرغاندا بۇ تەڭشەك ئەمەلدىن قالدۇرۇلىدۇ.";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "ئەپنى مەجبۇرى يورۇق ياكى قاراڭغۇ كۆرۈنمە يۈز ئىشلىتىشكە قويۇش.";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "لەيلىمە توپنى مەجبۇرى يورۇق ياكى قاراڭغۇ ئۇسلۇب ئىشلىتىشكە قويۇش.";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "ئېكران خاتىرىلەشنى باشلاش ياكى توختىتىش جەريانىدا مىكروفون ئاۋازىنى كىرگۈزۈش ياكى كىرگۈزمەسلىك.";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "ئاۋازنى چەكسىز تەكرارلىنىدىغان ياكى تەكرارلىنىدىغانلىقىنى بەلگىلەيدۇ. ئەگەر قوزغىتىلغان بولسا، بۇ ھەرىكەت ئاۋازنى قوزغىغاندىن كېيىن دەرھال قايتىدۇ.";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "تېلېفون ئاۋازىنى ئاۋازسىز قىلىش ياكى ئاۋازسىزلىقتىن چىقىرىش.";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "ھاياتلىق تارتىش، تاقاش ياكى ئالماشتۇرۇشنى خالامسىز؟";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "ئاۋاز توپىنى ئېچىش، تاقاش ياكى ئالماشتۇرۇش.";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "ئېكران خاتىرىلەشنى باشلاش، توختىتىش ياكى ئالماشتۇرۇش.";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "خاتىرىلەشنى باشلاش، توختىتىش، توختىتىپ تۇرۇش، داۋاملاشتۇرۇش ياكى ئالماشتۇرۇش.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "ئاۋازنىڭ ئاخىرلاشقانغا قەدەر كۈتۈش ياكى كۈتمەسلىك. ئۆچۈرۈلگەندە، بۇ ھەرىكەت ئاۋاز باشلانغاندىن كېيىن دەرھال قايتىدۇ.";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "ئاخىرلاشقانغا قەدەر كۈتۈش ياكى كۈتمەسلىك. ئەگەر چەكلەنگەن بولسا، بۇ ھەرىكەت ئاۋاز چېلىش باشلانغاندىن كېيىن دەرھال قايتىدۇ. «چەكسىز تەكرارلاش» ھەمىشە ئاۋاز چېلىش باشلانغاندىن كېيىن دەرھال قايتىدۇ.";
+
+/* Translated with LLM */
+"Which channel to control." = "قايسى كانالنى كونترول قىلىش.";
 
 /* Translated with LLM */
 "Which channel to mute." = "قايسى قانالنى ئۈنسىزلەشتۈرۈش كېرەك.";

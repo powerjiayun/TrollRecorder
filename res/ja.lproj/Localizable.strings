@@ -1,3 +1,24 @@
+/* Translated with LLM */
+"${requestedAction} ${requestedChannel}" = "${requestedAction} ${requestedChannel}";
+
+/* Translated with LLM */
+"${requestedAction} ${requestedMode} recording" = "${requestedAction} ${requestedMode} 録音";
+
+/* Translated with LLM */
+"${requestedAction} hoverball" = "${requestedAction} ホバーボール";
+
+/* Translated with LLM */
+"${requestedAction} live captions" = "${requestedAction} ライブキャプション";
+
+/* Translated with LLM */
+"${requestedAction} screen recording" = "${requestedAction} スクリーンレコーディング";
+
+/* Translated with LLM */
+"${requestedResponse} incoming calls" = "${requestedResponse} 着信";
+
+/* Translated with LLM */
+"%@ Help" = "%@ ヘルプ";
+
 /* No comment provided by engineer. */
 "%@ Hz" = "%@ Hz";
 
@@ -89,7 +110,7 @@
 "accept" = "応答";
 
 /* Translated with LLM */
-"Accept all incoming calls automatically." = "すべての着信を自動的に受け入れる。";
+"Accept" = "応答";
 
 /* Translated with LLM */
 "accept call" = "電話を受ける";
@@ -98,10 +119,16 @@
 "Accept Incoming Calls" = "着信を受ける";
 
 /* Translated with LLM */
+"Accept or reject all incoming calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "すべての着信コールを受け入れるか拒否します。リクエストがデーモンに正常に送信された場合はtrueを返し、そうでない場合はfalseを返します。";
+
+/* Translated with LLM */
 "Access From Web Browser" = "ウェブブラウザからのアクセス";
 
 /* Translated with LLM */
 "Access your recordings from a WebDAV browser from another device in the network. The server is active only when the application is in foreground." = "ネットワーク内の別のデバイスからWebDAVブラウザで録音にアクセスできます。サーバーはアプリケーションがフォアグラウンドの時のみアクティブになります。";
+
+/* Translated with LLM */
+"actions" = "アクション";
 
 /* Translated with LLM */
 "activate" = "アクティベート";
@@ -110,7 +137,13 @@
 "activate hoverball" = "ホバーボールを起動";
 
 /* Translated with LLM */
-"Activate the recorder hoverball." = "レコーダーのホバーボールを起動します。";
+"activate live captions" = "ライブキャプションを有効にする";
+
+/* Translated with LLM */
+"Active Call Count" = "アクティブ通話数";
+
+/* Translated with LLM */
+"Active Call Identifiers" = "アクティブ通話識別子";
 
 /* Translated with LLM */
 "Add" = "追加";
@@ -251,7 +284,13 @@
 "Any" = "すべて";
 
 /* Translated with LLM */
+"Any Recording" = "すべての録音";
+
+/* Translated with LLM */
 "App Icon" = "アプリアイコン";
+
+/* Translated with LLM */
+"App Intent" = "アプリのインテント";
 
 /* Translated with LLM */
 "App Language" = "アプリの言語";
@@ -470,6 +509,9 @@
 "Buy TrollRecorder Pro" = "TrollRecorder Proを購入";
 
 /* Translated with LLM */
+"Byte Count" = "バイト数";
+
+/* Translated with LLM */
 "Calculating…" = "計算中…";
 
 /* Translated with LLM */
@@ -477,6 +519,9 @@
 
 /* Translated with LLM */
 "call" = "通話";
+
+/* Translated with LLM */
+"call audio" = "通話オーディオ";
 
 /* Translated with LLM */
 "call audio on" = "通話オーディオオン";
@@ -488,16 +533,28 @@
 "Call audio pipeline monitoring failed. Tap this notification to restart the recording service." = "通話音声パイプラインの監視に失敗しました。この通知をタップして録音サービスを再起動してください。";
 
 /* Translated with LLM */
-"call connected" = "通話接続";
+"Call Automation" = "通話オートメーション";
 
 /* Translated with LLM */
-"Call Direction" = "通話方向";
+"Call Automation (Legacy)" = "通話自動化（レガシー）";
+
+/* Translated with LLM */
+"call connected" = "通話接続";
 
 /* Translated with LLM */
 "call duration" = "通話時間";
 
 /* Translated with LLM */
+"Call History Identifier" = "通話履歴識別子";
+
+/* Translated with LLM */
 "Call Identifier" = "通話識別子";
+
+/* Translated with LLM */
+"Call Info" = "通話情報";
+
+/* Translated with LLM */
+"call info" = "通話情報";
 
 /* Translated with LLM */
 "call information" = "通話情報";
@@ -527,7 +584,7 @@
 "Call Recording: Other Side" = "通話録音：相手側";
 
 /* Translated with LLM */
-"Call State" = "通話状態";
+"Call Sniffer" = "コールスニファー";
 
 /* Translated with LLM */
 "call status" = "通話ステータス";
@@ -548,10 +605,16 @@
 "Caution" = "注意";
 
 /* Translated with LLM */
+"Channel" = "チャンネル";
+
+/* Translated with LLM */
 "check" = "チェック";
 
 /* Translated with LLM */
-"Check if the daemon is running. If not, launch it." = "デーモンが実行中か確認します。実行されていない場合は起動します。";
+"Check if the daemon is running. If not, launch it. Returns service information if the daemon is running after the check; otherwise returns nothing." = "デーモンが実行中かどうかを確認します。実行中でなければ起動します。確認後にデーモンが実行中であればサービス情報を返し、そうでなければ何も返しません。";
+
+/* Translated with LLM */
+"Check if the daemon is running. If not, launch it. Returns true if the daemon is running after the check; otherwise false." = "デーモンが実行中かどうかを確認します。実行中でなければ起動します。確認後にデーモンが実行中であればtrueを返し、そうでなければfalseを返します。";
 
 /* Translated with LLM */
 "check service" = "サービスを確認";
@@ -611,6 +674,9 @@
 "close hoverball" = "ホバーボールを閉じる";
 
 /* Translated with LLM */
+"close live captions" = "ライブキャプションを閉じる";
+
+/* Translated with LLM */
 "cloud archive sync" = "クラウドアーカイブ同期";
 
 /* Translated with LLM */
@@ -650,6 +716,12 @@
 "connected" = "接続済み";
 
 /* Translated with LLM */
+"Connected" = "接続済み";
+
+/* Translated with LLM */
+"Connected At" = "接続時刻";
+
+/* Translated with LLM */
 "connected call" = "接続済み通話";
 
 /* Translated with LLM */
@@ -663,6 +735,12 @@
 
 /* Translated with LLM */
 "Contact Exceptions" = "連絡先の例外";
+
+/* Translated with LLM */
+"Contact Identifier" = "連絡先識別子";
+
+/* Translated with LLM */
+"Contact Label" = "連絡先ラベル";
 
 /* Translated with LLM */
 "Contact Name" = "連絡先名";
@@ -708,6 +786,39 @@
 
 /* Translated with LLM */
 "Continuous Playback On" = "連続再生オン";
+
+/* Translated with LLM */
+"control call audio" = "通話音声の制御";
+
+/* Translated with LLM */
+"control call muting" = "通話ミュートの制御";
+
+/* Translated with LLM */
+"Control Call Muting" = "通話ミュートの制御";
+
+/* Translated with LLM */
+"control hoverball" = "ホバーボールを制御";
+
+/* Translated with LLM */
+"Control Hoverball" = "ホバーボールを制御";
+
+/* Translated with LLM */
+"Control Live Captions" = "ライブキャプションを制御";
+
+/* Translated with LLM */
+"control live captions" = "ライブキャプションを制御";
+
+/* Translated with LLM */
+"control recording" = "録音コントロール";
+
+/* Translated with LLM */
+"Control Recording" = "録音コントロール";
+
+/* Translated with LLM */
+"control screen recording" = "画面収録コントロール";
+
+/* Translated with LLM */
+"Control Screen Recording" = "画面収録コントロール";
 
 /* Translated with LLM */
 "Conversion Failed" = "変換に失敗しました";
@@ -761,10 +872,16 @@
 "Could not sign out account: %@" = "アカウントからサインアウトできませんでした：%@";
 
 /* Translated with LLM */
+"Country Code" = "国コード";
+
+/* Translated with LLM */
 "Created At" = "作成日時";
 
 /* Translated with LLM */
 "Credentials" = "認証情報";
+
+/* Translated with LLM */
+"Current" = "現在";
 
 /* Translated with LLM */
 "current call" = "現在の通話";
@@ -821,7 +938,7 @@
 "deactivate hoverball" = "ホバーボールを無効化";
 
 /* Translated with LLM */
-"Deactivate the recorder hoverball." = "レコーダーのホバーボールを解除します。";
+"deactivate live captions" = "ライブキャプションを無効にする";
 
 /* Translated with LLM */
 "Debugging" = "デバッグ";
@@ -863,10 +980,16 @@
 "Developer Options" = "開発者オプション";
 
 /* Translated with LLM */
+"Dialing" = "ダイヤル中";
+
+/* Translated with LLM */
 "Dictation Disabled" = "ディクテーション無効";
 
 /* Translated with LLM */
 "Digital Video" = "デジタルビデオ";
+
+/* Translated with LLM */
+"Digits" = "数字";
 
 /* Translated with LLM */
 "Direction" = "方向";
@@ -915,6 +1038,12 @@
 
 /* Translated with LLM */
 "discard recording" = "録音を破棄";
+
+/* Translated with LLM */
+"Disconnected" = "切断済み";
+
+/* Translated with LLM */
+"Disconnected At" = "切断時刻";
 
 /* Translated with LLM */
 "Discreet Mode" = "控えめモード";
@@ -983,7 +1112,7 @@
 "Display the source bundle name of the recording." = "録音のソースバンドル名を表示します。";
 
 /* Translated with LLM */
-"Displays a local notification." = "ローカル通知を表示します。";
+"Displays a local notification. Returns true if the notification request was sent successfully; otherwise false." = "ローカル通知を表示します。通知リクエストが正常に送信された場合はtrueを返し、それ以外の場合はfalseを返します。";
 
 /* Translated with LLM */
 "Do you want to clear this log file “%@”?" = "このログファイル「%@」を消去しますか？";
@@ -1082,7 +1211,7 @@
 "Enable Face ID" = "Face IDを有効にする";
 
 /* Translated with LLM */
-"Enable level metering and present an indicator when the hoverball is folded. This option is only available when “Transition When Idle” is set to “Always Fold”." = "レベルメータリングを有効にし、ホバーボールが折りたたまれているときにインジケーターを表示します。このオプションは、「アイドル時の動作」が「常に折りたたむ」に設定されている場合にのみ使用できます。";
+"Enable level metering to drive the real-time waveform on the “Recording” status panel and present a bar indicator when the hoverball is folded." = "レベルメータリングを有効にして、「録音中」ステータスパネルのリアルタイム波形を駆動し、ホバーボールが折りたたまれたときにバーインジケータを表示します。";
 
 /* Translated with LLM */
 "Enable Logging" = "ログを有効にする";
@@ -1106,6 +1235,9 @@
 "Enables the WebDAV server to automatically suspend itself when the application goes into the background and the last connection is closed, then resume itself when the application comes back to the foreground." = "アプリケーションがバックグラウンドに移行し、最後の接続が閉じられたときにWebDAVサーバーが自動的に一時停止し、アプリケーションがフォアグラウンドに戻ったときに再開するようにします。";
 
 /* Translated with LLM */
+"Encode audio while recording to reduce temporary file size and post-processing time. This may use more CPU and battery, and interrupted recordings may be harder to recover." = "録音中に音声をエンコードして、一時ファイルのサイズと後処理時間を減らします。CPU とバッテリーの使用量が増える場合があり、中断された録音は復元しにくくなることがあります。";
+
+/* Translated with LLM */
 "Encoding" = "エンコード中";
 
 /* Translated with LLM */
@@ -1124,7 +1256,7 @@
 "end screen recording" = "画面収録を終了";
 
 /* Translated with LLM */
-"Enhance Recording" = "録音の強化";
+"Ended" = "終了";
 
 /* Translated with LLM */
 "Enhanced Automatic Recording" = "拡張自動録音";
@@ -1172,6 +1304,9 @@
 "Exit Hoverball" = "ホバーボールを終了";
 
 /* Translated with LLM */
+"Exit Live Captions" = "ライブキャプションを終了";
+
+/* Translated with LLM */
 "Expand Recursively" = "再帰的に展開";
 
 /* Translated with LLM */
@@ -1179,6 +1314,9 @@
 
 /* Translated with LLM */
 "Export as ZIP" = "ZIP形式でエクスポート";
+
+/* Translated with LLM */
+"Export File Name" = "エクスポートファイル名";
 
 /* Translated with LLM */
 "Export recordings to anywhere you want without limitations." = "録音を制限なく好きな場所にエクスポートできます。";
@@ -1254,6 +1392,9 @@
 
 /* Translated with LLM */
 "File Format" = "ファイル形式";
+
+/* Translated with LLM */
+"File Name" = "ファイル名";
 
 /* Translated with LLM */
 "File not found." = "ファイルが見つかりません。";
@@ -1355,13 +1496,25 @@
 "Get ${requestedField}" = "${requestedField} を取得";
 
 /* Translated with LLM */
+"Get ${requestedSession} call info" = "${requestedSession} の通話情報を取得";
+
+/* Translated with LLM */
+"Get ${requestedSession} recording info" = "${requestedSession} の録音情報を取得";
+
+/* Translated with LLM */
 "Get advanced control when recording right in your call." = "通話中の録音を高度にコントロールできます。";
 
 /* Translated with LLM */
 "Get Call Duration" = "通話時間の取得";
 
 /* Translated with LLM */
+"Get Call Info" = "通話情報を取得";
+
+/* Translated with LLM */
 "Get Call Status" = "通話ステータスの取得";
+
+/* Translated with LLM */
+"Get current recording path information as a legacy text value. Prefer “Get Recording Info” for new shortcuts." = "現在の録音パス情報をレガシーテキスト値として取得します。新しいショートカットでは「Get Recording Info」を使用してください。";
 
 /* Translated with LLM */
 "Get In Touch" = "お問い合わせ";
@@ -1370,7 +1523,16 @@
 "Get notifications after record complete." = "録音完了後に通知を受け取る";
 
 /* Translated with LLM */
+"Get primary call information as a single object." = "一次通話情報を単一のオブジェクトとして取得します。";
+
+/* Translated with LLM */
 "Get Recording Duration" = "録音時間の取得";
+
+/* Translated with LLM */
+"Get Recording Info" = "録音情報を取得";
+
+/* Translated with LLM */
+"Get recording information as a single object." = "録音情報を1つのオブジェクトとして取得";
 
 /* Translated with LLM */
 "Get Recording Paths" = "録音パスを取得";
@@ -1379,19 +1541,25 @@
 "Get Recording Status" = "録音ステータスを取得";
 
 /* Translated with LLM */
-"Get the current recording duration of the Troll Recorder." = "TrollRecorderの現在の録音時間を取得します。";
+"Get Screen Recording Info" = "画面録画情報を取得";
 
 /* Translated with LLM */
-"Get the current recording paths of the Troll Recorder." = "TrollRecorderの現在の録音パスを取得します。";
+"Get screen recording information as a single object." = "画面録画情報を1つのオブジェクトとして取得する。";
 
 /* Translated with LLM */
-"Get the current recording status of the Troll Recorder." = "TrollRecorderの現在の録音ステータスを取得します。";
+"Get Service Info" = "サービス情報を取得";
 
 /* Translated with LLM */
-"Get the primary call duration of the device." = "デバイスの主な通話時間を取得します。";
+"Get the current recording duration as a legacy numeric value. Prefer “Get Recording Info” for new shortcuts." = "現在の録音時間をレガシー数値として取得します。新しいショートカットでは「Get Recording Info」を使用してください。";
 
 /* Translated with LLM */
-"Get the primary call status of the device." = "デバイスのプライマリ通話ステータスを取得します。";
+"Get the current recording status as a legacy Boolean value. The result is true when the selected status field is true; false when it is false or unavailable. Prefer “Get Recording Info” for new shortcuts." = "現在の録音ステータスをレガシーなブール値として取得します。選択したステータスフィールドが true の場合は結果は true になり、false または利用不可の場合は false になります。新しいショートカットでは「録音情報を取得」を使用してください。";
+
+/* Translated with LLM */
+"Get the primary call duration as a legacy numeric value. Prefer “Get Call Info” for new shortcuts." = "主要な通話時間をレガシー数値として取得します。新しいショートカットでは「通話情報を取得」を使用してください。";
+
+/* Translated with LLM */
+"Get the primary call status as a legacy text value. Prefer “Get Call Info” for new shortcuts." = "主要な通話ステータスをレガシーテキスト値として取得します。新しいショートカットでは「通話情報を取得」を使用してください。";
 
 /* Translated with LLM */
 "Go Home When Unlocked" = "ロック解除時にホームに戻る";
@@ -1401,6 +1569,12 @@
 
 /* Translated with LLM */
 "Group Call" = "グループ通話";
+
+/* Translated with LLM */
+"handle incoming calls" = "着信の処理";
+
+/* Translated with LLM */
+"Handle Incoming Calls" = "着信の処理";
 
 /* Translated with LLM */
 "hang up calls" = "通話を切断";
@@ -1436,6 +1610,9 @@
 "Hoverball" = "ホバーボール";
 
 /* Translated with LLM */
+"Hoverball (Legacy)" = "ホバーボール（レガシー）";
+
+/* Translated with LLM */
 "Hoverball Plus" = "ホバーボール プラス";
 
 /* Translated with LLM */
@@ -1444,8 +1621,11 @@
 /* Translated with LLM */
 "Hoverball Style" = "ホバーボールスタイル";
 
-/* No comment provided by engineer. */
-"hud" = "hud";
+/* Translated with LLM */
+"hud" = "HUD";
+
+/* Translated with LLM */
+"HUD" = "HUD";
 
 /* Translated with LLM */
 "HUD_CALL_RECORDING" = "通話録音";
@@ -1482,6 +1662,9 @@
 
 /* Translated with LLM */
 "If there’s no active phone call, press both of the physical volume buttons to perform specified action." = "アクティブな通話がない場合、物理的な音量ボタンの両方を押して指定のアクションを実行します。";
+
+/* Translated with LLM */
+"If this happens frequently, turn off “Real-time Encoding” in “Post-processing & Output” settings." = "この現象が頻繁に発生する場合は、「後処理と出力」設定の「リアルタイムエンコード」をオフにしてください。";
 
 /* Translated with LLM */
 "If you modified recordings with Filza or encountered any file-system privilege issues, you can fix them here." = "Filza で録音を変更した場合、またはファイルシステムの権限に関する問題が発生した場合は、ここで修正できます。";
@@ -1553,6 +1736,24 @@
 "Install Call History Tweak" = "通話履歴の調整をインストール";
 
 /* Translated with LLM */
+"Interrupt any uplink audio or voice-over currently playing to the microphone. Returns true if playback was interrupted; otherwise false." = "マイクに再生中のアップリンクオーディオまたはボイスオーバーを中断します。再生が中断された場合はtrueを返し、そうでない場合はfalseを返します。";
+
+/* Translated with LLM */
+"interrupt call playback" = "通話再生を中断";
+
+/* Translated with LLM */
+"interrupt uplink audio" = "アップリンク音声を中断";
+
+/* Translated with LLM */
+"interrupt uplink playback" = "アップリンク再生を中断";
+
+/* Translated with LLM */
+"Interrupt Uplink Playback" = "アップリンク再生を中断";
+
+/* Translated with LLM */
+"interrupt voice over" = "ボイスオーバーを中断";
+
+/* Translated with LLM */
 "Invalid Code Signature" = "無効なコード署名";
 
 /* Translated with LLM */
@@ -1563,6 +1764,9 @@
 
 /* Translated with LLM */
 "iPhone" = "iPhone";
+
+/* Translated with LLM */
+"Is Available" = "利用可能か";
 
 /* Translated with LLM */
 "Is Favourite" = "お気に入り";
@@ -1580,10 +1784,22 @@
 "Is Paused" = "一時停止中";
 
 /* Translated with LLM */
-"is recording" = "録音中";
+"is recording" = "録音中か";
+
+/* Translated with LLM */
+"Is Recording" = "録音中か";
 
 /* Translated with LLM */
 "Is Running" = "実行中";
+
+/* Translated with LLM */
+"Is Service Running" = "サービスは実行中ですか";
+
+/* Translated with LLM */
+"Is Waiting For Device" = "デバイス待機中";
+
+/* Translated with LLM */
+"ISO Country Code" = "ISO国コード";
 
 /* Translated with LLM */
 "Item #%lu" = "項目 #%lu";
@@ -1596,6 +1812,9 @@
 
 /* Translated with LLM */
 "Keep Screen On When Connected" = "接続時に画面をオンのままにする";
+
+/* Translated with LLM */
+"Key Event" = "キーイベント";
 
 /* Translated with LLM */
 "Keyboard Avoidance" = "キーボード回避";
@@ -1616,6 +1835,9 @@
 "Later" = "後で";
 
 /* Translated with LLM */
+"Latest" = "最新";
+
+/* Translated with LLM */
 "launch" = "起動";
 
 /* Translated with LLM */
@@ -1634,7 +1856,46 @@
 "leading edge" = "先端";
 
 /* Translated with LLM */
+"Legacy action. Wait for any calls to be answered and connected. Returns true if a dialing call stops dialing before the timeout; otherwise false. Prefer “Wait for Call Event” for new shortcuts." = "レガシーアクション。すべての通話が応答され、接続されるのを待機します。ダイヤル中の通話がタイムアウト前にダイヤルを停止した場合はtrueを返し、それ以外の場合はfalseを返します。新しいショートカットでは「通話を待機」を使用してください。";
+
+/* Translated with LLM */
+"Legacy call audio action. Prefer “Control Call Muting” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "レガシー通話オーディオアクション。新しいショートカットでは「Control Call Muting」を推奨します。リクエストがデーモンに正常に送信された場合はtrueを返し、それ以外の場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was disabled successfully; otherwise false." = "レガシーのホバーボールアクション。新しいショートカットには「コントロールホバーボール」を推奨します。ホバーボールの設定が正常に無効化された場合はtrueを返し、そうでない場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was enabled successfully; otherwise false." = "レガシーのホバーボールアクション。新しいショートカットには「コントロールホバーボール」を推奨します。ホバーボールの設定が正常に有効化された場合はtrueを返し、そうでない場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy hoverball action. Prefer “Control Hoverball” for new shortcuts. Returns true if the hoverball setting was toggled successfully; otherwise false." = "レガシーのホバーボールアクション。新しいショートカットには「コントロールホバーボール」を推奨します。ホバーボールの設定が正常に切り替えられた場合はtrueを返し、そうでない場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy incoming call action. Prefer “Handle Incoming Calls” for new shortcuts. Returns true if the request was sent to the daemon successfully; otherwise false." = "レガシー着信アクション。新しいショートカットでは「Handle Incoming Calls」を推奨します。リクエストがデーモンに正常に送信された場合はtrueを返し、それ以外の場合はfalseを返します。";
+
+/* Translated with LLM */
 "Legacy Jailbreak" = "レガシージェイルブレイク";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were disabled successfully; otherwise false." = "レガシーライブキャプションアクション。新しいショートカットでは「ライブキャプションを制御」を推奨します。ライブキャプションの無効化に成功した場合はtrueを、失敗した場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were enabled successfully; otherwise false." = "レガシーライブキャプションアクション。新しいショートカットでは「ライブキャプションを制御」を推奨します。ライブキャプションの有効化に成功した場合はtrueを、失敗した場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy live captions action. Prefer “Control Live Captions” for new shortcuts. Returns true if live captions were toggled successfully; otherwise false." = "レガシーライブキャプションアクション。新しいショートカットでは「ライブキャプションを制御」を推奨します。ライブキャプションの切り替えに成功した場合はtrueを、失敗した場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the recording request succeeded; otherwise false." = "レガシー録音アクション。新しいショートカットでは「Control Recording」を使用してください。録音リクエストが成功した場合はtrueを返し、それ以外の場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy recording action. Prefer “Control Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "レガシー録音アクション。新しいショートカットでは「Control Recording」を使用してください。停止要求が成功した場合はtrueを返し、それ以外の場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the screen recording request succeeded; otherwise false." = "レガシー画面録画アクション。新しいショートカットでは「Control Screen Recording」を使用してください。画面録画リクエストが成功した場合はtrueを返し、それ以外の場合はfalseを返します。";
+
+/* Translated with LLM */
+"Legacy screen recording action. Prefer “Control Screen Recording” for new shortcuts. Returns true if the stop request succeeded; otherwise false." = "レガシー画面録画アクション。新しいショートカットでは「Control Screen Recording」を使用してください。停止要求が成功した場合はtrueを返し、それ以外の場合はfalseを返します。";
 
 /* Translated with LLM */
 "Less serious error occurred." = "軽度のエラーが発生しました。";
@@ -1659,6 +1920,9 @@
 
 /* Translated with LLM */
 "Live Captions" = "ライブキャプション";
+
+/* Translated with LLM */
+"Live Captions (Legacy)" = "ライブキャプション（レガシー）";
 
 /* Translated with LLM */
 "Loading…" = "読み込み中…";
@@ -1727,9 +1991,6 @@
 "Make a ${requestedMode} recording" = "${requestedMode}の録音を作成";
 
 /* Translated with LLM */
-"Make a new recording, or stop an existing one." = "新しい録音を開始するか、既存の録音を停止します。";
-
-/* Translated with LLM */
 "Make a new voice memo, or stop an existing one." = "新しいボイスメモを作成するか、既存のボイスメモを停止します。";
 
 /* Translated with LLM */
@@ -1790,6 +2051,9 @@
 "Metadata" = "メタデータ";
 
 /* Translated with LLM */
+"Metadata Path" = "メタデータパス";
+
+/* Translated with LLM */
 "Microphone" = "マイク";
 
 /* Translated with LLM */
@@ -1823,9 +2087,6 @@
 "Mixed" = "ミックス";
 
 /* Translated with LLM */
-"Mixer & Combiner" = "ミキサー＆コンバイナー";
-
-/* Translated with LLM */
 "Mixer Audio Format" = "ミキサーオーディオフォーマット";
 
 /* Translated with LLM */
@@ -1856,6 +2117,9 @@
 "mute" = "ミュート";
 
 /* Translated with LLM */
+"Mute" = "ミュート";
+
+/* Translated with LLM */
 "Mute ${requestedChannel}" = "ミュート ${requestedChannel}";
 
 /* Translated with LLM */
@@ -1868,7 +2132,7 @@
 "Mute Existing Calls" = "既存の通話をミュート";
 
 /* Translated with LLM */
-"Mute specified channel of all existing calls." = "既存のすべての通話の指定チャンネルをミュート";
+"Mute or unmute the specified channel of all existing calls. Returns true if the request was sent to the daemon successfully; otherwise false." = "既存のすべての通話の指定チャンネルをミュートまたはミュート解除します。リクエストがデーモンに正常に送信された場合はtrueを返し、それ以外の場合はfalseを返します。";
 
 /* Translated with LLM */
 "My Favourite" = "お気に入り";
@@ -1881,6 +2145,9 @@
 
 /* Translated with LLM */
 "Name with Alias" = "エイリアス付きの名前";
+
+/* Translated with LLM */
+"Network Code" = "ネットワークコード";
 
 /* Translated with LLM */
 "Network Storage" = "ネットワークストレージ";
@@ -1955,6 +2222,9 @@
 "notification" = "通知";
 
 /* Translated with LLM */
+"Notification" = "通知";
+
+/* Translated with LLM */
 "Notification Permission Denied" = "通知の許可が拒否されました";
 
 /* Translated with LLM */
@@ -2018,7 +2288,19 @@
 "Open in Maps" = "マップで開く";
 
 /* Translated with LLM */
+"Open Live Captions" = "ライブキャプションを開く";
+
+/* Translated with LLM */
+"open live captions" = "ライブキャプションを開く";
+
+/* Translated with LLM */
 "Open Troll Recorder" = "TrollRecorderを開く";
+
+/* Translated with LLM */
+"Open, close, or toggle live captions. Returns true if the live captions setting was changed successfully; otherwise false." = "ライブキャプションを開く、閉じる、または切り替えます。ライブキャプションの設定が正常に変更された場合はtrueを返し、そうでない場合はfalseを返します。";
+
+/* Translated with LLM */
+"Open, close, or toggle the recorder hoverball. Returns true if the hoverball setting was changed successfully; otherwise false." = "レコーダーのホバーボールを開く、閉じる、または切り替えます。ホバーボールの設定が正常に変更された場合はtrueを返し、そうでない場合はfalseを返します。";
 
 /* Translated with LLM */
 "Operation Failed" = "操作に失敗しました";
@@ -2087,10 +2369,13 @@
 "Pause Recording" = "録音を一時停止";
 
 /* Translated with LLM */
+"pause recording" = "録音を一時停止";
+
+/* Translated with LLM */
 "Paused" = "一時停止";
 
 /* Translated with LLM */
-"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”." = "「iCloudでバックアップ」と「スマートクラウドアーカイブ」の完全同期を実行します。";
+"Perform a full synchronization of “Backup with iCloud” and “Smart Cloud Archive”. Returns true if the daemon is running and synchronization reports success; otherwise false." = "「iCloudでバックアップ」と「スマートクラウドアーカイブ」の完全同期を実行します。デーモンが実行中で同期が成功した場合はtrueを返し、それ以外の場合はfalseを返します。";
 
 /* Translated with LLM */
 "Perform Full Synchronization" = "完全同期を実行";
@@ -2153,7 +2438,16 @@
 "Play ${audioFile}" = "${audioFile} を再生";
 
 /* Translated with LLM */
+"Play an audio file into the current call. Returns true if playback started successfully; otherwise false. Invalid audio files throw an error." = "指定された音声ファイルを現在の通話に再生します。再生が正常に開始された場合はtrueを返し、それ以外の場合はfalseを返します。無効な音声ファイルはエラーをスローします。";
+
+/* Translated with LLM */
 "play audio file" = "オーディオファイルを再生";
+
+/* Translated with LLM */
+"play call audio" = "通話音声を再生";
+
+/* Translated with LLM */
+"Play Call Audio" = "通話音声を再生";
 
 /* Translated with LLM */
 "Play Recording Warning" = "録音再生警告";
@@ -2162,25 +2456,13 @@
 "Play Sound" = "サウンドを再生";
 
 /* Translated with LLM */
-"Play specified audio file to the microphone." = "指定された音声ファイルをマイクに再生します。";
-
-/* Translated with LLM */
-"Play specified voice-over text to the microphone." = "指定したナレーションテキストをマイクに再生します。";
-
-/* Translated with LLM */
 "Play Through Receiver" = "レシーバーで再生";
 
 /* Translated with LLM */
 "Play Through Speaker" = "スピーカーで再生";
 
 /* Translated with LLM */
-"Play Uplink Audio" = "アップリンクオーディオを再生";
-
-/* Translated with LLM */
 "play uplink audio" = "アップリンクオーディオを再生";
-
-/* Translated with LLM */
-"Play Uplink Voice-Over" = "アップリンク音声再生";
 
 /* Translated with LLM */
 "play voice over" = "ナレーション再生";
@@ -2261,6 +2543,12 @@
 "post notification" = "通知を投稿";
 
 /* Translated with LLM */
+"Post-processing & Output" = "後処理と出力";
+
+/* Translated with LLM */
+"Pre-release Version" = "プレリリース版";
+
+/* Translated with LLM */
 "Preparing" = "準備中";
 
 /* Translated with LLM */
@@ -2268,6 +2556,9 @@
 
 /* Translated with LLM */
 "Preserve All Channels" = "すべてのチャンネルを保持";
+
+/* Translated with LLM */
+"Preset Providers" = "プリセットプロバイダ";
 
 /* Translated with LLM */
 "Press & Hold Action" = "長押しアクション";
@@ -2384,6 +2675,12 @@
 "Ready to record!" = "録音準備完了！";
 
 /* Translated with LLM */
+"real-time captions" = "リアルタイムキャプション";
+
+/* Translated with LLM */
+"Real-time Encoding" = "リアルタイムエンコード";
+
+/* Translated with LLM */
 "Received authorization error: %@" = "認証エラーを受信しました: %@";
 
 /* Translated with LLM */
@@ -2400,6 +2697,9 @@
 
 /* Translated with LLM */
 "Record" = "録音";
+
+/* Translated with LLM */
+"Record (Legacy)" = "録音（レガシー）";
 
 /* Translated with LLM */
 "Record All Calls" = "すべての通話を録音";
@@ -2447,6 +2747,15 @@
 "recording file" = "録音ファイル";
 
 /* Translated with LLM */
+"Recording Info" = "録音情報";
+
+/* Translated with LLM */
+"recording info" = "録音情報";
+
+/* Translated with LLM */
+"recording information" = "録音情報";
+
+/* Translated with LLM */
 "Recording Interrupted" = "録音中断";
 
 /* Translated with LLM */
@@ -2460,6 +2769,9 @@
 
 /* Translated with LLM */
 "recording path" = "録音パス";
+
+/* Translated with LLM */
+"Recording Path" = "録音パス";
 
 /* Translated with LLM */
 "Recording starts when both the audio inputs and outputs are continuously active." = "録音は、オーディオ入力と出力の両方が継続的にアクティブなときに開始されます。";
@@ -2510,13 +2822,19 @@
 "reject" = "拒否";
 
 /* Translated with LLM */
-"Reject all incoming calls automatically." = "すべての着信を自動的に拒否する。";
+"Reject" = "拒否";
 
 /* Translated with LLM */
 "reject call" = "着信拒否";
 
 /* Translated with LLM */
 "Reject Incoming Calls" = "着信拒否";
+
+/* Translated with LLM */
+"Related Application Bundle Identifiers" = "関連アプリケーションバンドル識別子";
+
+/* Translated with LLM */
+"Related Application Count" = "関連アプリケーション数";
 
 /* Translated with LLM */
 "Relaunched" = "再始動しました";
@@ -2570,6 +2888,9 @@
 "Reset Service" = "サービスをリセット";
 
 /* Translated with LLM */
+"responses" = "応答";
+
+/* Translated with LLM */
 "Respring" = "リスプリング";
 
 /* Translated with LLM */
@@ -2597,7 +2918,13 @@
 "Restoring" = "復元中";
 
 /* Translated with LLM */
+"Resume" = "再開";
+
+/* Translated with LLM */
 "Resume Recording" = "録音を再開";
+
+/* Translated with LLM */
+"resume recording" = "録音を再開";
 
 /* Translated with LLM */
 "Resume with Warning" = "警告付きで再開";
@@ -2669,7 +2996,16 @@
 "screen capture stop" = "スクリーンキャプチャ停止";
 
 /* Translated with LLM */
+"Screen Recording Info" = "画面録画情報";
+
+/* Translated with LLM */
+"screen recording info" = "画面録画情報";
+
+/* Translated with LLM */
 "screen recording off" = "スクリーン録画オフ";
+
+/* Translated with LLM */
+"screen recording status" = "画面録画ステータス";
 
 /* Translated with LLM */
 "SCRN: 2025SR1911573" = "ソフトウェア著作権登録番号：2025SR1911573";
@@ -2714,9 +3050,6 @@
 "Searching for nearby devices" = "近くのデバイスを検索中";
 
 /* Translated with LLM */
-"Search…" = "検索…";
-
-/* Translated with LLM */
 "Seconds" = "秒";
 
 /* Translated with LLM */
@@ -2747,10 +3080,22 @@
 "Send Diagnostic" = "診断を送信";
 
 /* Translated with LLM */
+"Sender Address" = "送信者アドレス";
+
+/* Translated with LLM */
+"Sender Localized Name" = "送信者のローカライズ名";
+
+/* Translated with LLM */
+"Sender Localized Short Name" = "送信者のローカライズ短縮名";
+
+/* Translated with LLM */
 "Sender Name" = "送信者名";
 
 /* Translated with LLM */
 "Sender Phone Address" = "送信元電話番号";
+
+/* Translated with LLM */
+"Sender Service Name" = "送信者サービス名";
 
 /* Translated with LLM */
 "Sender Short Name" = "送信者ショートネーム";
@@ -2777,13 +3122,22 @@
 "service active" = "サービスアクティブ";
 
 /* Translated with LLM */
+"Service Info" = "サービス情報";
+
+/* Translated with LLM */
+"service info" = "サービス情報";
+
+/* Translated with LLM */
 "Service is alive" = "サービスは動作中";
 
 /* Translated with LLM */
 "Service is dead" = "サービスが停止しています";
 
 /* Translated with LLM */
-"Service Status" = "サービスステータス";
+"service status" = "サービスステータス";
+
+/* Translated with LLM */
+"service statuses" = "サービスステータス";
 
 /* Translated with LLM */
 "Set a new name for this recording, or leave blank to use default." = "この録音の新しい名前を設定するか、空白のままにするとデフォルトの名前が使用されます。";
@@ -2903,6 +3257,15 @@
 "Space" = "スペース";
 
 /* Translated with LLM */
+"speak call voice over" = "ナレーション再生";
+
+/* Translated with LLM */
+"Speak Call Voice-Over" = "アップリンク音声再生";
+
+/* Translated with LLM */
+"Speak voice-over text into the current call. Returns true if playback started successfully; otherwise false. When waiting for playback to finish, the maximum waiting time is 60 seconds." = "指定されたナレーションテキストをマイクに向けて再生します。再生が正常に開始された場合はtrueを返し、そうでない場合はfalseを返します。再生終了を待機する場合、最大待機時間は60秒です。";
+
+/* Translated with LLM */
 "Speaker" = "スピーカー";
 
 /* Translated with LLM */
@@ -2924,10 +3287,16 @@
 "spoken audio" = "音声";
 
 /* Translated with LLM */
+"Stable Version" = "安定版";
+
+/* Translated with LLM */
+"Standby" = "スタンバイ";
+
+/* Translated with LLM */
 "start" = "開始";
 
 /* Translated with LLM */
-"Start a system screen recording just like what you do in the Control Center." = "コントロールセンターで行うのと同じように、システム画面の録画を開始します。";
+"Start" = "開始";
 
 /* Translated with LLM */
 "Start Call Recording" = "通話録音を開始";
@@ -2937,9 +3306,6 @@
 
 /* Translated with LLM */
 "Start Date" = "開始日";
-
-/* Translated with LLM */
-"Start or prepare for a call recording, system audio recording, or create an voice memo." = "通話録音、システムオーディオ録音、またはボイスメモの作成を開始または準備します。";
 
 /* Translated with LLM */
 "Start Recording" = "録音開始";
@@ -2958,6 +3324,12 @@
 
 /* Translated with LLM */
 "Start Voice Memo Recording" = "ボイスメモ録音開始";
+
+/* Translated with LLM */
+"Start, stop, or toggle system screen recording. Returns true if the screen recording request succeeded; otherwise false." = "システムの画面録画を開始、停止、または切り替えます。画面録画リクエストが成功した場合は true を返し、失敗した場合は false を返します。";
+
+/* Translated with LLM */
+"Start, stop, pause, resume, or toggle a recording. Returns true if the recording request succeeded; otherwise false." = "録音を開始、停止、一時停止、再開、または切り替えます。録音リクエストが成功した場合は true を返し、失敗した場合は false を返します。";
 
 /* Translated with LLM */
 "Starting the export service is taking longer than expected. Please check the network and try again." = "エクスポートサービスの開始に予想以上に時間がかかっています。ネットワークを確認して、もう一度お試しください。";
@@ -2982,12 +3354,6 @@
 
 /* Translated with LLM */
 "Stop & Save" = "停止して保存";
-
-/* Translated with LLM */
-"Stop a call recording, system audio recording or voice memo if exists." = "通話録音、システム音声録音、またはボイスメモがある場合は停止します。";
-
-/* Translated with LLM */
-"Stop a system screen recording if exists." = "システム画面録画が存在する場合は停止します。";
 
 /* Translated with LLM */
 "Stop Recording" = "録音停止";
@@ -3080,6 +3446,15 @@
 "System Record" = "システム録画";
 
 /* Translated with LLM */
+"System Record (Legacy)" = "システム録画（レガシー）";
+
+/* Translated with LLM */
+"system record info" = "システム録画情報";
+
+/* Translated with LLM */
+"system recording status" = "システム録画ステータス";
+
+/* Translated with LLM */
 "Tap __any edge__  \nto select it as an ___active edge___." = "任意の __エッジ__ をタップして、  \n___アクティブエッジ___ として選択します。";
 
 /* Translated with LLM */
@@ -3107,16 +3482,22 @@
 "Technical Error Detected" = "技術的エラーが検出されました";
 
 /* Translated with LLM */
+"Telephony Utilities" = "テレフォニーユーティリティ";
+
+/* Translated with LLM */
 "Temporarily Ignore" = "一時的に無視";
 
 /* Translated with LLM */
 "Temporary error occurred, more retries might fix." = "一時的なエラーが発生しました。再試行すると解決する可能性があります。";
 
 /* Translated with LLM */
+"Temporary Recording Path" = "一時録音パス";
+
+/* Translated with LLM */
 "terminate" = "終了";
 
 /* Translated with LLM */
-"Terminate all active calls immediately." = "アクティブなすべての通話を直ちに終了します。";
+"Terminate all active calls immediately. Returns true if the request was sent to the daemon successfully; otherwise false." = "すべてのアクティブな通話を直ちに終了します。リクエストがデーモンに正常に送信された場合はtrueを返し、そうでない場合はfalseを返します。";
 
 /* Translated with LLM */
 "terminate call" = "通話終了";
@@ -3134,9 +3515,6 @@
 "text to speech" = "テキスト読み上げ";
 
 /* Translated with LLM */
-"text-to-speech" = "テキスト読み上げ";
-
-/* Translated with LLM */
 "The %@ has been interrupted by the system. You may convert the recording manually later." = "%@ はシステムによって中断されました。後で手動で録音を変換できます。";
 
 /* Translated with LLM */
@@ -3150,6 +3528,9 @@
 
 /* Translated with LLM */
 "The bundle identifier of the application that initiated the call." = "通話を開始したアプリケーションのバンドル識別子。";
+
+/* Translated with LLM */
+"The call event to wait for." = "待機する通話イベント。";
 
 /* Translated with LLM */
 "The content of text file “%@” is empty." = "テキストファイル“%@”の内容は空です。";
@@ -3197,6 +3578,9 @@
 "The maximum seconds to wait for calls to be connected." = "通話が接続されるまでの最大待機秒数。";
 
 /* Translated with LLM */
+"The maximum seconds to wait for the selected call event." = "選択した通話イベントを待機する最大秒数。";
+
+/* Translated with LLM */
 "The missing location metadata will be populated if you open the application right after the recording." = "録画直後にアプリケーションを開くと、欠落していた位置情報のメタデータが入力されます。";
 
 /* Translated with LLM */
@@ -3233,10 +3617,16 @@
 "The primary button action at the right side of the hoverball when no call is active." = "通話がアクティブでない場合、ホバーボールの右側にあるプライマリボタンのアクション。";
 
 /* Translated with LLM */
+"The selected audio file is invalid or unsupported." = "選択されたオーディオファイルは無効であるか、サポートされていません。";
+
+/* Translated with LLM */
 "The service is not properly configured." = "サービスが正しく設定されていません。";
 
 /* Translated with LLM */
 "The service operator name of the sender." = "送信者のサービス事業者名。";
+
+/* Translated with LLM */
+"The session to inspect." = "検査するセッション。";
 
 /* Translated with LLM */
 "The size of selected audio file." = "選択したオーディオファイルのサイズ。";
@@ -3249,6 +3639,12 @@
 
 /* Translated with LLM */
 "The type of content to be recorded." = "録画するコンテンツの種類。";
+
+/* Translated with LLM */
+"The type of recording to control. Any Recording only applies to stop, pause, resume, and toggle." = "制御する録音のタイプ。「Any Recording」は停止、一時停止、再開、切り替えにのみ適用されます。";
+
+/* Translated with LLM */
+"The type of recording to stop." = "停止する録音の種類。";
 
 /* Translated with LLM */
 "The unique identifier of the call." = "通話の一意の識別子。";
@@ -3296,6 +3692,9 @@
 "This recording is from WeChat, and “WeChat Assistant” helps you populate WeChat contact names and remarks next time.\nYou don’t seem to have “WeChat Assistant” enabled, do you want to enable it immediately?" = "この録音はWeChatからのものです。「WeChatアシスタント」は、次回WeChatの連絡先名と備考を入力する際に役立ちます。\n「WeChatアシスタント」が有効になっていないようです。すぐに有効にしますか？";
 
 /* Translated with LLM */
+"This recording was recorded using “Real-time Encoding”. This recording method does not produce raw temporary audio that can be used for recovery, so interrupted recordings cannot be recovered." = "この録音は「リアルタイムエンコード」を使用して録音されました。この録音方法では、復元に使用できる生の一時的な音声は生成されないため、中断された録音を復元することはできません。";
+
+/* Translated with LLM */
 "This version of WeChat (%@) is not supported. Please upgrade to the latest version." = "このバージョンのWeChat（%@）はサポートされていません。最新バージョンにアップグレードしてください。";
 
 /* Translated with LLM */
@@ -3317,10 +3716,16 @@
 "Three-digit Milliseconds" = "3桁ミリ秒";
 
 /* Translated with LLM */
+"Threshold" = "しきい値";
+
+/* Translated with LLM */
 "Time Sensitive" = "タイムセンシティブ";
 
 /* Translated with LLM */
 "time sensitive notification" = "タイムセンシティブ通知";
+
+/* Translated with LLM */
+"Timeout" = "タイムアウト";
 
 /* Translated with LLM */
 "Title" = "タイトル";
@@ -3359,6 +3764,9 @@
 "toggle" = "トグル";
 
 /* Translated with LLM */
+"Toggle" = "トグル";
+
+/* Translated with LLM */
 "Toggle ${requestedMode}" = "${requestedMode}を切り替え";
 
 /* Translated with LLM */
@@ -3371,7 +3779,10 @@
 "toggle hoverball" = "ホバーボールの切り替え";
 
 /* Translated with LLM */
-"Toggle ON/OFF the recorder hoverball." = "レコーダーのホバーボールのON/OFFを切り替えます。";
+"toggle live captions" = "ライブキャプションの切り替え";
+
+/* Translated with LLM */
+"Toggle Live Captions" = "ライブキャプションの切り替え";
 
 /* Translated with LLM */
 "Toggle Recording" = "録音の切り替え";
@@ -3387,9 +3798,6 @@
 
 /* Translated with LLM */
 "Toggle System Audio Recording" = "システムオーディオ録音の切り替え";
-
-/* Translated with LLM */
-"Toggle system screen recording just like what you do in the Control Center." = "システム画面録画のオン/オフを切り替えます。コントロールセンターで行うのと同じ操作です。";
 
 /* Translated with LLM */
 "Toggle Voice Memo Recording" = "ボイスメモ録音の切り替え";
@@ -3447,6 +3855,9 @@
 
 /* Translated with LLM */
 "tts playback" = "TTS再生";
+
+/* Translated with LLM */
+"Turn Off “Real-time Encoding”" = "「リアルタイムエンコード」をオフにする";
 
 /* Translated with LLM */
 "Turn this option off to make the other options on this page take effect for the current application." = "このオプションをオフにすると、このページの他のオプションが現在のアプリケーションに適用されるようになります。";
@@ -3557,6 +3968,9 @@
 "unmute" = "ミュート解除";
 
 /* Translated with LLM */
+"Unmute" = "ミュート解除";
+
+/* Translated with LLM */
 "Unmute ${requestedChannel}" = "ミュート解除 ${requestedChannel}";
 
 /* Translated with LLM */
@@ -3564,9 +3978,6 @@
 
 /* Translated with LLM */
 "Unmute Existing Calls" = "既存の通話のミュートを解除";
-
-/* Translated with LLM */
-"Unmute specified channel of all existing calls." = "既存のすべての通話の指定チャンネルのミュートを解除";
 
 /* Translated with LLM */
 "Unspecified" = "未指定";
@@ -3659,6 +4070,9 @@
 "Utility" = "ユーティリティ";
 
 /* Translated with LLM */
+"Utility (Legacy)" = "ユーティリティ（レガシー）";
+
+/* Translated with LLM */
 "Variant" = "バリアント";
 
 /* Translated with LLM */
@@ -3713,6 +4127,9 @@
 "View Logs: Network Storage" = "ログを表示：ネットワークストレージ";
 
 /* Translated with LLM */
+"View Logs: Real-time Recorder" = "ログを表示：リアルタイムレコーダー";
+
+/* Translated with LLM */
 "View Logs: Speech Utterance" = "ログを表示: 発話発声";
 
 /* Translated with LLM */
@@ -3729,6 +4146,9 @@
 
 /* Translated with LLM */
 "VIP contacts will always be recorded and added to the favourites." = "VIP連絡先は常に録音され、お気に入りに追加されます。";
+
+/* Translated with LLM */
+"Voice Chat" = "音声チャット";
 
 /* Translated with LLM */
 "Voice Memo" = "ボイスメモ";
@@ -3761,19 +4181,52 @@
 "wait" = "待機";
 
 /* Translated with LLM */
+"Wait for ${requestedEvent} call" = "${requestedEvent} コールを待つ";
+
+/* Translated with LLM */
+"Wait for ${requestedEvent} call event" = "${requestedEvent} コールを待つ";
+
+/* Translated with LLM */
 "Wait for ${requestedTimeout} seconds" = "${requestedTimeout}秒待機";
 
 /* Translated with LLM */
-"Wait for any calls to be answered and connected." = "応答され接続されるまで通話を待機します。";
+"Wait for a call event. Returns call information when the selected event occurs; otherwise returns nothing when the timeout expires." = "通話イベントを待機します。選択したイベントが発生した場合は通話情報を返し、タイムアウトが経過した場合は何も返しません。";
 
 /* Translated with LLM */
 "wait for call" = "通話を待機";
 
 /* Translated with LLM */
+"Wait for Call" = "通話を待機";
+
+/* Translated with LLM */
+"wait for call ended" = "通話終了を待つ";
+
+/* Translated with LLM */
+"wait for call event" = "通話イベントを待機";
+
+/* Translated with LLM */
+"Wait for Call Event" = "通話イベントを待機";
+
+/* Translated with LLM */
 "Wait for Calls" = "通話を待機";
 
 /* Translated with LLM */
+"wait for connected call" = "接続された通話を待機";
+
+/* Translated with LLM */
 "Wait for Connected Calls" = "接続された通話を待機";
+
+/* Translated with LLM */
+"wait for incoming call" = "着信を待機";
+
+/* Translated with LLM */
+"wait for outgoing call" = "発信を待機";
+
+/* Translated with LLM */
+"Wait Until Finished" = "終了まで待つ";
+
+/* Translated with LLM */
+"Waiting For Device" = "デバイス待機中";
 
 /* Translated with LLM */
 "Warning, your call is being recorded now. Warning, your call is being recorded now." = "警告、あなたの通話は現在録音されています。警告、あなたの通話は現在録音されています。";
@@ -3854,13 +4307,46 @@
 "When WebDAV server is enabled, whether to allow you to visit from a common web browser like Safari, Chrome, Edge, etc." = "WebDAVサーバーが有効な場合、Safari、Chrome、Edgeなどの一般的なウェブブラウザからのアクセスを許可するかどうか。";
 
 /* Translated with LLM */
+"Whether to accept or reject incoming calls." = "着信を受け入れるか拒否するか。";
+
+/* Translated with LLM */
+"Whether to discard the recording when stopping. Ignored when starting or toggling." = "停止時に録音を破棄するかどうか。開始時または切り替え時には無視されます。";
+
+/* Translated with LLM */
 "Whether to force the application to use the light or the dark user interface." = "アプリケーションにライトまたはダークのユーザインターフェースを強制的に使用させるかどうか。";
 
 /* Translated with LLM */
 "Whether to force the hoverball to use the light or the dark style." = "ホバーボールをライトスタイルまたはダークスタイルのどちらかに強制するかどうか。";
 
 /* Translated with LLM */
+"Whether to include microphone audio when starting or toggling screen recording." = "画面収録の開始または切り替え時にマイク音声を含めるかどうか。";
+
+/* Translated with LLM */
 "Whether to infinitely repeat playing the audio. If enabled, this action will return immediately after it starts playing." = "オーディオの再生を無限に繰り返すかどうか。有効にすると、このアクションは再生を開始した直後に戻ります。";
+
+/* Translated with LLM */
+"Whether to mute or unmute call audio." = "通話の音声をミュートにするか、ミュートを解除するかを指定します。";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle live captions." = "ライブキャプションを開くか、閉じるか、切り替えるかを指定します。";
+
+/* Translated with LLM */
+"Whether to open, close, or toggle the hoverball." = "ホバーボールを開くか、閉じるか、切り替えるかを指定します。";
+
+/* Translated with LLM */
+"Whether to start, stop, or toggle screen recording." = "画面収録を開始、停止、または切り替えるかどうか。";
+
+/* Translated with LLM */
+"Whether to start, stop, pause, resume, or toggle recording." = "録音の開始、停止、一時停止、再開、または切り替えを行うかどうか。";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts." = "再生が終了するまで待機するかどうか。無効にした場合、このアクションは再生開始後すぐに戻ります。";
+
+/* Translated with LLM */
+"Whether to wait until playback finishes. If disabled, this action will return immediately after playback starts. Repeat Infinitely always returns immediately after playback starts." = "再生が終了するまで待機するかどうか。無効にした場合、このアクションは再生開始直後に戻ります。「無限に繰り返す」は常に再生開始直後に戻ります。";
+
+/* Translated with LLM */
+"Which channel to control." = "制御するチャンネルを選択してください。";
 
 /* Translated with LLM */
 "Which channel to mute." = "ミュートするチャンネル。";
